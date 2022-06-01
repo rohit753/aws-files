@@ -1,0 +1,19 @@
+--- 
+match:
+  distribution: "MARKSTOS/CGI-Application-Dispatch-\\d"
+disabled: 1
+# pl:
+#   eexpect:
+#     mode: anyorder
+#     timeout: 15
+#     reuse: 1
+#     talk:
+#       - "."
+#       - "skip\n\n\n\n\n"
+
+#  can't figure out why this distroprefs file never works
+
+# https://cpan.metacpan.org/authors/id/M/MA/MARKSTOS/CGI-Application-Dispatch-3.12.tar.gz
+# looks like abandoned since 2012 anyway
+
+# See also https://rt.cpan.org/Ticket/Display.html?id=130785

@@ -1,0 +1,151 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 21 23:18:08 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Crypt-SSLeay-0.64.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '300bbb2e23b804af0b2ad5fb6cccdcb3',
+    'mtime' => '2012-08-06',
+    'sha256' => '67b17110095fcfe0a44b350dcd47829d479a9e064122afbdb16a4697ead568df',
+    'size' => 1014
+  },
+  'Crypt-SSLeay-0.64.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '4812f14d6e8c71714a26c0ad733666dc',
+    'md5-ungz' => 'b21c11866438de80a544c3da11981810',
+    'mtime' => '2012-08-06',
+    'sha256' => 'eae61cf7aa64d79385b764010d8d77d09477e034c52fc3dfe68d0a13be78217c',
+    'sha256-ungz' => 'bae32dc79e66ec62e98d442d3a58ae1f914113d83215e224272ec810d4393660',
+    'size' => 121431
+  },
+  'Crypt-SSLeay-0.72.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '8e353f78dc1afcbfde9c5b6ef369913c',
+    'mtime' => '2014-04-24',
+    'sha256' => 'a008c36275239592339eea04e4d21edaf91fd79d6b10f381ff33c97f3818f3a7',
+    'size' => 1505
+  },
+  'Crypt-SSLeay-0.72.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '77d955c9056dbb12413d95d8852a9cdf',
+    'md5-ungz' => '4175ede61059624d572731e3f64efe67',
+    'mtime' => '2014-04-24',
+    'sha256' => 'f5d34f813677829857cf8a0458623db45b4d9c2311daaebe446f9e01afa9ffe8',
+    'sha256-ungz' => '89690a658a371a539702f9a601b1d1a7f5783422def40323be61b2cf34d32076',
+    'size' => 129575
+  },
+  'Crypt-SSLeay-0.73_04.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '7508b2a34da2202cc0c78deb59e36526',
+    'md5-ungz' => '3977896c3769a966567adca3cb5b55cd',
+    'mtime' => '2014-10-27',
+    'sha256' => 'b7098d14d3db4a089eee765440b27c2838e204b61297c062c4feb50eb75aee10',
+    'sha256-ungz' => 'a8e659c8bfe17871d1f52bc4e12bd198d017e74a1e4ee717ba0cd7ded66721b7',
+    'size' => 129261
+  },
+  'Crypt-SSLeay-0.73_06.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'b00758ea402963ed78bcc7d7172fc335',
+    'md5-ungz' => '11d984e08b4293b1e64afd8af58bc6e9',
+    'mtime' => '2017-04-03',
+    'sha256' => 'f8ecca45c87eb91325992b13f0594f808e6f1bc4c3b9a7f141b9a838384d252c',
+    'sha256-ungz' => '71d95262091a0a7b03713012318a939dedc86c259459f4dff46cf22f867be26a',
+    'size' => 129534
+  },
+  'Digest-xxHash64-0.001_01.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'bbadbd638e5eb9fb64e41d080afa15d4',
+    'md5-ungz' => '5cd18c2b0d9ca3fe6a69c7ed0356a8ae',
+    'mtime' => '2015-10-30',
+    'sha256' => '100f821ac8679cbca2e13d404738ac93db475c9c24b9456e6b13f9c170eb3fc6',
+    'sha256-ungz' => 'df0d5c07d5252e5d7c98213ccf7fafca13e302cd1451b6e225944c5cfa1327df',
+    'size' => 61550
+  },
+  'Net-Sharktools-0.009.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'd26e0fd757c2f0c930ea8856e85431c3',
+    'mtime' => '2011-02-04',
+    'sha256' => '7f8c1f52877db67363e20fa1114a224e44b7a9cb805eb23195628bd6080d74b5',
+    'size' => 658
+  },
+  'Net-Sharktools-0.009.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '02900e77ac1ba26307debec7dae08247',
+    'md5-ungz' => 'c4cbd0082eff50a12d6b799e10eb0aba',
+    'mtime' => '2011-02-04',
+    'sha256' => '912604a1be408d2eaa59ec6344ac2625c7fb5a29a0a1cd15bf667f9992deb40e',
+    'sha256-ungz' => '18812a46524dafcb21977385ac05b5aa89e5f31d8101a832589d538a5e6b9d14',
+    'size' => 72760
+  },
+  'OpenSSL-Versions-0.002.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'fc69c4b0453e966f31ae4bc1a88400ca',
+    'mtime' => '2012-03-13',
+    'sha256' => 'b332705dae4311b5838aea53b478fc715c9bcdd406aec4eaf26aa86f14fbbced',
+    'size' => 472
+  },
+  'OpenSSL-Versions-0.002.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'faba961bc786005ea6c0e95fd7b5435b',
+    'md5-ungz' => '2294ca1abe372560c9396c8e6d594562',
+    'mtime' => '2012-03-13',
+    'sha256' => '2af725728695b8243776f61f49fa1e6739a6d13126b8e7cccd137efc6db4c286',
+    'sha256-ungz' => 'a14b5018d90e22fc206d2f9fecaa898b612f51c76cc03600909a4a7d5e8b2d7c',
+    'size' => 5724
+  },
+  'Template-Plugin-CommonMark-1.000.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '059809c438f264ac51e88f698f856476',
+    'mtime' => '2016-02-27',
+    'sha256' => 'c8d2f937b2ae60904bf409d5fcd6703a124bc0d4d4fea4ac98ae8acbef793544',
+    'size' => 1298
+  },
+  'Template-Plugin-CommonMark-1.000.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'b7639bd161d7046d30d986175b01ab97',
+    'md5-ungz' => '3832578b28f9f320e107d5221f0853ac',
+    'mtime' => '2016-02-27',
+    'sha256' => '13e3a59c5c4eab39c928ba1e692c4ecc30cef7f63ed541f1406f59be9ac5331c',
+    'sha256-ungz' => '16e79a569bef0891218aa58b2da6c72d47df5055b6efe9bd05dd95a1516f78d8',
+    'size' => 5023
+  },
+  'Template-Plugin-CommonMark-1.000_002.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '7ddef8f9c1f10fc8f5e31e8b90e9504d',
+    'md5-ungz' => '7e32ba021d0ff3b197536fa639952b54',
+    'mtime' => '2016-02-18',
+    'sha256' => '17d1096778f515c6d47494bbdd8d2cb0b6e7f5c6adc258f29529878f09289e20',
+    'sha256-ungz' => '2192b6ae695431abbdb766148e57b341af948140aa0d3c70c3333ba1b6db7383',
+    'size' => 4975
+  },
+  'Template-Plugin-GoogleLaTeX-0.03.meta' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => 'bf81d8987a7f0e5ba86909d0e76e84a3',
+    'mtime' => '2010-08-25',
+    'sha256' => 'db3df804805b22e7bb4af63b7aab5dd35a8e67f61736b3d2d4c170c5d4d19a80',
+    'size' => 545
+  },
+  'Template-Plugin-GoogleLaTeX-0.03.tar.gz' => {
+    'cpan_path' => 'N/NA/NANIS',
+    'md5' => '496400b79c4be162ae23cf3e81d6f2ca',
+    'md5-ungz' => '64342acb459154c39b80250fac18e7a1',
+    'mtime' => '2010-08-28',
+    'sha256' => '86e5e5b38adf7da72ce896da976765c823e039897e4ca3ab219e24c6ec1d241c',
+    'sha256-ungz' => '14f5af39c785f63ee53152857ae5473d13152957eeb05a432f37dcea662a3d02',
+    'size' => 24514
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmtOwAAoJELahc5BjdgzKpRYH+wRaeVz92/a793VZ9Qzk8KOu
+JY8Qlg8qpjfWYMgIsHhxO5kC8+uoLBtoeMQ69icOwkRRgt7LJXOKSTbExtbu/GMO
++c0RtI3nXb8TFopnIkCWcd4NPcVe++6WLGeBx2IfyQxpfsB6EAtgdjWpzKXg/AV5
+ADvIpazXXTtVSSRapvTfpvbCI4I0W2IgnHbBGT4nAqWrb55tsNmgxRbeRPdADvaT
+shjakB93SreVN7Uvi+bIaV9YTMqyczvCydTE7qHvsf0YkaffTmjKkDtF9xwbGmRM
+36Lxq2KGjmaWLXu+IM9/BTEIxbhP0nQ54ZB9dO5/ROxHaEY/L9vw4CyxDxFtLvo=
+=18c+
+-----END PGP SIGNATURE-----

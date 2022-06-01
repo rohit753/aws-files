@@ -1,0 +1,4336 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Thu Apr 21 20:53:04 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'AnyEvent-Impl-Prima-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '93e3a1efd7017efa940203c6a9756e71',
+    'mtime' => '2017-06-29',
+    'sha256' => '8a5144e099ace184d996dbc785cf0f3bf43026ed8066f9c00f80afabe635ebeb',
+    'size' => 1008
+  },
+  'AnyEvent-Impl-Prima-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b566dafcb7bcd79f5c3a077d65def106',
+    'md5-ungz' => '0640ad8b10036aa4d9a45a51751716c7',
+    'mtime' => '2017-06-29',
+    'sha256' => '2568a4d55c20cd4d0d22e6b98d37cf57e46e33b3c101fe7a00b6376897699e8e',
+    'sha256-ungz' => '14d2cee1b139b3383f92c5db324bdb333b83def9db1cf60e161ac41f2bab98db',
+    'size' => 12356
+  },
+  'Apache-Tika-Async-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b21909e74a1c11d718312b4f43aead8a',
+    'mtime' => '2019-06-10',
+    'sha256' => '6e80506ddff0db4466a1940e04f7666b8bbcd7f8d4419b16aa84fa433a8b499c',
+    'size' => 1636
+  },
+  'Apache-Tika-Async-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fe505adf4b5f4867dcc28c67b6064b5c',
+    'md5-ungz' => 'f335496fb27daa4d6464c5c762533372',
+    'mtime' => '2019-06-10',
+    'sha256' => '2b237f5abcfea47dfa7cdc50c62207be018af465c1260b2c6e98f53178d8da8d',
+    'sha256-ungz' => 'ed77fb81e6a19aece3618dec63eed24b50295a628b1d69668d58ed7931f417d7',
+    'size' => 13493
+  },
+  'App-VideoMixer-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e164efe6c8dffdb5d89b9d26ed9bfdfd',
+    'mtime' => '2008-11-16',
+    'sha256' => '8157e3dbdf4df2f0842430cd6e6e841ac06ae38e2261d16e88a07540c04c1e08',
+    'size' => 548
+  },
+  'App-VideoMixer-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '435ce01fb06c9a71aee72cd4fb4c15a0',
+    'md5-ungz' => 'b59e458766636c5f62f6c0f5c88bee9d',
+    'mtime' => '2008-11-16',
+    'sha256' => '9e31c83e00888327620cb5d8648c1728a51a29ba6885324b8c5cf35eff89046b',
+    'sha256-ungz' => 'c82b9895ed0db718a8b61d96a22928edbf69289caa53fec6271dc1765d198a43',
+    'size' => 46245
+  },
+  'App-part-0.07.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '300b6c54c85ddb9cb9d2377b074c6b06',
+    'mtime' => '2019-07-22',
+    'sha256' => '220aff89b82b9665a3e83b23eaaa537ce3ca639e5f6a00d54f5dc357895222e7',
+    'size' => 1556
+  },
+  'App-part-0.07.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2f9f983f459a99bd36e6fbf5c64ee179',
+    'md5-ungz' => '0230524f4eeed1fcc7eb7a7def9a2a56',
+    'mtime' => '2019-07-22',
+    'sha256' => 'c2dc22b6ce2760b0228dc5cc2824b2f88eafb50034350594d38475cec3713277',
+    'sha256-ungz' => '8701cd63147a41368ee38285d3b7c7be8d6e5d975a283d48a31d0dd850fe2426',
+    'size' => 9361
+  },
+  'App-scrape-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '21d74a1b303a80d12fdeedac3a4eeec4',
+    'mtime' => '2018-10-28',
+    'sha256' => '512726567a3e4438e6e88a9cc0dfd8e5c1b2538c3764f183109e038450ccb5b8',
+    'size' => 1563
+  },
+  'App-scrape-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'aa38813d81557e3db490ec0ff9ac27e0',
+    'md5-ungz' => '84ac81c203ee6936382035600a279734',
+    'mtime' => '2018-10-28',
+    'sha256' => 'd3c7ca983a3e3c0d7c28dc87bd103db54f7dd2b5bfad50781974376f43fe9121',
+    'sha256-ungz' => '0268b9bc9ab391014c0d648715f08feec4e9e0ac58ed6e79d17393fe76e647f4',
+    'size' => 16434
+  },
+  'Archive-Merged-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b7a6b6dcf14072d7cab721f19fd8e5d3',
+    'mtime' => '2018-10-28',
+    'sha256' => 'c572b640b2beba053fa57e5e4836c2895dd8f03b65ab07a1a06896f282a5c68e',
+    'size' => 1348
+  },
+  'Archive-Merged-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ea4eefd1822daab439198a56e318edc8',
+    'md5-ungz' => '2c70fca0fb957c8bdc369f134ca2e713',
+    'mtime' => '2018-10-28',
+    'sha256' => 'b57e77bf5fa4ee41dac0128948bcb0715e6b610af263f4b97ab8f31306aa8742',
+    'sha256-ungz' => '5329104fb0a76449527febf1a56651e740fb9fa35188dda42de334656d4bb3d8',
+    'size' => 8797
+  },
+  'Archive-SevenZip-0.12.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a5fa943b511b0f6e596a39c649474cff',
+    'mtime' => '2020-05-13',
+    'sha256' => '1cb2e3b173cef24e01b38bfd5f401476ac6cf2aef93b63f94ab76ab077aabc33',
+    'size' => 1576
+  },
+  'Archive-SevenZip-0.12.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f368bbdd642fbf1129ab694ec472c0d6',
+    'md5-ungz' => '4f3392bf6894b88fe190bbede9c75f72',
+    'mtime' => '2020-05-13',
+    'sha256' => '6715fa9671b79ecd543ce6eaf669665cc9163aa62b70a08c14a424419f2a3d85',
+    'sha256-ungz' => '0d74afa71aab97441838dac5990ea8703c4aa2e6fdfbc1fffae0ad1fbde48127',
+    'size' => 137510
+  },
+  'Archive-SevenZip-0.13.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6702e565b6b47299a12cff22e8b63500',
+    'mtime' => '2022-04-21',
+    'sha256' => 'fd58d4e226667e83115f4e7da42f692680c77e90825cb57f6b056cc8fa3e09a1',
+    'size' => 1566
+  },
+  'Archive-SevenZip-0.13.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '94ea0b221118c70603ce7f515fc8b265',
+    'md5-ungz' => 'b8485438e951f1d22e45b0fc6bdf3181',
+    'mtime' => '2022-04-21',
+    'sha256' => '1bd78a86fa9eaf21bb5833cb49397f290d12645a5f5c12adc6ef0bced69c78fd',
+    'sha256-ungz' => '972b9b211ed816eaa61253cf5467d2787ebf0ec9bacbed9c67b4fe6523338a15',
+    'size' => 137848
+  },
+  'Auth-GoogleAuthenticator-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5673bc30c1c3719b952c54eeb1a63bf9',
+    'mtime' => '2013-07-26',
+    'sha256' => '80f13fe414a79d5f5085e839c4463823550785136664c35cb83681f55f1452f5',
+    'size' => 1147
+  },
+  'Auth-GoogleAuthenticator-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f454494e696c3bea2aa9ef0fa323263a',
+    'md5-ungz' => '78bd608bdfa5b858e8d0787de676aa78',
+    'mtime' => '2013-07-26',
+    'sha256' => '4dd395ef44cfec5bcd64bd08cc46caad49173cbf93ec18c01a5989f1b19db9de',
+    'sha256-ungz' => '143967669d73cb467a2249c29d08bf11427a2a18cc11853cdb43c672c27ef0c0',
+    'size' => 47518
+  },
+  'Auth-GoogleAuthenticator-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '031c0c92793c7b595ab1b74d3c5fd36d',
+    'mtime' => '2013-11-21',
+    'sha256' => 'a9941acdda27ee89363ea25a97dac4e459ec8ee0537dc4244514e0dbf8c6d3e0',
+    'size' => 1177
+  },
+  'Auth-GoogleAuthenticator-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'dd2950c295f140afdbe52556a52eb530',
+    'md5-ungz' => 'bcca2343e1b7293385bc2e0d6603247f',
+    'mtime' => '2013-11-21',
+    'sha256' => '49d74cb3dbbc9e9f2454206c81cd5592cc286590b78037316021c1c484bf8678',
+    'sha256-ungz' => '6a0a39916a7cb9595d00ded760008c6e0739a5eadb3b1bee1782c1ab7e40c4b8',
+    'size' => 47528
+  },
+  'Backblaze-B2-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e41dff6a5fe7e6fcfab46508b876422c',
+    'mtime' => '2016-08-13',
+    'sha256' => 'f724973a79ca157a612e3ebeadcea8b5d64ac2126976dfdcb09f4478a95af5ab',
+    'size' => 1351
+  },
+  'Backblaze-B2-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bc661bd5d9f28c02794be81788f24a21',
+    'md5-ungz' => '98f2e0110f228c147a0dacff9756da08',
+    'mtime' => '2016-08-13',
+    'sha256' => '069a16b5bae35090162b5de90717104b3842b3efc0e0eb278f57a7597338c316',
+    'sha256-ungz' => '417ed4167e4d7585aa8bf864dda9f84fcce3a6197075ee7f81b1741948e43b2b',
+    'size' => 17399
+  },
+  'Bundle-WWW-Mechanize-Shell-0.29.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0c0f9deca7d631d58b7d2dc26b3b935c',
+    'md5-ungz' => '9bce8a0d9ecae071662dae7f132fcd5e',
+    'mtime' => '2003-08-03',
+    'sha256' => '6ab330196149350e6e24f2bd4c0a61c019aea1702a22dcdaf6e40eb4613b4bd8',
+    'sha256-ungz' => 'afcd13eecd16ef1f54b0dae5827056fc1723db54685460379ea06a180c072c5d',
+    'size' => 1894
+  },
+  'CGI-Wiki-Simple-0.12.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '660064c4c147b89497b57f2d8e701d08',
+    'md5-ungz' => 'db07921bce6b49af40f9160fee65774f',
+    'mtime' => '2003-04-05',
+    'sha256' => '41747ba023ca836691bad39fef1255b06549ff3ae0d0dd19270998413879bbf6',
+    'sha256-ungz' => 'b2edc0647fadb4e6d09ed7dfdec9b361f386e3ab9509299369aae8f02334d79d',
+    'size' => 31697
+  },
+  'DBD-WMI-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '99210e553d55a614e1256d15b6a511fa',
+    'mtime' => '2019-03-10',
+    'sha256' => '76d6ee5c0290925ee7f0a3edcf4eb9202c4211ad22168e502b09cd2f4dce839f',
+    'size' => 1416
+  },
+  'DBD-WMI-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8634b0535b2f8538321bc158cc52a500',
+    'md5-ungz' => '821c0ebee3da91f57e5964dbdabd40f6',
+    'mtime' => '2019-03-10',
+    'sha256' => '5c7423ab526ef587a7fa2b3af0acfce5d2b971009d15c5aa8e96294588d5e5cf',
+    'sha256-ungz' => '4d4f8ca0ee695199baabeceb183518ce98a6ab4f453f6f2e80fd27f6221af08b',
+    'size' => 15036
+  },
+  'DBIx-DataAudit-0.13.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4651aa82167b72d4cda6927497a9f856',
+    'mtime' => '2013-05-29',
+    'sha256' => '0ec1d9fbeace4b2918b7748b807263809e7aa0510ebb67ad088eecaab89d947d',
+    'size' => 962
+  },
+  'DBIx-DataAudit-0.13.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a791e5006b59b1a56b334dd46ba95d2d',
+    'md5-ungz' => '712c2d8ac0193e97ca75ded2759796c4',
+    'mtime' => '2013-05-29',
+    'sha256' => 'ebae31101cbf5873a49605de757ea7e5ba1fbf09e18514a9c177ecfc859ab4c6',
+    'sha256-ungz' => '4bfb0ead47ab879d58430f01fe9262e39a2117cfcd2eaaa3f631b5f7a7d5e043',
+    'size' => 12442
+  },
+  'DBIx-PivotQuery-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '78c86a505fc6b25ae6015a4a529b4194',
+    'mtime' => '2017-04-09',
+    'sha256' => '014fb74fb44851631c63da736e5e27aa50e2f9cfe6454dae46750fe2edb71b53',
+    'size' => 919
+  },
+  'DBIx-PivotQuery-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '453b56d2030fc8bc12e3f6a054cd6c03',
+    'md5-ungz' => '13702d1234ab40e3d40e614acccf84da',
+    'mtime' => '2017-04-09',
+    'sha256' => 'c2ac03d46ba19256ec6a585b6e1e9a619cbdd5d8d433f1b9e95a2b2a00e85b0d',
+    'sha256-ungz' => '0c0e554cb593022be219fa5cc6960f0645d3149c5443b60ebc5eece94df16a2d',
+    'size' => 12196
+  },
+  'DBIx-RunSQL-0.21.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8296426837177b7e27b73622ca83765a',
+    'mtime' => '2019-03-09',
+    'sha256' => 'fbc7ed66036fb7be94f9fe887fed8d43d29a0dd93f069de3c77334eea6d6f799',
+    'size' => 1663
+  },
+  'DBIx-RunSQL-0.21.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '39debe543db19b1e00a5ca3c5817f44b',
+    'md5-ungz' => '4c3292dc833f4e15901b7a81a829fdac',
+    'mtime' => '2019-03-09',
+    'sha256' => 'd8620d163242cc4ed2da155f02af3161c2f31458740fdf71bf33d2ed063666f0',
+    'sha256-ungz' => 'dd29413460954ed2289f1c877acf0d538320b34ded3892f66a810f5c69e59e08',
+    'size' => 22188
+  },
+  'DBIx-RunSQL-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fe8cbe3960f938afd5cdefabc8301823',
+    'mtime' => '2021-05-03',
+    'sha256' => '2819c17b58e331b9e657b950245158df2d97d28fb83fb425a14ff8fdcfe93c84',
+    'size' => 1661
+  },
+  'DBIx-RunSQL-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '87addde9a3e6d3880f2bd76ff21632f6',
+    'md5-ungz' => '90f54b69bd7c3397da354d8414eb5f4b',
+    'mtime' => '2021-05-03',
+    'sha256' => '1216cb90f7ac07b859f68efa08212b28db43c6f079a7e84879a6c9ff9b86bd80',
+    'sha256-ungz' => 'ef2d756f30b9429ba8b9a5bef411a18ee38e50056982905fcd864bf54f408be2',
+    'size' => 22970
+  },
+  'DBIx-Spreadsheet-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c423a6c8dbf3ddd7db0750e474fb50e5',
+    'mtime' => '2021-11-20',
+    'sha256' => 'f6d6ce1d5ba5b750f33d00bf3894a984777f055d75f1e4633f29fa4be9a33349',
+    'size' => 1750
+  },
+  'DBIx-Spreadsheet-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a5a25aea43a8332c2abeca5caddd732e',
+    'md5-ungz' => 'b4266a68782c4ff77997bec283bfd09b',
+    'mtime' => '2021-11-20',
+    'sha256' => '14eaecfdc478ba6b4d8ad3747af4c004dc9ccd1459780f7f55228fec6fbaca6d',
+    'sha256-ungz' => '6b4323d3e738e9ba3f9136fe6f9dd6c3cb983b93de308f47562868eaf3687889',
+    'size' => 42409
+  },
+  'DBIx-Spreadsheet-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '45837529360700e29b2ff7f258a50cd0',
+    'mtime' => '2021-11-25',
+    'sha256' => '5e2d973f3ff5d4aeeeb8e102fbb958f124cbeb65160dcf4480c83b8730c5ac15',
+    'size' => 1750
+  },
+  'DBIx-Spreadsheet-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5ba51721031b8e02834793cb37a2ba04',
+    'md5-ungz' => 'fd5544b6580c3bbebd67805f30401647',
+    'mtime' => '2021-11-25',
+    'sha256' => 'ddc05c5f4f916d555d901b0fe2941a4622cea027add51f49b3b94123759fd428',
+    'sha256-ungz' => 'b0f157ef69e024ced8069ef2f314889e09da49062b6638662d5e134a46928726',
+    'size' => 42458
+  },
+  'DBIx-Spreadsheet-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4c08467a0bc327879abb799d3fdef20b',
+    'mtime' => '2021-12-15',
+    'sha256' => 'ab940f90eca0c2f03175275581d665ee915976a0deab6bb100f66d1f1bb17c0f',
+    'size' => 1753
+  },
+  'DBIx-Spreadsheet-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cdb277c4422469de61992616102dbfa9',
+    'md5-ungz' => '0e16aa6261091acd22598e79e81f201d',
+    'mtime' => '2021-12-15',
+    'sha256' => '6febcf0216dc021318ff472cd92651ef879de0d5f9f668fd1601811f46214fbe',
+    'sha256-ungz' => 'c6db6a783eacb266a9f92ab7298a27d41d48840a23c6d84199490e79fe1e90d5',
+    'size' => 42502
+  },
+  'DBIx-Spreadsheet-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9bd0e6cbc119473f533413d7f6cbae98',
+    'mtime' => '2021-12-23',
+    'sha256' => '66f0ac0aa79688f55325d1702ed782835e4e39b46ba200c908e006dd90c3f74f',
+    'size' => 1756
+  },
+  'DBIx-Spreadsheet-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c135cef3c3827284584c2c673d1893cd',
+    'md5-ungz' => 'f9ad889abf647f7e9924d486aba01edf',
+    'mtime' => '2021-12-23',
+    'sha256' => '75d8ba69967d59bed8cfb1929bfb648c3b6f7ee8123bdfb88c18890312b75dfd',
+    'sha256-ungz' => '6946238abdd5c77dee687dd33e252e163b6a393141211803d67ae05d46af7f30',
+    'size' => 42596
+  },
+  'DBIx-VersionedSubs-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8851e690befa4ace10f37f7a86aef9b8',
+    'mtime' => '2014-09-23',
+    'sha256' => '9254f37c622029008d0aa9d9a8e03d22692683658b14719a86df6769bd5d1ef0',
+    'size' => 1012
+  },
+  'DBIx-VersionedSubs-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '623c1e0751a82f97715dca1acdf1fadb',
+    'md5-ungz' => '93a10d494ea119bcd4d9e8f132ad92b5',
+    'mtime' => '2014-09-23',
+    'sha256' => 'eace8783042befa302ff8a1713720a2a65e204f1b858cdba680ef4cb08bf19e2',
+    'sha256-ungz' => '4f3b1488986621e42328eef3201dcc074c154e34dbe7215503367472bab312bf',
+    'size' => 16340
+  },
+  'Dancer-Layout-Bootstrap-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a9f7c375b48650db4554baf15eec8e99',
+    'mtime' => '2017-03-12',
+    'sha256' => '90283aacea19fbac8d6d08ce16f1a31118befcfb8c681a7c73d21616179eefa3',
+    'size' => 1367
+  },
+  'Dancer-Layout-Bootstrap-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5f9838f978db70dd2e5b7874af944616',
+    'md5-ungz' => '4df786fde03b3e738cbeab9b5d30b14c',
+    'mtime' => '2017-03-12',
+    'sha256' => '712ec4e2bd2867cc0d4e1cd625b08edfd780b7a48eaeda6c4c9df6f4eef4c717',
+    'sha256-ungz' => 'f2dbe848f378b5d97b05cc1b1eb0cbfa7be7c8a65566d9f6b766fe8759958f44',
+    'size' => 608356
+  },
+  'Dancer-SearchApp-0.06.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '81db059ea41d5a7cfe349306970831e9',
+    'mtime' => '2016-12-14',
+    'sha256' => '14d4883d8f5b3fba102fde9de1195256ba7de362e2106fa68113f66032c804ca',
+    'size' => 2280
+  },
+  'Dancer-SearchApp-0.06.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '92d6b22ff3d4610586f59c126fea9949',
+    'md5-ungz' => 'e87462d8c3e06ee9116abfb66cb4e016',
+    'mtime' => '2016-12-14',
+    'sha256' => '54d3e3818cd8eb2e53ae9695d7db3c644f3a11bf44126251c4a6e30ee0d778f1',
+    'sha256-ungz' => '1e5ca33763d1e36a716b0274116726b17d439cfada5201eb44538dfc0c40aff7',
+    'size' => 1662627
+  },
+  'Encode-DIN66003-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0bb6892d2898a83349633f2bb83f0510',
+    'mtime' => '2015-06-12',
+    'sha256' => 'f44cc002cebbb516aa9b263f8cbad44bdec17ac335eecce015e4b9b5f80274c6',
+    'size' => 833
+  },
+  'Encode-DIN66003-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '72d5b3458f1ae1e00a13b19aaa336014',
+    'md5-ungz' => '8f3ac5d4f84bb00e5c4d68cc317f1eb8',
+    'mtime' => '2015-06-12',
+    'sha256' => '0a5210cff8dbecf4953d322f3c896541cb6e486cccad7c1db07a731186bd9fb6',
+    'sha256-ungz' => '4fb2e1039b90bd9be3c4ba113026153a7605394e9673053f38c66c57a8956374',
+    'size' => 7965
+  },
+  'Encode-DIN66003-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c439bb60d18f8bb20d8979829a63cf80',
+    'mtime' => '2017-01-23',
+    'sha256' => 'ab7e9951c1831fa51c6803fe8a19d100c7923dfb227acab0fde41b51f25956d1',
+    'size' => 774
+  },
+  'Encode-DIN66003-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5e6f91f3fada8a100b49e3dbf69ea893',
+    'md5-ungz' => 'ae090cae69505e13f011cf36d5b704fd',
+    'mtime' => '2017-01-23',
+    'sha256' => 'b935db7037358ad22f33753f7b707c7e956a4aeb9792fae732f9a33d1ffdeb81',
+    'sha256-ungz' => '89b343048ce1b6bf55a2ff79859bb74659ab3a75aead3b73da0ace17aa5add1e',
+    'size' => 8371
+  },
+  'Encode-DIN66003-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8c4df51042c8dc832ff9267dbf491f91',
+    'mtime' => '2017-01-24',
+    'sha256' => '43856f75376ac60aa23ff92c4647ff43ff5e387bc7516f78a63bedf180ec64cd',
+    'size' => 774
+  },
+  'Encode-DIN66003-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cd8982c0274346f5b822b9748e6c4228',
+    'md5-ungz' => '354f35b0bc6dc7e70d7d6f90bd699561',
+    'mtime' => '2017-01-24',
+    'sha256' => '4fbb5e458c979cee8a73790b59b0020e09a973408e41137d4642d0b0d40bd989',
+    'sha256-ungz' => 'b9184b06471541eb0951c206269624ab08da382bbaa83ae04ead20a42275dac2',
+    'size' => 8548
+  },
+  'Encode-DIN66003-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '49b8601485eca465dcabf1c6ba323d9a',
+    'mtime' => '2021-11-22',
+    'sha256' => '3d0e5ffae238cc0ac0e12c0c34976e89eb561ce39cee845a6bc33ffb81b37ebc',
+    'size' => 1272
+  },
+  'Encode-DIN66003-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '12b27972a80178b6cf4cf08dd807c558',
+    'md5-ungz' => '4e79d9747cc0489b0786b7647739a952',
+    'mtime' => '2021-11-22',
+    'sha256' => 'e506905cd41917a7573a49a511c4e623ad09eac985ca4273ec6a825e8a1897b0',
+    'sha256-ungz' => 'f4807cbb1f6462cea118ea3aaa3a5a97c1a597ea23c0e9a93e054210715e55fc',
+    'size' => 8947
+  },
+  'Encode-DIN66003-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c045c3c185e6c70c61a1e9784823b5ff',
+    'mtime' => '2021-12-06',
+    'sha256' => '3b7920632401800d56f391d548889448ff0c18ac5c33f650344294974f01af66',
+    'size' => 1272
+  },
+  'Encode-DIN66003-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6d4ee9eac3e7fa0561f1bf4230a1615b',
+    'md5-ungz' => '74cb463ba5a46f7c4a69868077e298ec',
+    'mtime' => '2021-12-06',
+    'sha256' => 'f6b5c0cb2eafb9154030cb858869ba3f875a7e7a1e5d40adf95e60a38fd459c9',
+    'sha256-ungz' => '8d4b6587082abba3131679fbffe54c67e55eee63df3d0c90b1cc943fce00d322',
+    'size' => 8982
+  },
+  'File-Modified-0.07.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'db1523f867e417d0e4df377394ac74db',
+    'mtime' => '2004-12-05',
+    'sha256' => 'dfab00e641833d12a62b4a03076b89149525904b8ba06eea9c81e769a8d970b4',
+    'size' => 310
+  },
+  'File-Modified-0.07.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '271a991b96ccbdaeb7098272c9f97d51',
+    'md5-ungz' => 'f4c51e0174a6f7e87473958b239c7e9c',
+    'mtime' => '2004-12-05',
+    'sha256' => '3091786775d97e7e35ef92d9a83c71fe414846f08ab995fd6abb28174e78f387',
+    'sha256-ungz' => '483a30ccf1433f97382327374884e5a77a5994ba07d509f6be272cdb5db98f7e',
+    'size' => 7164
+  },
+  'File-Modified-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6df37987fe65e6b75c4d3283944030cd',
+    'mtime' => '2016-05-05',
+    'sha256' => '2772a8477975e7e7385a719db4e33cc3dcc510ee1169aeca6287c62ca2427466',
+    'size' => 826
+  },
+  'File-Modified-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bf43ffc70b8fcd2db0ef5810270ce576',
+    'md5-ungz' => 'c15c50908b8242d4175d5a8544f9d4b8',
+    'mtime' => '2016-05-05',
+    'sha256' => 'b4442e06e8bd3bb6b9e6a50290963b0ba4c67ca4e25c7b5133579ee694898814',
+    'sha256-ungz' => '9a4273b11c24a9a17cb3da7df1bc3a5cf62c6946029e94f2ad16bdcc1198c788',
+    'size' => 10660
+  },
+  'Filter-Simple-0.92_01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1308db56cb201ea4c2010911b42b2030',
+    'md5-ungz' => '544bc5ea6c297cc6536e27e7290c2ef8',
+    'mtime' => '2017-05-31',
+    'sha256' => '9a6f10f5bbfbaae55dd4c9831ca1123bff9db9b5e40789d67301f6666b8bafc2',
+    'sha256-ungz' => '07bbfd6ae3bf90f5b6c1f7feb4306895afb889688011e21d16c45489c42238cf',
+    'size' => 21161
+  },
+  'Filter-Simple-0.93_01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ab5e2bb8eec88e0b5b9d6c87154c86a1',
+    'md5-ungz' => '841ade219b8523a63602fd77db185089',
+    'mtime' => '2017-06-21',
+    'sha256' => 'f6f6b9d57f94f227095643b3ec9b6a97c02ab19e3cf95d6aef57d88f58da88fa',
+    'sha256-ungz' => '3f3b5c88e01bc73496ce93b0666e0a3b12eb77a630b78bb37acc0f8fbdc5d945',
+    'size' => 21280
+  },
+  'Filter-signatures-0.16.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4dbb8d960d39c86e73cfa33f9d52655b',
+    'mtime' => '2020-08-23',
+    'sha256' => '7c06e9cfd41b1acc97abd14fca4b632cfde98e81fcc800137599698c97e6f1e5',
+    'size' => 1431
+  },
+  'Filter-signatures-0.16.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '05c859106d6f2809e2c13be742226173',
+    'md5-ungz' => 'ec92b05a2658ced32baf444770f254b3',
+    'mtime' => '2020-08-23',
+    'sha256' => '901a1a9507716b8a075e552f1fee41e26c5b89aca65a1e589b267bc7ec525628',
+    'sha256-ungz' => 'ef5d4186b0d5dbc429dc5e8333e830fed90ad269155dfebb2bdc767f035d5d54',
+    'size' => 25058
+  },
+  'Filter-signatures-0.17.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cfe0e5a469e0bbb5c0f3ec7bc99b7429',
+    'mtime' => '2020-10-03',
+    'sha256' => 'e10496255a250d2fca75ef2bd21bd2dfcc86a9276760a08f0cf91d389eefb451',
+    'size' => 1431
+  },
+  'Filter-signatures-0.17.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '139102fa7e09cbef24cf5fcbf7e78788',
+    'md5-ungz' => 'e7e46e14826f0bfc295db9334fe0ca38',
+    'mtime' => '2020-10-03',
+    'sha256' => '96ddc326399ab26da22966e9324b50d76349c37dd1fc2ff29dd094557b102444',
+    'sha256-ungz' => 'c73d6e0a5e020b976ae89878e7e8c532b44824c5eac9fa9559f1ca3723cbea6b',
+    'size' => 25562
+  },
+  'Finance-Bank-Postbank_de-0.56.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3fe32970738269324de9e8d733298cfc',
+    'mtime' => '2019-01-06',
+    'sha256' => '35db845f8e65dcf407546bb7a6ed9ad1b44e8592e3ec562e07ed04d72d7985e2',
+    'size' => 2116
+  },
+  'Finance-Bank-Postbank_de-0.56.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '12c2110d27577e77b878698fd18dbb7b',
+    'md5-ungz' => '5eea066f5944a681bdbd0327e75a8bc5',
+    'mtime' => '2019-01-06',
+    'sha256' => '609ce233bfb2cd3ace30160217bd94c1fb0e78231b5f2fe2ff8aec0b1a07e0cf',
+    'sha256-ungz' => '5dd2733ff4b927514726f33267e555b72dd1e7cd4f82110b6f76b349f62d7427',
+    'size' => 51133
+  },
+  'Finance-Bank-Postbank_de-0.57.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ddeb22991e7847ec708c80f09c5ae9eb',
+    'mtime' => '2019-03-31',
+    'sha256' => '0761b2e4c5f2293b5129fcb5a922006e8fc3af49d5191b2aa060ecc6d61144dc',
+    'size' => 2116
+  },
+  'Finance-Bank-Postbank_de-0.57.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '220e78740535e44fb13b8646ae18f919',
+    'md5-ungz' => 'd65d4c66b7fe43629b8c78e28d5f109c',
+    'mtime' => '2019-03-31',
+    'sha256' => '78f1e64fa6f34089a406fb47b7042df113986e21478948b6e8c4e2e69a676c12',
+    'sha256-ungz' => 'f6f9f339c89389c0ef8777917da9c673c04be2d5ce6d21edbec0438237a893d7',
+    'size' => 51513
+  },
+  'Future-HTTP-0.14.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f18bf88a40e1a46cb67cf54089d6b971',
+    'mtime' => '2020-06-13',
+    'sha256' => '5c6b89680400a9f624f942208dbca083b366ae77980618b5ab88071536a96bc5',
+    'size' => 2142
+  },
+  'Future-HTTP-0.14.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd918035a3d9e279f6ad3595c9ad2f021',
+    'md5-ungz' => '793e6586ec5774b282c79369f0c0f381',
+    'mtime' => '2020-06-13',
+    'sha256' => '80f958b3c128be56aa2a5300210ad32df6c78c2b515b19d94c5923c6ad56f90d',
+    'sha256-ungz' => '8323b04ca0ec4acbefe14de40a34a4b0d9d3083575c7a1a417afb3fcddb5decf',
+    'size' => 24253
+  },
+  'GitHub-RSS-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3e3f660fca78db371c5619dbef8c366e',
+    'mtime' => '2022-03-17',
+    'sha256' => '1e2f6cfb4478cace47a0c8595ebe04873b04956fc3454e56b06164dfa383cbb4',
+    'size' => 1755
+  },
+  'GitHub-RSS-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b31f578197681852bda450ef8cc8404c',
+    'md5-ungz' => '438abe83c2106cd83354d10788748d0d',
+    'mtime' => '2022-03-17',
+    'sha256' => 'afe6f03932b14c587cc8d5528acd15a1e6a38dfbea2c670148a2a29eba08e838',
+    'sha256-ungz' => '27a6ff9ef014e49d566cd9de5f1836283e51438f5807badaf88e346981e32b32',
+    'size' => 18086
+  },
+  'GitHub-RSS-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0f72e50c1032f8bbe2e5db9f7ae850a3',
+    'mtime' => '2022-03-18',
+    'sha256' => 'fe52c2b13a3e4181f4fd6951c1694c64d3bfdce3c98a7510492faae3faad2e49',
+    'size' => 1755
+  },
+  'GitHub-RSS-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '28fd3043b5e67f750210819d4c8e7c41',
+    'md5-ungz' => '8232f42e3138f86ca73b3076087a7794',
+    'mtime' => '2022-03-18',
+    'sha256' => '66d02acc3d2a229deb25a27ff8035829c0d9c4d141adcf98eca7aafb6f94b82e',
+    'sha256-ungz' => '0630bdfeeeebb6ac39a1bdf8c34b9431fdeed8277bca1bfa4b94e6aab241c337',
+    'size' => 18118
+  },
+  'HTML-Display-0.39.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '70d959eb2b7ae95dfd3d41211117e66c',
+    'mtime' => '2007-10-20',
+    'sha256' => '05c8c9d93ea33555f57fa9944ab0e2768e4fd98ac3ba12115301101e92e97e6d',
+    'size' => 589
+  },
+  'HTML-Display-0.39.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ca1fd7653d11ed7be7a03f2f5126509b',
+    'md5-ungz' => '2287eeb2ebb5dd6efc2a5624b8aed900',
+    'mtime' => '2007-10-20',
+    'sha256' => 'd54bba31e43e698506bfd8d3f33032043c0b36113e21f702c11404055cf76b09',
+    'sha256-ungz' => '06d34f306c14ad38fdb35c9cd48f3be257952876d1dcbe3c7b46472af44af9f3',
+    'size' => 13720
+  },
+  'HTML-Display-0.40.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '297afbea0c2173d2350aa4c4c6419604',
+    'mtime' => '2013-06-26',
+    'sha256' => '77951afb993239035bd47c8c1a9545f46a5c90186964cb37adf87d341e4594f5',
+    'size' => 1022
+  },
+  'HTML-Display-0.40.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a9a958d06816d295b70bc01a54c7a61c',
+    'md5-ungz' => 'e13393fd42cf5be456fee35404cae9cc',
+    'mtime' => '2013-06-26',
+    'sha256' => '43b2bd9883d9545c86c6cba7b0df4bd78cc889350fa4d7e17fe7a274ae9823a2',
+    'sha256-ungz' => '06876d7ce0b66704c8143827cd75eb89bbfae9170d3b5c7d0b688715b6d92f17',
+    'size' => 14233
+  },
+  'HTML-Rebase-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fba3266084daa3c04c595c33adf06f61',
+    'mtime' => '2018-11-30',
+    'sha256' => 'df1f44c6d50e828c08a4e40fab49599ca9f8fb50c3d6405a751b2aea46a97c07',
+    'size' => 1389
+  },
+  'HTML-Rebase-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e363aec4a1a72c37fa747c0592fa3a9e',
+    'md5-ungz' => '0e85d927fe0dab33a3c082ed60087b0a',
+    'mtime' => '2018-11-30',
+    'sha256' => '7078220a45de45b89a3e2dee142eb22c85e24e1fe5992d4fee2d75b4e3166fea',
+    'sha256-ungz' => 'd2c9b1ad876dc1ef762d7bd684e8ef5ce80ab3a164dfba5077df8241efb1d1e3',
+    'size' => 14281
+  },
+  'HTML-Rebase-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ce25e4daba14cf7ca144abf711ba4ebe',
+    'mtime' => '2018-11-30',
+    'sha256' => 'b29d552d2a32a9e8a1b91f22b91e7559a706ee39f21023626c9f6e845de1255d',
+    'size' => 1389
+  },
+  'HTML-Rebase-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6f889d8913cbb2164386ed7e739cef73',
+    'md5-ungz' => '521c5094127c66b692831fae3018a7ab',
+    'mtime' => '2018-11-30',
+    'sha256' => '778dd7d863663c57116f4638ee959035c6ba0c9b59bb682957d7a7381b3dffdb',
+    'sha256-ungz' => '1be87462d01ac99eb1fa127e240336718537f6953de04ee9f7009fd91e69fb09',
+    'size' => 14616
+  },
+  'HTML-Selector-XPath-0.25.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'caaa162f559dd4f801fdb83634a47227',
+    'mtime' => '2018-11-03',
+    'sha256' => '250533cfe79b8aefd0f03da01cc674bf99ca44875f7f86c15b23d1c46d77a9ac',
+    'size' => 1491
+  },
+  'HTML-Selector-XPath-0.25.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd0918c8237f276270f0be9fc1a2a99de',
+    'md5-ungz' => 'ea923dfaaa5a39ebcbe52d3d8c80d857',
+    'mtime' => '2018-11-03',
+    'sha256' => '1a5d4de14bc7f86f0ebd766293e3a4e12698cd2de04673243ffd3ae7156a6ae1',
+    'sha256-ungz' => '5fa08eaf4e01b6b12b120d07a3e7a29ec95d6641b696412e44c61e19baa5b626',
+    'size' => 32420
+  },
+  'HTML-Selector-XPath-0.26.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '51870f04bedf21d63195257a64954d7f',
+    'mtime' => '2021-12-15',
+    'sha256' => '23c3713170346898d527b5dd41f13357040511377eb6d349d66ecec44103774b',
+    'size' => 1486
+  },
+  'HTML-Selector-XPath-0.26.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd7789f2731ecdc44829206154eeae58c',
+    'md5-ungz' => '628bbc0b516171106f4001611e877cf6',
+    'mtime' => '2021-12-15',
+    'sha256' => '3df80a81284d1e375d9d1f6fec16e96c31b2c309451b4ba82e5fd1db23ac1f24',
+    'sha256-ungz' => '78e26237a658607087ff5153f8d91995775720594cc69c331d76a2cb51495e0c',
+    'size' => 32482
+  },
+  'HTTP-Request-FromCurl-0.09.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '67437197c81468d2ff683b06aac5a97b',
+    'mtime' => '2018-12-22',
+    'sha256' => '91e1c574f4fb17c1f94fec7c69f867cea74ae33948d3256729823b036d20f90a',
+    'size' => 1996
+  },
+  'HTTP-Request-FromCurl-0.09.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6e39dcd25abc937bc2db90bd07f0ae1a',
+    'md5-ungz' => '3cb2d7224be508a35a4acf38777342a5',
+    'mtime' => '2018-12-22',
+    'sha256' => '40d10f49dcbdfc2c2845d8d91fea5fc75b8d6a785e0493bcb88184d259e1848d',
+    'sha256-ungz' => 'fe7fbdcf2ee6df7341ea9098c9862c3823e34096b9ca065601b2a00c88c5d354',
+    'size' => 24034
+  },
+  'HTTP-Request-FromCurl-0.10.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5f75fde9f39a1d737f26b8f8e64dc45f',
+    'mtime' => '2019-02-02',
+    'sha256' => 'eced1d178e7893f82b6a36d10a01d1871848a9b68c78222a35e8c4c4b9d8271d',
+    'size' => 2036
+  },
+  'HTTP-Request-FromCurl-0.10.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c4a136197611d89cd86e61193b52b330',
+    'md5-ungz' => '11acf18511f6c887db2d218847870db4',
+    'mtime' => '2019-02-02',
+    'sha256' => '0945e1324453c1db49695058b8363b18fd88abba3b537645a1e0c8cbf3f74c87',
+    'sha256-ungz' => 'ceea43f20a41ed4cd2abcc4caf9032ac5fb8e219fcdf87e38b89a8963fab621a',
+    'size' => 24276
+  },
+  'HTTP-Request-FromCurl-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8eaeaab76d5a14b8cbccd29a60e3385e',
+    'mtime' => '2019-02-26',
+    'sha256' => 'cd879bb02427951baba3169788698dabcaed7e800453fdf8f7a598e790888411',
+    'size' => 2036
+  },
+  'HTTP-Request-FromCurl-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c6594ff83b3eb0871a9d4c7afb7daa25',
+    'md5-ungz' => '0d6f95f58bea04adb30185843c3ecfa1',
+    'mtime' => '2019-02-26',
+    'sha256' => 'c6030629f6b876d15ca27d7c38903208d3ea84c6c0db83727eb4c92f7426e0fb',
+    'sha256-ungz' => '29e4b3bb94e6f956af1157734bf297f513f4d6d91b838190835f254d8279f8a5',
+    'size' => 24644
+  },
+  'HTTP-Request-FromCurl-0.12.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9dcfb67cf7e009d6cfec2271d1355c6c',
+    'mtime' => '2019-02-27',
+    'sha256' => '0de638bd823e9c1747a533bb2e56477eea8f6eed9eda6fcbe25ec02f1c5b5f21',
+    'size' => 2036
+  },
+  'HTTP-Request-FromCurl-0.12.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '377b1f25ac62417b5aea3ccfe17a8e65',
+    'md5-ungz' => '38b611782478636e8b3d46d4264230dc',
+    'mtime' => '2019-02-27',
+    'sha256' => '339bba487b4cee790a1c756f22c82f97608a28937c2c9ad09cd9db73107efe8c',
+    'sha256-ungz' => '6e130cd1fc63c8aec2d8f089653cae1348adaddffa03bde4856e616182fd3c5d',
+    'size' => 24731
+  },
+  'HTTP-Request-FromCurl-0.13.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4437fea2a9bf582bc47d3ecbd0fa7d66',
+    'mtime' => '2019-10-12',
+    'sha256' => '8e58a68a7f9611dc8b0fcc4a441643d39aca26d96cb4e34289b03547b60397b1',
+    'size' => 2165
+  },
+  'HTTP-Request-FromCurl-0.13.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f32ce70a8717c8051f97217baa910465',
+    'md5-ungz' => 'c168a74225f4ef9b91c5183474abdb04',
+    'mtime' => '2019-10-12',
+    'sha256' => 'a716178f1ba7ddc0b40d2fecfb6938c6c78e76a0e1505a09ce41e70833ada2b4',
+    'sha256-ungz' => '037b55d58e791355dd89add3e6cf4db163b358de35bcde55d86c6a4f91b22e14',
+    'size' => 29746
+  },
+  'HTTP-Request-FromCurl-0.14.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e7b88d40614a623438a09cbfae6db15c',
+    'mtime' => '2020-04-09',
+    'sha256' => '6dad03285686db74d3e84e6691a9329dbb67cab6b55f72f3880845a92b5092d2',
+    'size' => 2196
+  },
+  'HTTP-Request-FromCurl-0.14.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c36214f376773c677fff03c8ebc1e597',
+    'md5-ungz' => 'f87ad247e6daadf70ca228704b3f2059',
+    'mtime' => '2020-04-09',
+    'sha256' => 'ff66e2570ad499bb8a43ad96a9271242113b03d5c99bc00b2bb374943b54e283',
+    'sha256-ungz' => '8a2d6b6cd910e58bf7dcb59ec01d8274fe244d5e6bec392799ccade06a4e1c37',
+    'size' => 31347
+  },
+  'HTTP-Request-FromCurl-0.15.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '33f4a74fcb6cc196d28f741a2dc31b39',
+    'mtime' => '2020-04-10',
+    'sha256' => '5acf1f4df7e204a0a3466d4ce61e2f416255ce65ac95664ee8f3e3c245098539',
+    'size' => 2196
+  },
+  'HTTP-Request-FromCurl-0.15.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd04156b994f3ae822cdc6f14bda7fb92',
+    'md5-ungz' => '33fba4ffe92368a47d17453617998596',
+    'mtime' => '2020-04-10',
+    'sha256' => 'a35f6024a66624b711ca1c423e466e2cff6a110482de8cb20ad034df5d06942f',
+    'sha256-ungz' => '1a377ff03bbe143c2f43dc339d44bb24847edbfaa1a96bdf584fd32b0fe11da8',
+    'size' => 31428
+  },
+  'HTTP-Request-FromCurl-0.16.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e95282163ce3a657ab82def408cc6fd9',
+    'mtime' => '2020-04-12',
+    'sha256' => '60c5e701ea8d1fa283ad98f427a517547c9c1b105d950f0e236bbb7755a42232',
+    'size' => 2196
+  },
+  'HTTP-Request-FromCurl-0.16.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ca4d2e497f9c40166f1928dfa6cf1698',
+    'md5-ungz' => '2394c00ca137e28aaa26732decd78fbd',
+    'mtime' => '2020-04-12',
+    'sha256' => '297c0192e5852e389896f9b45121bc2c0b1fb346ddbe674cce76ffb229a33475',
+    'sha256-ungz' => 'b3035ada4bd817045b704121f55b4094e7b1a378554997008ea7dc83311e3213',
+    'size' => 32786
+  },
+  'HTTP-Request-FromCurl-0.17.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9c8a47461cd6f176e2531f45a65325a2',
+    'mtime' => '2020-04-13',
+    'sha256' => 'cec3c7643f6d5463dfb7fcebd43e1ce622988df8201d2ab6cff3355656183f21',
+    'size' => 2196
+  },
+  'HTTP-Request-FromCurl-0.17.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6ea09413ac624d52a589ffd256256341',
+    'md5-ungz' => '83b05e81b191aa682da3d0d3042f44ed',
+    'mtime' => '2020-04-13',
+    'sha256' => '68f4099ccc54e5939a1e22f98322c14ece67e1f105b935622e1ee742a0024278',
+    'sha256-ungz' => '1e1e4e870166dbb6ad826c545dab2dca2a2f10131cb0d0bd8e681932a877db3f',
+    'size' => 32812
+  },
+  'HTTP-Request-FromCurl-0.18.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1e8c0bd062d73da096f1381b1b4848ac',
+    'mtime' => '2020-09-30',
+    'sha256' => 'b3298135f10912233bf137fa786675c64f489367a77a856d7efa6dbbca323b0a',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.18.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '519af1e749350a8fb6320e505f09b243',
+    'md5-ungz' => '1c9309f51f3243e4f5af5e594732e0a4',
+    'mtime' => '2020-09-30',
+    'sha256' => '1f73531b15ba9cc0c03eb797e8c0010965bde4ce5bc440e508407e001ca8a236',
+    'sha256-ungz' => 'd5ea453af55274e5fbeaf53edcf88c1dd148b487544039852f7bae6619bcdea2',
+    'size' => 34488
+  },
+  'HTTP-Request-FromCurl-0.19.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9a9d17ff5f448eea57bc350a590671d0',
+    'mtime' => '2020-10-02',
+    'sha256' => '50cfc93bc0d2b86c7299e241ec22f9539941b080847c0806778f202dfc254ced',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.19.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fb7fb0da3b782fbe9f6cd724354c5234',
+    'md5-ungz' => '159ad74a0eb7e9b97df3b3ef957ce10f',
+    'mtime' => '2020-10-02',
+    'sha256' => 'f86b6911255e1ff95c2e0b22c836c112abc26895f8e325353f4d632179578096',
+    'sha256-ungz' => '75c979a283eb27e366dcdb724d7d4b9cb724197c09491b58ba5aeba31eb260a3',
+    'size' => 34711
+  },
+  'HTTP-Request-FromCurl-0.20.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f2999bbf6aa09a8f44b8d84dbd350bb2',
+    'mtime' => '2020-10-05',
+    'sha256' => '359fe8be2317f73ba8118cccf57e023f8797d18efcc8a02dc4f4a154255d7066',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.20.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '74eeaff33f8affca15efe580a1e172c3',
+    'md5-ungz' => '06b46489edf84023c39fbd48b4d61353',
+    'mtime' => '2020-10-05',
+    'sha256' => '0786673d0ee15c60aaec64a7285321d40d427cdb11da628a127a4edb8efcbe0a',
+    'sha256-ungz' => 'c75b454f21118c092cad84567273120aba35b223349ebe0313254b81c60a2987',
+    'size' => 34732
+  },
+  'HTTP-Request-FromCurl-0.21.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b4d5be3ddb78aed2be135e96b34544ff',
+    'mtime' => '2020-10-09',
+    'sha256' => '7dc039d2fbc1378415d8702ed2ae6a571c931911c080d1980766c6a30a1da39c',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.21.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fdd19e60922976a582e3e550d65b538a',
+    'md5-ungz' => '5afc0d6b260a92ce945359ea473b7a12',
+    'mtime' => '2020-10-09',
+    'sha256' => '256859d857eebd916fff5b2ee2b0edff19e262f358185eaa45ffd9dec146b3d6',
+    'sha256-ungz' => '6410a51c83365c3181d8987071de3a61c1eef0ef893354a1b7a8108cdbd185f7',
+    'size' => 34814
+  },
+  'HTTP-Request-FromCurl-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3d9a8fc1f5bb3e6df52a8c34a4e11c83',
+    'mtime' => '2020-10-10',
+    'sha256' => '505e08c85c375a6b715a7a3eb5d7d8ac0060d8071c905c3c50cbb550233102e0',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'dca18ee99279b31f167e3e7173082f9b',
+    'md5-ungz' => '1065294e98c157c10359bf522c779ba4',
+    'mtime' => '2020-10-10',
+    'sha256' => '8068a33e934b1ef707f12354d30c86f38d2823f3f9f67f60ab44541018099fe1',
+    'sha256-ungz' => 'fc3213f5d55d4f87feb979ae72dd1cbf5001ab515759858d14e4ced8eb8bb8f5',
+    'size' => 34899
+  },
+  'HTTP-Request-FromCurl-0.23.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '58349001b2b587eaa8059f7636e6c7de',
+    'mtime' => '2020-10-11',
+    'sha256' => 'a4b85f2097da5f3692bc67a643fe1bb6a00ecb70cd052a6288fde9259698db6e',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.23.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3ae3409500703a55437fd2663ef8c486',
+    'md5-ungz' => 'cad7fb2edb513eb109b2d3b18a6b6bc2',
+    'mtime' => '2020-10-11',
+    'sha256' => '2f76051587cd1a655e0bdeff080bf1a9fed3c2d9a3f1aaec6a9dd5b157d42359',
+    'sha256-ungz' => 'bbcea961a52bed7444510ebc957795f7ced992027b9b9a2298589f3b521e2742',
+    'size' => 35202
+  },
+  'HTTP-Request-FromCurl-0.24.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '424e1f2c36970336440ad95468d5c1ad',
+    'mtime' => '2020-10-13',
+    'sha256' => 'dee2ae8ebb1b4a92d47134f83ec5febffbf41d532fcefba51366777a1adc22d4',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.24.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c973d9ccee119e5cd03ae576370900f5',
+    'md5-ungz' => '7ba03578d6b94516238b70e5c4d2cc1c',
+    'mtime' => '2020-10-13',
+    'sha256' => '87fb9b9e1b4f9e947a1005c982c0aeedbfcdde36a4c5b91c2a5727e82b652fcf',
+    'sha256-ungz' => 'cffd3eb15ce666a0e8d2fa9266026c11e55b4415b206602761c9364fc6459734',
+    'size' => 35368
+  },
+  'HTTP-Request-FromCurl-0.25.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ecde6ffcfb75b5fed3a7ea0f312566e0',
+    'mtime' => '2020-10-14',
+    'sha256' => '0e9ce9e6213f1ce600ff5cbedb2cf36b617ce4b43503e39511b8fbd362104dfb',
+    'size' => 2229
+  },
+  'HTTP-Request-FromCurl-0.25.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd48043e3c4775e54e5e17aa845bb17d6',
+    'md5-ungz' => 'f84527b42891c4eb875534f5c56374e9',
+    'mtime' => '2020-10-14',
+    'sha256' => 'e9b535db36acac735302d8cc9be4149ca578a2d76a0301ebdfe8605d83cdfe89',
+    'sha256-ungz' => '0a0cc5b90941087c29e272dfd7d2d4e69936b70d6627daba4ec63dbbe4c9e2e0',
+    'size' => 35553
+  },
+  'HTTP-Request-FromCurl-0.26.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8da3bf3df4767b4cdea6b1251e0c6610',
+    'mtime' => '2021-10-14',
+    'sha256' => '103362b7f4aaf8cfe121a65cbfe9b78b29ec6caed712c9826c0af46e6569861c',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.26.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '80ad78bc148fd392ae1103388307fafa',
+    'md5-ungz' => '7d59021159b7122fdc9cee6c18ffa6d4',
+    'mtime' => '2021-10-14',
+    'sha256' => '0578d9ed0cac39484d81fbc6723a4591336de2ffa7c3a87cfea79b286a4ab412',
+    'sha256-ungz' => '6e72865e1533c3b59e9b421583dad1dcdb924583d72d0b37e4856633d2eb4ce7',
+    'size' => 35793
+  },
+  'HTTP-Request-FromCurl-0.27.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0fa50eb0c6304c5f9d67ebaa8c0973af',
+    'mtime' => '2021-10-16',
+    'sha256' => '6d4a161fc16e5884958e437f4df04b64594ba491effe60c9727a6d0cde8b857b',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.27.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd8b67779705334d1b0c547dc4b5b1053',
+    'md5-ungz' => 'ad3aea150b2f71e416acf1ad4179882b',
+    'mtime' => '2021-10-16',
+    'sha256' => '5eb5b35cc871800b92f8421e058bd08ecca4c214f62d3addf139b17243fd3970',
+    'sha256-ungz' => 'aa1bb573e944ca4d88bfca9568f8d535c53ce1ebab06aae791a31b81f209c832',
+    'size' => 40981
+  },
+  'HTTP-Request-FromCurl-0.28.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b31041d0db3440086b13745105cc746f',
+    'mtime' => '2021-10-17',
+    'sha256' => 'f40d64932e88eccd92abad86f1e5c6422fad3f630be4d7322295faec286ebf77',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.28.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a02e4a1d49529eaf507391194d1b8ec8',
+    'md5-ungz' => '229d7fb87ea1699f0252e259059663cb',
+    'mtime' => '2021-10-17',
+    'sha256' => '4b67ab12684514ccf7dc5eaf7cd4ddcb04d5b989f2ad9055a606605f0cca49e4',
+    'sha256-ungz' => 'd64ac6a26d72638f3b11ab64f31121a3e1565ed18a68c5301eb55b52ab03140d',
+    'size' => 40179
+  },
+  'HTTP-Request-FromCurl-0.29.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bd82c9214334b370e4159fb6e8744852',
+    'mtime' => '2021-10-19',
+    'sha256' => 'b878c1983026a38532889d485cb5b0418a973f837002731d4059337b1b9369ad',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.29.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e34c29a2cf3879c3d742875328d2eb8f',
+    'md5-ungz' => 'da955a345c92007ed2c948e41e8289ef',
+    'mtime' => '2021-10-19',
+    'sha256' => '9f171c3c2f66126a1dfa4358876c89adf981e7786c7881cd8a1767e9cbd150fd',
+    'sha256-ungz' => '41ba8b9f2a2f7b62d3190a3c8641c3f11d0f4ed5d548c9bd303ecb9e37830699',
+    'size' => 40281
+  },
+  'HTTP-Request-FromCurl-0.30.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1f96ba6a98a548ffdd54ca91295c0c2c',
+    'mtime' => '2021-10-20',
+    'sha256' => 'ad9193c019be71037d608fbe1432180e3e96a3e4ee4d6b069f996848a21ff4f5',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.30.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '51ac79cc4f89b64652fc8c8a702b76a6',
+    'md5-ungz' => '179b71e087a52ef4f7f6636e18e90597',
+    'mtime' => '2021-10-20',
+    'sha256' => '74cb3cbb189a6644eef80aa047f8debbf5aac84f7fb364a7d48cf17879c98ec9',
+    'sha256-ungz' => 'ef6fc82c38c7f2776e033efaa709e8502ba601804b4476d1d99dd86097252f9d',
+    'size' => 40342
+  },
+  'HTTP-Request-FromCurl-0.31.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '57d387189e08b4965ce54088dbc4551d',
+    'mtime' => '2021-10-21',
+    'sha256' => '7237c30454966b401278092dd374f7f105e9c6cc5d16abd2b1c9ed379b367f15',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.31.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2d07a83bd755a15639dc7dee0f9962b0',
+    'md5-ungz' => '5976814d8e2e63300c21929c95462c46',
+    'mtime' => '2021-10-21',
+    'sha256' => 'b937e6b70a4fe65e0f57eabb629181ae6f9adedfb4f87fea263bdd61b1661c1d',
+    'sha256-ungz' => 'fa8c2b7ff6c39f4917962db1ad0a7f823f7d2cfaa01f94441d7874c4f443bb77',
+    'size' => 40423
+  },
+  'HTTP-Request-FromCurl-0.32.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e31e79ab1d1ba4f59a803e5f090807b5',
+    'mtime' => '2021-10-22',
+    'sha256' => 'bd1b6a6154815059b149aa48bae4cce8ca28aff1900c5632f6a0c0c50577bd95',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.32.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bba72b46082890aa920f1fb55dd89e21',
+    'md5-ungz' => 'a56e3005d3e378ea2552d5f67f1aa1cf',
+    'mtime' => '2021-10-22',
+    'sha256' => '2e895a05774292075c79fb98bb0a9c9f8716619bc1b8cb1ecf5fb3a686f98174',
+    'sha256-ungz' => '7e20da510381a3b6bec13928dd72192b91b868c61990aa240bb01813aca23d96',
+    'size' => 40597
+  },
+  'HTTP-Request-FromCurl-0.33.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '67da1e5617c13914591a6d03cf0b16a1',
+    'mtime' => '2021-10-23',
+    'sha256' => '6f9c79c3c06f226fa4966dd4a1b8a4654ad9d3c8f1e3315a8ed31e8bdf54fc2a',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.33.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4689d87cddbde004d9a41164496c06d1',
+    'md5-ungz' => '78110f91ef532198e50b8a0bbee38299',
+    'mtime' => '2021-10-23',
+    'sha256' => '5cc64a1b31b5edac2a9319b6d180e9491494b8347e730c55a2b86e4685b3e529',
+    'sha256-ungz' => '461105fad74cedc5394ebe31713791277eb31cb8b21adf0a532081aa917d2928',
+    'size' => 40715
+  },
+  'HTTP-Request-FromCurl-0.34.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cf28acf90690d8d7193ba09bfcb34c35',
+    'mtime' => '2021-10-24',
+    'sha256' => '6d97ac3b715d74b5bcb0214930c7d98e5eff44efc1c8e475e689a80bdbb723e1',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.34.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5c4d8255b0b10577c7bae154eefe7368',
+    'md5-ungz' => 'dac29fd4b590acbb75da693c0173a8bb',
+    'mtime' => '2021-10-24',
+    'sha256' => '749ba19f184f286d8662daf755485712b96405afedf78a0b1f8ae9d375c1a34d',
+    'sha256-ungz' => '8c122e705ccf354edb16d2fe09309c67988dde52f1607bb2faf9ca07e296f96b',
+    'size' => 40873
+  },
+  'HTTP-Request-FromCurl-0.35.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '491fa6d19e3c2a065b140d7eea13323f',
+    'mtime' => '2021-10-25',
+    'sha256' => 'dd816ad854042beebadf79da9c09ff24b9ff6a689d2b0e843924f2b82a56284d',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.35.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bb5548d09b8b5493fa84ae3913e68e35',
+    'md5-ungz' => '7d8df6b865d2841df4adc47b2e003314',
+    'mtime' => '2021-10-25',
+    'sha256' => '4ba83b455204b70248ae0f8b855912171a2dcfefbeae61a40a128176d0202153',
+    'sha256-ungz' => '5fd9561d4865f156540f8778db9f06594e2536ad468507e7a8d7475262205016',
+    'size' => 40910
+  },
+  'HTTP-Request-FromCurl-0.36.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '19a7dd9ea148d86f23aec57375111aa6',
+    'mtime' => '2021-12-16',
+    'sha256' => 'b7ffd0e927bf65897ee15ac698214812fdeda222c3a7f7ad87401fd570174c60',
+    'size' => 2324
+  },
+  'HTTP-Request-FromCurl-0.36.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4a6dcab6ecd6d6eca10534fe89f2fddb',
+    'md5-ungz' => 'b5fa40d21499ad8366658e7e53f2ae35',
+    'mtime' => '2021-12-16',
+    'sha256' => '27926e490606c6d25ddbcddc3e8f7334eba56769c44d83094445c96e67447b1c',
+    'sha256-ungz' => 'a4d48e9a8638d5faf1198f67b0f27d388506069ae0de17eee639d6b0401a014f',
+    'size' => 41220
+  },
+  'HTTP-Request-FromCurl-0.37.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '64a8baad7d548192255353278c7d7ac6',
+    'mtime' => '2021-12-24',
+    'sha256' => 'f804b563217f51ceb973eb21e4377431b5995b504086f7d3d72038e1b6da03e3',
+    'size' => 2291
+  },
+  'HTTP-Request-FromCurl-0.37.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fa897f74fc3631fb384645ce6d304914',
+    'md5-ungz' => '99ea5a975d023aee96610207ed19d802',
+    'mtime' => '2021-12-24',
+    'sha256' => '41226b927406baa4cf995ed542872d34268bef91ebbbad662edcbaf5937e97c7',
+    'sha256-ungz' => '645d55336109ff47e1d310e2386eef802670cb44a3cde8c3bfe6a2f1493b681d',
+    'size' => 41270
+  },
+  'HTTP-Request-FromTemplate-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f37d838d1f905d6fae45545e66443797',
+    'mtime' => '2016-10-01',
+    'sha256' => 'cdf59109c928e23b8cbd5a141a80713d777324d53129b2470b29763b6068c8ec',
+    'size' => 855
+  },
+  'HTTP-Request-FromTemplate-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '38de546da9c6d278adc3fb7986ad42d0',
+    'md5-ungz' => 'f3269b1c6a8912ee810e2ad5633a8f12',
+    'mtime' => '2016-10-01',
+    'sha256' => 'da84ff1fece0f1c6da8228293983f45fe55c04bd95c97927826f8b4325efb048',
+    'sha256-ungz' => '85e3e6e14bd91646f94b385e73d6072b310c71d8951a484bda3ac73ed045ef2a',
+    'size' => 10064
+  },
+  'HTTP-Request-Generator-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6c58f7647c5bb10c920310f68bf7b270',
+    'mtime' => '2018-12-19',
+    'sha256' => '95b7239e9e4fc68c71728f48e91b6406312392860bbff510a4b877bd8831b1e3',
+    'size' => 1538
+  },
+  'HTTP-Request-Generator-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '687c842e70ba4365b4e28d96f7488e9a',
+    'md5-ungz' => '7175fd0a5fade74a17b81a1b0769eb8d',
+    'mtime' => '2018-12-19',
+    'sha256' => '131790bbfa0d04c415e4b98c699faa6f884b9812415263b2713cb526558314af',
+    'sha256-ungz' => '7862cec0c33800d2e0c4d7e4bcffce4b10af94d7a84b7e33b46ffd5c324afa50',
+    'size' => 19589
+  },
+  'HTTP-Request-Generator-0.06.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '72eeb45fb667c8f64b1b7bacded93f6b',
+    'mtime' => '2018-12-22',
+    'sha256' => '8b8b9995bec44647338d442973bc9b7cd71c7599489dff5ee4cfefa403f23598',
+    'size' => 1538
+  },
+  'HTTP-Request-Generator-0.06.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2ceacd5adf8265c992d9bb4325c56669',
+    'md5-ungz' => 'f48b77f359900a6d1773be3ee58b9072',
+    'mtime' => '2018-12-22',
+    'sha256' => '2ae708c5afe8f25c087536bba10d499142a8b6d072fe274756a3a76747c113f4',
+    'sha256-ungz' => '5c76637bedafc805cfa85d33791a83b4d7d4d95eeedb11d7e47b7878ee5dea61',
+    'size' => 20045
+  },
+  'HTTP-Request-Generator-0.07.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '10ee876d374969d6cece1230c71e7f98',
+    'mtime' => '2019-01-03',
+    'sha256' => 'ca75a69b9b8ec9bce3b1da706a7057f52fb8b0b3025a174002c6242287aa29b2',
+    'size' => 1538
+  },
+  'HTTP-Request-Generator-0.07.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'aff39a0d23482c8b6ccc1bdb2a2c942a',
+    'md5-ungz' => 'dbeb9e1a524d555f26b9fb95112967f8',
+    'mtime' => '2019-01-03',
+    'sha256' => '3184b6e25c4c38a8151f9746eac10c2f85c5649472b63548a340c654551f9d1d',
+    'sha256-ungz' => '29341916e8dababc1b903eabd7525eae2ac814b7654ff9954bfb2ed58ab7d451',
+    'size' => 20416
+  },
+  'HTTP-Request-Generator-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '43d9b810f03f7bb62ea62383037b5535',
+    'mtime' => '2019-08-16',
+    'sha256' => '362c8aadb35418c6a6ed2cde39e6daaab23af350284cd1ae6ef538a0cd0a68bb',
+    'size' => 1570
+  },
+  'HTTP-Request-Generator-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '16bc0f6b2511806e0df7aa19b325834c',
+    'md5-ungz' => 'f15552bdab23be31b5c5923d08f2f27b',
+    'mtime' => '2019-08-16',
+    'sha256' => '75b41af113f828859ef801b8346f74f48520f8a7ae76dd2846f2901ab11f80d9',
+    'sha256-ungz' => 'a40aa88563337b85b42e44d88bca428b088bb6d4e35517038560f8e639b3a490',
+    'size' => 20966
+  },
+  'HTTP-Request-Generator-0.09.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '61e31c66002ab16a281dfcea91878266',
+    'mtime' => '2020-04-10',
+    'sha256' => 'f28483daf0a7b186543a9e07b8a525f41b480b226278f24d5552827ca6cbc7dd',
+    'size' => 1575
+  },
+  'HTTP-Request-Generator-0.09.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b9ed6e6ecdd3fb3c3892a4a44f52806b',
+    'md5-ungz' => '45a38e068293f2050cca7488b8570710',
+    'mtime' => '2020-04-10',
+    'sha256' => '353e1ea3735c01a70ff26fd6a2b9cc69602206c8c6ea5d9d2334e9efca1f1185',
+    'sha256-ungz' => '156bd57e0bf1fc08b0ae8004fd64ebaa1b887ca9ab83f942ac3e784fc57d089e',
+    'size' => 21374
+  },
+  'HTTP-Request-Generator-0.10.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c8e2e12c55bec158067ae11fbb886588',
+    'mtime' => '2020-10-08',
+    'sha256' => '89c87ce6cbb8e0d54d049b7ee0cea2d6bcd34ab495c46cd700301c3a0e1ba7a4',
+    'size' => 1575
+  },
+  'HTTP-Request-Generator-0.10.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bb1507802c0ae5cf9bacd6b2e995129f',
+    'md5-ungz' => '075ff87e85ded579408ded03cfc0b10a',
+    'mtime' => '2020-10-08',
+    'sha256' => 'b3a460f18c8f39a50def6b68d5e3367f92767ac5896d1f05b03dc242b99398e9',
+    'sha256-ungz' => '6ca74f1c76eaa65e811759235bc0214a2acce15e85d7c3729f2359025761a6e3',
+    'size' => 21441
+  },
+  'HTTP-Request-Generator-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a2d422508284a03f21ba9c59d453d92b',
+    'mtime' => '2020-12-08',
+    'sha256' => '21fc6c7a0f3b98fc1b87fb1b644c49edd4df6ae9782d06f07cf1834f0dc231f1',
+    'size' => 1575
+  },
+  'HTTP-Request-Generator-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '494eb097961d6a49f5293e8f2bc18519',
+    'md5-ungz' => '95513f52bbc0f8a49fadd9e6aee72db5',
+    'mtime' => '2020-12-08',
+    'sha256' => 'c28f9b95a7b3bbe861500d774179fc59a26dcfbd90fd6a095d5fdb165f575a3f',
+    'sha256-ungz' => 'aef97177aa75f9336f027d9e11136e4d671466bb813af86405e80ed134b03ccd',
+    'size' => 21985
+  },
+  'HTTP-ServerEvent-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ec90db74ec32de11c9b076bfeb149184',
+    'mtime' => '2013-04-06',
+    'sha256' => '79673659ffb455facddbe88702ae93a82b67801fefb868a83f6225c701b938b6',
+    'size' => 884
+  },
+  'HTTP-ServerEvent-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0d2d21d7a0e24e8e3d80311f59336723',
+    'md5-ungz' => '9e2b8fe9672d105dc51e2dec8f801fef',
+    'mtime' => '2013-04-06',
+    'sha256' => 'e3b0c5e09d6707173c8a67bac1d9abea821ea8da6aaba906c86faf8cd5bd3b73',
+    'sha256-ungz' => 'd715efcd295f542669dd14de519e385d0390e3eedf494f1db2c5f3374b14b7dd',
+    'size' => 7388
+  },
+  'HTTP-ServerEvent-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7bdbcf00d0c3bcbd65d611ca0a6f83e6',
+    'mtime' => '2013-08-10',
+    'sha256' => '55b839c4a202f37ca110a593cf94f7111c68c4358880dd4e9ec25d9af885b1fb',
+    'size' => 1002
+  },
+  'HTTP-ServerEvent-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '971b6bd447e5d25aee1616dc00280d2a',
+    'md5-ungz' => '0b96e2f5b2cc812f348388572e836a3e',
+    'mtime' => '2013-08-10',
+    'sha256' => '20bcc09c7dd7256390447d0cc8e46bfc82bf7805d66add207c7e3613dd527a4f',
+    'sha256-ungz' => '765c97853514dddeb7ca6e65b3bd36914b1cf6608890af320b2624395b809298',
+    'size' => 7507
+  },
+  'HTTP-Upload-FlowJs-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e324e3c9c9e135c4660b985014dedac2',
+    'mtime' => '2018-03-03',
+    'sha256' => '48dc6340d00e2ac019fb56635332ba90160da3cbc18a6eb9802dd29ff06501c4',
+    'size' => 1088
+  },
+  'HTTP-Upload-FlowJs-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '464e788aa6a89ef71acc6e1df697b307',
+    'md5-ungz' => '3a0f21d096ec2a95d67c1107a18c0d24',
+    'mtime' => '2018-03-03',
+    'sha256' => 'a95ee31eb072ce88d234d9605ec39db7a78549b3d4973e1233d0368b69c6b5f8',
+    'sha256-ungz' => 'bb372ebd8d1b419f01ca8c348691be120aa52d38c54384d3eb1501cf31a7dea8',
+    'size' => 28142
+  },
+  'Hibiscus-XMLRPC-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '85a477beeef2cc37562ff7b5bc805f04',
+    'mtime' => '2016-05-16',
+    'sha256' => '6102d1f6d8cf12d9c91530406b1ed54877b0c922fd3e5419dd649d885386486d',
+    'size' => 817
+  },
+  'Hibiscus-XMLRPC-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3b39641b19d7c2089fe30d44ae1edf6a',
+    'md5-ungz' => '3df049108fcc4c3945156c35afe1840f',
+    'mtime' => '2016-05-16',
+    'sha256' => 'a5a1dedaca7a0e54bbbdbf0be868bbe715511ab3c19bee2cc651fec29d77140d',
+    'sha256-ungz' => '932251ab46843929bd9499a286cccf32132413194981e6ba40825a7f6fbeeedf',
+    'size' => 8308
+  },
+  'Hibiscus-XMLRPC-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'eb57cdf8b2d33b7e2ca7e87740fa14cc',
+    'mtime' => '2016-05-26',
+    'sha256' => 'd852280c6af54a8301ab74af4b9c1182ee6ed0fc3d64b035fb807dacfcf41bd1',
+    'size' => 817
+  },
+  'Hibiscus-XMLRPC-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e976c95023c8b1fcc4c202a24c0bc230',
+    'md5-ungz' => 'a54dbd2356c723aa3d7b5929b2c26abb',
+    'mtime' => '2016-05-26',
+    'sha256' => '83ae8c644fb86400df874286901695f35dda0d7a0c82aece127667296ea2297f',
+    'sha256-ungz' => 'a548f767e4ac56fca71c527c79936ab92e44ad730b9eb4946eec4a82c8dafa4c',
+    'size' => 8361
+  },
+  'Image-CCV-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'aa01948ee6fca5a2dcfa27b4a0997d9d',
+    'mtime' => '2017-09-26',
+    'sha256' => 'ef514acee100c2c6e8704410e30e372509477c6aa3c56ea539ea7d4df67e44b6',
+    'size' => 843
+  },
+  'Image-CCV-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0dd2b8790ba6698d6e2f1be1f953638a',
+    'md5-ungz' => 'f21fe131f632593e889cf5c3d764eadc',
+    'mtime' => '2017-09-26',
+    'sha256' => '1b5155ddc048d4691eb33b48674db8d24a669b927ce455ebde70234e63cd0d19',
+    'sha256-ungz' => '407be30f58e65868dccc71a95835f34233582a0cbd584ef0c7c9d86996df49c0',
+    'size' => 4831904
+  },
+  'Image-JpegMinimal-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '920f05c7e2f56d152db113a0df138e11',
+    'mtime' => '2015-09-13',
+    'sha256' => '529d3b8f811d662a5e48dfa4d7587ee505382dcc4588a38170250950db854fb4',
+    'size' => 1042
+  },
+  'Image-JpegMinimal-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7d13ab2d29341e34dbd76ab517cbffe4',
+    'md5-ungz' => 'd96d2e8c3e447956d4d2a3124be36049',
+    'mtime' => '2015-09-13',
+    'sha256' => '32d10aba38079281f418acfa50b8ab6e69890a11f8bfe9fac26112ec4587a648',
+    'sha256-ungz' => '427e9107b906a1c0f8cf7099b759e8045b047a5b9fd1d2ca2b9f2e170754e762',
+    'size' => 112721
+  },
+  'Image-JpegMinimal-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6537f156e0639cd2caaa6890083f7908',
+    'mtime' => '2015-09-17',
+    'sha256' => '0ede0734361d373e5b8cd4146820e51e53ad6824e92bbcedd32d79be23fd769e',
+    'size' => 1082
+  },
+  'Image-JpegMinimal-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd0df6cce504d376adc0acfc86f9fddac',
+    'md5-ungz' => 'a16dfd780c65375b1dbe3dd48f0f64f8',
+    'mtime' => '2015-09-17',
+    'sha256' => 'b810d0b8d0e67acd32d511a15bcfbe8fb96701f855d9a0cb7828768ed4ae1afc',
+    'sha256-ungz' => 'adfcf64cf37294e8a4c346c9ccebe3bd83b11947f60ccb8ce18fbabbf0f16c7e',
+    'size' => 112825
+  },
+  'List-Sliding-Changes-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd84fbcd16cc5bcf202f8f77ca6f075f5',
+    'mtime' => '2008-04-29',
+    'sha256' => 'aaf3399dcd0c659ae921df29a82d0244bcfc00545fe76dd76aa82a1ea5bee74b',
+    'size' => 460
+  },
+  'List-Sliding-Changes-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b6cd3ade4aa9a0fe470da714780f7033',
+    'md5-ungz' => '4f56a55256e9ee4263c79418962a90ed',
+    'mtime' => '2008-04-29',
+    'sha256' => '92c8f50ca406fbb37e04a59876beef3ecc4a66845809cab74c4ad1ac4ee50d9f',
+    'sha256-ungz' => 'bc5aaffa372f1def1e7fccad8594c5ee3ad16c6c2eb144e2352c95a26c640d87',
+    'size' => 6539
+  },
+  'MIME-Detect-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e2227901403f8baaabd3c5bf9acee9a6',
+    'mtime' => '2016-09-20',
+    'sha256' => '6b93948528d487a18ec7fa34ff1d8cc14c0eac107bab2ef2cf5eb413088b8250',
+    'size' => 807
+  },
+  'MIME-Detect-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f4e9045a9d385e4ef86238f9f89455cd',
+    'md5-ungz' => '5b01f40e42fa35143b30746f3f7b6883',
+    'mtime' => '2016-09-20',
+    'sha256' => 'de8d5d373ad50d2432c03fba70c844596288bfe8595822b4a7b9f600efda2c3b',
+    'sha256-ungz' => '2d7dffd9ddf8b60b5ae21ee638e988d7b724dafd1da713221404ea96aca827b2',
+    'size' => 330381
+  },
+  'MIME-Detect-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ac818570c9748c78711e263c6b5200a4',
+    'mtime' => '2016-09-21',
+    'sha256' => '9da202a07f2593699c103292aaa4375251bcf65600d916d469dee28ac5d850af',
+    'size' => 807
+  },
+  'MIME-Detect-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cae3d5ec3e2cc88521f623c4da036c42',
+    'md5-ungz' => '1a14a0cab5043f86b53cfbd631533a68',
+    'mtime' => '2016-09-21',
+    'sha256' => '8a70d5df6b3a90049ca65cf039f4eb9a949abb2639870301a60d4d20ca87486c',
+    'sha256-ungz' => '86b681b6c7faf937c9effdafd0728366dbb7db140d7d549af72095c377e20b8f',
+    'size' => 330668
+  },
+  'MIME-Detect-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd5b43c0db814bf5310c94d39041cb01f',
+    'mtime' => '2016-09-22',
+    'sha256' => '54d11447050ec8965c094cdfc347fbf62cb96708aae499a60341673c92109069',
+    'size' => 807
+  },
+  'MIME-Detect-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'de819558502015986091dec8dfd264f4',
+    'md5-ungz' => 'a5053a7041494620f5e6925627e4cdf6',
+    'mtime' => '2016-09-22',
+    'sha256' => 'be6ac61cc4aba6bd81be92c2b72e9e66dbac596696a406716c0ddd5eae407020',
+    'sha256-ungz' => 'f26f55a4586b3e2baa64263f264063b335bd8b211c9862842f89326a3e18236f',
+    'size' => 330982
+  },
+  'MIME-Detect-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a31e6d52fea44f5ecf081074434285ff',
+    'mtime' => '2016-09-27',
+    'sha256' => 'd9a578858011b7cc2df49c851a70c8a4dcd0a6ff52d2d5ef7f7d9083f8d4ac8b',
+    'size' => 807
+  },
+  'MIME-Detect-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fc23f21bcb52f0ecd16f92b36f3355b6',
+    'md5-ungz' => '13610cc8990cb56e594bc74840bd46b7',
+    'mtime' => '2016-09-27',
+    'sha256' => '377d506901881593fadc52637a3c564f702570e7782f6ed02d5a172b28807544',
+    'sha256-ungz' => '277ee98f154d1c98e0276d03c0b2d4dc7a55b2dffb5eebeddc2f3559d789e894',
+    'size' => 331061
+  },
+  'MIME-Detect-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '22d8c05285782aea9a22920950c17bda',
+    'mtime' => '2016-09-29',
+    'sha256' => '247307740725f4f82f20ee32a06124a0bdf7bf1bb7febaed2c6d31669e636653',
+    'size' => 807
+  },
+  'MIME-Detect-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5b97ff115d5aa64811a74847167454a6',
+    'md5-ungz' => '89f4b96600a25e4fb63f4d2377ba34c6',
+    'mtime' => '2016-09-29',
+    'sha256' => '89d9d11554c37df638390129ea9d48a4624fbfdf0e76ab01fbe729e641202f82',
+    'sha256-ungz' => '0d444244674ba7db6ce9ecb8360f5fd6b075d222370275d0a5637ccd9e0555bb',
+    'size' => 331108
+  },
+  'MIME-Detect-0.06.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6245060c26e5a6eb3c3da159e830b7d8',
+    'mtime' => '2016-10-01',
+    'sha256' => '346a82cd6b061840e533daab28e6ccf78407e3c28cb49a8c2b435b0c73dddbcd',
+    'size' => 807
+  },
+  'MIME-Detect-0.06.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a14694d9d7b801ae3e2136c18ddba902',
+    'md5-ungz' => '5804e5a43af5a1748ec383a0a2ce4737',
+    'mtime' => '2016-10-01',
+    'sha256' => '936ddb95cfa3239c4836e6558b33d3c5fef36a1e9fcb5eef8c143318102ed0e8',
+    'sha256-ungz' => '64fcfaf2cc24453970623b4e1af0441f391bddc851436fd1f3b18bfd4ed93b7a',
+    'size' => 331222
+  },
+  'MIME-Detect-0.07.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3c799bcb4efbf23b89cb9146faae1a3d',
+    'mtime' => '2016-10-02',
+    'sha256' => 'bf48c56c5a8040f01e9e62131d7eb7d84fd5f8ff8e129d0dc6da6e59ae207c22',
+    'size' => 807
+  },
+  'MIME-Detect-0.07.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '04988aebdf7f75e01aa2b352d8b27e37',
+    'md5-ungz' => '69fb855ec83f1353a6f92af08f52e6c3',
+    'mtime' => '2016-10-02',
+    'sha256' => '1671fddc579f667e14cd2c91fd6adc84895d78f9e85e30c82b4e92c1da415b87',
+    'sha256-ungz' => '1f9bba26c77bc6929295eb6fda7e03966de5e37f3e4da1799a5c52e804552909',
+    'size' => 331566
+  },
+  'MIME-Detect-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '19829d62f903071a3a1b42cb16a090b4',
+    'mtime' => '2016-10-03',
+    'sha256' => '4c59e3120a7118b3a3699813b6198d114eae0758e590a019d227d9e75159ddfd',
+    'size' => 807
+  },
+  'MIME-Detect-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f848300e37383aec83bcbf0c51e7ad48',
+    'md5-ungz' => '8ea1836084eb78ad2bb4fea051ddc57b',
+    'mtime' => '2016-10-03',
+    'sha256' => '83de02a6d30439ec6b79e4fcb38caef00ef38aa478698b3fecc5eea2c6408175',
+    'sha256-ungz' => '43ef0f7e35fc35ec215edd54b8a0448df23d399ab0e7ba6c467df94c2a904c27',
+    'size' => 331675
+  },
+  'MIME-Detect-0.09.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cf99a3916d8d67b63671238d03d1d404',
+    'mtime' => '2018-10-28',
+    'sha256' => 'f56bfd3ab44eb92d3f15411b03e3bcc70e5c6c4aa08663bcdd4373d165d14d48',
+    'size' => 1430
+  },
+  'MIME-Detect-0.09.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b6ce1b473cbe60d6278a12113cb86a0e',
+    'md5-ungz' => '804cd330da8ab356b1023acd5a76589d',
+    'mtime' => '2018-10-28',
+    'sha256' => '3746c75bf9c91536d21a19b0d5e52725a90e5c762b3ec7a92f3f3e77b50a1c91',
+    'sha256-ungz' => 'd1273ac09e8a7026b6cc45637044d8149f846396b4e4ceb5a6a5fc224d007e78',
+    'size' => 332356
+  },
+  'MIME-Detect-0.10.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e186c472b64145409aefee5736e2f43a',
+    'mtime' => '2018-11-30',
+    'sha256' => '83ffffb70aa7fb4d3e23332935ed1d571c6160760eafc1f6944d3e4fa01711e7',
+    'size' => 1494
+  },
+  'MIME-Detect-0.10.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '61a027f7c625e5694ac1e8d1e03d70b3',
+    'md5-ungz' => 'f89781ed9a51d7173d31ef9a3bc945d8',
+    'mtime' => '2018-11-30',
+    'sha256' => '92168fe0fa0ed08ba529b0993fe114058b94126c1da109fe71d64d4ad7bbd44e',
+    'sha256-ungz' => 'ff5c79f3b4926f11ece4a3b44d9d5fffa1756613984f24a881d344eead558b7b',
+    'size' => 350928
+  },
+  'Mail-URLFor-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '34007bfba698d6e06c81653adb309d58',
+    'mtime' => '2019-05-08',
+    'sha256' => 'ec93777329fa95cc41cacea6ada46f7a20d4393534ab9e07c5e984bdef234e48',
+    'size' => 1476
+  },
+  'Mail-URLFor-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a2695a1ebeac19aa7e49038da17ff898',
+    'md5-ungz' => 'cc4c89e498dc6c57eeb43350ff45c5de',
+    'mtime' => '2019-05-08',
+    'sha256' => 'c8c97052c66b76b7dd182b7bacfc96b1207e83bc9d697377048fe0dbd13a537e',
+    'sha256-ungz' => 'bfb7d69b2d07ad1a517f0aef877900dd9bf2faa44e074e3b98f1bf187f0d6864',
+    'size' => 15049
+  },
+  'Mail-URLFor-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a958955eaa3e628850a57148f37a5fdb',
+    'mtime' => '2019-05-09',
+    'sha256' => '5107f96a731c8ac9336dd7d562efeb1380a419a1c107806559578e23cb0847da',
+    'size' => 1557
+  },
+  'Mail-URLFor-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9ff13133ebfbe11660e2ff946730eea4',
+    'md5-ungz' => '2c0f7274a06da652938cde82d7550a6a',
+    'mtime' => '2019-05-09',
+    'sha256' => '8b069b584f2dcf3b7ef225f34ff70d3e7882b0f0728aae860b02f020ea43d0ff',
+    'sha256-ungz' => 'd2dec6b07342376a256e4b9bcd0e7ab2b0a588ffc69044b12ad7a36d4a7ce677',
+    'size' => 15122
+  },
+  'Mail-URLFor-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c52029efed42a47c78b0c4b0ee1f11c1',
+    'mtime' => '2019-05-10',
+    'sha256' => '8819e3019ca339e439dc00cc8ae91cda090a432231dd83cadc02f2015dbf1c7d',
+    'size' => 1557
+  },
+  'Mail-URLFor-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4738733aa080b7f04c452ff87ad9987c',
+    'md5-ungz' => '5cc53fd48dcac838ab6eb78c211e9012',
+    'mtime' => '2019-05-10',
+    'sha256' => '2b0dd48b397a45b990ca76c51187127c4aac77d38c25b49407dc4db47df25cfe',
+    'sha256-ungz' => '4949ea13e356cbe5d94e47d47f2041c800cff169b4b308b1713e954557937780',
+    'size' => 15265
+  },
+  'Meetup-API-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '54492a793c1657daa9183c0a95978b4a',
+    'mtime' => '2018-10-01',
+    'sha256' => 'fae2235544428fc19de34406e1c0c4312308699b30aaeb04105fd70aabed7822',
+    'size' => 1638
+  },
+  'Meetup-API-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a2c533eafd3fee7be0ac3f9134cb9bda',
+    'md5-ungz' => '3e24c06bc617ab63e37b8f9e40d08be0',
+    'mtime' => '2018-10-01',
+    'sha256' => 'be416816d4664c690f3e54055b5a3d3101298d32199a85359dcd16cbda480056',
+    'sha256-ungz' => 'eb860ee1e274aab5ee6bf50dbb0d7c2b425aa1a8fcf3bc725cd115c6b90fcbc3',
+    'size' => 17029
+  },
+  'Meetup-API-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e8f0b504acf608f279d78b80894fb5e2',
+    'mtime' => '2018-10-03',
+    'sha256' => '417b6da6b96b13e32eee552c7cff6ef0f2f9423827dadffd94f7721f289fffbc',
+    'size' => 1701
+  },
+  'Meetup-API-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f54960bc9cd38df2853626fc126b7fe1',
+    'md5-ungz' => '3f7499b45ada260af48c134aa6d2ac55',
+    'mtime' => '2018-10-03',
+    'sha256' => '2b01ce1557b71ddf646b66c082a4273076e52d14648aa230d45b4150ff56f39a',
+    'sha256-ungz' => '7bd3849d5097709584ea5eab25ddfb72d68543c0a29eb54b1747532b3f1a8d22',
+    'size' => 17349
+  },
+  'Mojo-OBS-Client-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f38ceaa2ee25b53dc64b5240c882afc6',
+    'mtime' => '2021-04-02',
+    'sha256' => '8a008cd408bae3f107db3cf08201b35a291b746a12229abae4abb9564cda4a3d',
+    'size' => 1701
+  },
+  'Mojo-OBS-Client-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '16cbbd82828e59a0dd37f73a52185f01',
+    'md5-ungz' => '1c6653c9ea32f97c3ccafcda030fb509',
+    'mtime' => '2021-04-02',
+    'sha256' => '2a52a95404a6627a889564ab248163b38e945e8cd48ac19de392bd0d6c5c6079',
+    'sha256-ungz' => '4c4ba8effae0bf6d013939bfd24de241a68cb857e391e3e7e4420669948cb6c4',
+    'size' => 17447
+  },
+  'Mojo-OBS-Client-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '38349a3b1e0bc2583aeafa23119e3cec',
+    'mtime' => '2021-04-07',
+    'sha256' => '21a31beee7f9fe7a29ce9a53e6ea6dbdfe855464368ed63c166b27d5d3f3d9c5',
+    'size' => 1701
+  },
+  'Mojo-OBS-Client-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a48963023351d382cac213d729171dfd',
+    'md5-ungz' => '9df5cc367a6ca5bf82f3a1c60c818167',
+    'mtime' => '2021-04-07',
+    'sha256' => 'e1efbc73a420f19d5ff4c6407e1a5f72b63fef2f5a3426d19d56df36354f5758',
+    'sha256-ungz' => 'b854068ea3b628e5b1954a2213fc5346996bd9f50e4722fc6a967fb7567a14a9',
+    'size' => 17457
+  },
+  'Mojolicious-Matterbridge-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '769293f57dd53cc38b37082d0700f873',
+    'mtime' => '2021-01-27',
+    'sha256' => '4e902fa6ba94aa330f0948e544727113c30e27f24c80d9d97f84a2dcc371e30e',
+    'size' => 1714
+  },
+  'Mojolicious-Matterbridge-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '15ee86e1f47f10c0be9ab25318fa1fb7',
+    'md5-ungz' => '8f8e7d9f200f1d16709875b5eff80b96',
+    'mtime' => '2021-01-27',
+    'sha256' => '2767e2564fccc59ae1141eb928a9e0d4b1059b6c6aafd8aad98559c6fdc77b95',
+    'sha256-ungz' => 'b91fe2f8e636fde4b94ae1e0561250f183b61d50a70302f91d44ae138efa4b56',
+    'size' => 16313
+  },
+  'Mojolicious-Matterbridge-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a7128b0e8563cf5cb0b8860d21f858c7',
+    'mtime' => '2021-01-28',
+    'sha256' => '357f034cd08a9f4c679cee697352724d8710daae4c3a619619a51f0dbc06568e',
+    'size' => 1739
+  },
+  'Mojolicious-Matterbridge-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f7cd284026132b4efabc23be714c990e',
+    'md5-ungz' => 'be38c77a1f913b2a0aeaba62b1d5ad15',
+    'mtime' => '2021-01-28',
+    'sha256' => '306cab62b3333f4d7d2b8988eed987d44cc9371dc93af97db04c87dbdda068fe',
+    'sha256-ungz' => 'eb6fa071a3fa782b95f4b4eb63a5a27c73676bcb792ebaaf0a857011b00e4e5f',
+    'size' => 16795
+  },
+  'Mojolicious-Plugin-PNGCast-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd341cb63b448c85b2f3fd4013b18d159',
+    'mtime' => '2018-09-28',
+    'sha256' => '809d496fce7e74c4808eb7e4b64d6e17eafea1fe5bc88962cb4e8df8cdf4fe55',
+    'size' => 1646
+  },
+  'Mojolicious-Plugin-PNGCast-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ffb74b87132b3df11ea1b27dae7773d8',
+    'md5-ungz' => 'fe74435cea5c62ed8df2d12173192598',
+    'mtime' => '2018-09-28',
+    'sha256' => 'dd2c5be96255c789f31e6e1f0cdb43ecd31470bd131cdb3e2c30110ed2862f2c',
+    'sha256-ungz' => 'c87eb725656eb79fe80548f1a5e1f7af7814cdbc16e987c03990df70f24bd9f2',
+    'size' => 14611
+  },
+  'MozRepl-RemoteObject-0.38.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3e21cbef576b0a7e039d5ff40638e3a3',
+    'mtime' => '2014-10-20',
+    'sha256' => '25fa6bb5fbb98fd47b94cec21ec0ab85e045f9bdda33439a7eb58c042f35dbed',
+    'size' => 1251
+  },
+  'MozRepl-RemoteObject-0.38.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6a530972469487ecacca8a3cad4d2146',
+    'md5-ungz' => 'd608d8ac57a044a234204ce52e46297f',
+    'mtime' => '2014-10-20',
+    'sha256' => '3518402ac38f860ce0b5e68f2ddc365d6f99497c746e19acaa62de8f2aad0130',
+    'sha256-ungz' => '1b65f7765d4074381e4f9ddb7aed7472df1e4733d4e791340234ee2e82b2ba51',
+    'size' => 44053
+  },
+  'MozRepl-RemoteObject-0.39.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '91e3d17f95440cae52554cf7d5736008',
+    'mtime' => '2014-10-26',
+    'sha256' => 'ad66e3bf1ed208013938f8af26d3159d18ccc3702c1a2b5180e95586fb269315',
+    'size' => 1251
+  },
+  'MozRepl-RemoteObject-0.39.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '767c69482363f2596213b9ff4aafd2c6',
+    'md5-ungz' => '5e21a0abdfd52be13011e4f5d2cc2c07',
+    'mtime' => '2014-10-26',
+    'sha256' => 'afee168f003a35d89c192bb5009e8ff4ca1c72109bc016ec922b4dc8fe1d36fa',
+    'sha256-ungz' => 'e26a5ccf179c29ee43eb8b78be1bf6eb43f7835fe062535dfc153ece71914af7',
+    'size' => 44075
+  },
+  'MozRepl-RemoteObject-0.40.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2d59b56a0ad33ed85f662e0377c6226a',
+    'mtime' => '2017-08-18',
+    'sha256' => '7d8378b252c3808d101d359951350e5420446f2ccc2167cfc6388b32555e2cb9',
+    'size' => 872
+  },
+  'MozRepl-RemoteObject-0.40.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8fa11f269ca7e4e025348dd0b41b9a3b',
+    'md5-ungz' => '3a16ab1626ba81dfde22864491916d6f',
+    'mtime' => '2017-08-18',
+    'sha256' => '419abb5d325d172f2813651d2c9a24fbfec9de82c8b791455b9978fd62d63002',
+    'sha256-ungz' => 'b938aecf012cb1b47fc9be6a36f0620c67e13b9699a810e6c2f7d05e3aaba404',
+    'size' => 53999
+  },
+  'Net-Fritz-Phonebook-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9e71d63df239e16f13fddfaeabb38984',
+    'mtime' => '2017-04-09',
+    'sha256' => '0897d5ecc51f9989d542bd1f02cf81e94b01b70369024efacd0a5a412ec69a2d',
+    'size' => 869
+  },
+  'Net-Fritz-Phonebook-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bce3d8fcc3c07c839dffc772d5edc800',
+    'md5-ungz' => '3a9e0fe390f4ec5eeea6e817697b658e',
+    'mtime' => '2017-04-09',
+    'sha256' => '1b1277e9468cc3f9e48dc668fb2e6712b446510a8debdc555126e30c46772b9c',
+    'sha256-ungz' => '3200a612e49e4dd75bfd94eaf0857a8eb9f8cb68f6cf558400e8276935a44989',
+    'size' => 16130
+  },
+  'Net-Fritz-Phonebook-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0d49387688fd14bc974c99fb602531de',
+    'mtime' => '2017-04-15',
+    'sha256' => 'ec97c84ee55c1cd701bee32cd4a1463331453d56bfb9924bdbb8bb6e6ecd863a',
+    'size' => 869
+  },
+  'Net-Fritz-Phonebook-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a4d59cfae7cf19cceb2f695f1fbf8f10',
+    'md5-ungz' => '318d076aa1222d4100877d2ccb6d831e',
+    'mtime' => '2017-04-15',
+    'sha256' => 'ccec5fa46240a7b3f09815e31a0ab69cf77b838a0ed03fc3385e86978e242018',
+    'sha256-ungz' => '1ea58f99424638938191cb2fca18ba1423af46332e23161b69ebe96a1f4f2813',
+    'size' => 16553
+  },
+  'Net-Fritz-Phonebook-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f98346693f498fd76c0837ea3b986d98',
+    'mtime' => '2017-04-25',
+    'sha256' => '5ef91fdbd4bc71e7d5418e31929341f4ee04ecbbc885545642838717e37e8d09',
+    'size' => 869
+  },
+  'Net-Fritz-Phonebook-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2eb6d6de3cc995e8223df2bdd6ea0089',
+    'md5-ungz' => '2cfc432d66c581535df291f370899b2c',
+    'mtime' => '2017-04-25',
+    'sha256' => 'b0966712bfef6103822e8bd0a68e8d7e9f91cbcbf214ee2cbe9f4db76bd073e2',
+    'sha256-ungz' => 'ef2ad1f0e5af9819fa12b0da87fe41bad55ecc543ae168cd44465ef3dbf1aa22',
+    'size' => 17069
+  },
+  'Net-Fritz-Phonebook-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c6ce4ee7d0973432d2bcc0164baf0c96',
+    'mtime' => '2019-11-01',
+    'sha256' => 'a01b681e00d83b1d75330e4e706d14a9fe931d3b404b1d5ebb06965c21ef8b6c',
+    'size' => 1577
+  },
+  'Net-Fritz-Phonebook-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'dd5a340c14bbcaa849ef0d2966fbc37f',
+    'md5-ungz' => '5a6d6d3e933d7ec8e0365e21d8f0ffa4',
+    'mtime' => '2019-11-01',
+    'sha256' => '9f2b0eee1b15abacac2f47172dfb613ed0ea8990f6b76bab429bb7f3a37adb6d',
+    'sha256-ungz' => 'b02157568e7c366d644f679bb05b1cac681dc7e56c3f42d87347b7c954fcd3d7',
+    'size' => 22382
+  },
+  'Net-Fritz-Phonebook-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cb1182021978a0d3058ac0e4bc0571a8',
+    'mtime' => '2020-11-23',
+    'sha256' => '4354726635f9cba8d8499c1a2454dae65ab2f6b6c25eec5c99cddf0750061508',
+    'size' => 1793
+  },
+  'Net-Fritz-Phonebook-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7677fba4505b82a8d58915c118b9c18e',
+    'md5-ungz' => '1361b99b16c4127f26aa88bcc97d2a6b',
+    'mtime' => '2020-11-23',
+    'sha256' => '0948962c0d9df0d707b9673b02d38c85a2d3a0979f8836902d1e89a51f66e64f',
+    'sha256-ungz' => 'c3d302aae676764b0c699617a2824176eb392aae8277cc01000a441800f5379c',
+    'size' => 23613
+  },
+  'Net-Pcap-0.19.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a502ccd10f29929cdc7faeb972a5993e',
+    'mtime' => '2021-11-27',
+    'sha256' => 'b286bcc71924897e7b2c3660164a5c4adc531e0579a24ed0af0479fe0f6a4d46',
+    'size' => 1236
+  },
+  'Net-Pcap-0.19.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f2174c367b5014612ceef2e41ee08658',
+    'md5-ungz' => '6b62c9136b9e122722b6eb69e0bc6d70',
+    'mtime' => '2021-11-27',
+    'sha256' => 'ac88ffca5d074e961ce1373dd767d01fc23899c6ffb630f7f28e6560bacb551b',
+    'sha256-ungz' => '4c36f23d2d558dfe1881c531ad204b25dec9513c240c89e1561b569fa9353c93',
+    'size' => 97889
+  },
+  'Net-Pcap-0.20.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '698fdca214a4ce9606c8b7dd4d76b62a',
+    'mtime' => '2021-12-17',
+    'sha256' => '82cb6c88f7854872eed3102191ce53a76502f43b984eb34f040b4ecf22121cd3',
+    'size' => 1236
+  },
+  'Net-Pcap-0.20.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ddec765d484ca1ad56dab1c334e9888a',
+    'md5-ungz' => '5697d9e4084a9378dffa81e0e9a6ed29',
+    'mtime' => '2021-12-17',
+    'sha256' => 'f6698d62ff6727f9d0ffae7b974d966eb5bb2c03df07790d034bb510591aca42',
+    'sha256-ungz' => 'e1bc594c5fb960753fe9f8ae9d6325d3cccafe01125b213616cf2ac71204c81f',
+    'size' => 97852
+  },
+  'Net-Protocol-OBSRemote-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cd8245dd21361391a1bf2462e7eaaaf7',
+    'mtime' => '2021-04-02',
+    'sha256' => '4c0ce322b3268763aabdbb188a3755a9e8fa80fb8ccfb243b7da46a8e63d1def',
+    'size' => 1718
+  },
+  'Net-Protocol-OBSRemote-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b03ea11d1972eb7ba5d4d2ffba0d49ef',
+    'md5-ungz' => '3eb84d589a5c15cfa85ac55b4acb7d2e',
+    'mtime' => '2021-04-02',
+    'sha256' => 'f9000811c6841285b48d43f3d24b2280a82c06031f27834b7629fd0188a303a8',
+    'sha256-ungz' => '4a292d0f658f22e7cc94251f8f2d4a884180b488ba2eb15660c2f8af45bbfd9f',
+    'size' => 14514
+  },
+  'Object-Import-1.005.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'eede5cd458c35e94785142edf05f7836',
+    'mtime' => '2018-10-29',
+    'sha256' => '566e73ef2a2c37888e106f64aa42ce124178273ecd51ef409f1185294465283d',
+    'size' => 1313
+  },
+  'Object-Import-1.005.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3007a2d1cbb139aa5cb1c0870a8c08e6',
+    'md5-ungz' => '3fb00f85c736950c7c22a795337e0ea1',
+    'mtime' => '2018-10-29',
+    'sha256' => 'cde4eb4e1fd689dfdfb2597b49bce23df6df738b7a8673d0354c63de48a6c08f',
+    'sha256-ungz' => '7c9d6c47ec3f481babfd919442b5099eae4a63f6273a03923137550a7d7da1b1',
+    'size' => 33377
+  },
+  'Object-Import-1.006.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c055b4053cf21553b52584588f5b028c',
+    'mtime' => '2019-04-26',
+    'sha256' => 'e2dc93d5f856f5c0bdb99366092c2d58e8a3d0aba54a2e8b62a995cc00987e68',
+    'size' => 1313
+  },
+  'Object-Import-1.006.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a84a12d63d47fc4686131c28b115b2da',
+    'md5-ungz' => '31623833a0d5adea42418cc868950cb2',
+    'mtime' => '2019-04-26',
+    'sha256' => '2b7e6cf57d58f29be0175df139c7ce6c8a5f6ae420f56551d719ebfbcc6bd533',
+    'sha256-ungz' => 'c304a3577c1d38a70645b6639ed4f9815b9bb4d478abc249900ee48896d9807e',
+    'size' => 33474
+  },
+  'Plack-Middleware-Pod-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '09600102fae48532c1bce453947ec0bc',
+    'mtime' => '2016-03-30',
+    'sha256' => '69f7cc1f02c66b37b5637ef4ae79649ddfe816b7bc5b729a85aa3e066877b508',
+    'size' => 1182
+  },
+  'Plack-Middleware-Pod-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd6edb2123ff1ed9cd68fbdce371f9a97',
+    'md5-ungz' => '1499543cf19d9d39bed721c1d28e38d4',
+    'mtime' => '2016-03-30',
+    'sha256' => '839026886de01049c0eab1002aa291c9ae645a170a4d2b089cc3862ba79f8f5f',
+    'sha256-ungz' => '41388c8bed109610b155b24f35b32e09e7ce7b2960224e3b2035a781a3828796',
+    'size' => 7035
+  },
+  'Random-PoissonDisc-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6aaf6b01a174e320b6095c23feb0908f',
+    'mtime' => '2011-06-04',
+    'sha256' => '85a0c6c52bdc63ee0544d7f23071d787359b893f2fce327b332629434d680d5c',
+    'size' => 703
+  },
+  'Random-PoissonDisc-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f557b29f520a4b71207fbd0b4b1e3e56',
+    'md5-ungz' => '8236a7aa40151ae72d05ea51658b16f7',
+    'mtime' => '2011-06-04',
+    'sha256' => '25e4d2d98eb9b820bb42f5a593be02cf9f4f79888ca413c0b52bc7ed5a23536d',
+    'sha256-ungz' => 'd4d3c1013485f297b8f658b2903ab98b3c65443f4402ec0598940ce3f2fbcc74',
+    'size' => 8415
+  },
+  'Random-PoissonDisc-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b76254177838ee52b28347088da27590',
+    'mtime' => '2014-08-26',
+    'sha256' => '821de939454b607e9d167f0f2ed190b0fd5e6e4e1cf6374934d1fed0ff7e91f2',
+    'size' => 1034
+  },
+  'Random-PoissonDisc-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2b4e17658fcdbf368bffce2a923cec29',
+    'md5-ungz' => 'a1920fd01b2456d78816bd74fdc427bf',
+    'mtime' => '2014-08-26',
+    'sha256' => 'c95f67240585462cfb0afe792c7ab90dce7c8098a37f797db6a02da4be7188ad',
+    'sha256-ungz' => '218ecd07bef2c1a1f589ca2187894e80baa875b8a6630e6d313ec2b4f1c4c6f0',
+    'size' => 9384
+  },
+  'SQL-Type-Guess-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f7da1453cd739a042c4445b7d324ec8a',
+    'mtime' => '2014-05-04',
+    'sha256' => '89aa273f1229d97266ce4cb57eb5c55775437121a482971173391059a75c96b5',
+    'size' => 1040
+  },
+  'SQL-Type-Guess-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '204f539c793be9330de4fe21a0a3e219',
+    'md5-ungz' => '3c463ec04e36bbd2604f77f36b4878a7',
+    'mtime' => '2014-05-04',
+    'sha256' => '609e2a6aef616cdb299b0f58369f867fa6991e923c51b43e29d84d3dde5c8206',
+    'sha256-ungz' => 'ae4e663c5955e99a88115d77350ad124cc9d017e1281976cf760aace2cc6a799',
+    'size' => 8531
+  },
+  'SQL-Type-Guess-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bf59db03803f36bbd5737696a5d6cc34',
+    'mtime' => '2014-05-08',
+    'sha256' => 'd116e77cf487bf42ec4fe540342d6bc1fab13a875fca2ddb423e3b0b21bd1243',
+    'size' => 1040
+  },
+  'SQL-Type-Guess-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ab436bff08dad4e40ed66890f2430db1',
+    'md5-ungz' => '6663ee6688d229d286ffec79701e1444',
+    'mtime' => '2014-05-08',
+    'sha256' => 'ad4ec80ba1e885574e3a74f2a20af4986d4da0878c78c6cf20d3853bd9ced7c0',
+    'sha256-ungz' => '67edfa4ec6b4ac021c5020f7bf19224c44126e6be2bd8e4760b08f95147bcd18',
+    'size' => 8559
+  },
+  'SQL-Type-Guess-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '70b48cdbb1327b424997f86470ea39ae',
+    'mtime' => '2018-11-29',
+    'sha256' => '8303a6336b3baa264ce16006cd72f4e9daf86d57b78ec51466cc93f0b4d0ca73',
+    'size' => 1515
+  },
+  'SQL-Type-Guess-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '77c39e096cca2475d27eb6326c5da7f7',
+    'md5-ungz' => '222a2f44cf95fbcc61ce15c06e843869',
+    'mtime' => '2018-11-29',
+    'sha256' => 'b76deef0344ca7eef2124200825ca0d22f862b6153ad450ff7a643357c5d4c78',
+    'sha256-ungz' => '2bbc36d76e17eb0e878d45000f01a06a54636412961e700b009a3945d1ae379d',
+    'size' => 16257
+  },
+  'SQL-Type-Guess-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '61a948bd62c263335b0c5c0406f87f96',
+    'mtime' => '2018-12-15',
+    'sha256' => 'c83a2298759f15e13b7233e1937b66b751825f68222c1e9ceb88b490844c6987',
+    'size' => 1515
+  },
+  'SQL-Type-Guess-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '51a3b62d4d33e26abc8a1914dd922a76',
+    'md5-ungz' => '593e6486e903cde82aef3c76e126f231',
+    'mtime' => '2018-12-15',
+    'sha256' => '52343bad87a583e14f8038dc8ee5c22b459559ee326e903ec7938f3962ad19db',
+    'sha256-ungz' => 'e8d5e99e45c9478e6f2dea1218388bee004eb263268b81f2928b7c12cdba1b75',
+    'size' => 16607
+  },
+  'Schedule-Cron-Nofork-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9e7f0947a055cf38156f6aa773006f7d',
+    'md5-ungz' => 'ebe88bc5788d9c5a72163504a8d0fb9a',
+    'mtime' => '2003-06-22',
+    'sha256' => '0b056ddb0b4ac0b0804e6c6eecb01e90204293ec2fe3645ca0af0db243614b49',
+    'sha256-ungz' => 'e8ff4f5a6f523c134f15e11b60078c3a697c328d68159bf7d766f3b30de28edd',
+    'size' => 3967
+  },
+  'Sniffer-HTTP-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0ec7ffa7a0b17840967fcc05f02f2ffc',
+    'mtime' => '2011-04-30',
+    'sha256' => '8515e2cba93dd0c0cc57e08f87d0a88541c22b317aeb51fe0e601caf09fecc43',
+    'size' => 734
+  },
+  'Sniffer-HTTP-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c515c49aeb02c8214a325717879ec802',
+    'md5-ungz' => '88623c520a914e6eba15a4262dc67405',
+    'mtime' => '2011-04-30',
+    'sha256' => 'd0797ad3b0832a7666b5aebf6db2c1dc8867250e401cba23c46bd52d7f3aabb7',
+    'sha256-ungz' => '874adb611fae40e37a0e02b535bdfd2f0590e8ba589aa83980fbca08f3d5713c',
+    'size' => 25149
+  },
+  'Sniffer-HTTP-0.23.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '50b22f0e89b587203c713383ec487038',
+    'mtime' => '2012-03-08',
+    'sha256' => '66ffc5be0aa8c7ffc9af47dfc3b0af718f649239e621641fd2d99fc024da6197',
+    'size' => 736
+  },
+  'Sniffer-HTTP-0.23.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '45e8a4354cfb47207079491efa11cc42',
+    'md5-ungz' => '4acffc6aa019a0dcad0e6abf4f06d2c6',
+    'mtime' => '2012-03-08',
+    'sha256' => '6b9935ab1aef0d2aa89f195dd8395ea93103ec2657d55585f0fcab13bdbe22a6',
+    'sha256-ungz' => '22041baef08718a3d8a4afbb8d9a591f2211f890ae27e36902a83e9b56aa5341',
+    'size' => 25889
+  },
+  'Sniffer-HTTP-0.24.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '084bde917655f879a1188350e8f25c01',
+    'mtime' => '2016-11-09',
+    'sha256' => 'f4f30707113c4a0ae8b5e0246cec8fbdb124403f339c19ceb008793038053bad',
+    'size' => 1159
+  },
+  'Sniffer-HTTP-0.24.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '35b7df2bad940e22733eaded4173de3c',
+    'md5-ungz' => 'b23a8e9ef99cd548a79fd6a2cb2e69ee',
+    'mtime' => '2016-11-09',
+    'sha256' => '1a49b11f256ded2794c17d36daee5078cafeda47d8956ac43aa595be06073bfc',
+    'sha256-ungz' => '039ee4794e73ff6958f1a0cafed3d6b7637fe6f77c239a298e5b4a9c67cd264b',
+    'size' => 27081
+  },
+  'Sniffer-HTTP-0.25.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ae1b3fb2ca9e89fba732959e09d1f81a',
+    'mtime' => '2021-12-10',
+    'sha256' => '3d26774dfc974e8f3e38dfed23e1015664edc91c9816f1c9a8903fec0286fab8',
+    'size' => 1254
+  },
+  'Sniffer-HTTP-0.25.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '70d65f3bd142f1335b31540c2214d8b2',
+    'md5-ungz' => '007049ade18182a788cd8341fe540e94',
+    'mtime' => '2021-12-10',
+    'sha256' => '19017dae5f25ba76b3345850ddf9d41344e6738368a5310abe2796c6c2a3faa4',
+    'sha256-ungz' => '9020075e90a3090b563cec43eb60be47e53443cb95b2da3da4763eb4a0638392',
+    'size' => 27533
+  },
+  'Speech-Recognition-Vosk-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2c0d55a66e07ab28db7cf17c4527ff4f',
+    'mtime' => '2022-01-12',
+    'sha256' => '82b4810c889b127992170e2f0c9c35a9c75485495ca06b943c598252c3be7afe',
+    'size' => 1703
+  },
+  'Speech-Recognition-Vosk-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6875d79f2ffb2841c48face6ab69b424',
+    'md5-ungz' => 'b85684a179dc25684e18b6a8cbbc213c',
+    'mtime' => '2022-01-12',
+    'sha256' => '09e6d01d3b6a6375b52948f01fd9d95f490751626d3bb3d71e5fb8e3df654d76',
+    'sha256-ungz' => '22e33ed83a7c9a666b18e2699bb07fe1437491d947dd7cafc175b8c98dcf485c',
+    'size' => 17989
+  },
+  'Spreadsheet-ReadSXC-0.27.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b92afb4554970d4bda91172b56644fd8',
+    'mtime' => '2020-09-28',
+    'sha256' => 'fed2d18e7b9c8417a0171945769e51a88bed7c006b4b0405c3407a363fd2a50a',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.27.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4132e9d6751beb0ed2930712f27834aa',
+    'md5-ungz' => '63431bef7c7ab7dbeac68575abd9d81f',
+    'mtime' => '2020-09-28',
+    'sha256' => '0ff434821bb774084b43d71f9c1b699dad10d53d1882902664103c687b4a6489',
+    'sha256-ungz' => '95154276ccd484de7d0462c7379126d1c867ade7cb2f088ca76657a842c0eba9',
+    'size' => 335350
+  },
+  'Spreadsheet-ReadSXC-0.28.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'edfe8abc1e9252989291d1be59a7ccb7',
+    'mtime' => '2020-09-29',
+    'sha256' => '75863be5536f2ec6d8e4d182a42304cbd9cdb45235c742a6edefe62961872419',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.28.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e88d3033ea584ed8647e2b215c2fbce4',
+    'md5-ungz' => '1aaa44edc152caa03212ca84e0e4544a',
+    'mtime' => '2020-09-29',
+    'sha256' => '83bb2219707fe7f87e89dd91f302c8cc5c50643c0e7a203ebeb2dd51b0542f00',
+    'sha256-ungz' => '76dee69b633ba541359e6f7b2057ea0d5a75fe287c33690d4809eb7574ce75cb',
+    'size' => 335400
+  },
+  'Spreadsheet-ReadSXC-0.29.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9e894046a065b671da40c9474864f682',
+    'mtime' => '2020-09-30',
+    'sha256' => '8c8a63c8646872609d0a6d8c22f9847b8a470a37c05dd9e331e561338992cbbd',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.29.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b120190f46bb10958233bc2a52dda4dc',
+    'md5-ungz' => '2f222c91664fa519b1f8937a782b5387',
+    'mtime' => '2020-09-30',
+    'sha256' => 'beab5e65842fe5264df35941a54523141b2904a5fddfc423a477093a6a651872',
+    'sha256-ungz' => '8061f1814b1c687671f6c164dc4c07632794a4073ce4b18adf8e2a8506739994',
+    'size' => 335492
+  },
+  'Spreadsheet-ReadSXC-0.30.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '95a02a3ef745a886117c72600320b697',
+    'mtime' => '2020-10-02',
+    'sha256' => '8be417098a255fba75c9dbc4b4725e02e12908f4975c6c937b682dd074396603',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.30.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b240b5397fe80d7504828b6a1edcce20',
+    'md5-ungz' => 'ab719df0ce0952a2cee774dd9d87e358',
+    'mtime' => '2020-10-02',
+    'sha256' => '1362266ece8ced19892749ed380c9cc4f17860a35f02fbcd9f2efc6de368fcfd',
+    'sha256-ungz' => 'a1d5704cc77f40e13709911e468ab05faccf9ca27fd95acd8518fc8aab40c0f1',
+    'size' => 335566
+  },
+  'Spreadsheet-ReadSXC-0.31.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2908cea664d86117a9a5330804c6c3a1',
+    'mtime' => '2020-10-04',
+    'sha256' => '06425903832607f17b60ee2070871b5fcad1d4aa51c1d2bae16f0f463c69ce66',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.31.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '488ad23c49f6cbec48c423751f4f3765',
+    'md5-ungz' => '6e859b1ac8bc23bcf9ea2efac72be6b4',
+    'mtime' => '2020-10-04',
+    'sha256' => '286e7b4803a5e157ea48fdeaf80b2499d6b22ec182013bf583faee6e37fa8d4c',
+    'sha256-ungz' => '10cb119b5a204f086e45f454bfef955e1ba2d0054f7bcfd1e3e1cada2ad76ac3',
+    'size' => 335693
+  },
+  'Spreadsheet-ReadSXC-0.32.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9820dafb814b5e0e9ef671c128be80d8',
+    'mtime' => '2020-10-06',
+    'sha256' => '2073a9f85b8fa2fa86569deb1f8c7a06f26d0efddcf8c1583d8c985c5c6d27b3',
+    'size' => 1829
+  },
+  'Spreadsheet-ReadSXC-0.32.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '900e85590ce3359c3b8cd9ea9bd4f945',
+    'md5-ungz' => 'e791ac5fc3c861d7e88cf3faf5d94f7e',
+    'mtime' => '2020-10-06',
+    'sha256' => 'c378c203280c095570f639bd7dd64550c503c713cf5b7c633b302d0a3098e77e',
+    'sha256-ungz' => '6a5529a3159e430381cbdf41f940eedcced2305efa08573be64bb7fbdac99d8c',
+    'size' => 640862
+  },
+  'Spreadsheet-ReadSXC-0.33.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4d4ef3fab38bd2c91e1fc35507439c0b',
+    'mtime' => '2020-12-28',
+    'sha256' => 'f69877cd94b9fdbdf8f3e0a059d4c6057a1532de8816f8e28dbd416441468237',
+    'size' => 1925
+  },
+  'Spreadsheet-ReadSXC-0.33.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '65e35f2a3feb9ce25343311d753ea08a',
+    'md5-ungz' => 'd2cb0cb8f20a0a18f0290718911ca752',
+    'mtime' => '2020-12-28',
+    'sha256' => 'bc723d74449dfcb228c98d56148545df851a357adf788e7b9c2879f63ea1e42a',
+    'sha256-ungz' => 'e3bdfe8cc2bc417e6ac468d9e1731aab3ac4755d55f5216b73c0a505d5e0277f',
+    'size' => 711099
+  },
+  'Spreadsheet-ReadSXC-0.34.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8444f8ca91f899aaf4b0da265b41b114',
+    'mtime' => '2021-03-10',
+    'sha256' => '60eebf9e643375e47ce846abf12dfbbfb7b1f06144b7fd6fb92fa75bd968242f',
+    'size' => 1926
+  },
+  'Spreadsheet-ReadSXC-0.34.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5c96e05e64bf4aff28f2b505aca11a2c',
+    'md5-ungz' => '48e9236cc0014d3bdff579967d74ab99',
+    'mtime' => '2021-03-10',
+    'sha256' => 'bc57e3f7b2d993a6237e58a36a616d7df630d478e81b6475387b5a60d3b844ec',
+    'sha256-ungz' => 'd72db36e06e8f7a42015a888467c72b5e9dc1384b959efefef567244a88cecee',
+    'size' => 711402
+  },
+  'Spreadsheet-ReadSXC-0.35.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c68367141626639b75d6074648f3f443',
+    'mtime' => '2021-09-09',
+    'sha256' => '3370f56edda3f3c7822c4c1245220fab36763230b0ff6609e724989acf33772a',
+    'size' => 1957
+  },
+  'Spreadsheet-ReadSXC-0.35.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5ce32ee54c7d741d0210bf3c70961d50',
+    'md5-ungz' => '8821e5f6ac4184a6fae1057f6fbf9aaf',
+    'mtime' => '2021-09-09',
+    'sha256' => '5d5570dbfaf78e6df04b8927a7e410904a5f9346083bab2096df1ff0644e4953',
+    'sha256-ungz' => '39f2c941cb2cb3f4b438709311576e7e2ce9c0bb428906a9377208c1aa964e04',
+    'size' => 711506
+  },
+  'Spreadsheet-ReadSXC-0.36.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '28e6257acb5579fde69f70397d358581',
+    'mtime' => '2021-11-21',
+    'sha256' => 'ff1ff0dbead51ad15df3b3907b1e9b84a8aa748b7225fc11d5462a0e2f43d240',
+    'size' => 1960
+  },
+  'Spreadsheet-ReadSXC-0.36.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '771f064ebc73fa3f4d2f4b780139d86a',
+    'md5-ungz' => 'ecff976dca3a0e2a0c62a7717da2c4d9',
+    'mtime' => '2021-11-21',
+    'sha256' => '2c040e6b3d801b4de4305273833c3a546f44e0d657785745ffe04fa90373f7d4',
+    'sha256-ungz' => '740c194ce885ef28791202e85c9491e723ee10b7c55f258ff6948374aa944da3',
+    'size' => 711552
+  },
+  'Spreadsheet-ReadSXC-0.37.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1e1c6e844cbd3c589b1d223697a98aca',
+    'mtime' => '2021-11-21',
+    'sha256' => 'b432d5d6f5ca0f2d72f5b597c2f407db02f417ce379fda0b858131c1ce4eafbe',
+    'size' => 1960
+  },
+  'Spreadsheet-ReadSXC-0.37.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c51a7eff82c439f5131b0a41eb6c7c13',
+    'md5-ungz' => 'a3c5d62a3ede82e714c97218471bd5f4',
+    'mtime' => '2021-11-21',
+    'sha256' => '2250cd52254e31c47bf525695458be0356be73a2351abf2d36a99d31e4e4f0b1',
+    'sha256-ungz' => '78465ee3de560219c1a011fad46a90109b9b0ed6e5ce4caca8d1095c066e7330',
+    'size' => 711568
+  },
+  'Template-Provider-ArchiveTar-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7e2cfaa3d534a3ec20e2332b8b29e694',
+    'mtime' => '2016-04-25',
+    'sha256' => '66c900a6837948cb6e49a6d980278c29876c08c464c05f048a43e55b8687a433',
+    'size' => 860
+  },
+  'Template-Provider-ArchiveTar-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '659cb6cdad542faba7d523e459081a86',
+    'md5-ungz' => 'fd92f4a41378e5ffd45fc3eb75238ed2',
+    'mtime' => '2016-04-25',
+    'sha256' => 'd90e644867a1d216fcdbb6ac5e4bbc731f94a16d37e156c03848897bd7267189',
+    'sha256-ungz' => 'acc5523e667287b660aeb3228f20cd38ea5447b920d1a40066a5b9e09544cf4c',
+    'size' => 6649
+  },
+  'Test-Exim4-Routing-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '449b8e570eff6c494f221c64ac7e74ec',
+    'mtime' => '2009-04-03',
+    'sha256' => '1662a6744b6f30e0ff6b27d2bce1796ea2b6fbb729ec1318d2a1647b56a90c84',
+    'size' => 506
+  },
+  'Test-Exim4-Routing-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f741357ea9fdd699a226713f5f6c1006',
+    'md5-ungz' => '1173b4fae7380e5c671c29ababd288e3',
+    'mtime' => '2009-04-03',
+    'sha256' => '3b82b4ab397e7c1e95f8b78a3c4b7d033085f99882c1347c8f87e7d4ca26e08b',
+    'sha256-ungz' => 'afe998bdf56fcdd00c3774650a4022092bc27d631f2af135d053b74143f61587',
+    'size' => 17214
+  },
+  'Test-HTML-Content-0.08.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '433865235eb14278bb9ce3cf4ffb3777',
+    'mtime' => '2008-11-12',
+    'sha256' => 'b7324deeafd83b9b56f4b0abab23ee8e3e0dbad236a0df6534432a33418a5a21',
+    'size' => 453
+  },
+  'Test-HTML-Content-0.08.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1685eb1ed82165a535ed8a07c1b79f3c',
+    'md5-ungz' => 'f8869a0e7bb5a3a44c90a08868109c2f',
+    'mtime' => '2008-11-12',
+    'sha256' => '7e27c327212532ce80422d7fc35d8d59638d34d968078aecd1daef7bca7e17cf',
+    'sha256-ungz' => '92b65d90e0d54c63e199a295bc136ab94fecfab6de002157852445a6d2200a5e',
+    'size' => 19518
+  },
+  'Test-HTML-Content-0.09.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'dc79cab38bd76b2d965f3376cc97fd20',
+    'mtime' => '2013-02-06',
+    'sha256' => '231fe8bc8280227ec385fc0d22713e3e1970e85a14ac0a9276bfc00f364b0bc4',
+    'size' => 899
+  },
+  'Test-HTML-Content-0.09.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0066c235b3c36fd79b6892927a2742fc',
+    'md5-ungz' => '0a730f1e33b7ea86056794cb90997cd1',
+    'mtime' => '2013-02-06',
+    'sha256' => '90f353b4fad4db30ba97b0a429fc81b551c548fc3089f5d32dd23dcacdf21e78',
+    'sha256-ungz' => 'a97740cc4de53739fb05393f75e87a8a5cd3e135a168d4bf3d8dd20d62a005bb',
+    'size' => 21280
+  },
+  'Test-HTTP-LocalServer-0.57.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '13bcb108948e15a0cf8e926887a60abd',
+    'mtime' => '2017-05-08',
+    'sha256' => '0c4c442d7a8c9227fe347ab5098e0da64fa25aecb3950aebdeece0e709012eaa',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.57.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd626c26eb9a27fbc1ccde98baa87afd3',
+    'md5-ungz' => 'c120ce7d6e92fda30fee1744bf165e7d',
+    'mtime' => '2017-05-08',
+    'sha256' => '891658374d3e07e8be31bb99d2344f948567723a4dce421a3cbe4bfc679d7900',
+    'sha256-ungz' => 'f883af7a7cf1680a2e0f5b443f258f4622c1f89ce9260d11f7169249e5ab5990',
+    'size' => 16054
+  },
+  'Test-HTTP-LocalServer-0.58.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0f2462ecca05b1ebb0af2eb3d03e90d8',
+    'mtime' => '2017-05-19',
+    'sha256' => '95c13b19fccc734217a901f580235e47ed2b13e0de0c5df872f6e52b1fad3e87',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.58.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cfb68b60d6eaa0d7e64c4b56d4f0ebb4',
+    'md5-ungz' => '2c3b6114219cdc48922f6f793f5c5bb8',
+    'mtime' => '2017-05-19',
+    'sha256' => '9ad7d5fba2948412528cdcafdb223b78f5087369c5edb2b4ee63f7eec18023fb',
+    'sha256-ungz' => 'a8d67f929ea72d56817e4a2d5b351885f8eb24d569e3ea847bca8947f93978b9',
+    'size' => 16254
+  },
+  'Test-HTTP-LocalServer-0.59.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7e89ca519d52d3d404e20ec4bb255bc1',
+    'mtime' => '2017-06-17',
+    'sha256' => 'b814cd79d6d67510ffe2062a1f1634f3c080f0c0e833675db0b95f8cbd9c4510',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.59.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '99e0e122b97458670327a7a50d9e1bcb',
+    'md5-ungz' => 'c00078130baf29a9255077887fb75afa',
+    'mtime' => '2017-06-17',
+    'sha256' => '8afb1086573f1f25ddb7e71434823b6a1e4c8f4a50229ccdc0db2b089917563c',
+    'sha256-ungz' => '7193d60fc934e0bf210bb23ceff2d9c14ab4abe03d2f79715ff11a63093322d0',
+    'size' => 16399
+  },
+  'Test-HTTP-LocalServer-0.60.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'be76a71042644c2197369124316adf05',
+    'mtime' => '2017-11-28',
+    'sha256' => '34f33582c19f42a3ca8f15f4481e3feb3f8028298d80b4791fcfa0ace520e439',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.60.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8b3675de840acc80d81ed23908a93ee4',
+    'md5-ungz' => 'ffe75e11b888f8fc2442906104eef190',
+    'mtime' => '2017-11-28',
+    'sha256' => '55547b46a4e2d95b3486aad15ce379f8fb68714638dff41909fef5946eaea69a',
+    'sha256-ungz' => '4234fda66816a2bc42584cf047ffec8d3c5d1be2c962b7f6368325baa1752028',
+    'size' => 18859
+  },
+  'Test-HTTP-LocalServer-0.61.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0dc62f1cfbe3bb6c3630266e382ea20d',
+    'mtime' => '2017-11-29',
+    'sha256' => '5750194a660b48cba814dc8354a27994254a57a038fa219951d96c83f4768e47',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.61.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fd5122d29ff89b3e04bf50449f6031bd',
+    'md5-ungz' => 'e3cc51f6d0b3ee5033b4ca8fe17c8249',
+    'mtime' => '2017-11-29',
+    'sha256' => '800386cb9e8b6c687d03bb0facdc9db4e08af6e28650ec9dc2bdb3f9560e8ced',
+    'sha256-ungz' => '5e5d929a3be21c8065791000a4c26ffcb6c993112ffdd32772b5f84f9ccd4ced',
+    'size' => 18885
+  },
+  'Test-HTTP-LocalServer-0.62.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e0f151e1b2d221af9c58b1f824c1769d',
+    'mtime' => '2018-05-20',
+    'sha256' => '0c6cfe5dc76d56836afd4ba78a18f43dc3a6da33c5ce079c74e09c8f714b4298',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.62.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1ea3127272ec6e6cff659e214c58ebc3',
+    'md5-ungz' => '4916bb85f6e2bc750ae2b67bc791d7fd',
+    'mtime' => '2018-05-20',
+    'sha256' => '925ce5b770a4ae025a3ed5c77171b8ee68c2ac55a9eb695f9b90246a58f99f7d',
+    'sha256-ungz' => 'a40196a201b722b1ae7198991ac18dd01651b2b5529406875f095bf5a407142d',
+    'size' => 20296
+  },
+  'Test-HTTP-LocalServer-0.63.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3fbc441e897ad39829c1b661372e3e67',
+    'mtime' => '2018-06-04',
+    'sha256' => 'f11a9df90fb9829ec4d42673c21122b35adb3e30e885905654edd422716dbda5',
+    'size' => 874
+  },
+  'Test-HTTP-LocalServer-0.63.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ceb04244ba3e6207e0eddf8abcd94a41',
+    'md5-ungz' => 'c1becb1f95b0dd9e4f68853976d8e09d',
+    'mtime' => '2018-06-04',
+    'sha256' => '6bef2b436ff5c482080dc19e9d9cf4f3787824987b4ca590ba68c5f184e3e614',
+    'sha256-ungz' => '1048e62d6fde5cce9ba30a1823e6d800b198ac5c89ef0c60a3ff8fe5ebc7a94e',
+    'size' => 20483
+  },
+  'Test-HTTP-LocalServer-0.64.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ac405d54acf1a8355c0864ddd672bb74',
+    'mtime' => '2018-10-28',
+    'sha256' => '12c122a6bc7620961be3712fcbc38a59493544ba1c7614b3bb244be1613afbb6',
+    'size' => 1711
+  },
+  'Test-HTTP-LocalServer-0.64.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '655898ce5a1ff1f39745c61ab96d3705',
+    'md5-ungz' => '9c7ceb00e719f3378bbbdcf6db230069',
+    'mtime' => '2018-10-28',
+    'sha256' => '2f00268777ee8124fb41290098a75fa5461edabdcdd7b369e8323c6c13ecb706',
+    'sha256-ungz' => '526dc100d046eb372ab3d3c575e5a3332626296ffb52f89cc2ce1e6a49da345b',
+    'size' => 24118
+  },
+  'Test-HTTP-LocalServer-0.65.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd59ff817070ed1f028657210968cdf29',
+    'mtime' => '2019-09-05',
+    'sha256' => 'ec39b8d6ebe98ac1d2872dd6435f13d6f2c26913169255311e92a7672d5eaa18',
+    'size' => 1913
+  },
+  'Test-HTTP-LocalServer-0.65.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cba8ae32e3555c4211cba65a1b4fa807',
+    'md5-ungz' => '502712978d46293983e41e08818d648d',
+    'mtime' => '2019-09-05',
+    'sha256' => '0f1c049ce0a4af605aeed00a5aa81b3606e216e6fb43be75290a8728c6f8740b',
+    'sha256-ungz' => 'a38a55dfacb861cbb7698c7a3033234242abee128ca1a1e7e717ee51d0fdfda0',
+    'size' => 24831
+  },
+  'Test-HTTP-LocalServer-0.66.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '26dff4cdb9586bead0af56cb696630f0',
+    'mtime' => '2019-09-11',
+    'sha256' => 'd3fe40d85f0e4da44ee640beeba617251b82988ccdd150941e0ee7fad6539b7a',
+    'size' => 1997
+  },
+  'Test-HTTP-LocalServer-0.66.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b35509dfb48ce306cd6bcb5ec9ad63ac',
+    'md5-ungz' => '51fa4853c3a749e7bc2f5eacf26cc9fe',
+    'mtime' => '2019-09-11',
+    'sha256' => 'd994c8777d27177aa7273ac021851c6276ff15948caf460cfff1dee5cb7092c8',
+    'sha256-ungz' => '04455ae418488d9d17e5567a7f3323968a4b8d24e93d85879f78e9dc424d2fdf',
+    'size' => 25024
+  },
+  'Test-HTTP-LocalServer-0.67.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '10aed1e7acc2a97f001b00ab1f1a7ec3',
+    'mtime' => '2019-09-29',
+    'sha256' => '1849067190f439a15d7832e67519251c40fc0a2d4ff57d2964536acca4b42d9a',
+    'size' => 2001
+  },
+  'Test-HTTP-LocalServer-0.67.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bde7728f12063539b115917eebd1ebff',
+    'md5-ungz' => '8e604f3ce30a72aa3d25d65f93eb188a',
+    'mtime' => '2019-09-29',
+    'sha256' => '0425598788f75e02bcbc77a2eb03b46b3288d0ad61d3f948344fee09fb79a9d4',
+    'sha256-ungz' => 'd629adfb5cad646bccf9a449fcb5473f83be562c326f44f60d513e9123df79f3',
+    'size' => 27041
+  },
+  'Test-HTTP-LocalServer-0.68.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ae6d2ca2902998da2cf7822be6344020',
+    'mtime' => '2019-09-30',
+    'sha256' => '414d0f8b4df577ebed66df482e63d3075e5579bd32251744cb4abbf4a0c70673',
+    'size' => 2001
+  },
+  'Test-HTTP-LocalServer-0.68.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bbd32a353c2f01f23636c44e908fc6a3',
+    'md5-ungz' => 'f5d180e409c1f46332089c39c6c4cc7f',
+    'mtime' => '2019-09-30',
+    'sha256' => '8b96e20243cab7155f089fd85558ee373d399ced02000905b9a6822833d52e94',
+    'sha256-ungz' => '65363bcd842eebfc5e3e328ba447371767ef02b6391552127578731c1db8b2b0',
+    'size' => 27878
+  },
+  'Test-HTTP-LocalServer-0.69.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f48c0fbbb2db66235388d9e30f4b3865',
+    'mtime' => '2019-10-01',
+    'sha256' => 'b6234cf482459bfb9c5b5fefec093118e079599c231a7ba0c7e22b4349a15f4d',
+    'size' => 2001
+  },
+  'Test-HTTP-LocalServer-0.69.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '97876aaf9edbe675cfd984b55a2166b4',
+    'md5-ungz' => '60a35df296965b71a8a0ffd3e6053fde',
+    'mtime' => '2019-10-01',
+    'sha256' => 'e104aaef9d482bc0b38fff378bbafc71f0971779bb2f6bfa2744ceeb353c6b40',
+    'sha256-ungz' => '85cf8cc907a7cd05c9dbee64c3829c092303464774b68101f7f4076d7ddb90b3',
+    'size' => 28034
+  },
+  'Test-HTTP-LocalServer-0.70.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '40acea71c367aa0ee5202d755ea80b95',
+    'mtime' => '2020-01-08',
+    'sha256' => '34ac1794329aa519ae1d38fd4859886c312dcb16dba902ac9ae52e2a28437dd5',
+    'size' => 2001
+  },
+  'Test-HTTP-LocalServer-0.70.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '34a7ef17204a96584d3d74194628e11a',
+    'md5-ungz' => 'b00eee5fbe1b121424fe39524583c9fb',
+    'mtime' => '2020-01-08',
+    'sha256' => '05527175e003b158bda9d46bc9c16cbec89bff6fdb75f6961fa84d8fac768c11',
+    'sha256-ungz' => '1b67f4256221862404dd8a3301f7046e8a7af5ba9ecedfa9e2ad52af5a4c522a',
+    'size' => 29601
+  },
+  'Test-HTTP-LocalServer-0.71.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '01831daa0432e21a15720cd214eeb12d',
+    'mtime' => '2020-01-10',
+    'sha256' => '85a9bd97fa5fb31e9896f0a1a85fe8fb6fcca12fdb91af309126c39052781fd0',
+    'size' => 2040
+  },
+  'Test-HTTP-LocalServer-0.71.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ab7d86cc051f77eba7fb84e8ebdd9a16',
+    'md5-ungz' => 'f1d1c9407b1b559f08e998ab74043e3f',
+    'mtime' => '2020-01-10',
+    'sha256' => '2769316718c350051b4063ca12e3cc7bc7fbc096f1240a6d4a8139693dca785b',
+    'sha256-ungz' => 'aa8e8de051e1efa1496fa3a7fa9e9387d71c0067c1946aa8f1f270108969b758',
+    'size' => 29860
+  },
+  'Test-HTTP-LocalServer-0.72.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '09b5134db0709f9641f88fd70f4b6474',
+    'mtime' => '2021-10-21',
+    'sha256' => '656ac805c71c235e97869f19fa2c1297c49e039292ad7df1b94b0d2605813a6e',
+    'size' => 2035
+  },
+  'Test-HTTP-LocalServer-0.72.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1fbdb5d3af2345f0a1af101ca500a4a2',
+    'md5-ungz' => '863c82bc57d11c98929267645e409931',
+    'mtime' => '2021-10-21',
+    'sha256' => 'fd334203053d95c69147f3110b787288c9d2cac2e5ef1f3510fc1e961ab28276',
+    'sha256-ungz' => 'ee48499faa2d4f96271429cf1a3649c1d41562d958a804227da975d2a048e4f6',
+    'size' => 30197
+  },
+  'Test-HTTP-LocalServer-0.73.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '700c2afce876cd49d26c5df8597d39e3',
+    'mtime' => '2021-10-22',
+    'sha256' => '31abc116e37ef91f5abd5c9a6f2afec94275043c4e01a7d1314f5f998881336d',
+    'size' => 2035
+  },
+  'Test-HTTP-LocalServer-0.73.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '30acf927f7745577598e98bc4d4dabf2',
+    'md5-ungz' => 'fc90311807395b05f7ecfcc639d04c05',
+    'mtime' => '2021-10-22',
+    'sha256' => '949eb90b1312fce3d53563a204d767b8b6bb5c4af3b9dfa6eddd686da4e30108',
+    'sha256-ungz' => '9ff94d241b27bbc15092fe1de1a726d777df4ce5d1fbb81f2c8eb2ebdd585eba',
+    'size' => 30219
+  },
+  'Test-HTTP-LocalServer-0.74.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f1247d15e228d5b8684d20c2a31c0373',
+    'mtime' => '2021-10-24',
+    'sha256' => '931c75587b0fcbeb0dfe87707f691f0dcf7b94bdd48ee95340a00c6cf8628888',
+    'size' => 2035
+  },
+  'Test-HTTP-LocalServer-0.74.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '602f834ef266181244a39f73b37ca69a',
+    'md5-ungz' => 'cf48ae4ddfcae93f4f41d1f468517df0',
+    'mtime' => '2021-10-24',
+    'sha256' => 'b9dd0f50c6d83fbc74ada59626dd56b74f858677d2c05877d8e0f93b15e7d8ea',
+    'sha256-ungz' => 'bdfe77f699bc5a310fc3ccdc1492fbb06e16d6bdcb39857cd4d45b555c69eb23',
+    'size' => 30236
+  },
+  'Test-WWW-Mechanize-HSS-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '90b8d45a7d1aae4c659597cf2b88121a',
+    'mtime' => '2009-02-27',
+    'sha256' => '382757793a2277a60d45478c85127510a888d0d9df1ecbd7c72c32427b153590',
+    'size' => 526
+  },
+  'Test-WWW-Mechanize-HSS-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4ac0fedf5c8e91306571fa1151a36e3f',
+    'md5-ungz' => '035460d96a5db1884f8451642395faf0',
+    'mtime' => '2009-02-28',
+    'sha256' => 'e669bb61593445debedafe657ea02cd2326232f4b24b50e29065fb6c0d0c0ce3',
+    'sha256-ungz' => '8003a4d7d8a8048b2dad2e3774dc27e2fc7ed48932488384ab0d5f56234196a7',
+    'size' => 6466
+  },
+  'Test-Without-Module-0.17.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e0b1cf92fcb58db808f33b22bc68b55b',
+    'mtime' => '2009-01-18',
+    'sha256' => '92d3e15e58f929f9eccfd250ab99589f86d17748dea1c37158a8396b47e90c62',
+    'size' => 428
+  },
+  'Test-Without-Module-0.17.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4480ece707cb6bbedaae8fbe41320927',
+    'md5-ungz' => 'eb473471e66e18445d43d7fb8f025adb',
+    'mtime' => '2009-01-18',
+    'sha256' => 'a691b0bf6d92dedbacfd547551021389ebc79c51937de2b914e792457da56ff7',
+    'sha256-ungz' => '324ab1942b106966a01406d042369c883bef117f783d248c198cc9cac8879257',
+    'size' => 6709
+  },
+  'Test-Without-Module-0.18.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cc51c2f491eb885ce6a2622dc7335853',
+    'mtime' => '2014-08-30',
+    'sha256' => '6c47ca9e4f81e3a3cf01d51b17e3531427e29c4c01a54af1f62a9bf4d3175212',
+    'size' => 1033
+  },
+  'Test-Without-Module-0.18.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cd19ad26024e89fdfefb0ae0334ee500',
+    'md5-ungz' => '1c3a71976865ac65af6334338cedbc29',
+    'mtime' => '2014-08-30',
+    'sha256' => 'e2c3360b171d7db518ac39a0e1dcb285c784ea393c11708914a0655d66138c7f',
+    'sha256-ungz' => '3525c3548ed7a4ef856cd3f1069793dd5724cf12119b622f0865f6f969c9bae4',
+    'size' => 10369
+  },
+  'Test-Without-Module-0.19.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd294eb3502c0c63a17694c2d90e7d4fd',
+    'mtime' => '2017-03-30',
+    'sha256' => '9951300851e6a41e9f392f1be60fc14169bb9060e1b349bee053ade1399da947',
+    'size' => 1086
+  },
+  'Test-Without-Module-0.19.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9df01cda12e98ef5960435814199067d',
+    'md5-ungz' => '1a9c7e75a1c29659e033b6856f7e1361',
+    'mtime' => '2017-03-30',
+    'sha256' => '85ee29b595769f9369d513c8df1121079cea4ffd2574730c70f0d58dd424024c',
+    'sha256-ungz' => 'e3aafca1c53ae5ac9e8eeacaa10530dc69891f4bf9a766f6421035dc7b11588c',
+    'size' => 12047
+  },
+  'Test-Without-Module-0.20.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '24327cd16ef70eca4ab7fe2aeff58d7a',
+    'mtime' => '2017-04-09',
+    'sha256' => '4f1cc437f7bafcf50a9407d70436f7f8abac51c5da481ba4c207c8076e85c782',
+    'size' => 1086
+  },
+  'Test-Without-Module-0.20.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '34684186b66929bbcd12d3ac8ae03f9d',
+    'md5-ungz' => '8e42a1b9d232d5fddd73f10f1276e55c',
+    'mtime' => '2017-04-09',
+    'sha256' => '8e9aeb7c32a6c6d0b8a93114db2a8c072721273a9d9a2dd4f9ca86cfd28aa524',
+    'sha256-ungz' => 'b6b8f10e1ebd4936ee1615b72407a9948276e1716e1a7a4f3e5c4c543fc0fe65',
+    'size' => 13609
+  },
+  'Text-CleanFragment-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8c6a1ce89f8e2ffa50af8ee43e108d0b',
+    'mtime' => '2012-07-04',
+    'sha256' => '8d0628e575010a77450a663a0295599d5968a3ed3874cce816e15d566729dc55',
+    'size' => 722
+  },
+  'Text-CleanFragment-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '69ab08819ccc5c6950f84364a6c6d76a',
+    'md5-ungz' => 'c194baf4c283b0273a45ce3bd368976a',
+    'mtime' => '2012-07-04',
+    'sha256' => '9ec1012ea2a46d0769e087d7f3f1dd35b7a9d8af13b24ab0db4bbfe686099a66',
+    'sha256-ungz' => '30cc7feea46b08a2cdb0f59f42bac522833594ff0781370e244bd0338678e7ba',
+    'size' => 7663
+  },
+  'Text-CleanFragment-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1cbfecf2342cf65626ebfd5ad0ec7d24',
+    'mtime' => '2015-11-13',
+    'sha256' => '3e43315fca416cbbd974a1ceb33a0b0f67c1048396cda09c953c1ae84bda03a2',
+    'size' => 1070
+  },
+  'Text-CleanFragment-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b51b61f8ba7eac6fde298ce960a6a13b',
+    'md5-ungz' => 'c4421fd4221e8eef472e7957da7a1c68',
+    'mtime' => '2015-11-13',
+    'sha256' => '4c76d5efc1c3c5bb8bda4eb969763c4869298b0a6a2f329b22a7a574cafe815f',
+    'sha256-ungz' => 'f6f60c87a74a4db013b6ccb969c83fa4076e684f094db50c177b50b8cd140c54',
+    'size' => 7609
+  },
+  'Text-CleanFragment-0.04.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '297f594f913b701df3681778a43dbc16',
+    'mtime' => '2019-08-20',
+    'sha256' => 'a65c4feebaf540359047e39507f20fa44d32dfd9bfbe7899986967aa45c3a00a',
+    'size' => 1471
+  },
+  'Text-CleanFragment-0.04.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '56deb0365f1af9c452e18def2a2cf273',
+    'md5-ungz' => 'da917cdcdf223c3858697e2fb61b7d6a',
+    'mtime' => '2019-08-20',
+    'sha256' => '9edc47ecac6d107aa577daac06f7d8d59cca720899d52c0ce108d42216974532',
+    'sha256-ungz' => '20466eb48fc390503d17e2351f8a47f08e2ff391bd1288f7aad4245da6b0339a',
+    'size' => 10166
+  },
+  'Time-Slideshow-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8bcb18e7da5bcfe5403803e71ddabe07',
+    'mtime' => '2014-06-29',
+    'sha256' => '3786b2f161ae545d25d7dc89663ba64653f2dead614d8fbfa68b931b2359f954',
+    'size' => 1043
+  },
+  'Time-Slideshow-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c3f05f923ccfce3d21f5c3425aae2bd0',
+    'md5-ungz' => 'e37d1669d52b5a40cdf8352a22114667',
+    'mtime' => '2014-06-29',
+    'sha256' => '2d9a5aa0900f0402cbff16d60c7d57a09756675bf6f1e4076c51cd936fe80fe8',
+    'sha256-ungz' => 'fe01c6277339828410a445ec48cea0462714c3e1f0050a786bc9395d33bd0db1',
+    'size' => 10091
+  },
+  'Time-Slideshow-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0a9c46ff660e96ee9075ddbb6414f0fb',
+    'mtime' => '2016-12-05',
+    'sha256' => 'dd7831d588ff6f137a777c6cbfd8434d32da9c3d3fbb0e77b8875adc6e4fdde1',
+    'size' => 1102
+  },
+  'Time-Slideshow-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f45a0a87861788d67224ed7df7aa6a7c',
+    'md5-ungz' => 'b7aecccf738262e0702ab431be9c054a',
+    'mtime' => '2016-12-05',
+    'sha256' => '0e11eda002617e5c31326d5a536ab5895955e5e43e83e5d27c6b95415043d651',
+    'sha256-ungz' => '7c5b8667bfba25501731e3750bf9cb0645fe92fae75807e748c6a9596ec319c5',
+    'size' => 11132
+  },
+  'Time-Slideshow-0.03.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '663f5b9cd914e9e0588e68500847fef7',
+    'mtime' => '2018-11-21',
+    'sha256' => '679c9e50e420a182c08da8d6e91ba65e289c2b30aa6f7ff1f2629a928b573cdc',
+    'size' => 1310
+  },
+  'Time-Slideshow-0.03.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a488206d13fe532dd070c6e1dcfcc453',
+    'md5-ungz' => 'dedd5f901bbb33345c6663a4cc78c4aa',
+    'mtime' => '2018-11-21',
+    'sha256' => '239f6bd4f637486b92b03357dd726e7d0ffff333952a156bc850da9438d06863',
+    'sha256-ungz' => '7cf29fb4c6976dcb66bc094ef95e6bd505c7c7de1b20ae481ae2c6cbd792fcbf',
+    'size' => 13628
+  },
+  'WWW-Google-Login-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '77d8cc0a1b2a7e42f4ab130adc3c4b42',
+    'mtime' => '2018-10-04',
+    'sha256' => 'a32a631da44df3698e0d4a89bef380ae623e9c0ce5ba07c0bdb749ab1f675042',
+    'size' => 1384
+  },
+  'WWW-Google-Login-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '061f7d1314b02da723a90c205b6bd4a5',
+    'md5-ungz' => '9e5b122f60b793e9a8dba24f4dacf335',
+    'mtime' => '2018-10-04',
+    'sha256' => '8457291b15aaa3bdff67b7b9c79e800b9836124e35b566081e4f1cfa9ec584c1',
+    'sha256-ungz' => 'e556b4fdfbd42654b60b013119b15f052b73bbc6242d00385226cb3e7f544f7b',
+    'size' => 15418
+  },
+  'WWW-Mechanize-Chrome-0.13.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'eb02633be8b13acffcb4ccdeca05b5ed',
+    'mtime' => '2018-04-24',
+    'sha256' => '88c3d371ccd0c3b58320a9026aedb80874fb610c16879d04b8d43392f95e4204',
+    'size' => 859
+  },
+  'WWW-Mechanize-Chrome-0.13.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '533bfab2183481fb5726dec8b77ff625',
+    'md5-ungz' => '87df01cd740f5c3f6be84dc8496fce3d',
+    'mtime' => '2018-04-24',
+    'sha256' => '4f501867d75f811dcf8504728ea15fc5a30140a10857eb4a5c742c708fb40efa',
+    'sha256-ungz' => 'ad08dfee524e2c9db8f466dd57a62b99c6d68a8a1360764f9a1b1196fbef2581',
+    'size' => 94059
+  },
+  'WWW-Mechanize-Chrome-0.14.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '26552f3a7b995d42a8b7c4523d889363',
+    'mtime' => '2018-05-27',
+    'sha256' => 'a19faed060563098dd94177c5537fab509546077af7efc1a89458656c1a9dc48',
+    'size' => 859
+  },
+  'WWW-Mechanize-Chrome-0.14.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '25f685983784ed0d5a995e4504c6d5a2',
+    'md5-ungz' => '3c30e7a4ce328431311b723be20440fc',
+    'mtime' => '2018-05-27',
+    'sha256' => 'b58454828f1b1ced3c4b915fc0d686919191033eac6ced7ee25319a218faaf97',
+    'sha256-ungz' => '9d87d0cefe23836a6d164fe823ce58a3a473a6440a87553df36fbab1e9f70f3d',
+    'size' => 94864
+  },
+  'WWW-Mechanize-Chrome-0.15.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f055be4fb679aee8ca99044aa614d560',
+    'mtime' => '2018-05-31',
+    'sha256' => '46c5d5ab73f145815d55533d73003523d97eaf7d63eebcf77749c70b89efe711',
+    'size' => 859
+  },
+  'WWW-Mechanize-Chrome-0.15.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '46282b8b611c181cced4799023bdc5d8',
+    'md5-ungz' => '66669bec87bce5846c66b08be205e172',
+    'mtime' => '2018-05-31',
+    'sha256' => '2a1d830e8e33d75d123dc0924271a8090fb05f4c1bed6bb98f8ca2c26b26fbe8',
+    'sha256-ungz' => '055b29561beadae32ac7cebcbf8eaf058564ed0137c5ab0c8bc0980ea8eee479',
+    'size' => 96196
+  },
+  'WWW-Mechanize-Chrome-0.16.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'afc418109ba34e913297e22f3ffe80f9',
+    'mtime' => '2018-06-23',
+    'sha256' => 'b4331266dd3fbbf3705e1eb5ea18f45146c61515554f5ea4a68676de2ed1a785',
+    'size' => 859
+  },
+  'WWW-Mechanize-Chrome-0.16.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '160cbfe1f678d9f56c18c2f632467dfb',
+    'md5-ungz' => '6b4b396fe52dcbde480debcbcd093ea9',
+    'mtime' => '2018-06-23',
+    'sha256' => 'ba99c9c118da798d838dd454ac55d90115240ee3ca11ae0e4b09827abdc0f520',
+    'sha256-ungz' => 'db572326fe9475d19b43de396c820a65aedd2823f4d655d20c61f46371240b02',
+    'size' => 104763
+  },
+  'WWW-Mechanize-Chrome-0.17.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6fb42f6117deccecb91c806146a2dc3b',
+    'mtime' => '2018-07-08',
+    'sha256' => 'c16e20a7f9fa4de7af9fd6fee4d1b5948bb1ea8b8526ca57fe00719d34402630',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.17.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '03066940bce3893a446a69ada3cb3af4',
+    'md5-ungz' => '9d2ea25679b350a3192107da215f133e',
+    'mtime' => '2018-07-08',
+    'sha256' => 'de9cff15614fb399ea1c840411bb14fe578417eb0ce49b3e0708fe3510d57857',
+    'sha256-ungz' => 'd67e2652f7f01161c9b19a5a31ed01ef86f76daefc533bfe8fe925d8726982f3',
+    'size' => 112404
+  },
+  'WWW-Mechanize-Chrome-0.18.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e7134091b8155f6f82f95b56c80fd9c8',
+    'mtime' => '2018-08-03',
+    'sha256' => '96a05b6590639c8e5a084ae2107360cb8050f32af129d212000632c721fe3109',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.18.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e392d429974940e0c27cbec4ac32a99c',
+    'md5-ungz' => '0afc7f4874e22fbbec373b01e795b405',
+    'mtime' => '2018-08-03',
+    'sha256' => 'cd1cf96120921bc64431c16a0ddd033e0c4aabe86fd33ee5f2ae76c39a4e0627',
+    'sha256-ungz' => '91977ee82d3a50821f17084383ae4e64a6920e584aef14682f15cf5daf9b3063',
+    'size' => 114383
+  },
+  'WWW-Mechanize-Chrome-0.19.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5b92d1bdd4b989ab152b861f00148ca7',
+    'mtime' => '2018-08-24',
+    'sha256' => '997944b2ae2516ef8aa5187bf209c45fbf4902e7bac2934fdffff9a39fa0c4aa',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.19.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ed6d242590dbc4e763607c392125d28a',
+    'md5-ungz' => '4fe91ec75dec36a10b990a75b076a8e8',
+    'mtime' => '2018-08-24',
+    'sha256' => 'd2e73b19bdf068e50a54daa7cc176caeb646c034536be621f20ae984a5628065',
+    'sha256-ungz' => '2cd402a55dc7e624c4f59ed4d83c8095cefb579bea462c0978795b794321248a',
+    'size' => 114635
+  },
+  'WWW-Mechanize-Chrome-0.20.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bb6a7b0c0c78c41df65e586566070647',
+    'mtime' => '2018-09-07',
+    'sha256' => 'da000651c0ee3595e5e1159cce946d593c911a3db1490c1ab059a572c8ab8721',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.20.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '15c348a1923cc39243f4d867eb67c5b5',
+    'md5-ungz' => 'b81b1e148f136fe42f02a31af245b0a3',
+    'mtime' => '2018-09-07',
+    'sha256' => 'ce21015900c1e95c76acecb41f8ae8d8584a280002fa248f22eab5dabde15d6a',
+    'sha256-ungz' => '0a8e4196e3a9b75d00feb3d978fd3e2f007ee6fa52b7eb28d903c893deb98197',
+    'size' => 116442
+  },
+  'WWW-Mechanize-Chrome-0.21.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9888956c5565d2bf9c274393e1a28148',
+    'mtime' => '2018-09-15',
+    'sha256' => 'c6d17e4f2cd70ff5c7c8945b37f3a583e2fea5586ee112857a87362e1d9968eb',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.21.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '97f286011c791a1b1612b6079237bb02',
+    'md5-ungz' => '77a7ca8502e0b873cf49c142183ab55d',
+    'mtime' => '2018-09-15',
+    'sha256' => 'a019aab73aa2cf932f1e450d6f56f27d116cca62b8511a5599833613fd18e522',
+    'sha256-ungz' => '22195a3541f43cf68c8353f3958ee521dca8c8360e18baaea576130e85111a7f',
+    'size' => 118532
+  },
+  'WWW-Mechanize-Chrome-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd44571095de44f42fb3466ec88016c35',
+    'mtime' => '2018-09-23',
+    'sha256' => '4a269956b8d9cf2c56eb6c45800e08043c3573b0874613ab7f729257b0c26036',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3ebeae88bae3ff803739a8318a7dbe28',
+    'md5-ungz' => '459b6d9fc4844af6d6d8fda4a19c8b76',
+    'mtime' => '2018-09-23',
+    'sha256' => 'b03140c14ce040b2fe25ac12952788c5e9f992db7a40fe3851cdda35236f35a3',
+    'sha256-ungz' => '0363448819cf5244746bccde64014e141820fe9401d5f1ac8f196d63cfc1a968',
+    'size' => 119868
+  },
+  'WWW-Mechanize-Chrome-0.23.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'becbb4a005968ef190afa1b41a12b7b4',
+    'mtime' => '2018-10-20',
+    'sha256' => 'd2e8aad90b84acbf912927db18bba36c4857b07a515f949fc32f8dc27e722f6c',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.23.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '275270e141402c4b0ca29d16ea4c55ac',
+    'md5-ungz' => '182eef67086b8a57efb2140a22367622',
+    'mtime' => '2018-10-20',
+    'sha256' => '370401fe0f0fcf7dba32cd599f3ef008aaba2d545402507a4a32777d249c4dfb',
+    'sha256-ungz' => '548e76cf5ae53de1f234eaeceae445dd8127ce0015aa5795e8ef23df19844c90',
+    'size' => 119624
+  },
+  'WWW-Mechanize-Chrome-0.24.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6a13f585bfbd4a4d69b5f748e4869eb2',
+    'mtime' => '2018-11-19',
+    'sha256' => '3e331da8ac7ee6311a60f4e9c2fdc20fe8654cbd1aa9489bdca0a41c699f7cd6',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.24.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2e4a984afbdfb8e125cacd341c577497',
+    'md5-ungz' => '9e040ed067cb910a78ed1c19347eee8d',
+    'mtime' => '2018-11-19',
+    'sha256' => '503c966b8dbf6aea899398b7bbc906b007403415496e2f20a3606136bbb0c29a',
+    'sha256-ungz' => '9acfee6e3212f7f4e7889645d022baa849e605ee310df975c67ef4b48867198c',
+    'size' => 119690
+  },
+  'WWW-Mechanize-Chrome-0.25.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4f7919599dfefdb0e9b654a3ed509254',
+    'mtime' => '2018-11-23',
+    'sha256' => '50c3850ebe0da25875e92326d9e07724eb4480be6a97f2bbbe4cb994a3f28073',
+    'size' => 2459
+  },
+  'WWW-Mechanize-Chrome-0.25.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '98fb0ea8c179a298a2e13232e531e03b',
+    'md5-ungz' => '28bbbb508fb6d0db515d21696b7c415b',
+    'mtime' => '2018-11-23',
+    'sha256' => 'b64c74d4b627852eb6f79c40c6a03e20e6e64158f45f621828621eb21c6a53a5',
+    'sha256-ungz' => 'cd2a06a6e1a722509d222a9befaf434763d2871854c2c7d462299e306fb1bfa3',
+    'size' => 121077
+  },
+  'WWW-Mechanize-Chrome-0.27.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a6dadd9ab55350917eb1b0afeffc27e3',
+    'mtime' => '2018-12-23',
+    'sha256' => 'b031dc4cfbd955e56a9bf148bcdf7e2e710c4cd892138c9b040cf74f03e738b5',
+    'size' => 2465
+  },
+  'WWW-Mechanize-Chrome-0.27.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6607e3f4cc30ea62cb9452dac6e464fc',
+    'md5-ungz' => '02dee3737a88498afdeba7aca104e641',
+    'mtime' => '2018-12-23',
+    'sha256' => 'c580beace3a1c244a8527047d3d06e55937d667ff17067a96d89f2f57c15ef31',
+    'sha256-ungz' => 'eebb241f5b5816850f5824ad7b0ef96c6a8626c338b25016d2b2707f6afee41e',
+    'size' => 122417
+  },
+  'WWW-Mechanize-Chrome-0.28.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '226061fa35de8d29227107ffbcd10fc3',
+    'mtime' => '2019-01-07',
+    'sha256' => 'f4cf07204a6945233f4b3be1a574da06ce16b9c72d04d65ff26099cc81f97b57',
+    'size' => 2468
+  },
+  'WWW-Mechanize-Chrome-0.28.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b3c3cb3dd83a3b5a8afcb424f3fdfe94',
+    'md5-ungz' => '8614c87e41a7c0b9a867d3a6b3a6ffbb',
+    'mtime' => '2019-01-07',
+    'sha256' => 'e13d7b96039fd9cf9a69c5024da091b759a91df4b9e8d48e55eb79d8643aad59',
+    'sha256-ungz' => 'c29ecc7d165e2048ed310b78080179684361e184c34270bf81d831710226f9f7',
+    'size' => 122706
+  },
+  'WWW-Mechanize-Chrome-0.29.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f0fae4b5db392fa52356411913a671ac',
+    'mtime' => '2019-04-23',
+    'sha256' => 'bce448a60cacc857697b88e7a130c777c339615b1d499bed8f774d08833e0c04',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.29.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9dbefe8cd02d782797e9934ca01a2098',
+    'md5-ungz' => '5921e4ff0a2a9ab546092fea280e591a',
+    'mtime' => '2019-04-23',
+    'sha256' => 'c267ce0486735d378618db9a5005697693ff79c7d2e694e9a20c92da2f607ced',
+    'sha256-ungz' => 'c05bc559dd04d1e89f683c665e6e3207f37800a4476840121890c8d44a8e4542',
+    'size' => 127426
+  },
+  'WWW-Mechanize-Chrome-0.30.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4be1271c78125182461da4e670839dcf',
+    'mtime' => '2019-05-17',
+    'sha256' => '9766c07e98fbfe4c6eeaf147d8b4cae33b68fa2cd8ce9d61b6c0044c01ae4a55',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.30.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3c891e22cc94be90c292a33724d1d212',
+    'md5-ungz' => 'bc964929eb014da205f5f28f75d8d918',
+    'mtime' => '2019-05-17',
+    'sha256' => '59b4f0d5cf09b3fb3d276cdc769d1357dc6df10f1c235256229ad08936aca13e',
+    'sha256-ungz' => 'c97930210b6ac70d0ee6c1226f65642faf9feec1e033b70af4fbfa5aedf719ab',
+    'size' => 127599
+  },
+  'WWW-Mechanize-Chrome-0.31.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '06bdf31bcb1517c4847a0588462c8ed2',
+    'mtime' => '2019-05-25',
+    'sha256' => 'd69e4983474877b9a0694e4a6efa2f30385203ab780f5ac69cf87d219ce4c7e0',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.31.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '02358fc21d105ae91277e64ab4fa7c38',
+    'md5-ungz' => 'dae41fd604ab554d3a3ccf3afa061dde',
+    'mtime' => '2019-05-25',
+    'sha256' => '30a54e299ef269a8419fa5479f00f3228e991f2cd82a722e86df5e74ebe56cf5',
+    'sha256-ungz' => '26f274ebf2373d66f12d7899040643dc6dfb7912be35c53247f44f3a08ccd186',
+    'size' => 128329
+  },
+  'WWW-Mechanize-Chrome-0.32.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '44cae1ee6572eacb164d2d8037eb5d29',
+    'mtime' => '2019-05-29',
+    'sha256' => '54b194fbe3e76182920352847003d360ce81e8c8ce9e94b29956547e9181e189',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.32.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '177f4bb8dde590f3895da3766e301eba',
+    'md5-ungz' => 'da14914acf362631a11ae7632ba30258',
+    'mtime' => '2019-05-29',
+    'sha256' => '35dd683a7c369134768b3e8c6223cefd1ffca9e80f4c2d5b9d890fe240134084',
+    'sha256-ungz' => '3ecc859fa879398193cf26b6b3145d094f0c0ae0d688709878ac4bd957750dc8',
+    'size' => 128943
+  },
+  'WWW-Mechanize-Chrome-0.33.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'acb672f618fda686e4c8f24b7c262fb9',
+    'mtime' => '2019-06-14',
+    'sha256' => '3c10fa901b2e21671b37db1c63b7fcb6d4466d8dde8c953dc157f648d25f17f7',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.33.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '46b4ae05d42927622ae132ee585d4d67',
+    'md5-ungz' => '08fa3715fcaa859645d8d71e981e1812',
+    'mtime' => '2019-06-14',
+    'sha256' => 'eaaf9461dfc17f1d2ab017c77ea3b11f98b0629b5aeec958fbe285e8895b76ed',
+    'sha256-ungz' => 'c20568172a19735cd8ce8b1a2717c71b95e8966e57baac32e575c97489b4d8ba',
+    'size' => 129512
+  },
+  'WWW-Mechanize-Chrome-0.34.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f44c2ca9b4af79da9f05b841dd32a9b5',
+    'mtime' => '2019-06-15',
+    'sha256' => 'c423c15a86b0904ef703d80c90c2e8c4afc6b192b2ca13d3a59845f2e67cc2d7',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.34.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8ea19e29b9ea7dd63d7eaaefef5831d6',
+    'md5-ungz' => '92a08339bf7a631fa4b068215d3d3d69',
+    'mtime' => '2019-06-15',
+    'sha256' => '65c8c50b953a96f6a30c5c13f7b8538485de02e1c477b85f49b19767d449950a',
+    'sha256-ungz' => '984630a6a68062afea1ca46370af9bb9a673e023b612da4d25695eb334d4444b',
+    'size' => 130812
+  },
+  'WWW-Mechanize-Chrome-0.35.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '20b565aef3d8d2980b3ffc7b605561dd',
+    'mtime' => '2019-09-04',
+    'sha256' => '4472db7cd0cdace3c69eb8e37bf75c4d9dc78be1751cd04664b596410e6e88d4',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.35.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f8fd03271f7cac37e4d70a223e9b0093',
+    'md5-ungz' => '3a87bbf7d1bc9cf0d98fad0b75937000',
+    'mtime' => '2019-09-04',
+    'sha256' => 'ddaf2b6e69b6c5504d779877fe0d156015ed12386880b15cd7110619b2107c6e',
+    'sha256-ungz' => 'aa7e3af04619b7751b96115e5dc9c91623aaaa737968e80102b8a20b1dd2a4d5',
+    'size' => 131066
+  },
+  'WWW-Mechanize-Chrome-0.36.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9b03972772a2353ce66a984ba851d83a',
+    'mtime' => '2019-09-28',
+    'sha256' => '957d7ae3ed7a16fb18f4988a173b56c3c5a6657fd5fddf00f0f35a1442afab1c',
+    'size' => 2503
+  },
+  'WWW-Mechanize-Chrome-0.36.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '36c4a1449613b4376b5bbd472638d0d7',
+    'md5-ungz' => 'be7d6a2bba851ba35759640974eaf605',
+    'mtime' => '2019-09-28',
+    'sha256' => 'b601e2260cf2b815319f9eae0515df43e3dfd4bb86779e46cca75c1e1bcd00aa',
+    'sha256-ungz' => 'cc6ec9adb0e3537ef01aec087b190e22ef4d6e221cb40f4ecb250275bde8a376',
+    'size' => 133883
+  },
+  'WWW-Mechanize-Chrome-0.37.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '71805db6dddf0992a0098120171cd461',
+    'mtime' => '2019-10-01',
+    'sha256' => 'fe6ce62224acbf44e01ff26e7c1c346979864e04ff067c6f67e3ba462320f2ee',
+    'size' => 2643
+  },
+  'WWW-Mechanize-Chrome-0.37.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ab04a6deb473fd57ddb3828c781cfcb5',
+    'md5-ungz' => '27474910385b1cbeb9af203c5d3bbc29',
+    'mtime' => '2019-10-01',
+    'sha256' => 'bba887ecc4302e86346f09b39d957fd05c489d2f21eba68eaa2ce24d884777f7',
+    'sha256-ungz' => 'ff5f8be2cfb8cf9359536b4cc1b837c4513a904e011d8d00da98a2aa084158b0',
+    'size' => 139755
+  },
+  'WWW-Mechanize-Chrome-0.38.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '936a3a6f57c8880bc2bac4a1d62789b2',
+    'mtime' => '2019-11-01',
+    'sha256' => '04d9e9d7afc66e91ae7fc49bc1d9b26ade8c68a15ba6e4c5ead118b52e847db5',
+    'size' => 2686
+  },
+  'WWW-Mechanize-Chrome-0.38.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3eeafb68cbf6d58369b130952f6926b3',
+    'md5-ungz' => 'f45f69fc9535e163e0a2f52bd8dd25f5',
+    'mtime' => '2019-11-01',
+    'sha256' => 'df0ffe11352277195882ae8bf957d4fc320152c9c0e37e440904ab2eb1498298',
+    'sha256-ungz' => '5f12bfe081e2ca42ba69944d5440b4761b740503caac9415e61581ab37f50a98',
+    'size' => 141445
+  },
+  'WWW-Mechanize-Chrome-0.39.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9f8fc20e06cdff0c79b2ab58715a0a01',
+    'mtime' => '2019-11-08',
+    'sha256' => 'd1359c22afa35ca60a64bbba7278473b1e8adbccb70c854d4eec392f8b34f098',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.39.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b1a5b432c70b6971e861a29bc6d4d112',
+    'md5-ungz' => '5603595b7a44f19f4821cc58a50db47a',
+    'mtime' => '2019-11-08',
+    'sha256' => '72379f1266f0730c12c24a2e751b4050460805d2f2f138d8a41e2752cd55bfba',
+    'sha256-ungz' => 'e4abe930d3bc665b54ec7f92e30851f4d3f7309d7e74661fed8cc320e178a6a7',
+    'size' => 142168
+  },
+  'WWW-Mechanize-Chrome-0.40.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '78b1a3b5d976c06ae824d5060e35ba63',
+    'mtime' => '2019-11-15',
+    'sha256' => '28507cd179bdfd22cdc2101a4966306c5386fd2b4e1399b7545dbb94fd152c4a',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.40.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7fb63c661e3001710339c69a3d6bbc6e',
+    'md5-ungz' => '8c9b84ef43d00197e802617d7bcf22f6',
+    'mtime' => '2019-11-15',
+    'sha256' => '6ea59a6dbdf521e28728738efa474aa81c7b69dd47222b78d869f081f23bf90c',
+    'sha256-ungz' => 'bfbf9c44104aecb007e92e9b37f1c51e1714fc19f0fe4a3ae1ecd321658789d6',
+    'size' => 144506
+  },
+  'WWW-Mechanize-Chrome-0.41.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '05fa376cbe068009578422625035f977',
+    'mtime' => '2019-12-22',
+    'sha256' => 'e9720e793ccdf600f4a2df3757b4b80c59ecfe062c3ca92c249bb2c10d25e6d4',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.41.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7c15cc0cf8e5a80db39d0b8e3a35aab0',
+    'md5-ungz' => '28bd0a63e786bcf0a1f3c59856b686ae',
+    'mtime' => '2019-12-22',
+    'sha256' => 'ee352587723724ae42113273b0a2150b2cdb34ccbd40e37edc7dfe47104ad445',
+    'sha256-ungz' => '79f1780fd79a2916afbf784632cb5dda198c1e6218941e57a472b287a5948c8e',
+    'size' => 144869
+  },
+  'WWW-Mechanize-Chrome-0.42.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '23e5166b38323900295d6981b9b14bc3',
+    'mtime' => '2019-12-23',
+    'sha256' => '6165f32de060e9b194e454a3b046a9eef40c3a50f40c119a6b06fdaba154e007',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.42.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '744d2224bda97f72a6c7c46ee09fa0bf',
+    'md5-ungz' => '31def6cce97046ae6eaa29840a1e5974',
+    'mtime' => '2019-12-23',
+    'sha256' => '1cb980724678870f6e63d28e066d86b96410fd57c1586f1a543a1714c2ca922f',
+    'sha256-ungz' => '59bffb0b879378dfe2f3324ffbb09e3f2ecad2b25f093d8d94a860f5e9e6c4ab',
+    'size' => 172330
+  },
+  'WWW-Mechanize-Chrome-0.43.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2c4023dbc6ffdd9dab154accb3b84311',
+    'mtime' => '2019-12-26',
+    'sha256' => 'f9f5c2976367aade9cc28b00263dd8f4176809fd060a9f48b0a02a1a8c1761cd',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.43.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '49e85e7210361293b19d4da0718e4ad8',
+    'md5-ungz' => 'bc69941d4fb24f2e3c66725bfa3e11a5',
+    'mtime' => '2019-12-26',
+    'sha256' => '0d24590a3212607970122b477d625cb33095755fac1e8f80469b904a81282076',
+    'sha256-ungz' => '284fbec8de4d63eafe2214dfe588cb5d3d74a7ae1eb4650b091ca5162b10a198',
+    'size' => 172726
+  },
+  'WWW-Mechanize-Chrome-0.44.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bc9a38af821f7b961e11d9f82c1520b0',
+    'mtime' => '2020-01-03',
+    'sha256' => '2f9321a1487374151237b25598e1fc869977a3ef6e7b1621462ea6b17cfe55ab',
+    'size' => 2654
+  },
+  'WWW-Mechanize-Chrome-0.44.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0d0e880703bdca9caf8d75d67a13ebbf',
+    'md5-ungz' => 'bc2d427ab2b541f863d67ee9fe79db86',
+    'mtime' => '2020-01-03',
+    'sha256' => 'd3d4200aa0302f20f5e1189edd62c27f64de1d847f7bbe1d54594ded19d20c3c',
+    'sha256-ungz' => 'ab53b4ce3dbbcaf13127004cc98ae7186ca181a69c6ca102947e0d1ca2db9299',
+    'size' => 172920
+  },
+  'WWW-Mechanize-Chrome-0.45.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '45ea80b6576ddf0c8f690dd94f78766d',
+    'mtime' => '2020-03-28',
+    'sha256' => '30a70bb104075bdf78c0c3e12a6bd33bb8b36471da8bff6946312b5b3ba4bcc9',
+    'size' => 2659
+  },
+  'WWW-Mechanize-Chrome-0.45.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd555d1b93512385f92756fd15db2dc79',
+    'md5-ungz' => 'd9c55a22eda7c9e34b5e81cf6992d46d',
+    'mtime' => '2020-03-28',
+    'sha256' => '882685aede36e08affc6c5a6fe28f321c4f7ce52f9c6bd01f44268637ecb1b6c',
+    'sha256-ungz' => '512aced906bc87e16ad7a4e83a3ad700763d5e7f0364efeab9815ce1d7c244ce',
+    'size' => 173746
+  },
+  'WWW-Mechanize-Chrome-0.46.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '81a6725796ce4d0f33500927222984a3',
+    'mtime' => '2020-03-29',
+    'sha256' => '847c01b5021660b8a7310dd5e2197cd3352d464c64b546676acd20732d6ade96',
+    'size' => 2659
+  },
+  'WWW-Mechanize-Chrome-0.46.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ab9aa0c739c6663a74db9b378705aca4',
+    'md5-ungz' => '2f19747c6691fbe24314e570e467804f',
+    'mtime' => '2020-03-29',
+    'sha256' => 'c8a0af68b60725c0969d6b762dfb5e9683d215a03c0a3cf74c0529d6952d0c07',
+    'sha256-ungz' => 'b3a3ed19d086a978ce41f067628a72ea7eabc2618f25bcc976ddbbf27ece44fd',
+    'size' => 174868
+  },
+  'WWW-Mechanize-Chrome-0.47.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '249f6873270b7cceee2245e37a48bd9d',
+    'mtime' => '2020-04-09',
+    'sha256' => '68c93c1c5d27277fc1544856be540e62b162a3e808ae37faadc32e911a84d35d',
+    'size' => 2659
+  },
+  'WWW-Mechanize-Chrome-0.47.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1688380aa19866075851b3f9ea8cec6a',
+    'md5-ungz' => '977baabb9f1ae57ab40913e02c45c32f',
+    'mtime' => '2020-04-09',
+    'sha256' => 'b37eb083e3d202944cdff4463577fb43f3bbe6270e9f771eb170880dab6af08c',
+    'sha256-ungz' => 'b9c6119a4c511b21948f947ab78fb31c8bfc785d913e301d73b751f92492af14',
+    'size' => 175732
+  },
+  'WWW-Mechanize-Chrome-0.48.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a2bd521f8b7a761e6c12e369407ddb59',
+    'mtime' => '2020-04-20',
+    'sha256' => '32893009a20cd4398cc3827a88da864600b17413ca6f75fa2cf9473d0ef32765',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.48.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '1a67cfa35367052a0b10d8f1e9d9a72a',
+    'md5-ungz' => '6f7e05c8eaabe3e3de87ec14189ee486',
+    'mtime' => '2020-04-20',
+    'sha256' => '5d928affae419c51ed62d941aa17147395ddd1d9a8014a4339d01dae45002330',
+    'sha256-ungz' => '350c4a1e631b018410415392978376c966601179995d61fe9fdaa5fc8947d493',
+    'size' => 177181
+  },
+  'WWW-Mechanize-Chrome-0.49.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '63ffd67e81e8f3ef79de36740f8d36af',
+    'mtime' => '2020-04-30',
+    'sha256' => '71b24f957d0faaff8d3cf886c87256fd8f302b5ad659c4ce2f5a30cf6e57974b',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.49.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b3515d89ac18e73e9fb6d21219632d9f',
+    'md5-ungz' => '229d39c1b49c823c0216a92da54e45ef',
+    'mtime' => '2020-04-30',
+    'sha256' => '4557bf24e7b46486638837da35ab9cd2ddb30ebfe17e3f400a0b6169a021b690',
+    'sha256-ungz' => 'e6ac266ee4fde220a55511bf1e684f0defafdc4282a67b9dbb34d2e5dbd1baca',
+    'size' => 177290
+  },
+  'WWW-Mechanize-Chrome-0.50.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2ce0b1c0e1fb8b1cf94ff22c0993a939',
+    'mtime' => '2020-05-01',
+    'sha256' => '09107ee562891ceaba16f44720a8b23744c10326a048748fd9fb38add1ed03cf',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.50.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4ec88140d8262d704a146d49f588d32d',
+    'md5-ungz' => 'f9534e4cbbcfb6b71e6735f0b16548c7',
+    'mtime' => '2020-05-01',
+    'sha256' => '6f5d3b3a74fa792a827e438c2849fabbec75d5f94e347bdf19284d918e197dad',
+    'sha256-ungz' => '63ff7523f98cbe0985fc3c9b9d01428e6745c5a94fcf73b36618410d400bf739',
+    'size' => 178847
+  },
+  'WWW-Mechanize-Chrome-0.51.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5730fe27df84b52610cdcaa9e1a4be7a',
+    'mtime' => '2020-05-04',
+    'sha256' => 'eb260037043ddb2291b78615221f553a43c346e934d9b576603862aaa6b8d74c',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.51.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6a1cb4fab5283d11cc54b90c3a474f6d',
+    'md5-ungz' => 'e7b3ee0ff203b178448153f8f3301244',
+    'mtime' => '2020-05-04',
+    'sha256' => 'fc0700ad382312cd51ce4e187f0f754316f9fa550a6e6dbf453a3e3a4135e315',
+    'sha256-ungz' => 'd528701a5c6c68ffdf4229570c1ef8c34a1d2373e162a071825390fd77c2076d',
+    'size' => 181040
+  },
+  'WWW-Mechanize-Chrome-0.52.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '53fc6f1aec4c5d697204c7c4ea4abc00',
+    'mtime' => '2020-05-08',
+    'sha256' => '4d967bc5c2a3dfdc6254a0c162c0cdd8ede6a8186fc1baf250aeddf351f3c44c',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.52.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a5448c3c9e0c9f44e92f51adc6d90926',
+    'md5-ungz' => '02dfed427945e6f516317cd0b2323ccd',
+    'mtime' => '2020-05-08',
+    'sha256' => '10bd86eb513c30762d77fbe1e5c440258c2f49777e590fc2b32fec13539e2354',
+    'sha256-ungz' => '522613087e8b7062c66e01fa9cf120577fa8198b6f32c0ad82dbe38a3f5d7fe3',
+    'size' => 181925
+  },
+  'WWW-Mechanize-Chrome-0.53.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b6626c055a87b01ea61d5d33449e8724',
+    'mtime' => '2020-05-10',
+    'sha256' => '3ccb5165dc8ae413359a6a13c41a125512d815b910648e6a2171cd99e1157f6a',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.53.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'be77ba366ae8c3251c62478ac956a857',
+    'md5-ungz' => '76f8cb2cb690122da3bdca48be010940',
+    'mtime' => '2020-05-10',
+    'sha256' => '1f1b131cd666fdc73013a371efe71cc50be4d6b79c478803494fff259f3b615b',
+    'sha256-ungz' => 'f5925612deace106063051cf6e169cc1ae888031932cf0042b5baad56001c587',
+    'size' => 182316
+  },
+  'WWW-Mechanize-Chrome-0.54.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c1bdc6ffdcee9bbbce111f5d82fb951e',
+    'mtime' => '2020-05-13',
+    'sha256' => '4d2b74fb576fcbfe5cda4b68ba55b120759419783300defd32e61c39c03ac6ba',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.54.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2d91ea3eb4810569a772491dbe17322e',
+    'md5-ungz' => '2d74e7c849e3f24a6f7298e5b77716cf',
+    'mtime' => '2020-05-13',
+    'sha256' => 'ff1d96d88f4283772e27b230bb3b660e154098636f46cc33acb346f2cdcf5557',
+    'sha256-ungz' => '4dc9f58368cdf4dce3abadbff555b7e89e899869e7245bd1ded88a729284e611',
+    'size' => 182963
+  },
+  'WWW-Mechanize-Chrome-0.55.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8c293e80c7de760151337a548971fe9b',
+    'mtime' => '2020-05-14',
+    'sha256' => '114c70b36070a19663c380664f6ba399b56c4634a7974dfe362a481669e6f19e',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.55.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7e6be637521781831e96dac344f97761',
+    'md5-ungz' => 'cff79af0c5363e93863f96f648939942',
+    'mtime' => '2020-05-14',
+    'sha256' => '651b1ddf7834e76c9d4f5838d58b60a0c47a58bd636004a2104ca97dcfca867a',
+    'sha256-ungz' => 'd7315b5f08ee18a3a922627ea70660df1019e4886f5685549ed23c5ba014d907',
+    'size' => 183706
+  },
+  'WWW-Mechanize-Chrome-0.56.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '57fb314337ee8f253d27af07109ad8a1',
+    'mtime' => '2020-05-21',
+    'sha256' => '7b65f88c6d0c40e2a7cc3aef68f24f9c02f2f4c1741ea4f4ccb95e4c6530c4bd',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.56.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '302fe84d22a03ff5636f11ba598f1646',
+    'md5-ungz' => 'a62cc612f27a4b39144b656b2e13aebb',
+    'mtime' => '2020-05-21',
+    'sha256' => '363a42a9909265bb467f7747424a0e1308e47787b0abc41da3ee11cca036e53c',
+    'sha256-ungz' => '7bae07f9151e26a5f1dd52e1e349a22fd5e36de95b783eaac6f15823e5e99307',
+    'size' => 184268
+  },
+  'WWW-Mechanize-Chrome-0.57.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '84610508f10d4aca63c8f3a1461feff5',
+    'mtime' => '2020-05-23',
+    'sha256' => 'a5a3545664ab2bdaa3aa978020a7d7e9dbe1ac9b0f980e8c954664d8a1dea672',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.57.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '2d3fac338371458cbe6672ba31f55f53',
+    'md5-ungz' => '9cdf40d1b3aff9a9162d46abd228d384',
+    'mtime' => '2020-05-23',
+    'sha256' => '5826aabdaecb416bd1f9657013fa6d378678c20f7536be2979a39d7671112e02',
+    'sha256-ungz' => 'e68d88a7c63caf916873993b74dae2ae0051e3e03dae5fbf9a559ef45c9da5ad',
+    'size' => 184500
+  },
+  'WWW-Mechanize-Chrome-0.58.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cd32417bbd973c3e664b930dbbd4a57b',
+    'mtime' => '2020-05-24',
+    'sha256' => '1f61c03554e334e44ea898d2df8843fc77defa991c3df2012c3050bb471e9793',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.58.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7e9d21221cfb6b08293959e161ccc39e',
+    'md5-ungz' => '2c028fd9444d67da079e7858dd850ccc',
+    'mtime' => '2020-05-24',
+    'sha256' => '0e13b32a5f92def1bf70688fa6cda31f764ff7d1ac7e8d272f9160a7e380ecfe',
+    'sha256-ungz' => '9bb167baf7979eb876ff622b0823e9ed41afba36639fae3f9262dc28ba229f4f',
+    'size' => 186344
+  },
+  'WWW-Mechanize-Chrome-0.59.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '89a94ef94d748f144e111ae71918f000',
+    'mtime' => '2020-08-21',
+    'sha256' => '6711a045bd85ba111ae0649558239b7ec2fd0d5829c4d9ad5929d894e549f518',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.59.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '20810f2df74b99e1424f3caa78b51845',
+    'md5-ungz' => 'e0f519e1aab5d2599241afa805ebc2fc',
+    'mtime' => '2020-08-21',
+    'sha256' => '6c4fd0985f57f615802f2aacca301f3be8805c0ba10167d825ef96d998b0fc0e',
+    'sha256-ungz' => '24d19d6db1d234762d9200810ebbb80e74e026a6228232688fb6e58a9c9f397e',
+    'size' => 186895
+  },
+  'WWW-Mechanize-Chrome-0.60.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '22e883de45f25e365ab9e123a4225b7a',
+    'mtime' => '2020-08-24',
+    'sha256' => 'cda9a2c636a6bce2bb6723876be30b1351c0087e89045af39dc4365664ce48d1',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.60.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '942f818623480e9623265ab261964a84',
+    'md5-ungz' => 'b29da61fd92f28fb24f752801a6ba1a0',
+    'mtime' => '2020-08-24',
+    'sha256' => '33ab3d180a60f1313a39edf0d17c1b301043860bcf2fa1a693db65139c342883',
+    'sha256-ungz' => 'ce84309d24f142ec9c20b6fe0515065435775793e53af2e2e8d44fe01d8692d7',
+    'size' => 187040
+  },
+  'WWW-Mechanize-Chrome-0.61.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '43b959837cffea21cdb935d5ec661118',
+    'mtime' => '2020-11-03',
+    'sha256' => '70baa08d7795762b1fec3ef07000a8179ddc27e1f4f51a1dc734f695ad61ef16',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.61.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0e1469202c1a1cf12747a3603dcac78c',
+    'md5-ungz' => '3afb9effa49e83e967bbc67bd99a5f77',
+    'mtime' => '2020-11-03',
+    'sha256' => '61b14757c9a842966fc5953d263a73255c0112ca105e70fb8d289c41106c9fa6',
+    'sha256-ungz' => '482036defb89c7a74b122fe60aec502134d1cd1fafee3c7708c1ced180f4554f',
+    'size' => 187433
+  },
+  'WWW-Mechanize-Chrome-0.62.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ea91ecc877afaaa5b5b0f76078fc9dc5',
+    'mtime' => '2020-11-27',
+    'sha256' => '3bd99bd6e56802f33dffd24580e5321e1b85c2a26499d26f5b9f93866f20fca3',
+    'size' => 2691
+  },
+  'WWW-Mechanize-Chrome-0.62.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e59e2b116f5b11654309a35db858bcf0',
+    'md5-ungz' => '9e959610280e785128af1cb851884380',
+    'mtime' => '2020-11-27',
+    'sha256' => 'd078a74ccf92e0c0f96cedbccca9dc717c1d8d597d08896d835ed3963162544d',
+    'sha256-ungz' => '7709fa8273d63e6c9a8f752cba079f157477c8892e38fb435c6b4a7d8ad1bdbc',
+    'size' => 187735
+  },
+  'WWW-Mechanize-Chrome-0.63.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '24085b51d73b6a577339b79c7472080c',
+    'mtime' => '2020-11-28',
+    'sha256' => '920e3132725ec40647964f62469be10266e2c3680a545b78e3abe46b9cf85ee9',
+    'size' => 2720
+  },
+  'WWW-Mechanize-Chrome-0.63.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '450631d2007ef667cac0c347f6f67324',
+    'md5-ungz' => 'fb8e9a53d1d9da5fc0c969fa4fde5460',
+    'mtime' => '2020-11-28',
+    'sha256' => 'dcae3ddf1a049acea053ffca9d38fabe22bb54d8819f7d9db25a0bfd9dc3f60f',
+    'sha256-ungz' => 'e84d3070241293f510bdd96a88b8aa47aa73432764ffb8f3b3f83e1ff0c336ca',
+    'size' => 188821
+  },
+  'WWW-Mechanize-Chrome-0.64.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd06b0259f09ca08e5a762ceba4da3f0a',
+    'mtime' => '2020-11-29',
+    'sha256' => '1d4699bcc3a0fb2f05a8f28174bdda34aad80840bc1b47885ac01eb4424b09cc',
+    'size' => 2720
+  },
+  'WWW-Mechanize-Chrome-0.64.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd38cb0b940d9c620e2cb033d1521acd3',
+    'md5-ungz' => '3e38f3d17b0e813bdf11bad9fdce4961',
+    'mtime' => '2020-11-29',
+    'sha256' => '3186535980b3e958b8939d328969d2026fe6f192b1cafb6650716754da4c4a39',
+    'sha256-ungz' => 'a5b57c2513db2abefd6352555bc7f047a7e184bf458a7cbda3d2a4497f255e3f',
+    'size' => 192890
+  },
+  'WWW-Mechanize-Chrome-0.65.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '782e460ba130d4ab7485ab88d20aba76',
+    'mtime' => '2020-11-30',
+    'sha256' => '4abe1ac4c60e2bb1ba8d5c4566b4475655c6198622f237bd3ccb26c7fd810ca8',
+    'size' => 2720
+  },
+  'WWW-Mechanize-Chrome-0.65.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '8dc94e31d20ad7785992297fef19ece7',
+    'md5-ungz' => '82c2e1e89e6a4a0eb04efaa2ea025466',
+    'mtime' => '2020-11-30',
+    'sha256' => 'c0899f5e38de2fe38b49856defaa726a5c59cec4fb0b220704170cf38b210e7c',
+    'sha256-ungz' => 'cfb89b0984c2a2f6131371adc7a587fee2c40bdd9b8e57276e70bfe1e9eb5c5a',
+    'size' => 192933
+  },
+  'WWW-Mechanize-Chrome-0.66.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b1953cc4d7cb9ce08413d665e714eceb',
+    'mtime' => '2021-03-30',
+    'sha256' => '09ad70e29075cb14673376dec1a979c886ceaa4c62c68c3ccc42852a1f6bbe48',
+    'size' => 2817
+  },
+  'WWW-Mechanize-Chrome-0.66.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '625d413aa98b23ca25663c8f03cc8ecb',
+    'md5-ungz' => '4d1f0a62108605b15547def58636f291',
+    'mtime' => '2021-03-30',
+    'sha256' => 'ceefe322fa8f43055051426d03e691e73f32dfa672e441df2b6352af163b8da4',
+    'sha256-ungz' => 'f6603a5029c2eb5e23633800dc807beede7a6a1e5e82b1ae5e2d1678a9ea5b51',
+    'size' => 193577
+  },
+  'WWW-Mechanize-Chrome-0.67.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b6a77bec8a930e83369c5fbe8dd683d2',
+    'mtime' => '2021-07-09',
+    'sha256' => 'b04538750ad56879c675d0da873296264961aadf4d51e4af688bfc6d7d73ea9d',
+    'size' => 2817
+  },
+  'WWW-Mechanize-Chrome-0.67.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ba7b90de6a99242872150916abfdad2e',
+    'md5-ungz' => '45844e4bf0d4e18b97a31be5887c4592',
+    'mtime' => '2021-07-09',
+    'sha256' => '38e8d57ca67f97158f3247f4bc35c6ea1f1c6dedd3a589af89f1e853d8320c19',
+    'sha256-ungz' => 'de0cdff464a489f5261a9541bac40e0a9c3c313c0e7452d99fa6a698a8ad5fbb',
+    'size' => 196299
+  },
+  'WWW-Mechanize-Chrome-0.68.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd107afb463ac39904fd834ccb28982cf',
+    'mtime' => '2021-08-29',
+    'sha256' => '31b87c2d669afee1f090c85577f3dbf4f5c1a051e9449f2beb445817ffd2f91a',
+    'size' => 2814
+  },
+  'WWW-Mechanize-Chrome-0.68.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '810d6ab05ef6c709b68cfdfc6dfbb6a5',
+    'md5-ungz' => '6920cbdcb05630d5242d99ca536f84c4',
+    'mtime' => '2021-08-29',
+    'sha256' => '1116afe9772ef47f1ce24f8190083fc3d3758a3ca3c3cd3cf450761e8b845fd6',
+    'sha256-ungz' => 'bf0e7a12edf358a7669e6bbbb8855d39774ea7fc0298412dd2692c908a26f99f',
+    'size' => 197664
+  },
+  'WWW-Mechanize-Firefox-0.78.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c708ac2bde03263d1de23a52503f1c52',
+    'mtime' => '2014-10-26',
+    'sha256' => 'f75e39f182655938c30121645b849d93c7b567bc7815e0636de797f1460d0fcd',
+    'size' => 1677
+  },
+  'WWW-Mechanize-Firefox-0.78.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bc031901d6a196e29e7639a5016090e5',
+    'md5-ungz' => '5e2d53c841eec313fad00c5eae5f59f5',
+    'mtime' => '2014-10-26',
+    'sha256' => '161bfdc3b097cce9a3c8501c83e88e390f87b7b5b7a2445cb74de743ea98fd15',
+    'sha256-ungz' => 'd09491da9a75e5ab23934a0345c478cbfb26cb526f0216af9040a38e1c1f004d',
+    'size' => 182814
+  },
+  'WWW-Mechanize-Firefox-0.79.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '74fc397e2c3f3e9f37bf466576508e9d',
+    'mtime' => '2016-05-24',
+    'sha256' => '52f98626c38d2e99d569e2b36d963824820ff910db6d1c9f30cdeee0a4eb0edf',
+    'size' => 1736
+  },
+  'WWW-Mechanize-Firefox-0.79.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e66e2536847a9b4aec455c6c3c5360e5',
+    'md5-ungz' => '466abd2108a18a8c4cec0408a9163dd7',
+    'mtime' => '2016-05-24',
+    'sha256' => 'c7bfeb7bd1eba73e73943cd67bebc4cd35cfa7bf400335298836fd8b5e8d089d',
+    'sha256-ungz' => 'ee4784c8473415fe8658d2451771aa12f4d7053c65d697f6c0f0f3e23d19174f',
+    'size' => 185938
+  },
+  'WWW-Mechanize-Firefox-0.80.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9d589cd1be6b2cdadbd7bb1a1c2e92f3',
+    'mtime' => '2018-10-28',
+    'sha256' => '515d686a7e2b58b2ecbac42f3a9be3ac54571a47cfb841e42e50ece39dd7d58d',
+    'size' => 2094
+  },
+  'WWW-Mechanize-Firefox-0.80.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'db4f856283998a04572f8f121537b24f',
+    'md5-ungz' => '0219b7bbd19dd369c2129fba19a6f14d',
+    'mtime' => '2018-10-28',
+    'sha256' => '6b98d3938406d7a07b3f26f49a98b69c7499d918efc6ba5f0df79b47123fa7f8',
+    'sha256-ungz' => '062a5c18537f8875bc6dc33ffe7c72c3bc8436f86699fa7f109ecaf2485e7585',
+    'size' => 168477
+  },
+  'WWW-Mechanize-FormFiller-0.10.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e49de320da058ad36791330e20ef1f7a',
+    'mtime' => '2009-04-24',
+    'sha256' => '94330563b01d737ba12c5e51c8414f40a1fb9917d44fe9bc0746f28cbe4871ee',
+    'size' => 609
+  },
+  'WWW-Mechanize-FormFiller-0.10.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9d92ec563d1e98ef95a100d81d7c454a',
+    'md5-ungz' => '731941a77cfd7ac91c4eed3a6a27c04e',
+    'mtime' => '2009-04-24',
+    'sha256' => '234d00ebbb3d18c55757e3e91dac62ff9fc3e8f48b154fe3ecf025beac963947',
+    'sha256-ungz' => 'f438b799c34d64f10b50d4854b4a2b5c7c313acf06e42c5b7467ecbdee288c86',
+    'size' => 19705
+  },
+  'WWW-Mechanize-FormFiller-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '82c07309c46d9682d8851b7b54f2a30e',
+    'mtime' => '2014-01-19',
+    'sha256' => '56ea6630f29430d758ef2e960bf9133cd2f0d49a2e4579910287847b9158a351',
+    'size' => 961
+  },
+  'WWW-Mechanize-FormFiller-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '4604ef3cefa9fefaddbfc8c8787a7ed9',
+    'md5-ungz' => '37d9f423843d180046fbb217d2cfb4f5',
+    'mtime' => '2014-01-19',
+    'sha256' => '517c7e612be3c4538ed9b52da611fe00d2fa8d4ea06212ecbadbfbf5b22a2d67',
+    'sha256-ungz' => 'a98b1edcd6e49e2f479327f10f66d6bd74c6bd552c7c36064aabb8a06aa221ca',
+    'size' => 20157
+  },
+  'WWW-Mechanize-FormFiller-0.12.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '09cb904a7f390096e25a94a3ff445ad5',
+    'mtime' => '2017-01-19',
+    'sha256' => '213a11f5423966e5589d28d10881290fa434f3e87514abd48a343b4c3c456eef',
+    'size' => 1054
+  },
+  'WWW-Mechanize-FormFiller-0.12.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a6b0cc3036931a588675333aa513782a',
+    'md5-ungz' => '7dd3b2acc48aceb12fb1c5336518857d',
+    'mtime' => '2017-01-19',
+    'sha256' => 'be0f8bd2a1e5a4fdb3602eaf2d8b2268a474d86ee79ca94e8c8c46ae41b35111',
+    'sha256-ungz' => '2022c141a5a05b8ae27b4725d4d736c71a2edb85fef11827170a0db84ba66f4e',
+    'size' => 19930
+  },
+  'WWW-Mechanize-PhantomJS-0.11.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f14e9b7bdaac1e5f9f232fbce735b835',
+    'mtime' => '2014-10-09',
+    'sha256' => 'd28dfada01ce5fb7d77007dc468e5c764d447cf448cc690658c0f4b0aec93181',
+    'size' => 1473
+  },
+  'WWW-Mechanize-PhantomJS-0.11.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '60024c3582a499a351c85c2d4085e32e',
+    'md5-ungz' => 'ed92d42d7e0fc0368c2095bdc449730e',
+    'mtime' => '2014-10-09',
+    'sha256' => '392b106dac175632a86ed71b9d70446147617e5a5cd76d83777794854bafc1a4',
+    'sha256-ungz' => '9895e6daa874619d006dbb350e162ddad1faf0747ea6a28eae1605eeece20ca3',
+    'size' => 610429
+  },
+  'WWW-Mechanize-PhantomJS-0.12.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '593d9db04c722c82f7666b65dd9d480e',
+    'mtime' => '2016-04-16',
+    'sha256' => '7a812ea18392d5b28e4aebcf37fe112482594154d1d18d9c411d794ebb34e440',
+    'size' => 1532
+  },
+  'WWW-Mechanize-PhantomJS-0.12.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3138febae638c0881f5d93cfe03e051a',
+    'md5-ungz' => '4d95fb6262ea0e3f8628c49922c777d6',
+    'mtime' => '2016-04-16',
+    'sha256' => '06ee2db8a7b3b491a17629cbef1c9f963e963c20813f91fbb678f38ca6ea7105',
+    'sha256-ungz' => 'fa1f86ccce6c0ee76ec265ab2272b6ab5992cad0c4873b8544162eae45e5a702',
+    'size' => 611816
+  },
+  'WWW-Mechanize-PhantomJS-0.13.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'cd9436491e2b2870f1c4774eaefe5d36',
+    'mtime' => '2016-07-12',
+    'sha256' => 'd9e5a1cb12df6e4f566d3373ecca7f1cf288a82813e31f6835f8f2e065699040',
+    'size' => 1532
+  },
+  'WWW-Mechanize-PhantomJS-0.13.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b04f81a44708a34c0333cf650dd02ed1',
+    'md5-ungz' => 'ebc15c89073c36ce87b8c9a67e3db369',
+    'mtime' => '2016-07-12',
+    'sha256' => '83a83e3bb8b14eb6a1a17fe7b8272f61fd36aa72d4002d663a39271244c05485',
+    'sha256-ungz' => '68788253bed1c6575d0c50466c69cb5b8db91f9fc6e0ca69f3d71279d1d971af',
+    'size' => 610422
+  },
+  'WWW-Mechanize-PhantomJS-0.14.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e8e3adb5d67ca1656c6619cc94b9f7dc',
+    'mtime' => '2016-09-24',
+    'sha256' => 'fd58e9ef135e902904908631becda12e977a9faed3fbf1554b4f970e0f517549',
+    'size' => 846
+  },
+  'WWW-Mechanize-PhantomJS-0.14.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '74d8c32a4ae225383a1916cd19b7ab69',
+    'md5-ungz' => 'cb446a9413b5a7912031a79145695100',
+    'mtime' => '2016-09-24',
+    'sha256' => '418e92033b7cb61e75c4f5487aaad5cf522712f002b9d9e7eaf472fc457071b7',
+    'sha256-ungz' => '60982cef89da76ec63d99dbf792b9d874821f352ade9f6dfec9d371634d7b338',
+    'size' => 610817
+  },
+  'WWW-Mechanize-PhantomJS-0.15.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3986aa8aeb0ada7d0e673a8cab65f151',
+    'mtime' => '2017-04-21',
+    'sha256' => 'a8524ba4122dbd8bf9c879db48f7d53b095c3bcf7fb652466fc768ba9cb4ca79',
+    'size' => 873
+  },
+  'WWW-Mechanize-PhantomJS-0.15.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'dfc8413ff76f75a69de6a4a869b6875c',
+    'md5-ungz' => 'c459bef107e3b9113e04bb8f96660a31',
+    'mtime' => '2017-04-21',
+    'sha256' => '005aa6203794c1183ddafeb04f9a8d88813aa07f5b8740c5f70c404ba8e6a01b',
+    'sha256-ungz' => 'dfe03db2fa0656ab0e866e4ef74fa9f84b099b10b67efc8dd12871e2871eb489',
+    'size' => 615035
+  },
+  'WWW-Mechanize-PhantomJS-0.16.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5c91c5d2f240f2678412025a90782099',
+    'mtime' => '2017-04-28',
+    'sha256' => '3787288da0a6855d1f3ea9f404e478b577b041f34704bfffca703c60825c627f',
+    'size' => 873
+  },
+  'WWW-Mechanize-PhantomJS-0.16.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'fa9f68c587f75d0760c7905f3a8f0e8f',
+    'md5-ungz' => 'd135f03464b45b6fa9e54675cdf4d5f1',
+    'mtime' => '2017-04-28',
+    'sha256' => '9f930b71f1f38d2e8264efb1655b72eae20dbd375d7e03653f26cded0090cf6f',
+    'sha256-ungz' => '9526f65d239a12ecb62c7d090978547f1edd305c51ae48b1fc7396cc87fd2f27',
+    'size' => 605215
+  },
+  'WWW-Mechanize-PhantomJS-0.17.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '65bd3ce37e0bc8d669e021b50b7349c8',
+    'mtime' => '2017-08-21',
+    'sha256' => 'd78fb963be3338f84cae3d8d92d5206503e8e26c045cc036fa76c1fd9658e482',
+    'size' => 873
+  },
+  'WWW-Mechanize-PhantomJS-0.17.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '73e06af2f3120a67dc68ad0d5bc52b22',
+    'md5-ungz' => '7ebb547051a488675d794f75245d7f31',
+    'mtime' => '2017-08-21',
+    'sha256' => '71b177d232e0327e8b3eeaa083847d3c3c63a345e16a6fd587a168c8cf7d1141',
+    'sha256-ungz' => '09b121af14a481d4f473edcd92bf3456c9906d5bd9fb23220790f7cdfdb02053',
+    'size' => 605234
+  },
+  'WWW-Mechanize-PhantomJS-0.18.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '977969ec76336b5b0770e39556af42c5',
+    'mtime' => '2017-12-12',
+    'sha256' => 'c00bdcf2d4f223112bf189a8a3658089571a2f4230e602d042531622c6d57139',
+    'size' => 873
+  },
+  'WWW-Mechanize-PhantomJS-0.18.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f404035822e9aeea10fcc8bb3e5b7189',
+    'md5-ungz' => 'dd064629cacff63a605ade1b68fbfd50',
+    'mtime' => '2017-12-12',
+    'sha256' => '8a86d8099fc3d51739b7650ee86c04a7c7f4f1cdb66aada0211eed70cf93a11d',
+    'sha256-ungz' => '3d18f9f81d55a3eaa1c935153e63e6fe80f31033f2df7f0c1c0a3d866684b61a',
+    'size' => 605572
+  },
+  'WWW-Mechanize-PhantomJS-0.19.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '833e92b35ab74cbc416534a0f6d7cbf8',
+    'mtime' => '2018-10-26',
+    'sha256' => 'e89b399f5e899ff054b0d21020e3e3fb5d9f8a5f77da83b2da90065d11ce5814',
+    'size' => 1743
+  },
+  'WWW-Mechanize-PhantomJS-0.19.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'f5b5e1fe5d1d541d2749e44c1e2809af',
+    'md5-ungz' => 'c12290033af79403ef416e1826fd89d0',
+    'mtime' => '2018-10-26',
+    'sha256' => 'fcb2862046ec9731764f39d0aca52e9cdc51c5a61ce23e5c2b8c474f1b9d766c',
+    'sha256-ungz' => 'ab267330afa7a211d4aaa78127e0702e3040d5b1b07eb4be5f5505028fb4d99d',
+    'size' => 609167
+  },
+  'WWW-Mechanize-PhantomJS-0.20.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'b0f11bcd45e0af915cae999096425cfe',
+    'mtime' => '2018-10-28',
+    'sha256' => '5e73790dcaa0f2dadcbf0fb8418321e688589a1e68e40da272657aefd01ff239',
+    'size' => 1891
+  },
+  'WWW-Mechanize-PhantomJS-0.20.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '152600ba8c069d312b20a288ed06c1e0',
+    'md5-ungz' => '9f689f08c0a46e0fe0bdb570df3a0181',
+    'mtime' => '2018-10-28',
+    'sha256' => '236255db49d4bd1f048a21365c276011c1e8eb1f378420434a03280ada382ea4',
+    'sha256-ungz' => 'b059c1cbd8049d2a98b29fe87a13f3003eda402da7496ccdb1a14ff6a0a8b60e',
+    'size' => 601749
+  },
+  'WWW-Mechanize-PhantomJS-0.21.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '7bdab0dafb1f5437ed8ada3548a7f202',
+    'mtime' => '2018-10-29',
+    'sha256' => 'ab326004d0fad9ad5a7ab9c3b7404fcd9feb369434fd78be977cdc3441795193',
+    'size' => 1864
+  },
+  'WWW-Mechanize-PhantomJS-0.21.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ba7d070ffaba0a6ca42329867890685c',
+    'md5-ungz' => '77ba8d31a15cdc2ae67bb2a6164f668d',
+    'mtime' => '2018-10-29',
+    'sha256' => 'f672c8b0de386bfcb272ab7e5e7f305b387f25c4f2dae0a8ce4b794cb68ef393',
+    'sha256-ungz' => '4bca87a06128dd1fd26d4daa872cbd0575ee1748adda199798e5ce2140fe48f1',
+    'size' => 601928
+  },
+  'WWW-Mechanize-PhantomJS-0.22.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '79276c9c9874057d7ce6eed7d4029541',
+    'mtime' => '2018-11-04',
+    'sha256' => '779cddadefff2fd49e9dc5eff1382cb0418ed81e11eb4c36ef0a28fba05f929e',
+    'size' => 1864
+  },
+  'WWW-Mechanize-PhantomJS-0.22.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '95734c4a11ba1bdb4e164ba8a1f8fc40',
+    'md5-ungz' => '847621c6a5c317749524283f5b9ce96d',
+    'mtime' => '2018-11-04',
+    'sha256' => '0fd1fc27862fdcf5ede141834677b4aa9bbac633bd8811f77b174da49e19513b',
+    'sha256-ungz' => 'c087a829914d6ff023a91048cb1815eba935f866f0cb037511fd0e54703f0451',
+    'size' => 505841
+  },
+  'WWW-Mechanize-PhantomJS-0.23.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '506d884566a710e861644d94a54cabeb',
+    'mtime' => '2020-01-03',
+    'sha256' => '9a00ae80a15d4216876a0bd4deac50cada8c9038e177788987ca051cfd6cd325',
+    'size' => 1999
+  },
+  'WWW-Mechanize-PhantomJS-0.23.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '0360b58726e59ebcd25d197ece848218',
+    'md5-ungz' => 'e1fea092c8682576e46392ea57b85b53',
+    'mtime' => '2020-01-03',
+    'sha256' => '0e4b03e7a2b86ec34f5267eda2237c77dbc30bd2a69357a6bc323df25d47929b',
+    'sha256-ungz' => '7f5fbd1cb3a2beb24166334a087f8b92564805adb9d397a2f7a97424c75ad3c0',
+    'size' => 509764
+  },
+  'WWW-Mechanize-PhantomJS-0.24.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a6285dcc30b4467da8e9e7033d00d2ac',
+    'mtime' => '2020-09-11',
+    'sha256' => '4c5069a72dbfc8a820b4c56f032f82dec4653f3bb1510d0e30623f193aca6be7',
+    'size' => 2047
+  },
+  'WWW-Mechanize-PhantomJS-0.24.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '53cf0dc00ad26b32424f5cf9066b10ca',
+    'md5-ungz' => 'f565d39a7de5fbc28e8228e81056a6a5',
+    'mtime' => '2020-09-11',
+    'sha256' => '39fc8b284b3a6885b270e99415ed419d7b0544f8bd91ada9f0b31b3b1560e13f',
+    'sha256-ungz' => '8e8433acaf168ebf47ca770198b9dd576bfcdc50cf87f84afc59bc8c35c24df4',
+    'size' => 510318
+  },
+  'WWW-Mechanize-Plugin-Selector-0.16.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '620b5a0350de15c655abe2e22f7e9656',
+    'mtime' => '2017-05-12',
+    'sha256' => '2761423df79613454688ebc5f63d985acafeb20907e6127d383f3259c028a791',
+    'size' => 897
+  },
+  'WWW-Mechanize-Plugin-Selector-0.16.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '57ef5da0a25d763db2600443e3261e67',
+    'md5-ungz' => 'af3fd32f5f5d5d1b42d35ea8dfab1026',
+    'mtime' => '2017-05-12',
+    'sha256' => '6c98e6795862bc5f44d212c66ead9be1185dbb422a4a4d81c172001775a51430',
+    'sha256-ungz' => '2df3517e13cb75f553295be8cb2652e0696432da5ba872d4617fdb17b48fb994',
+    'size' => 8119
+  },
+  'WWW-Mechanize-Shell-0.54.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'a3267ae29f15ec5522db8d9802f87070',
+    'mtime' => '2015-04-25',
+    'sha256' => 'c3b2f017fc3c5853e38179298938f205585b1a693278fbecd557baf993ed38cb',
+    'size' => 1349
+  },
+  'WWW-Mechanize-Shell-0.54.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5e29a310810ed42d685d692db3a3e7ce',
+    'md5-ungz' => 'e8a3211c1844855adac30c9a40d2af75',
+    'mtime' => '2015-04-25',
+    'sha256' => 'ef24268cb685989422b6384235e5185ca13383e027382e4f0d36f001b36c64fd',
+    'sha256-ungz' => 'ceb67458f3677935f3b4abef64392dadc2376ee32c6d42e525be657f46e3723d',
+    'size' => 52562
+  },
+  'WWW-Mechanize-Shell-0.58.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '68883255982ca1783660d064c543d3ae',
+    'mtime' => '2019-09-30',
+    'sha256' => 'ee29abad46c589a208c71d1672071ae91b19ba2205a5378209ded8eb21b0a942',
+    'size' => 2008
+  },
+  'WWW-Mechanize-Shell-0.58.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '5721cc88c3583a8c9bec656f5821b323',
+    'md5-ungz' => 'eff7cfd4a2a68d35f0d5e64835981560',
+    'mtime' => '2019-09-30',
+    'sha256' => '63f78df335338a135ed8f803db06ed3c3f79e8db4dd61efd092afefb65db7cbf',
+    'sha256-ungz' => '249e4395cb6aa6f1c3a0e67f649333d03a8e242e8b7cf374f3779608768d2fb7',
+    'size' => 64649
+  },
+  'WWW-Mechanize-Shell-0.59.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '59b1623cd43c65f5c1e905325aa25f31',
+    'mtime' => '2020-05-04',
+    'sha256' => '5dcfa07739adbd29601500b605a1f88f26cfa99c3ac0293b22da5e925b255892',
+    'size' => 2013
+  },
+  'WWW-Mechanize-Shell-0.59.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9b6a55dfe9f18bbd5a546ee323735bfb',
+    'md5-ungz' => '93027d6f987048778c486a6d6440be32',
+    'mtime' => '2020-05-04',
+    'sha256' => '33f704eaf6742c2f7d572a43ce039c66f0e385d259153161bfadc1ac8b305a13',
+    'sha256-ungz' => 'b12d4b02b562a1f9771b27d1e66469c2c17414eb5fdf6c89cf476df27a149817',
+    'size' => 65513
+  },
+  'WWW-Twitch-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '56986095f1c31737d1ba0732b9a6f8ea',
+    'mtime' => '2022-03-08',
+    'sha256' => '6fd2fcd685c49c81b5effad8a1380fd60c9d0dc0526d588b9870359697f2e743',
+    'size' => 1616
+  },
+  'WWW-Twitch-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'ce8bd23509f383b077b321b4c66fce32',
+    'md5-ungz' => '838590fe321c57ff1270e34a6bfabefc',
+    'mtime' => '2022-03-08',
+    'sha256' => 'bc4a116a983c2fcfe93bd09c0d775fe21f8fe77597885d13c929d8de974cbfc9',
+    'sha256-ungz' => 'dea8b119901695b50e2b9730944bd5b8e8fe15aaed093955e5be98bf8c724c85',
+    'size' => 16438
+  },
+  'Weather-MOSMIX-0.01.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '50e33fa71648e54ded5f98c0078d1efd',
+    'mtime' => '2020-02-16',
+    'sha256' => '59a50cd9965a89ee4e24d4ea55b04cc5b4d46838894ddbd6fe00ea0e4883cf74',
+    'size' => 1911
+  },
+  'Weather-MOSMIX-0.01.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '28e5e349c80d17d9dbda1d446ace57f9',
+    'md5-ungz' => '03faec7af3081fd3aa6d532961f0b172',
+    'mtime' => '2020-02-16',
+    'sha256' => 'd1ddd04bbb0c57eba17a6c927dd043f4f20b6be717c0c211da08a9450a249e34',
+    'sha256-ungz' => 'bf9b50719d4377db51a633b7ad39849f809a756aa302dfbb6d6715575eda9e6a',
+    'size' => 41062
+  },
+  'Weather-MOSMIX-0.02.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '6ee42da541985a6909b4fb092b2aea4f',
+    'mtime' => '2020-02-17',
+    'sha256' => 'a206d5300aa14cf4f9ab1084cda32046deb4eab924a1bdfae8173418efaa92b6',
+    'size' => 1911
+  },
+  'Weather-MOSMIX-0.02.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '238ea0090853649efcf25e6a30d138bb',
+    'md5-ungz' => '814070158ed0ab48af1ff018e12010cb',
+    'mtime' => '2020-02-17',
+    'sha256' => 'd7c499f1088670bc51de7e29fd1700996a1e4eff7b9be2001e6d0b87089bb5f4',
+    'sha256-ungz' => '15ba56ae7d1d1cf97a723895bde9c1cae58d6aad0df6fdaff40a21c0b4e18bae',
+    'size' => 41103
+  },
+  'Win32-Wlan-0.05.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '67548fe9b584164fcbbabfa4aafd1dd9',
+    'mtime' => '2011-03-20',
+    'sha256' => '4922102d9d10ce6feb7f4a990c016494907288185f558787b3d7089d899aa3b5',
+    'size' => 640
+  },
+  'Win32-Wlan-0.05.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '181fc996818fb4440c72b7a681f109f2',
+    'md5-ungz' => '4d7eed6c7c76da1ecd68848071f475e0',
+    'mtime' => '2011-03-20',
+    'sha256' => '67fec7e3d7c0573bd65c1fb757f987128998d19b9104ef1b273024efb101f5b4',
+    'sha256-ungz' => '3472ddfcf26e9cf1dc013970d418c8debcaba6ba8169fc9d9d2f8b70118a85e0',
+    'size' => 10008
+  },
+  'Win32-Wlan-0.06.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'e84e3e141bb6c149cf1c7a8aa547a200',
+    'mtime' => '2011-04-22',
+    'sha256' => 'cbc2418d8ef368c41b6edcefeb40135f044bb296074655a435f309cbdcba6c7d',
+    'size' => 640
+  },
+  'Win32-Wlan-0.06.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '21faa414a111179bce736db458bb8b42',
+    'md5-ungz' => '9788b9ccaed9d05aa15ccb704781f6eb',
+    'mtime' => '2011-04-22',
+    'sha256' => '73ba8a5ede78e99802f837b6fd3895f17abe4d8648ffe2947deafdec6af9ab1f',
+    'sha256-ungz' => '77bc841db0380f753ec749b562c9b1471c9f8e8c521cfd45866af232217e0e64',
+    'size' => 10793
+  },
+  'parent-0.238.meta' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd40b17c627fa157d6d1a35009cf421e0',
+    'mtime' => '2020-02-07',
+    'sha256' => '07799c3407b8b04dd83e7b25fcd3315b3750a1c9cd3740dd18aa75b7dbb8d243',
+    'size' => 1272
+  },
+  'parent-0.238.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '941ab8fb242372c09a7d605e8d56f2ac',
+    'md5-ungz' => 'af1f6f30ccc5895abb057484a4341e4c',
+    'mtime' => '2020-02-07',
+    'sha256' => '38f58fdef3e28a194c9c8d0dc5d02672faf93c069f40c5bcb1fabeadbbc4d2d1',
+    'sha256-ungz' => 'd7279330072e12704032fc8a419a46d653f7122209ea510b722220dda0c5e06a',
+    'size' => 10388
+  },
+  'perl-5.31.4.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '9ee51c5da68a9aeecd9193e5c4b8b95c',
+    'md5-ungz' => 'f171d699a2d06ac0d626f24cb04e7680',
+    'mtime' => '2019-09-20',
+    'sha256' => '418a7e6fe6485cc713a86d1227ef112f0bb3f80322e3b715ffe42851d97804a5',
+    'sha256-ungz' => 'b4013e6854546a79c5104fd708a5c989fe0a5c7279a3aa76ab83ac7623873686',
+    'size' => 17876459
+  },
+  'perl-5.31.4.tar.xz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'c3b48043d08483a8d7df8615bb88d6ed',
+    'mtime' => '2019-09-20',
+    'sha256' => 'f9aec48f0439e514c0a223eaa1c0dc2aaf22f837ef6c1cfe1aa5c61630df20ef',
+    'size' => 12483248
+  },
+  'perl-5.33.5.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '06404fbeea89680ac31517146aede71a',
+    'md5-ungz' => 'd1c4154383031dc35aa85e507772aedb',
+    'mtime' => '2020-12-20',
+    'sha256' => 'f9e2a65d321ea641051ad45a9b037e756b36582e4af287ff5b779b8f11cb3712',
+    'sha256-ungz' => '508d19add609d55b065495561b54c3b4f2768e37e9f7d9267c2804f41a73d8c7',
+    'size' => 18383748
+  },
+  'perl-5.33.5.tar.xz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => '3333b434fe14c6c532e5280e11308e3b',
+    'mtime' => '2020-12-20',
+    'sha256' => 'e7695ddbe60b1bbbf94ff1c5ed3462538d4e01da9b3627bb062ed17b8734bbcb',
+    'size' => 12820424
+  },
+  'perl-5.35.1.tar.gz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'bab5038c91baa170766a72224290badd',
+    'md5-ungz' => '96aae5c013c6e8078b4bac0d1c42c8fd',
+    'mtime' => '2021-06-20',
+    'sha256' => '3f59af00c22c7df8667053ec417ba4a07540517812d723b701e5fc52201592cc',
+    'sha256-ungz' => '56c4d4c09f9c23954e8a22ee1af9ff7f023f97f2c9f3fecc1b12878e568d7416',
+    'size' => 18442684
+  },
+  'perl-5.35.1.tar.xz' => {
+    'cpan_path' => 'C/CO/CORION',
+    'md5' => 'd8882505c1c7d16d98fd92445c63e2af',
+    'mtime' => '2021-06-20',
+    'sha256' => 'a91bb099295dbe449b28d81ec17fca1c0199cccdf1c8275b1c6b18e70fbd2936',
+    'size' => 12764664
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJiYcQwAAoJELahc5BjdgzK/Y0IAKQxUhgGzJVDNkIZ03DPIvPS
+j2DBAV5GhpmFui448+ghZeKNsOQkrSY5FBZWVnNdnJO7evOkG6Y12Zy5GVL1/1j/
+ZF8/J86IDDVCNoYM8rdX81iSG/iX8jFuBecCmv7Kn/QRkRavfCy+BpkjAqh8cvme
+gDo++Hm7QE3UukyYwspK16El/YXZwc/BejNlevvxSIxoNZpttywSjWuoj2i0FDRc
+luztu5/0BeckEUm5P8JyMk5MnJpQKUtZJSnEYpYH576cPEceOPHtEH8Zdu5lWelH
+hRIhF3xcvIp5nBHrBnor54UQBcLkcJcjQbtJELxS/KZBXzWlQoexTztkQYWLwTA=
+=AMfg
+-----END PGP SIGNATURE-----

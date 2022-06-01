@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kube-aws-deployment
+  labels:
+    app: kube-aws
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-aws
+  template:
+    metadata:
+      labels:
+        app: kube-aws
+    spec:
+      containers:
+      - name: kube-aws
+        image: aarya143/kube-aws
+        ports:
+          - containerPort: 80

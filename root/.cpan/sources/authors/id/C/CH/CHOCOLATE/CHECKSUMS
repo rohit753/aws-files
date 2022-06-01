@@ -1,0 +1,243 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 01:05:41 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'App-Wax-v2.4.1.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'd067feb55640201016c48cd4f358dfcf',
+    'mtime' => '2020-08-04',
+    'sha256' => '73a15c877a7d5b65a98ffaf685e8078c94a0b34c61330e060a0967f72110990a',
+    'size' => 1610
+  },
+  'App-Wax-v2.4.1.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '0303e4e84fe1dd766e5f0dfd0a3c2056',
+    'md5-ungz' => '1c7e52bf6a76b380369a240065306500',
+    'mtime' => '2020-08-04',
+    'sha256' => 'e0d2b17b490417b5954aeac4b5189519bee23d65de8d228da60c4e72e23695c6',
+    'sha256-ungz' => '3394e1d6498683246d5762ae20b2d6d5269a3851930fc866a50fc2f315b6a6ff',
+    'size' => 19289
+  },
+  'B-Hooks-OP-Annotation-0.44.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'cda67048a5e051c5a7707c0adb4bbc8d',
+    'mtime' => '2011-04-20',
+    'sha256' => 'e5f150eca3e1c833f175d61f393522a7f03748567fb16c1af994a148cafe7d95',
+    'size' => 685
+  },
+  'B-Hooks-OP-Annotation-0.44.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '18b1f0088850effe58ccb4a7c9dc4024',
+    'md5-ungz' => '933764816cfd833991dbdf2c548c5cbe',
+    'mtime' => '2011-04-20',
+    'sha256' => '6e26f99367f4ea944169cf6e05cf4d067832082424ca8ecefccb7b5a63217b16',
+    'sha256-ungz' => 'f9d45792e453e0034e68698f34ad5ae3c1d41c53bfa2794253164801647117db',
+    'size' => 49974
+  },
+  'Devel-Pragma-1.1.0.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '14d5f899f6b804e17caf05c2db423493',
+    'mtime' => '2016-07-01',
+    'sha256' => 'e283cdb69e352f78c5cad76b7dbe1a222c63a2763fdbb910fb2b8b15c2f44cc1',
+    'size' => 1174
+  },
+  'Devel-Pragma-1.1.0.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '0c5868b13e8630fb9e809af86eb76961',
+    'md5-ungz' => '60450e2ff0688871b24bc976485fd6de',
+    'mtime' => '2016-07-01',
+    'sha256' => 'f93c9b5ac3a7bb17969f5f4a0bdd3c342da163e40996cc78feb7fac706a83ba0',
+    'sha256-ungz' => 'f1af15749b31954cfbc3fc24cdf79189c8ebc80b1077cdeac584f51fd01f73aa',
+    'size' => 58523
+  },
+  'Getopt-Module-v1.0.0.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '7ebc21a8edc98ee61e4c871754f50b2b',
+    'mtime' => '2020-11-25',
+    'sha256' => '6fc44aa2a8e97300e0ec81cbda109b643314575f7e1d282fdf3d639a15f75463',
+    'size' => 1373
+  },
+  'Getopt-Module-v1.0.0.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '5e039f125af542c20b2acee7d62329de',
+    'md5-ungz' => '3b4839d078177d94cf261e34ea5c8230',
+    'mtime' => '2020-11-25',
+    'sha256' => 'e3c978e5c4843c3f36dec3df9c0a487c28b9e189bb762c7b405d97b2f976fffc',
+    'sha256-ungz' => 'a93ec27c79ea11ea5ded1a10146529c059a85d4afe036de683be034f57763aef',
+    'size' => 10046
+  },
+  'Goto-Cached-0.22.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '7ad0b389b7954acb2b2ae0d122fe7da0',
+    'mtime' => '2010-08-28',
+    'sha256' => 'fb534caa4156729f589fe02a4849fe69867356840c6be9ad9975a26233e12d3d',
+    'size' => 844
+  },
+  'Goto-Cached-0.22.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'ade9becdd4afb75892258689e956a673',
+    'md5-ungz' => '51c473330da624355f46c47583af923a',
+    'mtime' => '2010-08-28',
+    'sha256' => '6fd7bd0007e5fb0b00a7ad8cc78ef3cfc6eec15ffe70779140f7fb6f73aca31b',
+    'sha256-ungz' => '73f7e79a410677406b7f41060af7d1a870228fa55f565e0b8b163b81341d4b1b',
+    'size' => 49375
+  },
+  'Hash-Fold-v1.0.0.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '4de6652194053fa7001f7ab1ce7706b9',
+    'mtime' => '2019-03-11',
+    'sha256' => '4c50575142e592d556baad0a46fed98622d5c3fd4f69841a45751b16b46d7421',
+    'size' => 1355
+  },
+  'Hash-Fold-v1.0.0.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '3705e40b6c0a85dbfa21ce82d6ae6ee8',
+    'md5-ungz' => '47be327c9cacb99983bf386c6caf516c',
+    'mtime' => '2019-03-11',
+    'sha256' => 'c1bf8a3fc0bc407c1dadf3a43269985f10fdf0ffdbebc5f32bd8e161a81e00ca',
+    'sha256-ungz' => 'e65ab34630cc8521d359e1e79ac8a7dddf03d8656d91860af0db18a446a002e1',
+    'size' => 11102
+  },
+  'Object-Extend-0.4.0.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'b58c997a00d87bacb34cffe5ab75dc0e',
+    'mtime' => '2013-10-27',
+    'sha256' => 'bd6aac27fd43ace9b7487866b9c5b10137beb17d3c300d6381c731dfa85a4c89',
+    'size' => 1237
+  },
+  'Object-Extend-0.4.0.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'e1cd5daeb1e53afe5673c71721ad8f1b',
+    'md5-ungz' => '9933e14f3179280ed7502f9f6876ea4a',
+    'mtime' => '2013-10-27',
+    'sha256' => 'e41ad4c70790d6a3061b14f80978f29297007dc4e10b5c94b2567b94b768617a',
+    'sha256-ungz' => '8de8b5c5fdda70edb754cd31294b01913003bfcfce2c97867615fdc805ea7358',
+    'size' => 7226
+  },
+  'Scalar-Util-Numeric-0.40.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'f81a634153c23573a8a8645522b5eaba',
+    'mtime' => '2014-10-21',
+    'sha256' => 'f0d05938566af06951d4ada446c4cc9758f42fdf925164b3f62cc376752de2c3',
+    'size' => 1164
+  },
+  'Scalar-Util-Numeric-0.40.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '6a5451f33c3ec5c17d0672a4d5b0d24c',
+    'md5-ungz' => '9d26f30b0e572ffca0be7c6577c28b68',
+    'mtime' => '2014-10-21',
+    'sha256' => 'd7501b6d410703db5b1c1942fbfc41af8964a35525d7f766058acf5ca2cc4440',
+    'sha256-ungz' => 'a65a6b80cacc16bb6dfcff10dd896d6904386c4530852a778c8c42aec2c00677',
+    'size' => 52757
+  },
+  'Scope-Guard-0.21.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '6c1ed5d59ebc67192e08143cb64413aa',
+    'mtime' => '2015-07-19',
+    'sha256' => '01fddfa01ce4a26a79a1c42f56f5cbf83bed9b10795e725cd5ef03e78bd12142',
+    'size' => 1212
+  },
+  'Scope-Guard-0.21.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'be57b915d23ddac7677ef2ad9e52b92a',
+    'md5-ungz' => 'efa0553c0e5dc67bab639b4bef9cd071',
+    'mtime' => '2015-07-19',
+    'sha256' => '8c9b1bea5c56448e2c3fadc65d05be9e4690a3823a80f39d2f10fdd8f777d278',
+    'sha256-ungz' => 'a3bf343fa8305978d66ed560709ee252fee1b18ac03141544ab9a9570540358e',
+    'size' => 4377
+  },
+  'Scope-With-0.01.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '3855f84568752f88a5605ffc8f3df835',
+    'mtime' => '2010-05-14',
+    'sha256' => 'ff642f64071a6a9808861e07803482fb465385351a4380653264badd3f8d4b56',
+    'size' => 649
+  },
+  'Scope-With-0.01.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '7553877399aef2e8096c394c63816a43',
+    'md5-ungz' => 'e9091bdc12bf7d3cf35444f844e957f9',
+    'mtime' => '2010-05-14',
+    'sha256' => '7b876facb9c22adacccd2b6fa62b427601066edb3c5eb5aa085a38c6623511c3',
+    'sha256-ungz' => 'ac56eda768d3454f9f172c64a9ef789c64f78444e148f3021ede80135980a363',
+    'size' => 20158
+  },
+  'Shell-Autobox-v2.0.1.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'd7a4730290344573a501bee81c0554c4',
+    'mtime' => '2021-01-31',
+    'sha256' => 'a3891f6dcc3c268123bdaf1f4c7067b08da78f6caf899d084e33378760a35a8b',
+    'size' => 1270
+  },
+  'Shell-Autobox-v2.0.1.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '45b1d0bd0150a272fce4f72117c71915',
+    'md5-ungz' => '6395baa3b6d14358868c5ceb83a68e13',
+    'mtime' => '2021-01-31',
+    'sha256' => '55b8ce8ba814886ab4b21b0b287ab231b083c90bcab6a17dda966cd8c3e1f4c7',
+    'sha256-ungz' => '0433ce894330ec4290cbbda60875f5e12f467f4027ab2f8e8e496ef6aeba0e0d',
+    'size' => 6970
+  },
+  'autobox-2.86.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => 'a8393ded972d0a186e92faf123b80c55',
+    'mtime' => '2018-04-20',
+    'sha256' => '47bfbeed02798768c3eb75f0366eb1087c472a92be155cb5e33a7c794e730da5',
+    'size' => 1192
+  },
+  'autobox-2.86.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '0d4fb954421be0e2b77cebf17fe3eaa8',
+    'md5-ungz' => '56a1a606337288eaf4000410cdd77cdf',
+    'mtime' => '2018-04-20',
+    'sha256' => 'ac76427abb720d72f9d150bfc1aef759b9a00397735a940bbdfa95999af682a1',
+    'sha256-ungz' => '1b3712bc43a1b06a45e4f64d711ec7f3f683cbae8d6288f45347e61ea8080f58',
+    'size' => 85350
+  },
+  'autobox-v3.0.1.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '9a54bcfc7ea045ffa8c0000368f69873',
+    'mtime' => '2018-05-05',
+    'sha256' => '4f977734b745f789ff443a2984da105edeaa2bc2db423751220709a8606d8f5a',
+    'size' => 1263
+  },
+  'autobox-v3.0.1.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '7b2fce96b3ad20924555130ab9847b95',
+    'md5-ungz' => 'ad99a81fff67bcf8ed71b1bcd5bce106',
+    'mtime' => '2018-05-05',
+    'sha256' => 'c303b7fccfaa1ff4d4c429ab3f15e5ca2a77554ef8c9fc3b8c62ba859e874c98',
+    'sha256-ungz' => 'f066bfe5a45d16ea2da0c40738debe91d9d8634071af0450ca6e9ff2132d4f19',
+    'size' => 87047
+  },
+  'true-v1.0.2.meta' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '6b65b3399b4094400ee0bf5c982fe737',
+    'mtime' => '2020-11-10',
+    'sha256' => 'ebada1bc73b23e7a9cb11a99956e2ce865f20366a73bbc6f14370f89e1901096',
+    'size' => 1474
+  },
+  'true-v1.0.2.tar.gz' => {
+    'cpan_path' => 'C/CH/CHOCOLATE',
+    'md5' => '15fda94d9fe1cfe907b81361f21e1552',
+    'md5-ungz' => 'f5e8abc95f3a1017137a6336f10f052d',
+    'mtime' => '2020-11-10',
+    'sha256' => '6a1ccd4008d4cc66ded4e2a1694b5b2a21d7655e276e1354160012ba2be2a284',
+    'sha256-ungz' => '91dc5ff04a2fbf81be7d68cd00ec27409b39940529d5d02c7185b01fb067a830',
+    'size' => 129037
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmuzlAAoJELahc5BjdgzK8CcH/jXu0zukbIcX5EKKkUAS1szu
+tKpOQ5Z3OXz4xGy8FQ1Mok67rpdCeU6oz7xBNtXmNUxI1MCfnn3JbL+Q6iKJ4pqT
+ig1OucEyAcGjATOlZ4dCtLgaqA0jxBDXnVgD3da8KJi4q4ykHmUod660JY1NWNjS
+HzkEgC5wiJK7PBL1FDHWSvCbG34gY6oXU8RgQQ8bbKBcqO7QqU1pWEo+/99FH992
+G8ZhszNf5jhwhxjwa4G2v8/Odh2RQ2/614jcoqj4/H29x3SWTtTVOWyjrTsQNwC2
+VAOBz4G2q6MQ3nXMX3UKSjLRB7Hcr3hsCa94hiVgud0zATKvgfS+jHyriIOvHlU=
+=P2L9
+-----END PGP SIGNATURE-----

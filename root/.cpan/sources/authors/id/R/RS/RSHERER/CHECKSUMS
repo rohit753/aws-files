@@ -1,0 +1,35 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 00:24:24 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Class-Data-Inheritable-0.09.meta' => {
+    'cpan_path' => 'R/RS/RSHERER',
+    'md5' => 'b5faf407490c9411e38b172316f67c06',
+    'mtime' => '2021-07-30',
+    'sha256' => '4438edffe0624624d7ee02825f5c2f4b4ebeb8ce0a1e42a12109c7a92c73423a',
+    'size' => 881
+  },
+  'Class-Data-Inheritable-0.09.tar.gz' => {
+    'cpan_path' => 'R/RS/RSHERER',
+    'md5' => 'bd25ecd6e5d528fbc3783edf1b8facef',
+    'md5-ungz' => '8c057187b828201bc111134179e6bf66',
+    'mtime' => '2021-07-30',
+    'sha256' => '44088d6e90712e187b8a5b050ca5b1c70efe2baa32ae123e9bd8f59f29f06e4d',
+    'sha256-ungz' => 'eaec2be73f5a37dd0e25521e091578a86cfeeeb562e8fcd4e5f9c58c4578f178',
+    'size' => 6087
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmuM4AAoJELahc5BjdgzKzEMH/2dYxMubnCDzs12dDnw7ObB7
+6y165P8+ahVf6kqMzbhLakVg9SPsv8ZZzkwvlNALBUbn0o7eR8YUZ0h899RJX8St
+/QRQm20eFsZfSRAEKBW342JHB1B9r6OAsH8e0Gf9bghF3gdoQI8p4oAWgasUhfHo
+cYvM1dRHd923vF9SfuvnVV5eNb5hpfpjWFPh7TiGHlUvJ0PevNkKIHAYO/6L5sRz
+ED5GrjNhsP7xirLOgmHVBFA81KkReB3SSnGLh80l95N0l2uAK0YTnqFHjrFLHkQM
+bLB0qSJRlN6JlkVJJCv84I3tpGBm9DXAzcXmxMrGQ1p+pPFQavQuAxGxAY0Ih0s=
+=PKYw
+-----END PGP SIGNATURE-----

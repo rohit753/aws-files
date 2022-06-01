@@ -1,0 +1,40 @@
+Revision history for Perl extension Term-Size-Perl.
+
+0.031 Wed Feb 14 2018
+
+        - Makefile.PL: add Test::Pod{,::Coverage} as "develop" prereqs
+        - Enclose GitHub issues link in a link
+        - Don't mention deprecated Term::Size::Unix
+
+0.030_0 Tue Feb 13 2018
+
+        - rewrite Makefile.PL
+        - proper POD for Term::Size::Perl::Params (CPAN RT#74219)
+        - fix POD typos (CPAN RT#74219)
+        - put VERSION in quotes
+        - t/99_pod.t: only if RELEASE_TESTING
+        - t/98_pod-coverage.t: only if RELEASE_TESTING
+        - document that GitHub issues are preferred to report bugs
+
+0.029 Tue Mar 11 2007
+        - major rewrite of t/01_basic.t
+          * added SKIP if tested globs are not tty
+          * removed wrong assumption that STDIN
+            would always match STDERR
+          * test implicit argument, *STDIN, *STDERR
+            e *STDOUT
+        - tuned the answers for non-tty arguments:
+          tests are still missing
+
+0.0201 Tue Nov 7 2006
+        - section BUGS on Perl.pm
+        - no code changes
+
+0.02  Wed Jun 14 2006
+        - use strict
+        - tweaked POD
+        - introduced a POD coverage test
+
+0.01  Mon May 29 2006
+        - first release to CPAN
+

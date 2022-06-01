@@ -1,0 +1,146 @@
+#!/usr/bin/env perl
+use strict;
+use Getopt::Long;
+
+my $usage = <<EOM;
+
+This script will recombine the perltidy binary script and all of its modules
+into a single, monolithic script.
+
+Run this from the perltidy main installation directory.  It reads
+bin/perltidy and lib/*.pm and by default writes a file 'perltidy-VERSION.pl' in the
+current directory.
+
+usage:
+  perl pm2pl [-h -o ofile ]
+
+  -h prints this help
+  -o set output file      [ default is 'perltidy-VERSION.pl' ]
+  -D set DEVEL_MODE => 1  [ for extra testing when debugging ]
+EOM
+
+my @option_string = qw(
+  h
+  o:s
+  D
+);
+
+my %Opts = ();
+if ( !GetOptions( \%Opts, @option_string ) ) {
+    die "Programming Bug: error in setting default options";
+}
+
+if ( $Opts{h} ) {
+    print $usage;
+    exit 1;
+}
+
+# This should work for a system with File::Spec,
+# and for older Windows/Unix systems without File::Spec.
+my $script  = 'bin/perltidy';
+my @modules = qw(
+  lib/Perl/Tidy.pm
+  lib/Perl/Tidy/Debugger.pm
+  lib/Perl/Tidy/DevNull.pm
+  lib/Perl/Tidy/Diagnostics.pm
+  lib/Perl/Tidy/FileWriter.pm
+  lib/Perl/Tidy/Formatter.pm
+  lib/Perl/Tidy/HtmlWriter.pm
+  lib/Perl/Tidy/IOScalar.pm
+  lib/Perl/Tidy/IOScalarArray.pm
+  lib/Perl/Tidy/IndentationItem.pm
+  lib/Perl/Tidy/LineBuffer.pm
+  lib/Perl/Tidy/LineSink.pm
+  lib/Perl/Tidy/LineSource.pm
+  lib/Perl/Tidy/Logger.pm
+  lib/Perl/Tidy/Tokenizer.pm
+  lib/Perl/Tidy/VerticalAligner.pm
+  lib/Perl/Tidy/VerticalAligner/Alignment.pm
+  lib/Perl/Tidy/VerticalAligner/Line.pm
+);
+
+# try to make the pathnames system independent
+eval "use File::Spec;";
+my $missing_file_spec = $@;
+unless ($missing_file_spec) {
+    $script = File::Spec->catfile( split '/', $script );
+    foreach my $module (@modules) {
+        $module = File::Spec->catfile( split '/', $module );
+    }
+}
+
+my $VERSION = get_version("lib/Perl/Tidy.pm");
+my $outfile = "perltidy-$VERSION.pl";
+if ( $Opts{o} ) { $outfile = $Opts{o} }
+my $fh_out;
+open( $fh_out,, ">", $outfile ) or die "can't open file '$outfile' : $!\n";
+print "Creating standalone perltidy script '$outfile' ....";
+
+# first, open the script and copy the first (hash-bang) line
+# (Note: forward slashes in file names here will work in Windows)
+my $fh_in;
+open( $fh_in, "<", $script ) or die "can't open script file '$script' : $!\n";
+my $hash_bang = <$fh_in>;
+$fh_out->print($hash_bang);
+
+# then copy all modules
+my $changed_count;
+foreach my $module (@modules) {
+    my $fh_module;
+    open( $fh_module, '<', $module )
+      or die "can't open my module file '$module' : $!\n";
+    while (<$fh_module>) {
+        last if /^\s*__END__\s*$/;
+        my $line = $_;
+        if (   $Opts{'D'}
+            && $line =~
+            /^(\s*use\s+constant\s+(?:DEVEL)_[A-Z]+\s*)=>\s*(-?\d*);(.*)$/ )
+        {
+            if ( $2 != '1' ) {
+                $changed_count++;
+                $line = <<EOM;
+$1=> 1;$3
+EOM
+            }
+        }
+
+        $fh_out->print($line) unless $line =~ /^use Perl::Tidy/;
+    }
+    $fh_module->close();
+}
+
+# then, copy the rest of the script except for the 'use PerlTidy' statement
+while (<$fh_in>) {
+    last if /^\s*__END__\s*$/;
+    $fh_out->print($_) unless $_ =~ /^use Perl::Tidy/;
+}
+$fh_in->close();
+$fh_out->close();
+chmod 0755, $outfile;
+
+print " OK\n";
+if ($changed_count) {
+    print <<EOM;
+$changed_count lines changed to DEVEL_MODE => 1
+EOM
+}
+
+sub get_version {
+    my ($file) = @_;
+    my $fh;
+    open( $fh, "<", $file ) || die "cannot open $fh: $!\n";
+    while ( my $line = <$fh> ) {
+
+        # Looking for something simple like this, with or without quotes,
+        # with semicolon and no sidecomments:
+        #                     $VERSION   =   "20180202.245"  ;
+        #                 our $VERSION   =    20104202       ;
+        if ( $line =~
+            /^((our)?\s*\$VERSION\s*=\s*\'?)  ([^'#]+)   (\'?) \s* ;/x )
+        {
+            $VERSION = $3;
+            last;
+        }
+    }
+    return $VERSION;
+}

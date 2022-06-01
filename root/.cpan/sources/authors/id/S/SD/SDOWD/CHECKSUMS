@@ -1,0 +1,137 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon May  9 22:30:23 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Mail-POP3Client-2.14.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '08aea7bca27b21bac812baca22ec2d14',
+    'md5-ungz' => '60649c58f1864f57df437efe981d1d04',
+    'mtime' => '2003-03-27',
+    'sha256' => 'c59fc4fed751e5a2df5e785d6292913d5a0cff90c3d614e626c065c6de1c2225',
+    'sha256-ungz' => '47773c1d1ab713a6820b5c10957b7d5e940841cd4e988c546ae4bb2404cb11fa',
+    'size' => 15907
+  },
+  'Mail-POP3Client-2.15.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '609e07f95753ba2d3d7e6464a40fff65',
+    'md5-ungz' => '76871902615874904f5e1b58dd175175',
+    'mtime' => '2003-10-18',
+    'sha256' => 'e70382dfa1541dd30a180803c6d08b82b1a2563415bf88559e1ce2212e7905e3',
+    'sha256-ungz' => 'e8daf99741e8ca773a026572ebfe76610c268ea0b64be9f253421298a6fbf659',
+    'size' => 16193
+  },
+  'Mail-POP3Client-2.16.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '099791880b0638abca33ff016832d7e4',
+    'md5-ungz' => 'd08bf9624db46f1959d205028a198f53',
+    'mtime' => '2004-03-13',
+    'sha256' => 'bcfd0d4179f129270db6ea8b5deba1efd2c3d70ddb0e1e61c3e26c090d5cce4f',
+    'sha256-ungz' => 'd01378d7e24e912e13d905d9b75b858d62cac0c09506209631c469cfd38d32fa',
+    'size' => 16316
+  },
+  'Mail-POP3Client-2.17.meta' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => 'b6d9c171e6facb201fc7176bff3dd186',
+    'mtime' => '2005-08-18',
+    'sha256' => '699d493eb03e3b9c1625fd88148501a923dbe23401b6b018b9c1332e82b1c067',
+    'size' => 305
+  },
+  'Mail-POP3Client-2.17.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '3cb3b7baae3ed510c8ddf68a7532260e',
+    'md5-ungz' => '16e5c006186abb9ad02764ea65eaaece',
+    'mtime' => '2005-08-18',
+    'sha256' => 'e1cbb4f3bac5a0a2337482923c9fcd57163dd54460074f1a097ac0d776fee3f7',
+    'sha256-ungz' => '65aec621a8ba4e55edfc5d3b34e745702dc531371bd6292f21696d4cb9163dc5',
+    'size' => 16435
+  },
+  'Mail-POP3Client-2.18.meta' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => 'bbea78525af20936fca45efa019ac5b2',
+    'mtime' => '2008-02-27',
+    'sha256' => '7b4918e4dd133ba19f77ea082b12859d51edac0dd22a3cee9641b367e61134e2',
+    'size' => 305
+  },
+  'Mail-POP3Client-2.18.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '27b99775072f6ad4b585f7484c47405d',
+    'md5-ungz' => 'd7447a9afde6626180626077c2e69c96',
+    'mtime' => '2008-02-27',
+    'sha256' => '406ef46ae9c5bc87b26db2a6292a3eca86580b96f6beb5f2ef40db5eae072aa2',
+    'sha256-ungz' => 'f7e659b495ed4ac3e65b5027aa21d746ec62643c1368b14d816fc100af90adc8',
+    'size' => 16641
+  },
+  'Mail-POP3Client-2.19.meta' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '79df1537241f9e301cbe5367a2c9014b',
+    'mtime' => '2013-10-03',
+    'sha256' => '72809f19bd11b551a7c62df2390952a11e83ce8a10240b8673386ce52995921e',
+    'size' => 970
+  },
+  'Mail-POP3Client-2.19.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '8ee509c9118fdd65a6d777b3f5f1c835',
+    'md5-ungz' => 'ce429c70404ec6699ebbc4901b1d1b95',
+    'mtime' => '2013-10-05',
+    'sha256' => '1142d6247a93cb86b23ed8835553bb2d227ff8213ee2743e4155bb93f47acb59',
+    'sha256-ungz' => '7b4d9e131dbd57ca392cc50afd53633b1bae2e3fda27f491020d02136ec3a0d8',
+    'size' => 17751
+  },
+  'Mail-POP3Client-2.21.meta' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '6a6d6ca61fe45f0b9c919e0c5a753020',
+    'mtime' => '2022-05-09',
+    'sha256' => 'd0d1163536ee9208421c1775dcd827d787c701885267a71155379daecfea4763',
+    'size' => 1024
+  },
+  'Mail-POP3Client-2.21.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '39cc51c3eddf416966990246c9d65b34',
+    'md5-ungz' => '3524da37002a25f532314b4c55e226c8',
+    'mtime' => '2022-05-09',
+    'sha256' => 'b16ef2149b6e3573873f1e590e4d51366c5994b8b5315df16925d17b89e24901',
+    'sha256-ungz' => 'dca51a9249fccc51fb18469661a096e267801817ffc8ea6be43eb3fb48b81097',
+    'size' => 17973
+  },
+  'POP3Client-2.11.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => 'a30d264cea5a20f96ebab6c4f979a4d6',
+    'md5-ungz' => '20421594238730261c6ff96afbb683d0',
+    'mtime' => '2002-06-18',
+    'sha256' => 'fb0539ec677555325d9e2814bbf4d1afe9a469e4ced717a44565706435f1234a',
+    'sha256-ungz' => '0e3fb6a01bd42d958554fcbdf2dcd73ada38e281eb57d0f6a4614f2884e4a21f',
+    'size' => 14205
+  },
+  'POP3Client-2.12.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => 'd5bb319f7dc52e852822401ff2da6d4f',
+    'md5-ungz' => '3bf88b98e25ea2b5e4ad1dca70ce4cb1',
+    'mtime' => '2002-09-21',
+    'sha256' => '297b30a5f01a280de71363c5fc26f6c2c3b858f9f504c011cbae4717c6e7431a',
+    'sha256-ungz' => 'ac33dbbf5fb3303ce338db7f75728d9e37311aebda6a7182f1c7dfe50081a94e',
+    'size' => 14494
+  },
+  'POP3Client-2.13.tar.gz' => {
+    'cpan_path' => 'S/SD/SDOWD',
+    'md5' => '6e0ab2092d93cf5a8ba4cdc1222ea065',
+    'md5-ungz' => '61605cd5fd3dc4bc75bdd2ccdf2ff677',
+    'mtime' => '2003-01-10',
+    'sha256' => 'd136f1a444bca1a7f980f7e07e5bf6b8984994272a3c1f35cde5a31b1275dbbb',
+    'sha256-ungz' => '0986828a0c74c0d91246ae3a71167d24c31c72023994bcbc8919ed802904ca7b',
+    'size' => 15186
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJieZX/AAoJELahc5BjdgzKEPEIAKdOpgY5eLq4BOPgmDh1ngWu
+X6ET459ZPSiFd2Z4XKJKyYE21y6qg860jY0wyITBs2i5PUwqFf5P3KNU1tUIPMMF
+dFxqsrgzi+vu8NPgBjMO5pfilQCXcJLrv2L8zd8vBsRonFSTaKUWG5h163EoQwI0
+uslhWSzZllO9kTTsiLiGeYTy52sGEQYaHx1LLHbuz4L3GeLcX/he6j0oIZ79vCj1
+FA4iX+fK3CoF148JUqMimGhX+qYGieYy11sE1PHBx78IsvCs2Y/qTyD6ifqPTByX
+1+IAmnzOZb3kizjfP+kPODcaGQGh2OiZSL1bpb7k6+EV/IdnOKU0K/knJVCJloA=
+=pY3A
+-----END PGP SIGNATURE-----

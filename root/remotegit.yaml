@@ -1,0 +1,8 @@
+---
+- hosts: webservers
+  vars:
+    - tomcat_version: 8.5.75
+  tasks:
+
+    - name: copy war
+      get_url: url=https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war dest=/opt/apache-tomcat-{{ tomcat_version }}/webapps/sample.war owner=tomcat group=tomcat mode=0744

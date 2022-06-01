@@ -1,0 +1,103 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 21 21:37:30 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Acme-CPANAuthors-Not-0.01.meta' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => 'd4044500f066bb8a0e0b7f597eef7d79',
+    'mtime' => '2008-11-14',
+    'sha256' => 'e0e75e68b75f2eed349b00b3d77a4999bc1becdccb49dee9d7989a0a6a1f6ca3',
+    'size' => 523
+  },
+  'Acme-CPANAuthors-Not-0.01.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => '43682b9c3fc9b746ec9e4be0d504e147',
+    'md5-ungz' => '7b64c0aba293e37c97d05535a9bc31a8',
+    'mtime' => '2008-11-14',
+    'sha256' => '36753a56262c0657cd8ff5af7cc3fa6a32f3029dd710950ee253f3416f0dae89',
+    'sha256-ungz' => '9b422f30e5e517119c4419b516ee5b28a616383aca636c5707aaf061ca5d4333',
+    'size' => 3223
+  },
+  'Math-Calc-Units-1.07.meta' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => 'f034111186906b5935a478c8ff934752',
+    'mtime' => '2009-08-04',
+    'sha256' => '5403a60057c506bc161b41c9d1540c0d0af6321447cffbf37de00eb4332ac2ce',
+    'size' => 473
+  },
+  'Math-Calc-Units-1.07.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => '56e4be0e64d6c8fc27c8f87d0d3cebd8',
+    'md5-ungz' => '0ce3b44b4b8eb8b7682c02914253e22e',
+    'mtime' => '2009-08-04',
+    'sha256' => '61e3cfdb27bb3bee27beb97124dd930760e1039edc1eb7816c2f5627765f8f8f',
+    'sha256-ungz' => '7e74d2fa15f0c7c48e9cc1b73854a61b8e71989a7ea295ffad520c853d8cdbff',
+    'size' => 34025
+  },
+  'Net-Chat-Daemon-0.2.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => 'd694de49fea9ae6f2f3333a6e7d3ec4e',
+    'md5-ungz' => 'cb6c6379dbacfe336221de3a48006e27',
+    'mtime' => '2004-10-12',
+    'sha256' => 'b0eba6a44fc916825f8d56bf129e30e91868a4e418faaa17d85ffbbb92cba645',
+    'sha256-ungz' => '5814733ff95578c15c05b6c3f49ee42bc863912a926f1df95303236288dde6d4',
+    'size' => 12615
+  },
+  'Net-Chat-Daemon-0.3.meta' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => 'c1034990735d0889f1f1e546c1f6248b',
+    'mtime' => '2006-06-28',
+    'sha256' => '279d8e6c9c8e18cc96210373f065f1903c0879b547d8021411a82f4c8b75a061',
+    'size' => 352
+  },
+  'Net-Chat-Daemon-0.3.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => '01212136ae9f117614863a155944de16',
+    'md5-ungz' => 'db864caa75e1ababa67d75d823a4571a',
+    'mtime' => '2006-06-28',
+    'sha256' => 'c32bc6b8eb6541a6f86a538135ccc442c634002cb28ccb50e64d649c44adad4b',
+    'sha256-ungz' => '3211c15ed29783114407b65b07196d7179a9307a0999c74cd5d85daff710d592',
+    'size' => 13156
+  },
+  'Parse-Vipar-0.01.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => 'fd552a3ec4038610acc53894eb79d640',
+    'md5-ungz' => '2d68eb56a86842cb038203965a3d4501',
+    'mtime' => '2000-07-19',
+    'sha256' => 'a87174b54d19da2fdd9efec22dd1d01d074c67f4725db13cc6385c9e3f278194',
+    'sha256-ungz' => 'b10b36e2a88e40c85185a53a780b91a686b364ea63d02fa8ba6a36a56b3716f5',
+    'size' => 24391
+  },
+  'Parse-YALALR-0.02.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => '4b3b43e624b42ea270ecbb03e640378c',
+    'md5-ungz' => '6efe21fa27a1729d4ed33f107e1b8ae9',
+    'mtime' => '2000-07-24',
+    'sha256' => '61aa8feac60819fec3239a57aa1c2580fdeab2f6d4b4ea10bdff6056d4400219',
+    'sha256-ungz' => '0a1e229b9e0a1404e9ebdd2f4e40d9adc4cc6b513dbf059fa7470e1c8e7dd9ed',
+    'size' => 33366
+  },
+  'perl-bison-1.25.1.1.tar.gz' => {
+    'cpan_path' => 'S/SF/SFINK',
+    'md5' => '2e8aa7edd7d399a3fba27529ec0228ef',
+    'md5-ungz' => 'f10fac6cdf13b59de880debf94f3bb0a',
+    'mtime' => '1999-12-31',
+    'sha256' => '3b4cb7b0cb9bf1ed6c78fef017eb1192a2a39d96437dfa8306f0099b8a3de49b',
+    'sha256-ungz' => 'a063e9272777162976e313293eacf4087a9fb0d8416d47549a2c72f3456ccaff',
+    'size' => 311112
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmrwaAAoJELahc5BjdgzKlv0H/387mpCOeQs7e0SkFRmEJsU2
+e8v7psb9vgRMhXnWJDukbQ52ekJC9gBw7TyyzlSB0sVT9+KGC0kiRyWwm24z9uJx
+6kDZ/V8Fz0DTygoKIng8vzN4baCex6ySbUU1UVkhNTzGMngjK8SFNvIfUPz9bo/q
+AnhSrvohyAfd+je+j2r4F7jliqEI5WtTTXsmZuJNNTcXmAQT0bVEPtSppyOkX3vi
+SbYv7eLkyCUJ2Du35MDUwP3pN64lvPEhyAeRrZG5X32SwpDD9hvb4AF5BWvEznN9
+ztSM7f6ANz8docvlzCBIoQwWfV0NKQ9h7fwJIYMcNouY3Wt6emvf0pDPicHcmKg=
+=E6eQ
+-----END PGP SIGNATURE-----

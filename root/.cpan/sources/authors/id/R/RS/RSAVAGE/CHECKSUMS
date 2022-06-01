@@ -1,0 +1,1925 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Tue Jan  4 05:54:59 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'App-Office-CMS-0.93.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '23e35132090e2f89c42a4e66e9f8b6a0',
+    'mtime' => '2017-10-30',
+    'sha256' => 'bde235fae1082cef5450591a1317568be267105b7d6007aa3aa41507906c0725',
+    'size' => 2647
+  },
+  'App-Office-CMS-0.93.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0afdea189badb84393b16575f3816ec2',
+    'md5-ungz' => '2867e6a2293db0363bd902dce21a9823',
+    'mtime' => '2017-10-30',
+    'sha256' => '7e93adc258260ab8b3519e624b6b846f73e8b403120e68de071dc820f4340b97',
+    'sha256-ungz' => '23fd18996faf80c7c47616a0fcc03dde83a145c3ac029a03046e1f5f672a330c',
+    'size' => 138695
+  },
+  'App-Office-Contacts-2.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '78c766cddaafd8f50283d89bf9bbf4d4',
+    'mtime' => '2013-06-12',
+    'sha256' => 'd415511a26910e1b839633ccced3662b4b25a45cfd115cc93cd3b87658d3ffe4',
+    'size' => 7415
+  },
+  'App-Office-Contacts-2.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd9d9784c28d06f6809597a42b8f3bfc8',
+    'md5-ungz' => '4da166f2df2fe21045b43fe954d2a792',
+    'mtime' => '2014-02-06',
+    'sha256' => 'd6d43bac0e22ee5f8f4b40db5b725d7dcff1d97fd5d2719100cbbcfda910eebd',
+    'sha256-ungz' => '2cfa9cb82a1235cb3b3d9e343a4b39bae40c86a6db8c26513b42f1c7fe8070a6',
+    'size' => 411078
+  },
+  'App-Office-Contacts-Donations-1.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3b7bf5105cf492740863d1b25af9bed1',
+    'mtime' => '2010-05-19',
+    'sha256' => 'cd073564011e1882003c6e75d28513e44e479727dd73c508bfd754e3eec6a998',
+    'size' => 3087
+  },
+  'App-Office-Contacts-Donations-1.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4d3a571fb420ca23adf39e717bb52cd7',
+    'md5-ungz' => 'b51ebbb20ebfebd2e70ad506f758a702',
+    'mtime' => '2010-05-19',
+    'sha256' => '28b3958687a2b16e3037a816d8b4ab3725bfcea4ad511d2f484f52347aee127e',
+    'sha256-ungz' => '49f37afcded792f3f69d92afa330a803648133490392755e4d7e839e74ba5c38',
+    'size' => 44465
+  },
+  'App-Office-Contacts-Import-vCards-1.12.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'dd590826d1676d3e2139799196b4b576',
+    'mtime' => '2010-06-25',
+    'sha256' => '3de74fdce4cd78f63a6056bd49b89e1e503d93ef7e069ce29866fc214e2545bc',
+    'size' => 1809
+  },
+  'App-Office-Contacts-Import-vCards-1.12.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4a486d45971242d2ec83045cbd457f0c',
+    'md5-ungz' => 'b13615546ef32c369484213f72a90b2a',
+    'mtime' => '2010-06-25',
+    'sha256' => 'd74198fe68da75ce49ba21d353b85f83010f0b579a045066eba447b78aee4dff',
+    'sha256-ungz' => '9794b19fcfc874df64670bc887963c79855da097dae120825c1560ab2cbefbbc',
+    'size' => 16216
+  },
+  'Benchmark-Featureset-LocaleCountry-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f65f0632092672a597f57fbc7bda356e',
+    'mtime' => '2012-05-17',
+    'sha256' => '77a8c751ae810af0a29e417f3b5d20a0d1d8d9751eb3e26fde06fae62946a805',
+    'size' => 2072
+  },
+  'Benchmark-Featureset-LocaleCountry-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c512d730033997132a1312cbb2d6df81',
+    'md5-ungz' => 'b73d25c612207dfd092bef963176f54e',
+    'mtime' => '2012-05-17',
+    'sha256' => '1a2a11c1affc837f86fa60789e0c7cc134eab5243bb41e72a0c3dc52463961d8',
+    'sha256-ungz' => 'e326a16185a6997a1fcf241bb49ec77c78ffc99c43f13c3709b8272b4cc1479b',
+    'size' => 13323
+  },
+  'Benchmark-Featureset-SetOps-1.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '454ae553ea5a97961dbf12b9c42415bc',
+    'mtime' => '2017-04-17',
+    'sha256' => '8c84a4c4c30efe36cd8237e1a43eb3a28faa3d94ddda8a6ef80d8f2ee1fa7f9a',
+    'size' => 2025
+  },
+  'Benchmark-Featureset-SetOps-1.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '56f75be404ea19a23b0fed13e3639bf2',
+    'md5-ungz' => '048571995f6f30d33dfa8d6743074a45',
+    'mtime' => '2017-04-17',
+    'sha256' => '7099bdb608511f99bce395b9b17e4635b6aac4fa8bb2acd0b4b737fdf2b3333b',
+    'sha256-ungz' => '011e246fea0933561776dc44d7e723f51190482f69f57838230c539bc31b4122',
+    'size' => 26694
+  },
+  'Benchmark-Featureset-StopwordLists-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '37cbf61dbac729a5a32f9dec3af57d4b',
+    'mtime' => '2015-08-16',
+    'sha256' => 'ac804fcf4fa9235988182861a2181501749b639edae057df0b0037fcaa8b2e2b',
+    'size' => 1897
+  },
+  'Benchmark-Featureset-StopwordLists-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3f3732921fe2f771c2d13058a0c6f59c',
+    'md5-ungz' => '6508cfd7cb55a2df8b5a5fbc1ddc8549',
+    'mtime' => '2015-08-16',
+    'sha256' => '2d2f6cbd956f75ff693e740d8f8708b06d06249327a7c8c16ab1d0ad336b3244',
+    'sha256-ungz' => 'f3a298e8c1da68b20e57dbc357b1aa1c0c2840ae03344a815c89429d045d6137',
+    'size' => 22999
+  },
+  'Business-AU-Ledger-0.88.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2a683ea0bdff30ac3fe308742735aca2',
+    'mtime' => '2010-09-24',
+    'sha256' => '96aff6fd36fd152f0475a1f4b941d67a6524051bc5470c805792e8c8d688c006',
+    'size' => 2372
+  },
+  'Business-AU-Ledger-0.88.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'af3f2522a115c373fa3b06b9ddaa0ba7',
+    'md5-ungz' => 'fc5d192f6506cd939af99d4b8149cdf3',
+    'mtime' => '2010-09-24',
+    'sha256' => 'edfc87bcb3051c773fb44b2c9a60093640290993e571e682fd42a9c52febbd26',
+    'sha256-ungz' => '53fd08958f765bef8a3044e3770d344dcc14c1eb71210ee3d59d51a279d861d3',
+    'size' => 92050
+  },
+  'Business-Cart-Generic-0.85.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '235781f36c1e17d1f6155548f831c6e7',
+    'mtime' => '2012-05-18',
+    'sha256' => 'b3a3fff729d5c576dba9f2f23772d2e5753d66b9eddcf781c6069e9ebfc3acef',
+    'size' => 12886
+  },
+  'Business-Cart-Generic-0.85.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'fcec5b26a96ddcf056a5e4902c53fc68',
+    'md5-ungz' => 'd4ca5c650252cec1c1da91344d3d9a4a',
+    'mtime' => '2012-05-18',
+    'sha256' => 'b5565f86543b0ed93f33cb718b02d87e31a95fa161b793361405897478b9f448',
+    'sha256-ungz' => '4336220e6e0957eb1b1e27b8a0cc4e70cc877c78dd7094155c8d1b720bac5b8d',
+    'size' => 75627
+  },
+  'CGI-Application-Bouquet-Rose-1.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3374973720927d4dc387fc0a231db8b5',
+    'mtime' => '2017-12-27',
+    'sha256' => '589254dc73df57066d93550294b36e46d5f950fb94d9305965d13a601749e919',
+    'size' => 1913
+  },
+  'CGI-Application-Bouquet-Rose-1.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3d431b610a5c17c1e4f4b58e92ca6dee',
+    'md5-ungz' => 'b08be229cdf64d604be743ad1e2c2326',
+    'mtime' => '2017-12-27',
+    'sha256' => '0ceb94f907fbca9233d6cf3b6bb117f250183c8a3473c651a7d8a1d8ff12802d',
+    'sha256-ungz' => 'd44f119a9eac54fa2b5759022fca5c6a0cd9bd1ca553948f87bd345f90886b6d',
+    'size' => 23246
+  },
+  'CGI-Application-Demo-Ajax-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '06f1df64512f9358bc1283f6da5eb63c',
+    'mtime' => '2010-03-29',
+    'sha256' => 'ff9d8d1f2b2eac0d5ed1c44e7db1b11b578cc63900af3d52a9f18c982823761e',
+    'size' => 696
+  },
+  'CGI-Application-Demo-Ajax-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'daceced7c6de3532272211814647d6b1',
+    'md5-ungz' => '02d8170098b4c3dfe8757a6e10c2c46a',
+    'mtime' => '2010-06-23',
+    'sha256' => 'a2d72454b07df8ac6c8eff40c59a4644b242cd86a8fa124f88ddf74dab667108',
+    'sha256-ungz' => '58f790b5f50e382b88d7fc1e4509ff038f7d198f204858da24b22ff9f993ef44',
+    'size' => 10317
+  },
+  'CGI-Application-Demo-Basic-1.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '14c57e8dec348ed84e4411a2ae849a3c',
+    'mtime' => '2010-04-25',
+    'sha256' => '0a720d7a37034980118b5323787ca9e0a13e21da1af5507008bdcdb49a2b4140',
+    'size' => 2056
+  },
+  'CGI-Application-Demo-Basic-1.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1887f3c21635ac4fb4e8fc955753c1bf',
+    'md5-ungz' => 'c9c625ff7dd5ffb13dc8892a95086474',
+    'mtime' => '2010-04-25',
+    'sha256' => 'b9f1b10bc15fde532ef4c393ee6b9801ff5cbb561c5677c271d4e70c943fb670',
+    'sha256-ungz' => 'b7f7cc2ad1ed666ffbb562546e247c7e27cafe1c38ce57e1f367275cf82dfa1b',
+    'size' => 22220
+  },
+  'CGI-Application-Demo-Dispatch-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b6bd18a934f52f6576c27c45e33969c1',
+    'mtime' => '2011-03-12',
+    'sha256' => '1edeca1f0ed2560377dcd121d5f64108a8b7bac7fdd5926b4b8364d5404fe713',
+    'size' => 1244
+  },
+  'CGI-Application-Demo-Dispatch-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f92f122799cf6e77e2b522965898ddff',
+    'md5-ungz' => 'c5add603090a3513c10cfecc14fb313e',
+    'mtime' => '2011-03-12',
+    'sha256' => '20e9bdc77597bcc7e3a7be2270dcc14232dcfd954c0a78ba39a697029d31b5e4',
+    'sha256-ungz' => 'ea0f9a7db86aab866e5636d4f066f7fb14841bf0b63e0c13d5ed0505e66bcbef',
+    'size' => 8222
+  },
+  'CGI-Application-Util-Diff-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '999b31def538a5a97173e6e79351aa94',
+    'mtime' => '2010-08-24',
+    'sha256' => 'e1dbb09ecf55206fd248875b735eb3d183bc29250ee7b4d441a7b347b2fcb38d',
+    'size' => 1197
+  },
+  'CGI-Application-Util-Diff-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'da7a80339579efec07bf96f03bc9f631',
+    'md5-ungz' => '6a01c6836f1bd6fcd046250356a9dc60',
+    'mtime' => '2010-08-24',
+    'sha256' => '4e7323df351ed63582bd1efb0788f3c78422c4f061d4663bf11c7db8decefb51',
+    'sha256-ungz' => '76c74a9fd031745a6638cb2c1a17cd313fad9f9d13a6190c2c8095ef97b128b7',
+    'size' => 20116
+  },
+  'CGI-Echo-1.08.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '073c02234dffd65752677230deb2fb21',
+    'mtime' => '2010-08-24',
+    'sha256' => 'a4ee7badc44e9e6cdc9a9c3c795911b60e2049efe9c2c88c9359e67039402e17',
+    'size' => 527
+  },
+  'CGI-Echo-1.08.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a3c7305800b7b62b8770a4b6c058a26b',
+    'md5-ungz' => '4058f082642152d1cd98c822a0a27e13',
+    'mtime' => '2010-08-24',
+    'sha256' => '03a709c38309a562d55ef6aa6ab40ac4f91e9ef50c3787e9d223201fb3e85851',
+    'sha256-ungz' => '6c9fce6f942df1a268eee0502c5c30eedd6e772c0d97997d6edd415e639f639e',
+    'size' => 7583
+  },
+  'CGI-Session-4.49.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'fe97bcaa87e54f7302cba14bcc22bdd0',
+    'mtime' => '2021-02-08',
+    'sha256' => '8fe39cd7cd30c135a0cd1efe8b8700ea96be69509f7271ea5fa02d97eb4bf155',
+    'size' => 1550
+  },
+  'CGI-Session-4.49.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e0c0cbebc68f343e1abeb4260a43a45e',
+    'md5-ungz' => 'e1e0aa5f8d257c26ef073e3836b06e43',
+    'mtime' => '2021-02-08',
+    'sha256' => '9747a617ee76bc736f78cfcf4c0dcf2960b411f821fde00a4e7fb33c86b85ffe',
+    'sha256-ungz' => '910b60684e34c3bedf0bc49ce5be5dee0537bf825b8b1d10e3668b4915492acd',
+    'size' => 82727
+  },
+  'CGI-Session-Driver-odbc-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9c749931cdc5b1157f656d62a37129d6',
+    'mtime' => '2010-08-24',
+    'sha256' => 'f5525494577af8dce155be71a79a33d74682b132f4efcf0802d84cb3935dd577',
+    'size' => 609
+  },
+  'CGI-Session-Driver-odbc-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b0503ecb5aca100e3000a7d58da4978f',
+    'md5-ungz' => 'ec78fdbda63d4d0d01b808a553a8cef4',
+    'mtime' => '2010-08-24',
+    'sha256' => '0b65ecb6424e5b6744241203b321d4991b7020ffc5d9a8dde7d79cc439d5384d',
+    'sha256-ungz' => '5e3dc7f25dda1fef6417a241b3d01706c130ba6c796765cdbc4f4d67e5f45b4d',
+    'size' => 5077
+  },
+  'CGI-Session-Driver-oracle-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '44da5296c8a30b3365829a0f93ad33b7',
+    'mtime' => '2010-08-24',
+    'sha256' => 'd63b23d66f1d24ce9686cd031977e10148056b721528efe5d8b1edba2a45890d',
+    'size' => 624
+  },
+  'CGI-Session-Driver-oracle-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e7faab046aad2777db4612d91647840a',
+    'md5-ungz' => '74999eb0175ad45717abc009758ea816',
+    'mtime' => '2010-08-24',
+    'sha256' => '006216a40b612c146ffa140474e36bcd30e1c991715e1a74c1637a6338187a8f',
+    'sha256-ungz' => '942c503e21f237bd6b1082c0071106c9688b3f7e446085c89a96d7bda571b0bc',
+    'size' => 4970
+  },
+  'CGI-Session-ExpireSessions-1.13.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4fb32c11a132ac59c0a230a3d91037ba',
+    'mtime' => '2013-05-27',
+    'sha256' => '78b1f3d67e0d92f0e33daab46babc524113c25eb79ae825c14303dc60ff81454',
+    'size' => 1152
+  },
+  'CGI-Session-ExpireSessions-1.13.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c295be4327cfec8ec8354771179df811',
+    'md5-ungz' => '556af9e8e704373a216c396f03b9127f',
+    'mtime' => '2013-05-27',
+    'sha256' => '100683d0808564c65d5335067653434b85b20991f95204f4d963a91fb8eaddf9',
+    'sha256-ungz' => '5cea5762bfb57d8aee4cc412aff6206621260cff27fe596004884daae288427a',
+    'size' => 14082
+  },
+  'CGI-Session-ExpireSessions-1.14.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e42b23e87b52934449f32e60a3d40100',
+    'mtime' => '2021-04-27',
+    'sha256' => '590d7142d8d9b9db5ff21a0d4e54326d5b1e5a7ea137999027cb5c4f50d730c8',
+    'size' => 1435
+  },
+  'CGI-Session-ExpireSessions-1.14.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '8cb746e53e5eedcec85b04f137e51263',
+    'md5-ungz' => '2bc35b28e290e97a80f3a464973bffef',
+    'mtime' => '2021-04-27',
+    'sha256' => '808f858af5bc5927f5e4c38e1fb747b91123f9d4a13579d4569cc9503c69d50c',
+    'sha256-ungz' => '44c9db8900c49bdbbf09e349331fabcd1fdbfc2863c1ec5d5a7b1a599d2d12f0',
+    'size' => 20218
+  },
+  'CGI-Session-MembersArea-2.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'eadd2a001887403ab811b20c723a2383',
+    'mtime' => '2010-08-24',
+    'sha256' => 'e6b05005a9d754f8117d673308f1275e0c0cfde079e605a0877cd2f1cbf72afc',
+    'size' => 606
+  },
+  'CGI-Session-MembersArea-2.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7c69af57b82ad44e8c8ac8c6a05970c2',
+    'md5-ungz' => '102eb8bc0ef89b4ca79f6956bf071863',
+    'mtime' => '2010-08-24',
+    'sha256' => '110a9ca79b9773efe9bf1519c48852d830b906c5a60b16ebf51d7af99e8f04d7',
+    'sha256-ungz' => '7a2152d5977d9896753a919f53fc08e836e3005855ec06cc10bcc2f554d23512',
+    'size' => 12460
+  },
+  'CGI-Session-Serialize-yaml-4.26.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1ac7502bd96e62a1ff39dc99cf3a450e',
+    'mtime' => '2010-03-29',
+    'sha256' => '57d8b088f1a18cbe31ee9105925ef51e260320d1837ca9b02442150547a55317',
+    'size' => 670
+  },
+  'CGI-Session-Serialize-yaml-4.26.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '29f35caaf1de910c0a99bdc9b2f05264',
+    'md5-ungz' => 'bb666fcce79f1ad3d8ddb6af2d5a8b85',
+    'mtime' => '2010-08-24',
+    'sha256' => '1a1f9457e4f7df3d5d176a6af06c3cc3e635b9d2eeaa6bf7fc60350496f7474c',
+    'sha256-ungz' => 'c06bcaae083fb5bff9245d1004014138f84dc9fceaa940152d1a560bb59871be',
+    'size' => 5386
+  },
+  'CGI-Snapp-2.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '8597875b6e4dfcee56a8611a2830a514',
+    'mtime' => '2016-09-11',
+    'sha256' => '06d333378938f33713d7ba5d74fc6cd179cbb21161be1c0cd9f267c001c25c5a',
+    'size' => 1949
+  },
+  'CGI-Snapp-2.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '5c501ad914909c90286270aacfe521f0',
+    'md5-ungz' => '8c09898e949a62466d79fd8b9e5b576a',
+    'mtime' => '2016-09-11',
+    'sha256' => 'f0f86ad293b6aea386e03c59fd2df22bd297853a8762bc002aafa2cae7ec0c2a',
+    'sha256-ungz' => 'e805861a6b6d494d28bd09998c161d7aeee51b462e8b3f0d05d5881722460fd2',
+    'size' => 45837
+  },
+  'CGI-Snapp-Demo-Four-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c7c723a25e75dc201c9e38f200c3fdef',
+    'mtime' => '2012-11-17',
+    'sha256' => 'ce1db7ebfcddc354ae4acba233fd9a9a4b168fdb90e8701e5bd0e2b1874ba874',
+    'size' => 1621
+  },
+  'CGI-Snapp-Demo-Four-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b02d08e01becd2d677b2a3264818b7ed',
+    'md5-ungz' => 'c44cc1da8133825482ff800f5352d18e',
+    'mtime' => '2012-11-17',
+    'sha256' => '1cdeacc0e9a87fa52f4ca1b20c890794dae0b1156749c545c06b9fc4bcfb543a',
+    'sha256-ungz' => '8cc1855e486b29d5114000b0ae3389ed9e1be85610ad86af883649984504e437',
+    'size' => 8731
+  },
+  'CGI-Snapp-Demo-One-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4dad3898c41db320ee469757549e63dc',
+    'mtime' => '2012-11-17',
+    'sha256' => '3ddf85840c53339064acdc1d579cb5f6015740211c6635a6a42968f4f3db3104',
+    'size' => 1269
+  },
+  'CGI-Snapp-Demo-One-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a6312c0b282dd087f506f2aa61be9851',
+    'md5-ungz' => '8564e92323a03042eab87e5831dfbd7b',
+    'mtime' => '2012-11-17',
+    'sha256' => 'ed4d2c3944517b5408d496611de781fef855369392b5a8dbb1f480da791a022a',
+    'sha256-ungz' => '380b5e495b95973c3380acdadcd4c8ac4df12f0aa31da0d6113931847e141483',
+    'size' => 5858
+  },
+  'CGI-Snapp-Demo-Three-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '077e1115acb2efaa4da632dd6c87978b',
+    'mtime' => '2012-11-17',
+    'sha256' => 'ea4b35b1d4003dcdde5725cbe330634af70c0d57262272e678ed4b12d32c07c2',
+    'size' => 1280
+  },
+  'CGI-Snapp-Demo-Three-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1c2cac30f96ade4c6295aff851a1648b',
+    'md5-ungz' => 'e90b094e8cec95acc7b917436bfcf648',
+    'mtime' => '2012-11-17',
+    'sha256' => '46f8af1ca32e49b03beee723047c64c485ae77ac8bc8173ef951eefa8ee1fcdc',
+    'sha256-ungz' => '1590c845a96883ec56bf22c07681e09b5578d75f75299a5a0008e86a4c3e39a1',
+    'size' => 6781
+  },
+  'CGI-Snapp-Demo-Two-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e442c097aa5afb724cbf8e15c669f806',
+    'mtime' => '2012-11-17',
+    'sha256' => '6bc25847593d85f82f0b6d8c5b2c6ebf9e190648e5676993717fa9e25eec7106',
+    'size' => 1265
+  },
+  'CGI-Snapp-Demo-Two-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ea62d4fe392cd1a86cef37109410f519',
+    'md5-ungz' => '849b977ad2c7a38ea4b8f10ad07e9d5a',
+    'mtime' => '2012-11-17',
+    'sha256' => '11a1fed3a823791a61fd582f4720b1f05c9cc6da4354048f723af9b889748e9d',
+    'sha256-ungz' => '4fea76d71cd0d875abb2708ebe34019a3734b8908bcfe5f0f96b569d56967517',
+    'size' => 6643
+  },
+  'CGI-Snapp-Dispatch-2.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9b8d151a51ae026634423f07e3719861',
+    'mtime' => '2016-10-03',
+    'sha256' => 'ec57d9548340099de5b40bbf60f1a1731e32640457c16c72b4f914ee928c73ae',
+    'size' => 1917
+  },
+  'CGI-Snapp-Dispatch-2.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b139227539d544f0dfa375c44b7d8b89',
+    'md5-ungz' => 'd12e8a7e626ee7a92cfa872d9ccd2a67',
+    'mtime' => '2016-10-03',
+    'sha256' => 'a97ef9cdbd3389c01ac63b407e2a78a2552f5595c9ce7522b9f9e304d4ac80d0',
+    'sha256-ungz' => 'b8b6ee3a1f273b461c621f0310379e0a231c8a428a276d6d6367fad9802896a1',
+    'size' => 32806
+  },
+  'Config-Plugin-Tiny-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ccbdabe8432569d113a32269688eec3f',
+    'mtime' => '2021-02-01',
+    'sha256' => '891137d90e14d174d071f6cd5c632c5664a8f3c271e1c090c9d908c9ac3d63e7',
+    'size' => 1560
+  },
+  'Config-Plugin-Tiny-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '55dba641be15f10f158be19434ad88f0',
+    'md5-ungz' => '2afc36728fafb3752ce99d3928aba17e',
+    'mtime' => '2021-02-01',
+    'sha256' => '5d257dc1a9b2fe5bb498f9267d4e74f3b8b265816822ece420a0be6b9443493a',
+    'sha256-ungz' => 'c9234d5564d221a15c825589273cf715f37bd81b56eedde9fd46d9fc314de726',
+    'size' => 13744
+  },
+  'Config-Plugin-TinyManifold-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'acdb293efce8747c2da1156b9d1313ba',
+    'mtime' => '2021-02-01',
+    'sha256' => 'd97b17f583ca06d47368d8cff152de3b1d85f10db9314fabd23c4e84666acdfa',
+    'size' => 1619
+  },
+  'Config-Plugin-TinyManifold-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '8258ee70724782cbb15e454ddf1ff2dc',
+    'md5-ungz' => '3cb73140951fff7488c0d5c06aeb5e35',
+    'mtime' => '2021-02-01',
+    'sha256' => '2acc8591d6fdef21bc8d28ece3c78ac22a0b2f68920b7affb1c9802ccf507422',
+    'sha256-ungz' => 'c632ffc64ce0f5a6abe383931abb92b481d81d79f997ee480c0e0f0f1c91e46c',
+    'size' => 14211
+  },
+  'Config-Tiny-2.26.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f0df002e3349b3e3864189dabfea56d8',
+    'mtime' => '2021-02-01',
+    'sha256' => 'fedb8a83a858d05a82ba0bee4c6c9026a4f5c7c73c8e029a7e4b759803bc026d',
+    'size' => 1522
+  },
+  'Config-Tiny-2.26.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '760485706daa91a22485421c3c2b1e1d',
+    'md5-ungz' => '448b02b2c8dddc378d6579e1500ad8ef',
+    'mtime' => '2021-02-01',
+    'sha256' => '83b53291baec7884fbdfeb2a231297202df266cac58638b895ce25ec877dcf5f',
+    'sha256-ungz' => 'a741230f04e31f042fb13c502d4ff58b2502b3e05ba936b6321f3b028a233e2d',
+    'size' => 22443
+  },
+  'Config-Tiny-2.27.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f6a3f727092cfa110f21b625b56a9f53',
+    'mtime' => '2021-09-22',
+    'sha256' => '3b11648416da1471f205be0e8e3bc3c23f4881211e28ca2bb3796811454feb21',
+    'size' => 1522
+  },
+  'Config-Tiny-2.27.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '72e70dd180451a06d1baf9676ae0cc77',
+    'md5-ungz' => '75ae42e2ca15b648812dee20305b508a',
+    'mtime' => '2021-09-22',
+    'sha256' => '38b01b7014223a2890acdb84d67b08bfd6ddbd91b34e0de613b87cd961e0629d',
+    'sha256-ungz' => '53362b134109663894d9403d5f4936a65b11d4b66dda1efe72379a83d7c9e060',
+    'size' => 22653
+  },
+  'Config-Tiny-2.28.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '79dc6194ec3fdcd8e2c4b29363c85915',
+    'mtime' => '2022-01-04',
+    'sha256' => '5c70f5ac5e7725aa1fcc03548c9a94d22652eaa8f5ae9054b6fd4e2559f9b259',
+    'size' => 1590
+  },
+  'Config-Tiny-2.28.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4210c634e43b5374c56059e3139092ed',
+    'md5-ungz' => '02d6ea9f4b38d24c3d013130a505401b',
+    'mtime' => '2022-01-04',
+    'sha256' => '12df843a0d29d48f61bcc14c4f18f0858fd27a8dd829a00319529d654fe01500',
+    'sha256-ungz' => '887aa507df344369c9fd230fc2080d70d8251efea48ec70a45d955884e28bb97',
+    'size' => 22840
+  },
+  'Config-Tiny-Ordered-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ad6b95e1128e10d3a0a98956cd0190dc',
+    'mtime' => '2021-02-01',
+    'sha256' => '5931015fb0dcf390f9047f911d3dd3f729fd517e8f0084e052509e8ac2ddc9db',
+    'size' => 1483
+  },
+  'Config-Tiny-Ordered-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9787c015c0e822f4005246b3d4e6df76',
+    'md5-ungz' => 'f7707d1797cfe19c060f9edf6e4834a8',
+    'mtime' => '2021-02-01',
+    'sha256' => '3140ada496bec6ce615bd83b0e447a706ff9c1af75207267fbebe815fd99fa58',
+    'sha256-ungz' => '8fd2f95fbe47aaecc31d33781b3657de203ec7c9e521111bfe7a28fe8b56aa86',
+    'size' => 15735
+  },
+  'Crypt-PasswdMD5-1.41.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd00ffcb9dc129960fb6edb166221d087',
+    'mtime' => '2021-02-01',
+    'sha256' => '014a874ae465ddc9a58c08482634267eeeccee6953e65c2bd5f5d40646b3b3be',
+    'size' => 1510
+  },
+  'Crypt-PasswdMD5-1.41.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd8d3b97bf4598b9f75c119c0a4c4445c',
+    'md5-ungz' => '7c9909c5dae143c7d6e1ccc6b0af69b1',
+    'mtime' => '2021-02-01',
+    'sha256' => '1f369123333631a751b8219ca9fc27f9efcf09f39c1ebfeb96e274171c83083a',
+    'sha256-ungz' => 'a1d93a5de108e02bc7bc9d2b01195543a5b5ba9038b21166717f53467cf7cf7e',
+    'size' => 14275
+  },
+  'DBIx-Admin-BackupRestore-1.20.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '08f94f4530ba8ae056f9f710c303f004',
+    'mtime' => '2021-02-06',
+    'sha256' => '3ec4e9f738de56fe888bc10d70b59577c6e23165c73c16edcd25e19c65ddc001',
+    'size' => 1639
+  },
+  'DBIx-Admin-BackupRestore-1.20.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3ece6a2a6e5703746f9522a10ef5dbee',
+    'md5-ungz' => 'aaa2a28428b1dd27afff8560e9af3077',
+    'mtime' => '2021-02-06',
+    'sha256' => '8b3b5b444eea0321e5ddacf86567d27e21413232ce175413aaf6dc3e0b5df973',
+    'sha256-ungz' => '883df42a1da1599d8ad06cbd17d120ec8138c617510600cc259a473d055dcce5',
+    'size' => 26876
+  },
+  'DBIx-Admin-CreateTable-2.11.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '585b7701eb3149c2e9ab2d31f49bc099',
+    'mtime' => '2021-02-04',
+    'sha256' => '2aad839334f39331101e13b956aec6328ceb1144c7e03b7721a98b806e8fd820',
+    'size' => 1602
+  },
+  'DBIx-Admin-CreateTable-2.11.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1311a21631889dfb158153dc2df000dd',
+    'md5-ungz' => '70f18951e529944ee594f423effbd113',
+    'mtime' => '2021-02-04',
+    'sha256' => '07b1427fbc15455657ca57217749004162a50c04abb243022a5b479e4b2a5912',
+    'sha256-ungz' => '427ae4d8163568b5979dd7ac797f01c339e07c080681be3c8d2ff8651917b608',
+    'size' => 19156
+  },
+  'DBIx-Admin-DSNManager-2.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd13011f7c262ed997e3878d8f59b4f64',
+    'mtime' => '2021-02-04',
+    'sha256' => '7658654ac820fb98df0b6eb4379a5c3875f1fd432980b94dafd3e845cc30c936',
+    'size' => 1753
+  },
+  'DBIx-Admin-DSNManager-2.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '18293319d32008e4b87bfc6cadc01c3e',
+    'md5-ungz' => 'bacfa385cf0044461423ec23b6e7e021',
+    'mtime' => '2021-02-04',
+    'sha256' => 'c25511f42328ccb606a0cd78413a74181c87fb37a382d38aa3fad106b540adcb',
+    'sha256-ungz' => 'a181002378756055169472bfc29b5c66409bfcb6d3693feb5fa3ffb25f70c074',
+    'size' => 17881
+  },
+  'DBIx-Admin-TableInfo-3.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f49b880702493987a13c0efa9f7afec2',
+    'mtime' => '2021-02-04',
+    'sha256' => 'e2a712c8d24cca6f1b7b6a825198eeae285d46bc3cd24aba4668eb7c3da45dd3',
+    'size' => 1822
+  },
+  'DBIx-Admin-TableInfo-3.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '01bc1cf4e80d72c70b3d5a2d69b504fb',
+    'md5-ungz' => '31910136000d8d215b40207d2ce7d53b',
+    'mtime' => '2021-02-04',
+    'sha256' => 'b9625992683b97378bea0947773f50e3c9f81974048b84f4c3422cae7e6082f4',
+    'sha256-ungz' => 'b3fc610b114aa5e43617eaa41b2d13206c1e4cde200c32e4deabd17b7dce60a2',
+    'size' => 49647
+  },
+  'DBIx-HTML-ClientDB-1.09.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2c86d26d19c99b5debbbf4bd0b96eb0c',
+    'mtime' => '2021-02-04',
+    'sha256' => '8be49cdebf9144a634f925739a41789ad52727dadd8711eaa59ef4ee2caecbfc',
+    'size' => 1505
+  },
+  'DBIx-HTML-ClientDB-1.09.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b7f4f0d2f193da251fa4b2c6ea772bd0',
+    'md5-ungz' => '6e2f78b8eb6f6b700f5498a544e87cdd',
+    'mtime' => '2021-02-04',
+    'sha256' => '3421ecdb17c7a36eacf8a61770c4fc021f2c838f09d20c064425ded1efd3cfe9',
+    'sha256-ungz' => '22d944937be4868a6da7dc1f5c6c7a27e5d5d5cb6d510fd66415ca4ec36770db',
+    'size' => 18734
+  },
+  'DBIx-HTML-LinkedMenus-1.11.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c7ab90437fa2838fb7b96fba32ad1697',
+    'mtime' => '2021-02-04',
+    'sha256' => 'e6faf557c15546b41588b5475d65887c2a962ca4bea6effcc493774208443dc1',
+    'size' => 1519
+  },
+  'DBIx-HTML-LinkedMenus-1.11.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f941d3882e48bd7312b11c144c845ab1',
+    'md5-ungz' => '76e01f76756ab8cbf9ee9f63f5e881c1',
+    'mtime' => '2021-02-04',
+    'sha256' => '8bad47723f38a32c49e671b80b981ecb32287bcfe6fb0fdb86362309064b7d90',
+    'sha256-ungz' => '3e38d64213c03e100e678929048b16507e40db6bd1c07576b6c22b51fd2e7ed8',
+    'size' => 19167
+  },
+  'DBIx-HTML-PopupRadio-1.17.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3d839a4a8783e673ee3e670283e183bc',
+    'mtime' => '2021-02-04',
+    'sha256' => 'd40490ee20e08f677c18677ec1bf54cf32826b28c907986e1eabe95a31de4215',
+    'size' => 1573
+  },
+  'DBIx-HTML-PopupRadio-1.17.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '8c3790bbb8ccd304c6154cf721a99a0a',
+    'md5-ungz' => 'ca00897c1f88ed6a513794f28cda43ac',
+    'mtime' => '2021-02-04',
+    'sha256' => '10934fe79202dd5de059956b62425ee900827643d819b1943722e4f338ba00e3',
+    'sha256-ungz' => '108b5b0797de920a3867a8d4b86247b881050c417a68d1b0722df96998edbd51',
+    'size' => 20392
+  },
+  'DBIx-Hash2Table-2.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9803a07ab4eab439435e120ebdec5725',
+    'mtime' => '2021-02-07',
+    'sha256' => '932c0427633e7a75585445e894238c70406780b437edd47cd9fe2553c65d0dc9',
+    'size' => 1504
+  },
+  'DBIx-Hash2Table-2.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e883b3f9296706243386155919d2f93b',
+    'md5-ungz' => '681ac5b1751e73f4adf993cb75d433fb',
+    'mtime' => '2021-02-07',
+    'sha256' => '8bee2b680c9e4635c9dbc5a8d38cde0edaeb27ffeb271da566621c71df7a6d36',
+    'sha256-ungz' => '5801711d91415b12d5cbd5f6e306c59f81a662b2cd79c429088f3224555934ce',
+    'size' => 16426
+  },
+  'DBIx-Table2Hash-1.18.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '586785e8c5a9733a943bf1c3e56fe593',
+    'mtime' => '2021-02-07',
+    'sha256' => '567973cc905df4e79e1e39026509d7d6c9791d3a584ed690847907ee1c97ae51',
+    'size' => 1504
+  },
+  'DBIx-Table2Hash-1.18.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f92324a10f43a710a0af59293388f41a',
+    'md5-ungz' => 'bdf829945f5ca967ac43de8ec3a0267e',
+    'mtime' => '2021-02-07',
+    'sha256' => 'f96712453df4251d9aaf1c19bff641d884ff552751260d8ca07ec1763355c107',
+    'sha256-ungz' => '2975ac114424964c22212537c24cce872206f3f4ae7d80c22075472953446129',
+    'size' => 17635
+  },
+  'DBIx-Tree-1.98.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '193ff1b9fece54cc9e352caa9e3bb4a6',
+    'mtime' => '2021-02-02',
+    'sha256' => 'fb925e92eeb387ce4da3516c50774e6ec74f62d45fc725308eef4ac10927ccbc',
+    'size' => 1677
+  },
+  'DBIx-Tree-1.98.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '290c4bb233bda44ab1c91e655e05728e',
+    'md5-ungz' => 'a26923930fb04a45886a244bc7a85d1a',
+    'mtime' => '2021-02-02',
+    'sha256' => '3cfffbd960cd73599c25013b0e23935ed9014503454bb1a6343fbafba766e29c',
+    'sha256-ungz' => 'a478fbfd89caa4d22da90ee4998d8b0130354f915fa2f921e7f99b27be0d6379',
+    'size' => 24502
+  },
+  'DBIx-Tree-Persist-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c746a8055e3774d5a57c5091e3ea0b56',
+    'mtime' => '2012-11-08',
+    'sha256' => '9328c31bb3b4b143c97851d0e22597c1383fbfcaa491f677975325b27cb8ea3f',
+    'size' => 1790
+  },
+  'DBIx-Tree-Persist-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'fbccffc9335064d87f71b102bdad4eb2',
+    'md5-ungz' => 'd0390c73cd1cad64307e429565a4ecc3',
+    'mtime' => '2012-11-08',
+    'sha256' => '6655a7e08f588f437b4184399d28dbde47cdcf72e37769c5a0b25d9fcc459486',
+    'sha256-ungz' => '49563fd9c96296afbb70bc6cf72d2d308c445dec3d4dcd916203e2d7454bc403',
+    'size' => 12789
+  },
+  'Data-PABX-ParseLex-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e78dbb75d292d90751350ef95bd34613',
+    'mtime' => '2013-05-10',
+    'sha256' => 'b8c45c1c621b9119db74f89113394286e8b4a9c2f4da5e18c50600c8da13b414',
+    'size' => 1153
+  },
+  'Data-PABX-ParseLex-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9cbe9e18d521c1fd9377d6e489fb3840',
+    'md5-ungz' => '5f1c2aecf6a45f1b5737e0538bf15e1a',
+    'mtime' => '2013-05-14',
+    'sha256' => 'e570f3b4ace4ed6fdde6971ab7d41b4864fd398150b17e0155bedcfb3b1321ae',
+    'sha256-ungz' => 'af778d798d7073bf53b1031687bf1bd8bb36421fa1a63b238d7e2cbf2e1fcb8f',
+    'size' => 20754
+  },
+  'Data-Page-Viewport-1.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '608738d8be44d8317cca6b4c7e742b22',
+    'mtime' => '2010-08-31',
+    'sha256' => '3dfc5645184e5c240c2dc15b13860a56a592746a5ba21a216ce90142955b2036',
+    'size' => 581
+  },
+  'Data-Page-Viewport-1.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '14137fe1a90aee52e056dbfd04c8b3ff',
+    'md5-ungz' => '873a814e571308ea95d7c4c81c385c10',
+    'mtime' => '2010-08-31',
+    'sha256' => '37b28a01f078d7b543122c546ba8ea47b5cb1382775810b6a05b0af3a0c0692a',
+    'sha256-ungz' => '8418071b054b92e587c718b3171d019bf06bc864d96d0ac0d2f048e58f9c90e8',
+    'size' => 8420
+  },
+  'Data-RenderAsTree-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4f35f482dc10580c7aecf9728583652b',
+    'mtime' => '2015-07-12',
+    'sha256' => '8c3fdc522d229d4be0ddbd0b814fc47a1169fa4cad75370c12360610e86718e2',
+    'size' => 1589
+  },
+  'Data-RenderAsTree-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1435a69d74c0301f2b5b598d5fdd0c10',
+    'md5-ungz' => '87efed17c08c98b49d36fa79a7ecd1a4',
+    'mtime' => '2015-07-12',
+    'sha256' => '824e30f8e63263775690b5a92a3e65335cc189730ae040d1aad697070c38e80f',
+    'sha256-ungz' => 'c007f16d2ccd7013f187bc5f63f4eb3f5b908a4904dd50b5e66297532ec853b2',
+    'size' => 16591
+  },
+  'Data-Session-1.17.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '10a9ae3e93cdedb9f7d808adb57b09a8',
+    'mtime' => '2016-02-13',
+    'sha256' => 'd8112b54e48e2ab65e2731180c296db36506340e1f905ee9d4d36e1636901c30',
+    'size' => 2245
+  },
+  'Data-Session-1.17.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '717e830aeadefa73ea6736b9c759ac31',
+    'md5-ungz' => '4bd82912c247b5ec9254c9d0f2b16401',
+    'mtime' => '2016-02-13',
+    'sha256' => '1c326744b909d3ee84ce5ee8e9472071bd73af65f81a9902a16c2bbab6f05041',
+    'sha256-ungz' => 'a102b35f5467636a8444a02590e3c210124878ab0eb920c2b46bc675ade0fa58',
+    'size' => 55498
+  },
+  'Data-Session-1.18.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'bbb931d200869156c1fc476f69d09c9c',
+    'mtime' => '2021-02-14',
+    'sha256' => '9fb601b671356be1ee81c3187a05b9e761ce19a20fc629dae1b0946ed21ec7c4',
+    'size' => 2458
+  },
+  'Data-Session-1.18.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '976de31755660d58ffa2782bd999a883',
+    'md5-ungz' => '0b514ae4da23a69fc7f5bede5c70730c',
+    'mtime' => '2021-02-14',
+    'sha256' => '706984b35c92b1f72c61e67eeafc4f3d3065ec976676bed0a99894b4a32c748c',
+    'sha256-ungz' => 'cdb3d6f8d60456788b9c6b393cee052b32c562565fc46806b2b131e00d5d1a87',
+    'size' => 59067
+  },
+  'Date-MSAccess-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2d4fb7e9b56c3050caa5514bc4c926bd',
+    'mtime' => '2010-08-24',
+    'sha256' => 'e0fcf4cb7872b4245c5b9777995762fef9bb7ea41b3340e71faae329162ae781',
+    'size' => 547
+  },
+  'Date-MSAccess-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2ffeecd0552656de1b8093933c695563',
+    'md5-ungz' => 'ba3efc00da98d4a8418bd8c1d251f057',
+    'mtime' => '2010-08-24',
+    'sha256' => 'd06a1e526cfbaa6cd7e45b15b31b70779510084abafae5c55e6ed4436cd72591',
+    'sha256-ungz' => 'ce1d763c2c60fa0ca5fd5e17a1c174575e43c18d6260bacffd27dd1e25cfb53a',
+    'size' => 5371
+  },
+  'File-BOM-Utils-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0cebe6d814e1ab84bfbbab8e7f99c7e0',
+    'mtime' => '2015-09-06',
+    'sha256' => '62c6145d0bf485adf4664feb5ec4d126276dc0a0c6bcc0ab0bb76c19b881899d',
+    'size' => 1510
+  },
+  'File-BOM-Utils-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'eaed3828df4e5ff27c485c4ed57265de',
+    'md5-ungz' => '0f6dd189ca1a03ba16ebda04bb4b06fb',
+    'mtime' => '2015-09-06',
+    'sha256' => '2718e4ab5e67955c3c0b0c43a0d9ed58db2c2feb4cfe1b2527f25688946e9cc5',
+    'sha256-ungz' => '444a54163c30ce98e85f954b2d6c99ea4f054a0cfc58b483b702e35213409ad2',
+    'size' => 11788
+  },
+  'Gedcom-Date-0.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '446454e1178d7b86efb542a928473c8d',
+    'mtime' => '2016-09-04',
+    'sha256' => 'f8207c37fee6030fa8d6ce62ba1b799577452f12eabfdd39e7521467997d9194',
+    'size' => 1733
+  },
+  'Gedcom-Date-0.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0807b6a5ac0c01e7aa7bfcc5cbb956ba',
+    'md5-ungz' => 'e806f3aaa18f25c96b8e0061b641de56',
+    'mtime' => '2016-09-04',
+    'sha256' => '8882b8a47524696e9bfc4375c96afc89fa64eb58c61ef3573ff37a8183d00cb4',
+    'sha256-ungz' => '69273d40a06b8e32fbd2f10703e6236a015c59910ca30a22eaf12359ac42d16e',
+    'size' => 19403
+  },
+  'Genealogy-Gedcom-0.88.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '6ab6482d13b5ae0f3c18285e7b3afa68',
+    'mtime' => '2016-09-04',
+    'sha256' => 'aa12f8a2c3aefaeb67b8eebcd98b6a991bacb54959c0fd3ee825a098eb08affc',
+    'size' => 1817
+  },
+  'Genealogy-Gedcom-0.88.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '97fc2e303af0fc808e81644c4a4b7624',
+    'md5-ungz' => '6553588e965770dcef140d2429c9bcea',
+    'mtime' => '2016-09-04',
+    'sha256' => '1d7b271c00521c73ab2865eb12440b64cf16b0eb83084b53d9174526c54c7b56',
+    'sha256-ungz' => 'bc9e35f226c3963a6eb5c4fcf4784cffef08ddf7f6ea52a77d8c09ae05915df5',
+    'size' => 55571
+  },
+  'Genealogy-Gedcom-Date-2.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f3ca08c0864b7ea9dbfeafcc2e294513',
+    'mtime' => '2018-05-09',
+    'sha256' => '9750530d043165045a60391b60e50253c987b6ff6b7cb27a2aefb7b0ffc21d7e',
+    'size' => 1898
+  },
+  'Genealogy-Gedcom-Date-2.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '86e781ea1b2eb9ae49b2259a26c96662',
+    'md5-ungz' => 'a48761ad79094d3e1204712ee685c27c',
+    'mtime' => '2018-05-09',
+    'sha256' => 'de67d69f90cb13151653abf29f49c1d68eb29bebdc04a0ed9436872af10f8e68',
+    'sha256-ungz' => 'fdf60f8c9b8978ef38da51819945e2356e60b35e794d30fd409947eec9369009',
+    'size' => 39397
+  },
+  'Getopt-Simple-1.52.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b60ec6637a6aa6c59ea915b7f8324b0c',
+    'mtime' => '2010-08-24',
+    'sha256' => 'a04fc907257c84af92ee9107185384c87fcbd44b5274ddbed14e83c850ec6b4f',
+    'size' => 560
+  },
+  'Getopt-Simple-1.52.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '5ff72e4753147e5eef5990b5d4aaae46',
+    'md5-ungz' => '0549694c9bb60684e5834e559a53cc33',
+    'mtime' => '2010-08-24',
+    'sha256' => '92aea50421712fcbc36a26e1d60855aa100d446b28d54fe2488a0fa3d67748bb',
+    'sha256-ungz' => '048ef0f828b97075b1b695ef25f6d201fcddff6c7cd9e0581f53f2ba74858dd9',
+    'size' => 8701
+  },
+  'GraphViz-2.24.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '09a6a48aca4ab8b32eba831108c41bdc',
+    'mtime' => '2016-12-27',
+    'sha256' => 'dbbe22685de06635320bfecf934d18a1ca441eae2716e3623f1c2f8bc3054997',
+    'size' => 2021
+  },
+  'GraphViz-2.24.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b57b32444e73d24cf9c374bf38bad699',
+    'md5-ungz' => 'ab9557e018867955f521ced037a1ccec',
+    'mtime' => '2016-12-27',
+    'sha256' => 'd95efac4cdeedb18283100efe3e00c59c1add524d9ce88c1c8a358359122f5ad',
+    'sha256-ungz' => '72f0c8888d491230caf2d9e5e10b81457e84fd67f8e835d6949d271ae28d73da',
+    'size' => 95475
+  },
+  'GraphViz2-2.47.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b7d0154ea159b5a04b7469af1d1c865a',
+    'mtime' => '2018-02-23',
+    'sha256' => '58297b83a30e9cb27d41fbf95ac7e439bff79680ca4c033646eaf82e1f68c619',
+    'size' => 2823
+  },
+  'GraphViz2-2.47.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0c7d7ae663d224050a4b437e2316e4f2',
+    'md5-ungz' => 'bef4227bc016ed1d053cf326c9ca06cb',
+    'mtime' => '2018-02-23',
+    'sha256' => '37576e30a84bebcf94895505c3ce7507bc50fee4b690179c332d93f5cb16ad8b',
+    'sha256-ungz' => 'e87728ddf3483850960906f3796cb41509d7f0311079a73df10d079bfa42b6cc',
+    'size' => 232466
+  },
+  'GraphViz2-Marpa-2.12.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd617848cc5b27a3173fe85639011a19e',
+    'mtime' => '2021-05-03',
+    'sha256' => '23e9c11368b400d795ca6a2eff307ec84e49965e7ee391aff056cdbfe1534b6e',
+    'size' => 2400
+  },
+  'GraphViz2-Marpa-2.12.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '15b08dab8f4c60cc1f919cd53874912e',
+    'md5-ungz' => 'a4357963bdd2120f6eae396470cb8606',
+    'mtime' => '2021-05-03',
+    'sha256' => 'd96a926eab5521b6a387da225f5630d8612b09b73bf8f39c50080a387070283b',
+    'sha256-ungz' => '8f88f9a5d5dfbf8d00f37d6423b4069ab6277f192bd3089fd1cc687497b24d98',
+    'size' => 1034859
+  },
+  'GraphViz2-Marpa-PathUtils-2.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ee38735bbe7aca95c3873cd54b041dfa',
+    'mtime' => '2014-12-15',
+    'sha256' => '188d8b67fc25929e150124583f07fafe6acc3ea77462717160f958588ce98b0c',
+    'size' => 2227
+  },
+  'GraphViz2-Marpa-PathUtils-2.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1ab3424fc4e2fceabd76687590047cfe',
+    'md5-ungz' => '2451daa929a979f6e353fc0242404440',
+    'mtime' => '2014-12-15',
+    'sha256' => 'c7acf0198be9d5e7f26ea829907b418b5a3bc728f599c5ac5d10a3d7c975b424',
+    'sha256-ungz' => 'bfa3d5a1d12947c7bb6494b687159f058f296aca85bb1392261128c4770409da',
+    'size' => 105545
+  },
+  'HTML-Entities-Interpolate-1.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2c1a6518cca9b1c0cbb6e1bb9a744770',
+    'mtime' => '2016-09-04',
+    'sha256' => '32547399a529c56bbe73b234c4ce71fa66cc0e300a445141fd4219a63425cb09',
+    'size' => 1761
+  },
+  'HTML-Entities-Interpolate-1.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2760718a3454210fbde3328645586bf3',
+    'md5-ungz' => '53ae66a2556684ccceac3faec9a4ecbb',
+    'mtime' => '2016-09-04',
+    'sha256' => 'f15a9df92c282419f7010964aca1ada844ddfae7afc735cd2ba1bb20883e955c',
+    'sha256-ungz' => '8637e75d6fed5acad7ccd41a37f099a63b41b35c50752738a9661914c88ad4b1',
+    'size' => 13344
+  },
+  'HTML-Parser-Simple-2.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd162a8c74da2034fd61994b7a528ea74',
+    'mtime' => '2015-01-25',
+    'sha256' => '87fb55f0c9a6393fa90d8ecde0a1601055ad527c196e43d9d40e8f17d0d70465',
+    'size' => 1448
+  },
+  'HTML-Parser-Simple-2.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e71abfd4d13b341abf62cd955260631b',
+    'md5-ungz' => '2081c01527e57c3e3725d5aae09253d5',
+    'mtime' => '2015-01-25',
+    'sha256' => '51344c6e759bc14b38a12e0368ce99ba524f726f9dda275c5306d11d5a83f52d',
+    'sha256-ungz' => '1a34a0574248a806fe41184a1ea62eb9b0481ad59e564dee5098e01ebc7d9741',
+    'size' => 27570
+  },
+  'HTML-Revelation-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'caa764c6a34e36872f55495a5b9fd7b7',
+    'mtime' => '2010-08-24',
+    'sha256' => 'd1c7dd7d738b1f0b236fdc22da64e851fcc294fdf6c83a757e440755672b7b9b',
+    'size' => 686
+  },
+  'HTML-Revelation-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e653bc23d79f791c1e6993d2aa7e4ca0',
+    'md5-ungz' => '0504b510885c83da9d46ae31879a6969',
+    'mtime' => '2010-08-24',
+    'sha256' => '381219328265f76d8a48c91e4cebf2262f27038d17824d791acfbd45a1b10733',
+    'sha256-ungz' => '1dfb7fb36dc70597d0f238fed0165eaf51962beed90331ea6a85f119ee96e1f8',
+    'size' => 9419
+  },
+  'HTML-Timeline-1.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2e70873448c2ab221d84d7020183d8e2',
+    'mtime' => '2017-04-16',
+    'sha256' => '30a105294c845c446249c786bc8a64bd3421a051ed357b8476fff7b5ff5557b1',
+    'size' => 1707
+  },
+  'HTML-Timeline-1.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '390bb53e6bc49cc0f3592a520fbfe8ba',
+    'md5-ungz' => '24b7121667d2061160ef05968f870e33',
+    'mtime' => '2017-04-16',
+    'sha256' => '4540291b30abb7aaf63ad4ec309180914d4d9741e4fc86df3d7615827783b926',
+    'sha256-ungz' => '710081f844152a7c277ad72ee38a779261498acb3ddcf489533a9500808856bf',
+    'size' => 25417
+  },
+  'HTML-YUI3-Menu-1.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '13fa4bd68a09e7e676aba9f61bca4262',
+    'mtime' => '2011-04-20',
+    'sha256' => '9b5886a40185d893b3ea37fd3bbe7e14c598a3d267ba0ae6f1cce49a19936c68',
+    'size' => 856
+  },
+  'HTML-YUI3-Menu-1.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7c73ad411295cd9bad855c23b70b3855',
+    'md5-ungz' => '264b344d2bfa2dc5758606072be6622e',
+    'mtime' => '2011-04-20',
+    'sha256' => '3be49fc163aca1f9518b504fbcb15d3adb983ff1a7346ac2965dfc8b0fd3a7a4',
+    'sha256-ungz' => '7258fcc4e7e8bd501c3c91bf842dd859fba461421b238bd61e595d51fe0def50',
+    'size' => 15218
+  },
+  'Image-Magick-Chart-1.07.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '6cbf0876e3482593cd1f3f1e87996dc2',
+    'mtime' => '2017-01-05',
+    'sha256' => 'bf241413fbfaaa3c9c04dc93db4dece0c25107695bfff0066d6ccf7032101fa4',
+    'size' => 1709
+  },
+  'Image-Magick-Chart-1.07.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a2184e36cb0e2eab5d4fa70452bf0578',
+    'md5-ungz' => '5e411a8be105e53c506b2b69718c0813',
+    'mtime' => '2017-01-05',
+    'sha256' => '533eec7d502a7c196361e0b9a0a9a7815283ae7473e944027f7f8d8b4e163039',
+    'sha256-ungz' => '8614920c64f9a4385e30878433e20eb07ce4a8af3340c369b7ae398c1a2cab79',
+    'size' => 35597
+  },
+  'Image-Magick-CommandParser-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9aacabd23e837fd8471c563ab26ad24d',
+    'mtime' => '2016-09-04',
+    'sha256' => 'ebc6ac984a92dabb26bec8bf3c5f3bae387e5699c7cf76f9ccd82c95189f1e5e',
+    'size' => 2003
+  },
+  'Image-Magick-CommandParser-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '39e26798bfb3235514f4a8ff2d215e65',
+    'md5-ungz' => '7da8008a5603fc3fe1847e980e4cace8',
+    'mtime' => '2016-09-04',
+    'sha256' => '5ee9a60b77a6f6ee19ebf755e2b2465deeebcc91fe1f08aa2f8a0c510da826ab',
+    'sha256-ungz' => '11f3200e65cdb27d436e72f08865e50062db922e94053f6e2b519bea461b443a',
+    'size' => 61488
+  },
+  'Image-Magick-PolyText-2.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'eeefe8eb22a257604cc99125f505b06d',
+    'mtime' => '2017-01-06',
+    'sha256' => '4aeaae08e8aa4decf3ff485defaf64a755c8f16e634b48bfb740356e35a0bd6e',
+    'size' => 1980
+  },
+  'Image-Magick-PolyText-2.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4054e3430786edf4b8ce85fbac46b457',
+    'md5-ungz' => '6e75035527d1fc8137452b48b63cf514',
+    'mtime' => '2017-01-06',
+    'sha256' => '659a38761292cc46e8abe84095a49aa08e57a57e875fb720af4dc3824d99972c',
+    'sha256-ungz' => '236b42c97b4c221b0c973847f5da989c46171e84615e134d328624595fb9b35a',
+    'size' => 257123
+  },
+  'Image-Magick-Tiler-2.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1f1d8fca722b47c0014a335390e801e1',
+    'mtime' => '2016-10-17',
+    'sha256' => '782b5cfe6ba2d50365a27e666b933a6d5f025d8b82f662eca79bf812e8ef81f5',
+    'size' => 1722
+  },
+  'Image-Magick-Tiler-2.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'dbe8a2f5ff4729e4cc6bbf1d2684948c',
+    'md5-ungz' => 'f13cb28dbacb7a0731834133228ee46b',
+    'mtime' => '2016-10-17',
+    'sha256' => '5251e879bf435f7735f3b05b31a4c65962a3b49b3f7426347ea834925a12e762',
+    'sha256-ungz' => '81aa6d3b82d86b3218ee4b8d5f733ee0c132443aaf83ecb69b4262e87345d83c',
+    'size' => 54646
+  },
+  'Javascript-MD5-1.10.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a2df9ccd230fed6b80426e5fd4be2478',
+    'mtime' => '2010-08-24',
+    'sha256' => 'e59afa87dfac9a6955fac76a85ba28dfb1b4a400edd2c46c81f851b860864925',
+    'size' => 534
+  },
+  'Javascript-MD5-1.10.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ea611311064f292b34a6bfef1ee9d48c',
+    'md5-ungz' => '3107499b0bda0b9c3135eec32b509d7c',
+    'mtime' => '2010-08-24',
+    'sha256' => '5d5ac600ebf7b1fa84849f88a6d7c4506d2120797ad7a798d02ad52c2b0c1cb9',
+    'sha256-ungz' => '19373b5a04e55b0152a629b45cd344943f3748ce9d6c8cf84a1f6053e4b13854',
+    'size' => 10226
+  },
+  'Javascript-SHA1-1.07.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2b6377025bc72177a39a2d9dfb0e83df',
+    'mtime' => '2010-08-24',
+    'sha256' => '40da8fd2c586f6d65990a972047aa46d0669bd8eace6cf7b61bebb32d6ed8e6c',
+    'size' => 538
+  },
+  'Javascript-SHA1-1.07.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '62a543e13716a3fda467fad288658215',
+    'md5-ungz' => '4b59a8e0dcd4529a1816076c66984b41',
+    'mtime' => '2010-08-24',
+    'sha256' => '5b2528150f67b1be428b50424d4eaf3ccdfbd36d90070d867293a02ac9c81daf',
+    'sha256-ungz' => '1a636e7c2d0deaa2eb27291ef4f70d9fcc542d814ae3ae18e4fc78caa1701ee7',
+    'size' => 8670
+  },
+  'Kollos-0.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a4781806e3b2381715946b8bdac407d9',
+    'mtime' => '2017-04-28',
+    'sha256' => '6c503cddd682efc98fc94dbd1145660194dae42779df59ac75f2799ebd84b8be',
+    'size' => 1468
+  },
+  'Kollos-0.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c6859e239bc4d5299fc518aeb6f02ec1',
+    'md5-ungz' => 'c61f21f05142e8e822f07fc60b8ceee9',
+    'mtime' => '2017-04-28',
+    'sha256' => '9a4ac0a78c040be807095a71e145a4b5b2ba03463a7c9db1e9bc21c36d721274',
+    'sha256-ungz' => '104a957db275424a9c44bb7271e43b6d0b83886b09d893d66d446989ef20293b',
+    'size' => 10908
+  },
+  'Lingua-EN-GivenNames-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b178f1694d387d143276b3813d4581ad',
+    'mtime' => '2015-07-12',
+    'sha256' => 'b42f4589cfd0c87bd73518a94fcedf021a2781b1bb11735856b2925e9844f4ab',
+    'size' => 2751
+  },
+  'Lingua-EN-GivenNames-1.04.tar.gz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '6238d1a76f5e28a8762dbc7d82d163ed',
+    'md5-ungz' => '12f6cf1b00feb4c5d4512b54042d582e',
+    'mtime' => '2015-07-12',
+    'sha256' => 'e6b471895b4e5540049955a3ae984796e933bf740aa6a9911d69621952f0f31c',
+    'sha256-ungz' => 'f6a932a9d8456f542b26b485455f0c0353f54f753f5bacffa2bbf602181ce86c',
+    'size' => 1199720
+  },
+  'Lingua-EN-Infinitive-1.14.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1dfa5a5134b3e944b7d8fa2e73061529',
+    'mtime' => '2017-01-10',
+    'sha256' => '671a16f3faae1c2923d1cde7ab08aeecb7f212b35ac3b9ac293f045f72d0097f',
+    'size' => 1519
+  },
+  'Lingua-EN-Infinitive-1.14.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f7cab8b296bd4a6802fad806ab28614b',
+    'md5-ungz' => 'a1f085c11dff83fbfbbc3ba1bc0a2423',
+    'mtime' => '2017-01-10',
+    'sha256' => '1f5735daf9f491994efa262dd676a3e70d894c7d84f99bad9c119c2b47f98349',
+    'sha256-ungz' => '65c242e68e1fa7621132d62cac7950f49a63eec7240dfe939c7ee80956b45302',
+    'size' => 21948
+  },
+  'Lingua-EN-StopWordList-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '56e035b365dadfecae79a67c4e3c891a',
+    'mtime' => '2015-08-16',
+    'sha256' => '289c86e6a386e7b437aa68b5249f777471c6dfc10aa6551b29e388cbf0188075',
+    'size' => 1312
+  },
+  'Lingua-EN-StopWordList-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b7e1378dccccaa4f3d2c5576c0936814',
+    'md5-ungz' => 'd7c6de0c590e5e1ef16f07f8eb7b6440',
+    'mtime' => '2015-08-16',
+    'sha256' => 'd8ceea7d64b1398b63c5ab8d0aa53ddab4b5768d2d4bd2218dce883fba4e5652',
+    'sha256-ungz' => '545f8a28a3a12d1de76b2d0fbf87fbee524d56c031117b13b890b72f6ccd5486',
+    'size' => 10348
+  },
+  'Locale-Nationality-en-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e9e897b5de6542288ae9410f4bd1dce5',
+    'mtime' => '2016-09-04',
+    'sha256' => 'c8b6a8d305aaeb062e92d52c8985a23526b91bed7ed9a290e0384e99d1708093',
+    'size' => 1403
+  },
+  'Locale-Nationality-en-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9385018e4dbbb81bc4ea72b1147b5640',
+    'md5-ungz' => 'b2823f60360be20091796a9992a14ca4',
+    'mtime' => '2016-09-04',
+    'sha256' => 'a24d77a4dc298bfdc71d6a758814a7b1fabdc21939f556405fb4fd616e646a0b',
+    'sha256-ungz' => 'ad030279394bd907f26984121282021d90d249856176e8f9ce77a6c58a121ebd',
+    'size' => 13072
+  },
+  'Log-Handler-Plugin-DBI-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '259364ba1096d0809ac1a7b342d8002e',
+    'mtime' => '2020-09-09',
+    'sha256' => 'c63dead57dace5431a05519d3037a9c003ed327de1883580c3cc9bbb403cc4f9',
+    'size' => 1998
+  },
+  'Log-Handler-Plugin-DBI-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '55e467d88dead4d51f2c8006c3224a32',
+    'md5-ungz' => '7fb721814697ac1cb4bbcb9c8b2dee36',
+    'mtime' => '2020-09-09',
+    'sha256' => '90be92b68b484ea261193e2e6f74d45ee3af26d52371a8582b89829d75772712',
+    'sha256-ungz' => 'f7f808004b94d8f7a4001afd9f6c52f358207d6c91d2a5d954207d06913979ad',
+    'size' => 16578
+  },
+  'MarpaX-Demo-JSONParser-1.08.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'cda55598992263335033595ffb118fbf',
+    'mtime' => '2019-06-18',
+    'sha256' => '2663076ee4f5bcf047986a3e1de653888954ae52b106484172e62d18e5004784',
+    'size' => 1732
+  },
+  'MarpaX-Demo-JSONParser-1.08.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0d9e79953a2c49864d9ef87097576aa5',
+    'md5-ungz' => 'e7c2e00955634b461ec31192ee2b0ee1',
+    'mtime' => '2019-06-18',
+    'sha256' => '8314c0ce166bef52bae8c7cc70374ff9526833d82cd66c7e2767737b7365a1f7',
+    'sha256-ungz' => 'f7e815254c2c7179c625cf02dea55d950d30e7c3c4910d99098798135338e5c2',
+    'size' => 18850
+  },
+  'MarpaX-Demo-SampleScripts-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1c3d0c374f158a6081e191623ec682cd',
+    'mtime' => '2015-08-20',
+    'sha256' => '592283de462091c4f77ec868cdb09081b42dbd1953bcdbd213c7dbee0796b6a3',
+    'size' => 1837
+  },
+  'MarpaX-Demo-SampleScripts-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '535ad14c5182034e115116a62345b838',
+    'md5-ungz' => '47dccafda3ed6aa528c50f14f92e26cc',
+    'mtime' => '2015-08-20',
+    'sha256' => '6b74e2533e5af487a503ac35196734f94039af9accf764befd5e67cc186f7f6c',
+    'sha256-ungz' => '9ba8baef6ed9f7ca231752c790770077cc8b9d7e3c86bab8ce2606a2946c3183',
+    'size' => 31039
+  },
+  'MarpaX-Demo-StringParser-2.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '8944d52b01b79cc2d1c2846cea1844fc',
+    'mtime' => '2016-12-26',
+    'sha256' => '9b8d7efae9927886d657cfe7b09f0ccdd453db77792beaa8961df97e7a526d6b',
+    'size' => 2322
+  },
+  'MarpaX-Demo-StringParser-2.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '48cb0529c7cd91ffdab31fd4a67972e2',
+    'md5-ungz' => '8e46acddaa1e9e51cbaa1abe0d5e8c0d',
+    'mtime' => '2016-12-26',
+    'sha256' => '971e6ae648538579a4f772cb7545d84a5afdb42e01acf53061155d79c831e31e',
+    'sha256-ungz' => 'd16b066583c35219c0180d7c3d37d0c04bd537f88cbf6a65ee2f0699b910410a',
+    'size' => 52317
+  },
+  'MarpaX-Grammar-GraphViz2-2.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '33d222e274211bcb0e266f96784c2e5f',
+    'md5-ungz' => '3d734b738204b1dae2acecd0ce35f188',
+    'mtime' => '2016-12-26',
+    'sha256' => 'cff2be38425b76c61752a104a4a32c807450017353ad3550ede8dff62c144ccd',
+    'sha256-ungz' => '77fcf54d974c208e89167d3d9896684a013dd7cd393846dcb3acfc8f05c60dbd',
+    'size' => 138002
+  },
+  'MarpaX-Grammar-Parser-2.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e268b38139cc25ab8d5538ecf5870481',
+    'md5-ungz' => 'bc10fce90ae2468fb6aae35361f4a79c',
+    'mtime' => '2018-01-28',
+    'sha256' => 'b05b328eb37b97577717e5660156fc96192b6fa7795831366b19714831a3c111',
+    'sha256-ungz' => '071ac067224922ba47143da22ef2780f54b705e6e493ff9757f25fc79ccbc85b',
+    'size' => 768058
+  },
+  'MarpaX-Languages-Dash-1.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '73d43cc0933741433ee9d5fdd8f8d2e5',
+    'mtime' => '2016-12-25',
+    'sha256' => 'ee6ac1a9d31debe7ff048a7fcb4da97d904e9ff9f7f941ec64fe298f8f516486',
+    'size' => 2345
+  },
+  'MarpaX-Languages-Dash-1.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '331559984544db2c1734a93f49570149',
+    'md5-ungz' => '4d42bc9f4658550ddcd23baadcaafac5',
+    'mtime' => '2016-12-25',
+    'sha256' => 'c031a16902db9998f549835946dabee1c511c4b878f597e2f18333c80078bf7c',
+    'sha256-ungz' => '9f07ad773016a34f50e1233fa46f666680e16bcd61920bb6fc8ba88847424166',
+    'size' => 52199
+  },
+  'MarpaX-Languages-Lua-Parser-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f879c93ba4ca1c81575090bec94d325e',
+    'mtime' => '2015-08-02',
+    'sha256' => '4e622845225e8c2c1b9559f8317bb14f418d1c1daf9b757207db2b5b9cd00d4d',
+    'size' => 1684
+  },
+  'MarpaX-Languages-Lua-Parser-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7fb4df0fb76f9f24b8e4732844647eff',
+    'md5-ungz' => '311689282c7c724b97c4581b74c8c964',
+    'mtime' => '2015-08-02',
+    'sha256' => '4edc61f02738e2176e70f485b90ace3efdceb8145cee1a57c651974b5d85a860',
+    'sha256-ungz' => '9590f6744c69f20204c5a1482b9c30b6bd8a6b48be0f20055e967fe482e7a65c',
+    'size' => 32050
+  },
+  'MarpaX-Languages-Lua-Parser-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '08d35ec68160462aaabdd24e6c6501a3',
+    'mtime' => '2021-05-25',
+    'sha256' => '2d1f19c6dd8eed301efb8f30c410a32d8a53a7838c786f1d02a4e0b4e796afb3',
+    'size' => 1857
+  },
+  'MarpaX-Languages-Lua-Parser-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c7a18759adb67ee03301c216137e1ffb',
+    'md5-ungz' => '0fcc5a6a4278f5224251d489eb240c44',
+    'mtime' => '2021-05-25',
+    'sha256' => '28be11daef66cb30d776e6418733ffc465a394d81bc802cda4cd797c4070b629',
+    'sha256-ungz' => '534af0e8fe9f9dc9a086213abab897ce8449496e0890ab12cb22cde5ea430cc1',
+    'size' => 37434
+  },
+  'MarpaX-Languages-Perl-PackUnpack-1.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '764d8be04d6b67e39d676fcfeb638a3a',
+    'mtime' => '2015-01-04',
+    'sha256' => 'a5e6b11846e40c47109acef886b445b65a929de716236972f4d830cc69926959',
+    'size' => 1473
+  },
+  'MarpaX-Languages-Perl-PackUnpack-1.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7283b3f6ae4c66634c433d27f84585e8',
+    'md5-ungz' => 'b61e7ea1e3418d20c77d2642fe8a08c9',
+    'mtime' => '2015-01-04',
+    'sha256' => '0b4cbc2715ed3388fa0db2b541165237402de0e8c0aa80a1e30c9777c0ed10ae',
+    'sha256-ungz' => '096a3cc8ef72437355abfedbfc6cade4a23270767daa3d39a4db88294bb504d5',
+    'size' => 19777
+  },
+  'MarpaX-Languages-SVG-Parser-1.09.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f37dcab070fcc3b3e732b1cbdf9acbc6',
+    'mtime' => '2017-08-13',
+    'sha256' => '8933caaa5dd65ec9bc304cb5918d6948372a2e2eeefc883cb526aee505b5153a',
+    'size' => 2411
+  },
+  'MarpaX-Languages-SVG-Parser-1.09.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e263642b2c23a9ab36949c053c1541d9',
+    'md5-ungz' => 'c23b3074f79e517109aebfd2afba1036',
+    'mtime' => '2017-08-14',
+    'sha256' => '63e589e313fbb0f7112d984fbcaa13c14cac1839f44b62cdfeb45cb2e14f365d',
+    'sha256-ungz' => '6b7125ded1f7b8d3fc56c1d946ba7e3cdb2ac169eac774da754bb6b9ff641707',
+    'size' => 101124
+  },
+  'Module-Metadata-Changes-2.12.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '98f5d801fe6013bf42f0132c905142f1',
+    'mtime' => '2017-04-17',
+    'sha256' => 'cdfeb33a1259e7ebe82e6d435f43105e8738f6c9574657f8e7c4d74a5d2a26dc',
+    'size' => 2208
+  },
+  'Module-Metadata-Changes-2.12.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '45b7607222568f0f783958dcc832e13f',
+    'md5-ungz' => 'af0927ca8654d9480de0087739b41db0',
+    'mtime' => '2017-04-17',
+    'sha256' => '28b407b11acd3d9cbee8afb2074a2ad60bff8a5382dc09778282d2de88164529',
+    'sha256-ungz' => '6669139213f33412f08649cb35f17f97c3e9a0c42b9168c3235a264cde559181',
+    'size' => 36833
+  },
+  'Module-Metadata-CoreList-1.09.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9b14952169d89675755af9bf38f02cf5',
+    'mtime' => '2017-07-10',
+    'sha256' => '3e5c51e47661ca6a05da94177e660651842643ba97531c6be9b347bcf6f725bb',
+    'size' => 1844
+  },
+  'Module-Metadata-CoreList-1.09.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2a912b4220f5db35f361d7943f3c9805',
+    'md5-ungz' => '11aba98f45a6c1d0f4ac7d149b267839',
+    'mtime' => '2017-07-10',
+    'sha256' => '48d2c48575d90306d7a12f94644e7b109ceb7e41bcbd5d3f065fc4d670d654d7',
+    'sha256-ungz' => 'b2bc737bd5331256c0de462e69ec53ab2fc01d6d953c580ea3777de9dc77c697',
+    'size' => 23285
+  },
+  'MojoX-Validate-Util-1.02.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'fdd76b00b30b7d6a429cd226aa76cfc0',
+    'mtime' => '2020-09-03',
+    'sha256' => '0a3f60f50e003ab219883ca717227ad8526273718a389ea39dfe9449f9523adb',
+    'size' => 1779
+  },
+  'MojoX-Validate-Util-1.02.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ddef442083f8b48ba44b0612c5a96617',
+    'md5-ungz' => 'a5984a90c10e21e21e8c286c48cb4020',
+    'mtime' => '2020-09-03',
+    'sha256' => 'cda32fbb7a1053ab73d72a8c4d9a1375087d770d91218a85739d8f2d0a99a0c5',
+    'sha256-ungz' => '94f838d04bda4b6345bbaa509b163064744c850165420c38e5d1d045652464c8',
+    'size' => 17486
+  },
+  'MojoX-ValidateHeadLinks-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '793471aa7ec4b064fb13ebe86d3e062a',
+    'mtime' => '2014-11-27',
+    'sha256' => '52a4bde92815d30a12f2c00a30fcc39e0bb9b80375f8e2cb4f1dca5d51d6393f',
+    'size' => 1429
+  },
+  'MojoX-ValidateHeadLinks-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ece50478d18e7f1d87de0d27b9536a3f',
+    'md5-ungz' => '3b87573203bc54321319c852e40e51f3',
+    'mtime' => '2014-11-27',
+    'sha256' => '0948ad34c6826ff868b88631be340fcc2d91f7868f01178680b9c14bf2230273',
+    'sha256-ungz' => '78f1d78501e4fbbfd4da01afc4979da73aa4951cf981a458bdd80a1d452442a6',
+    'size' => 207563
+  },
+  'Pod-Webserver-3.11.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '00a4abc6bdf0713fe1e872cb7c13b844',
+    'mtime' => '2016-02-13',
+    'sha256' => 'd80d4eef35fd3e8bd1e942af6d15e4a9f7fcf2b0e618de8d261f43024c9c0cda',
+    'size' => 1657
+  },
+  'Pod-Webserver-3.11.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '71b60c261d9cc7bd08b696d120ffcb06',
+    'md5-ungz' => '435c2a44bb9701ae70bd5cf3c5a29a2a',
+    'mtime' => '2016-02-13',
+    'sha256' => 'ab0b97d853a677979c2cacb973a8ee44f9dfbd7a42a537b2b868b115b03993ce',
+    'sha256-ungz' => '9afb799fe759ad3e5a5b4f8a2cf0b521c89c3b6a76e73753f78bd3fe28ca6ac3',
+    'size' => 15323
+  },
+  'Regexp-Assemble-0.38.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '89fd79c98340aa68ee3c969ba745dde2',
+    'mtime' => '2017-06-19',
+    'sha256' => '773f9c3d800649fc2d93987ac3a5356ae777b64a49688193600a06f9ce0d91e0',
+    'size' => 1341
+  },
+  'Regexp-Assemble-0.38.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '75905c73b33c123ce085fd7d194dd95e',
+    'md5-ungz' => '33596db008aa3dc483da43be5b829bfe',
+    'mtime' => '2017-06-19',
+    'sha256' => 'a06be7f9ae1b73c9bfd5b6662b141c0d70469e9c19bb4413a6ee56f82adae442',
+    'sha256-ungz' => '427efb155fc35791e1d1bc5c47519afa29c6a907bf7f879d621744e4b85f0c8a',
+    'size' => 106551
+  },
+  'Regexp-Parsertron-1.05.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '875f8967a5e85abe3bcde2928c4fee5c',
+    'mtime' => '2018-11-21',
+    'sha256' => '6b609cec5db688f4260b81cd453e6b41a0f23f56f141ad4ac204500dcfeae8ba',
+    'size' => 1764
+  },
+  'Regexp-Parsertron-1.05.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '83261dcb260983a67020c0f020bf78ac',
+    'md5-ungz' => '1604375a7f3d031f208e3e7406f8920f',
+    'mtime' => '2018-11-21',
+    'sha256' => '713da6a6b640f41dbb0228932da30de96b829409edafbff7c842f58e6aca11a9',
+    'sha256-ungz' => 'bd2a4e04b00404ce0f074d90ab75151ae8fed3676afd8c9088f5a81a4dde5ade',
+    'size' => 68593
+  },
+  'Rose-DBx-Bouquet-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '077250b788b1b2d3e74b7c049e9963dd',
+    'mtime' => '2010-08-24',
+    'sha256' => '809a67443c0c7701e5adbeac3eb7594b6ce92d3bd9df2e46294120a0ce33832c',
+    'size' => 784
+  },
+  'Rose-DBx-Bouquet-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ee55e0f522760795aa46c993ce3aaae9',
+    'md5-ungz' => '101bbf3f870bbaa20b1b744d9954040c',
+    'mtime' => '2010-08-24',
+    'sha256' => '3e97248ecd133342fc3e1acb9d5fc5afb0662e04de319ef59f341b7891567af0',
+    'sha256-ungz' => '41a3d73b505bad9b66b11c2bf7fc1fc57a312a7b80a248ffdc64e515c40213b0',
+    'size' => 12930
+  },
+  'SVG-Grid-1.12.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '42f71ae2d5fc87fab7acc42dab61130f',
+    'mtime' => '2018-01-28',
+    'sha256' => '4d9f887f39bde2221be7da2eca1da369fcfb1e570dc7b3e5df85c0defe78e1f4',
+    'size' => 1789
+  },
+  'SVG-Grid-1.12.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'abe5842151700c668f4023bf681934ea',
+    'md5-ungz' => 'ea8a23dc1da08c1f6d664a459f752736',
+    'mtime' => '2018-01-28',
+    'sha256' => '2f3012b986c6e276fccbc439f9b24ed8eed44a9bc0918e908cd8e44eec04c80c',
+    'sha256-ungz' => 'de963faff138d896922f5a19e6e66141a89943eb12b1659d8ff2298d02f10085',
+    'size' => 20416
+  },
+  'Search-InvertedIndex-Simple-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'dbb75fa3462ff4f96707cb27fa9a67c6',
+    'mtime' => '2012-03-23',
+    'sha256' => '7a4a927d427ef97ddd9bab4374c111d8146aaa093418cb284782e880bac28452',
+    'size' => 685
+  },
+  'Search-InvertedIndex-Simple-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '1d983e1cf12c8078bf384b63ab988453',
+    'md5-ungz' => 'e3f9199b563c0c723b756e6b26b28656',
+    'mtime' => '2012-03-23',
+    'sha256' => '97c5c552592da703aa40254f0c5df2c653a760e33c21c16a6718d58ec70d8300',
+    'sha256-ungz' => 'dee3a4589bb0b4e29d8daf024c5c382eb027077386e6e3b6bde5a44c7cb2eb72',
+    'size' => 7714
+  },
+  'Search-InvertedIndex-Simple-BerkeleyDB-1.06.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '6f935af33fa9b8f5a2946ed76206f200',
+    'mtime' => '2012-03-23',
+    'sha256' => 'e5d78616685bceb66075fea9e1f04932c0ed684c19e6ca6a675c4a1412a27855',
+    'size' => 775
+  },
+  'Search-InvertedIndex-Simple-BerkeleyDB-1.06.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c05ec36acda95c76d6003e0402e9d0a7',
+    'md5-ungz' => '2a1036ae254e6a3e7136987bdcdb29bf',
+    'mtime' => '2012-03-23',
+    'sha256' => '1ea84597966526857a0f08ea69581cc6b231eb98a01f657fbedf623238cf38ee',
+    'sha256-ungz' => 'ba873972f0da13e4b200d6ac7c481be186a636300708f7c1d58d91caf46a839b',
+    'size' => 8222
+  },
+  'Set-Array-0.30.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ea2b4e16043828ab17f0601e40166a6d',
+    'mtime' => '2013-09-17',
+    'sha256' => '0da4df4904c8b5adb545de52eb340bd7ceddc507747470652a0ef9b2e6181ce6',
+    'size' => 1279
+  },
+  'Set-Array-0.30.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e8f61d07def3f25c1ad39dfc7e34b3f7',
+    'md5-ungz' => 'b8ddbe5a4b1925f222c6980ba0d24f20',
+    'mtime' => '2013-09-17',
+    'sha256' => 'd9f024c8e3637feccdebcf6479b6754b6c92f1209f567feaf0c23818af31ee3c',
+    'sha256-ungz' => '71b90ba6abd82979f73e017db10e81f8c0b11da15128fee11673ede6003336a0',
+    'size' => 32726
+  },
+  'Set-FA-2.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '27ade6c60dbcb1acb9fb791eddcf28a7',
+    'mtime' => '2016-09-20',
+    'sha256' => '2fc1fef57b782bc18f5cd51ed58ed0a0a619a69d84f085973d1b7ef8a9a3c312',
+    'size' => 1684
+  },
+  'Set-FA-2.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e55ca3f60188996df97b79f1462ba4ac',
+    'md5-ungz' => '450de13c467b50fa580647f9c176ca5c',
+    'mtime' => '2016-09-20',
+    'sha256' => '125fd74de6084212ca708a857b98092d14e67565883cce88708ef52df5726aed',
+    'sha256-ungz' => '6bb7c2b609b5b6a544f6c420e219e9e1aa16ace601d831566607a6a871c32665',
+    'size' => 25210
+  },
+  'Shell-Perl-0.0023.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'e92e54881b08afd935168c6f1734bea1',
+    'mtime' => '2014-02-04',
+    'sha256' => 'a4af85c2918ff013e38a415555d25e446a17137cd79b89e4c91903c9f588b5c5',
+    'size' => 1471
+  },
+  'Shell-Perl-0.0023.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'a3c796fef930cec5688820786f113807',
+    'md5-ungz' => 'a6719d69750c4dad9b9859edcb2ab464',
+    'mtime' => '2014-02-04',
+    'sha256' => '9ccdf053f9d924c052850a832d8e6062ea903c7c91df1d3ac6c53980fa40288c',
+    'sha256-ungz' => '1a465a3c3d36c0dd04c0db437db47a147aa57e8bb6cd8b07ebb2975dc013c366',
+    'size' => 14579
+  },
+  'String-Dirify-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '23914736b89e1a1f7200950cc6b6ca5a',
+    'mtime' => '2016-05-10',
+    'sha256' => '5c534ae80484e4df7144333f8795da12c3f72506f126d4b3f1391b6311c3fd81',
+    'size' => 1528
+  },
+  'String-Dirify-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '42f5c10d9d462b1cd885f393150182ed',
+    'md5-ungz' => '626cb61fa236c855481aece4f8cffe10',
+    'mtime' => '2016-05-10',
+    'sha256' => '8e66374ade8b447ba94d276616973ef8a249e5b6258b81662142daa712329d53',
+    'sha256-ungz' => '3b69dbe8dd1b6df895cd66ed1113e5b199c63922c87f46b5981afdf82c9c5e97',
+    'size' => 13531
+  },
+  'Text-Balanced-Marpa-1.08.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '5564a4e65d1f16dde8915bdcb2a752ae',
+    'mtime' => '2021-02-07',
+    'sha256' => '9a35e8648bc995f04ee0fd432661bc7cafb740546e8b401a22a37389d9b4e666',
+    'size' => 1676
+  },
+  'Text-Balanced-Marpa-1.08.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2a51b1fcf1a87d422f64bea874f8d862',
+    'md5-ungz' => 'c58723ae6fa02928bb85a9d06aec63c2',
+    'mtime' => '2021-02-07',
+    'sha256' => '16eea46a285b110b130182fac1ead829de8589d290f1e6e0ebf8756a68e73f67',
+    'sha256-ungz' => '2490a011bd20faeb883cd40b3f3b62b4cc60c480e55e01678141fe59962eef87',
+    'size' => 28878
+  },
+  'Text-CSV_PP-Iterator-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '81a2f919041b857bf3b949301737a436',
+    'mtime' => '2021-02-07',
+    'sha256' => '2da2b271f913f9f1e1a6632df94c5ee69cc435a06dfc9d74ac407676d800988d',
+    'size' => 1646
+  },
+  'Text-CSV_PP-Iterator-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '56859b163559213e5916bbf176e2d7d4',
+    'md5-ungz' => '37ef026cb8c94f1fc3ec3b616f1d88b0',
+    'mtime' => '2021-02-07',
+    'sha256' => 'bde641dbe9170fa1989e7565fa19574ed23cd4428309e0aa5885992c56e96432',
+    'sha256-ungz' => 'e718b0e5f01ade56c9bad90fd43e1c9961130e701fbc423fc69d454ef457df29',
+    'size' => 15798
+  },
+  'Text-Delimited-Marpa-1.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '40af8b5e9d02b078a9aba3516a01f070',
+    'mtime' => '2021-02-07',
+    'sha256' => '4e72cecb855722f2a066b87841f4d5cfef2a3a8270080ad9261363beacd638b9',
+    'size' => 1801
+  },
+  'Text-Delimited-Marpa-1.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '2847cf10da870d26b4ddc2ac76ef5af4',
+    'md5-ungz' => '61dbc8762906082548f4178f083c6918',
+    'mtime' => '2021-02-07',
+    'sha256' => '3f9b8313df5e20f03ca6401db026673fe7b2a05cc93ef7c7314d71aa535a3332',
+    'sha256-ungz' => '29850ce1fe559b9bf3b4689b4388a2afcf55f6901bf08076e1f15310db9e6554',
+    'size' => 25556
+  },
+  'Text-Table-Manifold-1.03.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'ebc31742b122c9b8ef9211267a24cba0',
+    'mtime' => '2021-02-07',
+    'sha256' => 'eac86eff2d0d3a115f78abe6e827ee873c05cdbd5c56ae945541155fd08d3e7a',
+    'size' => 1901
+  },
+  'Text-Table-Manifold-1.03.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '95adb795fd1ce0ffa9ed526364379e41',
+    'md5-ungz' => 'be487b380d98ddb0423776cb5aef6871',
+    'mtime' => '2021-02-07',
+    'sha256' => 'e680713169557b0768952fa6932f25576a61dccfb96bd9036dcf6fcefb35e09e',
+    'sha256-ungz' => 'ee55bab1c577921ffc772e0a7a51a15b6651cc1f3011e46570b35346ef6d520b',
+    'size' => 25506
+  },
+  'Tree-1.15.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'dbf8a51edcf69c30c03fdd07d720299d',
+    'mtime' => '2021-02-01',
+    'sha256' => '0d446bacc2e0000a4ec78174b4a60c85dc75e9b9660fa6400cd577263474a108',
+    'size' => 1873
+  },
+  'Tree-1.15.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '357ba02e8697cc80e74829e486a8255e',
+    'md5-ungz' => '2c0558b333275e9909a722f7cd208847',
+    'mtime' => '2021-02-01',
+    'sha256' => 'db1baa470bbeda76bab30c8a102ad2bbc8c2a47fa75542e03d8a4d5976f173a8',
+    'sha256-ungz' => '03c1aff18a8b43954fe2c1882ce26f07e4fe9ae7ee3bc5f6ad162249c952bbd6',
+    'size' => 37747
+  },
+  'Tree-Binary-1.09.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd811b99b609271e03ffd8b826703728a',
+    'mtime' => '2021-02-01',
+    'sha256' => '307e3339e04c90e5fee2bd98d8f92437999c50034f04a8636126e66fda5129c8',
+    'size' => 1663
+  },
+  'Tree-Binary-1.09.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'dbb7d2f9c9e8d8763e7b0d767f8c50b7',
+    'md5-ungz' => '75f352f00102f5932b0da59e1693cb4d',
+    'mtime' => '2021-02-01',
+    'sha256' => '976e5e325b812d87a8210a79ea4d97a1f462a67d002b753f8667edf03fc797fc',
+    'sha256-ungz' => '99e1290e150573de88a969cd820150fa0ede8e54fc25aa424b24201cab17254a',
+    'size' => 40283
+  },
+  'Tree-Cladogram-1.04.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'cfe801dc34b96cdd45aa386958cfcffb',
+    'mtime' => '2021-02-01',
+    'sha256' => '450fe81a42cc6489c5584e4b013b52a35bac42f63abca63134755f22b72f78ac',
+    'size' => 1873
+  },
+  'Tree-Cladogram-1.04.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '3eca3d9a96e82c24dc7d13822daf17be',
+    'md5-ungz' => '7885506291fbc60cb3787b78b2e4aa74',
+    'mtime' => '2021-02-01',
+    'sha256' => 'e70a4f5bdacc7d7be8e4c0ea79eeb492601a1892b19720699d5f92d88c49a878',
+    'sha256-ungz' => '2c5d34d257bc744d7ef8edc25a79acde7cb7fe14c48835d2f994203bfb2b947a',
+    'size' => 77528
+  },
+  'Tree-DAG_Node-1.32.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f041da5bbee614146d698795563be1ed',
+    'mtime' => '2021-02-02',
+    'sha256' => '2a7f612f9a50942c60dd3d4c0fa709a6190d70fa36afe61f01ccac7cddbf63fe',
+    'size' => 1696
+  },
+  'Tree-DAG_Node-1.32.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7da94b601fdf7138d656695f557ca67a',
+    'md5-ungz' => '8f09eb063cb14dee2e7e30d0fe02488e',
+    'mtime' => '2021-02-02',
+    'sha256' => '22d9de3d6e6f4afd89e6d825c664f9482878bd49e29cb81342a707af40542d3d',
+    'sha256-ungz' => 'b8d775dba06538f18f25724ed5d0aeb8e4ccb9c4a9be8caa7060e6523e026efe',
+    'size' => 54680
+  },
+  'Tree-DAG_Node-Persist-1.13.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'c6a08db8c95465070082de9be392e285',
+    'mtime' => '2021-02-02',
+    'sha256' => '230ede027304581b66a57cfdc4c698c5e8d4ac3d0fce505a37508e02eb3ce55e',
+    'size' => 1909
+  },
+  'Tree-DAG_Node-Persist-1.13.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '035d8ae81063a63f013e088ac274b305',
+    'md5-ungz' => 'e1610780af8f2656a18f6da3f74f1217',
+    'mtime' => '2021-02-02',
+    'sha256' => 'c82c4a9e7a22c9910ad8103b8b441c7f647840501dd1d624ac6d6800e0812c6c',
+    'sha256-ungz' => '83b4c86c16d92383d8a8fabac40dbfa025cd9e67c8e7d92e8392458ab0528705',
+    'size' => 21395
+  },
+  'Tree-Persist-1.14.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '255a50609d14f6cbbccf901c8c910eab',
+    'mtime' => '2021-02-02',
+    'sha256' => 'c014dde936dffbc5e961bd52f0cb00a40c61315a6a5894150c8991908d323e35',
+    'size' => 1933
+  },
+  'Tree-Persist-1.14.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '7e56cf43e8e7c0600737c477f789beaa',
+    'md5-ungz' => '39cb534ae0600ea7318a6638dd5e8985',
+    'mtime' => '2021-02-02',
+    'sha256' => '4b50ee5eb3e7cfdd7e42829753bb9b3fed0499eda8fba8fea177f5b314b07f8b',
+    'sha256-ungz' => '728701185bfe82cb528e5435c679fdfa4ae63ebb2f924e945b592738c6c3adb6',
+    'size' => 26918
+  },
+  'Tree-Simple-1.34.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'd79c39afd2772187ddb85d0389ed7771',
+    'mtime' => '2021-02-02',
+    'sha256' => '287e3c0537e6500b1d3e1e136d97f2130cdbd305775076b74086a8f8b0856e97',
+    'size' => 1527
+  },
+  'Tree-Simple-1.34.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'b425592c0ddb0fc1883c6b6b7338e623',
+    'md5-ungz' => '3ae0a97f81439e567a5533067f092d7b',
+    'mtime' => '2021-02-02',
+    'sha256' => 'b7e9799bd222bb94cff993f7d765980cbea1b6cd2aaa5ecbead635abdf47d29c',
+    'sha256-ungz' => '6b77a5ac3492fc0b300de6ebe6e0b5e03d36bb26edc6cf223076deb139351354',
+    'size' => 46813
+  },
+  'Tree-Simple-View-0.20.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '30a2dca14ce4d0351da8c9cdf7022766',
+    'mtime' => '2021-02-02',
+    'sha256' => '3965990163cbaa55e7de1583a453354ca667e37b0f221ec6170c299853533bb7',
+    'size' => 1753
+  },
+  'Tree-Simple-View-0.20.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '70be351fdcf87e12784b75a444be9ee7',
+    'md5-ungz' => '34bd678de52468feea04a28ad375e04a',
+    'mtime' => '2021-02-02',
+    'sha256' => 'f8ea983cd83536e4080e47521c040ca3c2d9a5cc8785b1c4037eacc2c1bafcdc',
+    'sha256-ungz' => '5c8ae27edcdc39fad368f8e6903c7f3d69b52f2d23d5bef595e0486e23a007ca',
+    'size' => 34435
+  },
+  'Tree-Simple-VisitorFactory-0.16.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '0835080307b4c8bfe4082be9a9785a09',
+    'mtime' => '2021-02-02',
+    'sha256' => '5973700ca38100e9626ca6f85b09b51d53b651d3ffac6a49d708b71902db4940',
+    'size' => 1726
+  },
+  'Tree-Simple-VisitorFactory-0.16.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '9bf9a85d493fe92397b7c483797646b4',
+    'md5-ungz' => 'a415d45213c4a7c5a17dc0e0a06bb829',
+    'mtime' => '2021-02-02',
+    'sha256' => '9cf538faa12c54ffb4a91439945e488f1856f62b89ac5072a922119e01880da6',
+    'sha256-ungz' => '9e71b8311f8437cba4f8dc1a57e0e37495af82c0afe54088a6a31507d4a948bf',
+    'size' => 41249
+  },
+  'WWW-Scraper-Typo3-1.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '16b1014d1be33ea78914c2b50bacee01',
+    'mtime' => '2010-08-26',
+    'sha256' => '5db67c48cb2ad17e86952ccd6f98eb197e740ec28be75e4b42c9a8415836e7f8',
+    'size' => 706
+  },
+  'WWW-Scraper-Typo3-1.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f4a7a984ec7352bf0f8e17dd078cefee',
+    'md5-ungz' => '48b1731b576eeaaaf81df1ac5d6328e6',
+    'mtime' => '2010-08-26',
+    'sha256' => '8bad8e752af95464b7fb24fb34a62abb20fe49264474983dea3ea09c5bc4c1d8',
+    'sha256-ungz' => '5247c2df7586f48a48fa6ae66db6100e44f5fe4db936a0943353cf4cfd78dcdf',
+    'size' => 6954
+  },
+  'X500-DN-Marpa-1.00.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '10159f76173e24c4e437b7aa1c374136',
+    'mtime' => '2015-11-22',
+    'sha256' => '42ec29423d030a5ca1cd595426b6043d4a71e0b01e090ecfe23ddea48072b260',
+    'size' => 1561
+  },
+  'X500-DN-Marpa-1.00.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '02d7d6fd166366997f8db46713989b30',
+    'md5-ungz' => '14e8d1ea4f9e9a03897ebe0a08318ac0',
+    'mtime' => '2015-11-22',
+    'sha256' => '1c21eb1098e406da27c997f87c862640b253440c549da9b519724631ffacf095',
+    'sha256-ungz' => '10e5fd7d51d8457cb20214320bb239652dc9678ecd543ec1d1a91b3fb8917e24',
+    'size' => 21238
+  },
+  'XMail-Install-1.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '4e1fd6dd0d1412a2bbe2c19af6436c33',
+    'mtime' => '2008-05-01',
+    'sha256' => '387a45cfe9ac1d762a223f4c9e40a70acf3652c642dc4aca1a20b4fb774111a3',
+    'size' => 730
+  },
+  'XMail-Install-1.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => 'f3ff3def162ffc245f3eda6bc140ba48',
+    'md5-ungz' => '60a7b1f96394ee9bced0cba4ad991f9c',
+    'mtime' => '2008-05-01',
+    'sha256' => 'd2a244afd4ad7275d522791f56264fca4c4bce31a9ca8ecc9b5e80a9e1ca4e17',
+    'sha256-ungz' => 'ef23d4966458e42f18de4c699f7885ecdee7a61da24afca5c42a34b7ff0e6539',
+    'size' => 11601
+  },
+  'jQuery-File-Upload-Imager-1.01.meta' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '5c7eea4d65bcfb52211827777741c42c',
+    'mtime' => '2013-05-30',
+    'sha256' => 'db070b817e4ba953b3c000b6257cfd1a534a53c5007bbc3eabe239898ba3fc72',
+    'size' => 1376
+  },
+  'jQuery-File-Upload-Imager-1.01.tgz' => {
+    'cpan_path' => 'R/RS/RSAVAGE',
+    'md5' => '09e88a84d2a369ec4f025d3b17eb6452',
+    'md5-ungz' => 'c3b8db719338e2339a99fc03adc25077',
+    'mtime' => '2013-05-30',
+    'sha256' => '64ec4d15abded778edf4083b93077fed634e73779004ff2e04fa42ae39a0a0fb',
+    'sha256-ungz' => '6b2f647fc6f64b60f396f59ce1f08b4eabc1848a4320326f9eee19224440972e',
+    'size' => 25285
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJh0+EzAAoJELahc5BjdgzKxRMIAJqUeZZxNh67oGeBur3wq3Rb
+sA17WsereVv50a3PoApTAzNbPSCNKY+MP+/PD4jzyB9jV4705wbVM2cVlUviQDS3
+hPuqZ0leEdA3L13GgAunJ2UFjXMZYON/wir6sCRpWhedYldpk8Ytch31RdGuFGvv
+toSMSUAt+n5NIy2y86FgkvPDlq08WwDFskzduHGbL9/q6UqndK5OUoDl88Xi45Ur
+XUUokdWs0jFqeV0rCknvbW3ITTvZ3QIwIlLMvnkvM51kGADxPepk8fOG+H146hLi
+E0/XYOFAc8zVEu9sR41Ij++fncZe1yaJlvqR1lHgWKF4Z0LQclNnufdfzuNuGtY=
+=B0Ya
+-----END PGP SIGNATURE-----

@@ -1,0 +1,83 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 21 22:39:59 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Crypt-Blowfish-2.14.meta' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => 'b445963faac1010e0f8eecff8625a3a7',
+    'mtime' => '2013-07-23',
+    'sha256' => 'a0d87eb703dab0de8be2148139592e7f71a03f11e1d57a2a112f8c24d5054ddc',
+    'size' => 475
+  },
+  'Crypt-Blowfish-2.14.tar.gz' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => '792b43cd4e49d2c2cf4a9f6990ff7d1b',
+    'md5-ungz' => '74b3f546da186cafec6efaa6cd94160a',
+    'mtime' => '2013-07-23',
+    'sha256' => '46b3431ffb6bf5b9cb359f79565d48407e652ad2b04fdf5ca62a69e7197a67b1',
+    'sha256-ungz' => '9b8c999140f2a27c6edfcab2098eefa8facd00672081ae3ba9c32763452b156a',
+    'size' => 18006
+  },
+  'Crypt-DES-2.07.meta' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => 'b8617a830d523917919e51d4661ff687',
+    'mtime' => '2013-07-23',
+    'sha256' => '4791278cebbefe24e8ca9bb6df0147b9137742f6d4399cd421ef272fb2947944',
+    'size' => 470
+  },
+  'Crypt-DES-2.07.tar.gz' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => 'e845d24cf383ca4a30a3380a2735feac',
+    'md5-ungz' => 'bfaebbf8e06eebac4865de53c1f505d7',
+    'mtime' => '2013-07-23',
+    'sha256' => '2db1ebb5837b4cb20051c0ee5b733b4453e3137df0a92306034c867621edd7e7',
+    'sha256-ungz' => 'ed42d962e17837617ca010c38517397c55f158bdb8885672c06eb249a2bd86e0',
+    'size' => 16720
+  },
+  'Crypt-IDEA-1.10.meta' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => 'ba651ab352acaddb00e5c8598f554411',
+    'mtime' => '2013-07-23',
+    'sha256' => 'a6eb9826550fe86e0219097c2b0a5110e8fcc6b480fbcf47e657eea2cbd03b23',
+    'size' => 471
+  },
+  'Crypt-IDEA-1.10.tar.gz' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => '0284334d0d3e18543f178111130aa00d',
+    'md5-ungz' => '553a65d2333f2062b4aba2ade749e38b',
+    'mtime' => '2013-07-23',
+    'sha256' => '33bd78c11924a0fc1ff3eedde94078cbbf6b6ca9ede046d2b2f561e9e9a72019',
+    'sha256-ungz' => '27f50ebbc3e666c27d832b6a4a3b95375ff0e30245d5f964050a18565200d91d',
+    'size' => 7225
+  },
+  'HTTP-CryptoCookie-1.14.meta' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => 'c5f40312be395cd0f11a806a3e9a432c',
+    'mtime' => '2008-02-25',
+    'sha256' => '81d9f1757479ce1e4de175a5eb74511ea9dc0dbad39351236edc8ee84cacb5e7',
+    'size' => 652
+  },
+  'HTTP-CryptoCookie-1.14.tar.gz' => {
+    'cpan_path' => 'D/DP/DPARIS',
+    'md5' => '0d6ec63a87f751c29c55d083bb37b26a',
+    'md5-ungz' => '617b4773fb6290c07bf1c7adba157032',
+    'mtime' => '2008-02-25',
+    'sha256' => '251cc1f4e263bfc985267f78400e2f624c55693dcc2af2dc8c3904ba9c472476',
+    'sha256-ungz' => 'b1e5b59b0d5d3aee54f3c30aa97e38bb6b11f631127c9ea6debbedce7b5b8bfe',
+    'size' => 6083
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmsq/AAoJELahc5BjdgzKxwUIAIr3QBPrcbF3Y0eKULuXHD1h
+AkhYfX1FLGIs61wdfiZ2KmLPlF2U6nXn4vRnyNPX13IXjpWPdcyjAwBa360pZ4o5
+XrnAKJWXS55dzbrD0HMLQASHp7u7/aEv9/JxGgE5kJJyPhtyqFFYG/5D0XWBpqLk
+13bwod7S51fTu7ZW+6FwWxv2G/FFqkyDgBPaKyZZDOPrMhBAlMU0QWBkHotF7Q8m
+jAIb2MXDYR/gz9g0lq3sVLdg4CqZRuU5d/EKrqoRH+8UsK5QtFKQt5+a3CDRAxTJ
+/0Onto2Dea4CI7IbxJY9e6xwPHyOsWWYysfdUqhO1VQch3+2u3m5f9PC81JKBTE=
+=3lff
+-----END PGP SIGNATURE-----

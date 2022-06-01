@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 12 04:10:33 UTC 2022
+http\://repo.spring.io/ext-release-local/.error=Could not transfer artifact org.jboss.shrinkwrap.resolver\:shrinkwrap-resolver-bom\:pom\:2.2.0 from/to spring-ext (http\://repo.spring.io/ext-release-local/)\: Transfer failed for http\://repo.spring.io/ext-release-local/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom 308 Permanent Redirect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1652328633240
+@default-spring-milestones-http\://repo.spring.io/milestone/.lastUpdated=1652328633168
+http\://repo.spring.io/milestone/.error=Could not transfer artifact org.jboss.shrinkwrap.resolver\:shrinkwrap-resolver-bom\:pom\:2.2.0 from/to spring-milestones (http\://repo.spring.io/milestone)\: Transfer failed for http\://repo.spring.io/milestone/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom 308 Permanent Redirect
+@default-spring-snapshots-http\://repo.spring.io/snapshot/.lastUpdated=1652328633216
+@default-spring-ext-http\://repo.spring.io/ext-release-local/.lastUpdated=1652328633120
+http\://repo.spring.io/snapshot/.error=Could not transfer artifact org.jboss.shrinkwrap.resolver\:shrinkwrap-resolver-bom\:pom\:2.2.0 from/to spring-snapshots (http\://repo.spring.io/snapshot)\: Transfer failed for http\://repo.spring.io/snapshot/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom 308 Permanent Redirect

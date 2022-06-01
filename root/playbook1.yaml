@@ -1,0 +1,22 @@
+---
+
+- hosts: webservers
+  tasks:
+    - name: Execute a command script
+      command: apt -y update
+       
+    - name: Execute package installation
+      command: apt -y install tree
+
+    - name: Execute package installation
+      command: "wget https://pkg.jenkins.io/debian-stable/jenkins.io.key -O /usr/share/keyrings/jenkins-keyring.asc "
+    
+    - name: Execute package installation echo
+      command: echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \https://pkg.jenkins.io/debian-stable binary/ | sudo tee \/etc/apt/sources.list.d/jenkins.list > /dev/null
+    
+    - name: Execute package installation update
+      command: sudo apt-get update
+
+    - name: Execute package installation jenkins
+      command: sudo apt-get install jenkins
+~

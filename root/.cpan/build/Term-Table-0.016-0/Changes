@@ -1,0 +1,64 @@
+0.016     2022-01-03 12:56:51-08:00 America/Los_Angeles
+
+    - Be explicit about bareword filehandles
+
+0.015     2019-11-18 15:58:23-08:00 America/Los_Angeles
+
+    - Update inlined Object::HashBase
+
+0.014     2019-10-15 16:54:41-07:00 America/Los_Angeles
+
+    - Clone STDOUT on load in case it gets changed later
+
+0.013     2018-12-04 11:38:36-08:00 America/Los_Angeles
+
+    - Minor fixes
+
+0.012     2017-10-11 08:54:52-07:00 America/Los_Angeles
+
+    - Bump minimum Test2::Tools::Tiny version
+
+0.011     2017-10-09 12:52:32-07:00 America/Los_Angeles
+
+    - Honor the env variable even on non-term output
+
+0.010     2017-10-03 09:41:46-07:00 America/Los_Angeles
+
+    - No changes since trial
+
+0.009     2017-09-18 20:51:26-07:00 America/Los_Angeles (TRIAL RELEASE)
+
+    - Further optimize term_size when SIGWINCH is supported
+
+0.008     2017-03-17 10:08:18-07:00 America/Los_Angeles
+
+    - Prefer Term::Size::Any over Term::ReadKey
+    - Do not use either if STDOUT is not a terminal
+
+0.007     2017-03-08 20:15:13-08:00 America/Los_Angeles (TRIAL RELEASE)
+
+    - Remove stray line that was setting STDOUT to utf8 (wtf?)
+
+0.006     2017-01-10 21:13:35-08:00 America/Los_Angeles
+
+    - Fix rendering issue when all lines are the same length
+
+0.005     2016-12-27 23:04:11-08:00 America/Los_Angeles
+
+    - Add spacer
+
+0.004     2016-12-20 18:13:50-08:00 America/Los_Angeles
+
+    - Add cellstack
+
+0.003     2016-12-20 06:23:43-08:00 America/Los_Angeles
+
+    - Fix recommended deps
+
+0.002     2016-12-19 12:23:51-08:00 America/Los_Angeles
+
+    - Fix a broken test.
+
+0.001     2016-12-18 23:01:20-08:00 America/Los_Angeles
+
+    - Initial Release (moved out of Test2-Suite)

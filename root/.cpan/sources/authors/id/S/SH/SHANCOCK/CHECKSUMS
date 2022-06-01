@@ -1,0 +1,131 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Fri Feb 18 22:31:53 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Perl-Tidy-20210111.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'ab9f4b513bfe8cdd1fadc77fdd27a5a3',
+    'mtime' => '2021-01-10',
+    'sha256' => 'f610f0c0304441967043cb92f398cf955f35a162f816a12a557bd112e204422b',
+    'size' => 1056
+  },
+  'Perl-Tidy-20210111.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '81667745a5465347ae823ad284f32abd',
+    'md5-ungz' => 'fcc5e5bf78f4a37938277bde8e22b32c',
+    'mtime' => '2021-01-10',
+    'sha256' => '207666ceaf5d4eaf7a608c8f4a77f212cae811bb88ce159c33e2d8a0b5da189f',
+    'sha256-ungz' => '5357244b7316a32d9fdd105aaf229121fdc5046be471f548b953bbbbc6ad6274',
+    'size' => 747875
+  },
+  'Perl-Tidy-20210402.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'a3622c94648a3592981a2b62903547ce',
+    'mtime' => '2021-03-31',
+    'sha256' => '2bd34aa3c6d56b2e4b347abd64356556bc42288ea17d3c98907519fb74245649',
+    'size' => 1056
+  },
+  'Perl-Tidy-20210402.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'f2bc37a8b165a8f8c6ec56d3a31e4c88',
+    'md5-ungz' => '8ed7d4b60906784b8b949d0021d213d9',
+    'mtime' => '2021-04-01',
+    'sha256' => 'b6e9c75d4c8e6047fb5c2e9c60f3ea1cc5783ffde389ef90832d1965b345e663',
+    'sha256-ungz' => '1eb63cabb66bd14ece3012caeccacbc2f7ffc3235ef87aec8a854d238ac63454',
+    'size' => 782560
+  },
+  'Perl-Tidy-20210625.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'bcbd406cf38a12da6113b3c3bc26c8a3',
+    'mtime' => '2021-06-23',
+    'sha256' => '3caa9f810b0625c1ce3142f23477638c5b7a82dee2b87c21343f50461c09dd2a',
+    'size' => 1054
+  },
+  'Perl-Tidy-20210625.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '3c53647a8a7a4623de32b44f41fb9fec',
+    'md5-ungz' => '31a6cb0b73a2a37a5049b984c0e78651',
+    'mtime' => '2021-06-24',
+    'sha256' => 'c10c8de95c22bed6375ac224c8aab5091ab5b0351fc2cbb7ac923be90b33ee48',
+    'sha256-ungz' => '2f67ba61cd020f78ef4e6d12f755ee03bca61ef55c7ec67531c40775c1535bd9',
+    'size' => 805797
+  },
+  'Perl-Tidy-20210717.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '7dcdbfa2adf921e5e190136a148edb5f',
+    'mtime' => '2021-07-17',
+    'sha256' => 'cfd0b508af4183f0ea9fccf275173bae48578943bd64188ee89c374b47e52e30',
+    'size' => 1054
+  },
+  'Perl-Tidy-20210717.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '87045ac0ded5d3483356e6b720f27de5',
+    'md5-ungz' => '68820ef51f737ac87e42e7069bc7b021',
+    'mtime' => '2021-07-17',
+    'sha256' => '4d1bd38e1c3a39a2fabb2ddf61a57e3d6cf2778a7b2aebcbf618ad205972cf14',
+    'sha256-ungz' => 'bc7de4e2d2c84ec824b895d79940b5ec168a7afab018adeca92cc488c666c665',
+    'size' => 814449
+  },
+  'Perl-Tidy-20211029.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '4471037b16bbe35d032c33174a67e5aa',
+    'mtime' => '2021-10-29',
+    'sha256' => 'c7f0c423e4037b52d4a7b4e31c0689c1dc527dd98a39e6361d699ce7ceb150bc',
+    'size' => 1054
+  },
+  'Perl-Tidy-20211029.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'edf2140290fb0d285c881221599bc286',
+    'md5-ungz' => 'c8eb88b0bac36de51ae7f438f15c2543',
+    'mtime' => '2021-10-29',
+    'sha256' => 'ec03b1e36a57d094569a30082688f722253401c7cc934ac64d2e3eb4de880eda',
+    'sha256-ungz' => '3dd9e8c561fd107997cb7d3c2c152bd0bcc0cdcd076bd90c6e860fc5a3986241',
+    'size' => 850004
+  },
+  'Perl-Tidy-20220216.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'be16026c2692147a4fb13f25e3517714',
+    'mtime' => '2022-02-15',
+    'sha256' => 'c24d77ec403bf1e895456efce7f5a487bac6af831b0f32dd57ea9c62a4a32de1',
+    'size' => 1054
+  },
+  'Perl-Tidy-20220216.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => 'cd6664a1409234b3caad44a2e2ca5762',
+    'md5-ungz' => 'def7f7694367d7cd21bbe9f86a1e2780',
+    'mtime' => '2022-02-15',
+    'sha256' => 'beb0042adacd33be6b90525054a92784fce3542c971d104047ef0d97a1fa995f',
+    'sha256-ungz' => '0ad8b5aec6b85e833f5327c4782ea472e3946fe2cb077a527dacc940a1adc00f',
+    'size' => 887620
+  },
+  'Perl-Tidy-20220217.meta' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '44b1d1096526a529a08e3a2ba1cb4a20',
+    'mtime' => '2022-02-15',
+    'sha256' => '3ca3ef89ca586d9682b4b543cb08a15fc748b30d6e7907e34b1c9a9de93c1650',
+    'size' => 1054
+  },
+  'Perl-Tidy-20220217.tar.gz' => {
+    'cpan_path' => 'S/SH/SHANCOCK',
+    'md5' => '549137b44af54f8f06af7456c52af5ba',
+    'md5-ungz' => 'ac42163e7f1dd7f7e82db011d8945dba',
+    'mtime' => '2022-02-15',
+    'sha256' => 'bd8bc63043c8bc94aa04811b29f93af794d8871c793c8bd36015dcbdd8a51e83',
+    'sha256-ungz' => '0e8cfab27d4d9be6259132708015e69f644eeec663d0279f5098b35facd197bd',
+    'size' => 887121
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJiEB5ZAAoJELahc5BjdgzKnvAH/3EfRDohAxix4GxbrkukK7uR
+1CCPFQlAwYfV+y0pM2aQgQ8a/SfK6WcVzc3PQoRdpvPkeJi/vavJ166LvenJrHKA
+NHKiLV7OtXOeibpJrFxlTXTq9Vf65rAFu3xnZabRZK9bd3sTUplAxJnO9j8OKxiH
+8b1YDgoNJGKoE5iK9YPA2v6Q2nV5fQv4/3E6xK1OeqnonKTSINIGjFKNqE5Eafvu
+QI3V7L5KrI0Ycq2iBtmLSks1VEVcnM46b08PpErWCGgzDJ7g4VaNGAqcAnRvm5tG
+cEMKgnY5FokRB7N9u+rvdSFhfoUbsqikFtsaGf16c8BHh8Cp5KqVnMc4kyNNPWE=
+=iUJl
+-----END PGP SIGNATURE-----

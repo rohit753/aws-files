@@ -1,0 +1,156 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Wed May 18 10:55:01 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Class-Accessor-Grouped-0.10012.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'b034b5a1849b13c186b1aed3209ccb56',
+    'mtime' => '2014-10-05',
+    'sha256' => '7840eacfce864415781860964cdd9dfab1c101f22d2c300e5cded404f6a2d52b',
+    'size' => 809
+  },
+  'Class-Accessor-Grouped-0.10012.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'cd9fad3112c315d60b5fca5b17e98996',
+    'md5-ungz' => '5961576418626e002c1e2be7050012ba',
+    'mtime' => '2014-10-05',
+    'sha256' => 'c4613ee3307939f47a9afd40e8b173f3a22f501c3b139799aa030f01b627e7fe',
+    'sha256-ungz' => '8b7111df1612c37ab20e7d49e6243366bce61f44095bb0a48c89d5eb2495321b',
+    'size' => 47830
+  },
+  'DBIx-Class-0.08271.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '983f63782a008111a6595b362ef5faa5',
+    'mtime' => '2016-06-17',
+    'sha256' => '7d79a89109dcb018df649b8b8debdc839f7c71852f6f3b444d2cff8da7bcd402',
+    'size' => 1779
+  },
+  'DBIx-Class-0.08271.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '91cda08372c5a2bda7f5f219dadc0dde',
+    'md5-ungz' => 'b6210878a5696b8048ce18515ba80721',
+    'mtime' => '2016-06-17',
+    'sha256' => 'a450916fabff0eab4b33ed87d23ae89b871aee5fcd4720faefb4407b94413bf7',
+    'sha256-ungz' => 'db332e4b04800f7788e5cb0bc7152629b8238bab1c5af9688be2db2b00b018e3',
+    'size' => 810887
+  },
+  'DBIx-Class-0.082842.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '845b03e04b5f2db3d23a7696901cf114',
+    'mtime' => '2020-06-16',
+    'sha256' => '4eb9c572078674cfd150da80d58b69b8fd302d9f564cf4aa3a262958c5286723',
+    'size' => 12132
+  },
+  'DBIx-Class-0.082842.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '3177dffa24553f405d82beae717e588b',
+    'md5-ungz' => 'd59612058fc45339e8bc714352bd03b5',
+    'mtime' => '2020-06-16',
+    'sha256' => 'b05ed68172699ee12b77be0b773a05909241a656592915eb0f6cc525658b07e6',
+    'sha256-ungz' => '784f290f322c1d10204e40d8e12621a39d80177ca9a87a2b9bf8fef874f37b1c',
+    'size' => 879377
+  },
+  'DBIx-Class-0.082842_01.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'edbbe5b62c604c4b867aefa715b3d4d3',
+    'md5-ungz' => 'c371121854272f6cd621dbea31092029',
+    'mtime' => '2022-05-15',
+    'sha256' => 'd636f04bd4ff9e71820ddcf3b77b1cf26203624963052c84c76044eac5efb05e',
+    'sha256-ungz' => '8505fa3c5824beca52b366ee4bcf1d4fe04bdea72ddaaa2bfdbf42d2059cdc6e',
+    'size' => 879331
+  },
+  'DBIx-Class-0.082843.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '18d0d65b2f8d9b0646ce9ec3a2367b8c',
+    'mtime' => '2022-05-17',
+    'sha256' => 'da64a5247bc5185e8428fe5c2bd9a7e405695e3f388ab502c7f76b4fae744fe1',
+    'size' => 12180
+  },
+  'DBIx-Class-0.082843.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'c8016851cfa01cde36aec3ec98a9ffb7',
+    'md5-ungz' => 'b6148af667bc4944cfeb78c1c1b5f682',
+    'mtime' => '2022-05-17',
+    'sha256' => '341e0b6ecb29d8c49174a6c09d7c6dbf38729ba4015ee7fd70360a4ffee1f251',
+    'sha256-ungz' => 'd01937b4ff4f9764f30d7288e55393fb1cdee0f74443a2be5bd16ead89870a48',
+    'size' => 879391
+  },
+  'DBIx-Class-Manual-SQLHackers-1.3.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'b8b916f467c4c91855f16aedf75fdd96',
+    'mtime' => '2013-04-13',
+    'sha256' => 'bd5b1665c28797e15adfa8ad6733c38a0f4843f8bb62cc8353cb3a9c0142e4d3',
+    'size' => 943
+  },
+  'DBIx-Class-Manual-SQLHackers-1.3.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '20f83de998cb45cb5685ca7812ee46d8',
+    'md5-ungz' => 'fbc291dc3869b0c654b7d08560c71d2e',
+    'mtime' => '2013-04-13',
+    'sha256' => 'e5f182b9ab5db173fe9c0e7b0e8b78775606c142083edad041ea0bce9ede3832',
+    'sha256-ungz' => 'd532d8eccb849fdf0ca8d054eb1bb50502effbc13a858fe0b4766ce59347e53f',
+    'size' => 31269
+  },
+  'DBIx-Class-TimeStamp-0.14.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '3bc28d9e2094083224a90d52cd550fa2',
+    'mtime' => '2010-09-05',
+    'sha256' => 'eb40587cb3538a3b04d932858d05f0e07541b11f1990cdc02b5c4ab56e564fdc',
+    'size' => 836
+  },
+  'DBIx-Class-TimeStamp-0.14.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => '02526ab3bc2aac7845ac18909a97a37b',
+    'md5-ungz' => '85a6b614105f50842a2701742240d227',
+    'mtime' => '2010-09-05',
+    'sha256' => 'a8a4d5e986727206b1150f621c6f381078a16ffde7aa1a05d41846e74a2619fe',
+    'sha256-ungz' => '582fe8d312516657fc410b24f1270f5791ad9630052261c0031b0119c08dc6b3',
+    'size' => 29207
+  },
+  'SQL-Abstract-Classic-1.91.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'e164c033b8f00e13eee3e3ba671c54a6',
+    'mtime' => '2019-10-17',
+    'sha256' => '77a6bfd58ee528c680960c5ecf6c489a19b6072f4f1bda499a1f9d384ba56ab5',
+    'size' => 845
+  },
+  'SQL-Abstract-Classic-1.91.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'c3e052d7db4c6c26d7657bb4006baae1',
+    'md5-ungz' => '6d5749802093c85de32970d4d2d0e723',
+    'mtime' => '2019-10-17',
+    'sha256' => '4e3d1dfd095b2123268586bb06b86929ea571388d4e941acccbdcda1e108ef28',
+    'sha256-ungz' => 'b2e4435c21204ca82f1e11f992bb4b9c6b75ac508d813e99967069b13806d1bc',
+    'size' => 78466
+  },
+  'namespace-clean-0.27.meta' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'c5a14ab301541b8df855ba2e145b4828',
+    'mtime' => '2016-05-18',
+    'sha256' => '613b345169ad2d5c728c38e776031415dfd38f29fb3ff6dcab9458f4b98523fb',
+    'size' => 1737
+  },
+  'namespace-clean-0.27.tar.gz' => {
+    'cpan_path' => 'R/RI/RIBASUSHI',
+    'md5' => 'cba97f39ef7e594bd8489b4fdcddb662',
+    'md5-ungz' => '845fc7fbd8896885302a97b04f1bbcd5',
+    'mtime' => '2016-05-18',
+    'sha256' => '8a10a83c3e183dc78f9e7b7aa4d09b47c11fb4e7d3a33b9a12912fd22e31af9d',
+    'sha256-ungz' => '6c4d7097fbc79a6696b8dc8695bed0f728d89cba98c77b44860c158f32291515',
+    'size' => 17801
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJihNCFAAoJELahc5BjdgzK+ZAH/AoHCBJuEVE58LBuCKjoSW5m
+qI9K41RIa7Y+WYfhlwr6M7OIkv9IkI2aVXimBSdcvGYd+5bHsVe6XRVtnnjkh4LP
+sCSZhahAMeuUsK+zDNTWvm+SxKJhkXGejjIwq+xDz0hO59B7/a50TdwfGVrGhH7J
+vbOPx8lo8vLgg5K09vZ4zcRp1s9N8QX6qL41CngtGKvCOUqr6FJdkyfjJ2pmef1F
+k5JWRIQv5yy+lQV6Vdx/IUHr11yJl0Mr9XSql4qB6QN/VdGCSYAEbMFQ6SvCikTH
+q3IlZ4rjVim/IyCrvxi/wdXc+sSjtnkUPwFYW/kSGuDxag9MbAvetiBUoG4wPIY=
+=W34I
+-----END PGP SIGNATURE-----

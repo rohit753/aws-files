@@ -1,0 +1,83 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 00:06:46 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Barcode-Code128-2.01.meta' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => 'd1d3db0c041e8c2d2f65b52eb1456d5b',
+    'mtime' => '2007-07-17',
+    'sha256' => '87eb123a2febe8a3b1767fd29d6e55d238dbfd73e978a3223ecaa0061851ed3a',
+    'size' => 317
+  },
+  'Barcode-Code128-2.01.tar.gz' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => 'a0aa077b26926c30659471d14515d907',
+    'md5-ungz' => '68af5ec0f47b51564b968a6030728eee',
+    'mtime' => '2007-07-17',
+    'sha256' => '6528167a5ecd34e6b4724b891db6c9dcecf3c7de654acaf76e9f42c09d4352c2',
+    'sha256-ungz' => '4275356259fedbc16418a28c112f023a58929719f55024dc6339afa540e878b1',
+    'size' => 14122
+  },
+  'Barcode-Code128-2.21.meta' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '921debeb8b5b240c60b03cfcde22c80f',
+    'mtime' => '2012-09-25',
+    'sha256' => '17fe844384b303b5c09f4d38537bd9c38d2aa5ef68ad01e6bce8e7d259171921',
+    'size' => 858
+  },
+  'Barcode-Code128-2.21.tar.gz' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '27cf162cb919445ba916ce347e6a2936',
+    'md5-ungz' => '7266d7ca82dd7adaa4ba9b815869af3d',
+    'mtime' => '2012-10-15',
+    'sha256' => 'f8c90811d916e13bdbce348924db45f39dc7688580505a897d2196a8781b6f06',
+    'sha256-ungz' => '583d26fd87158fb4d253eb8a3098c1ba5132907a77a581fe262b3a8e7c91929c',
+    'size' => 15082
+  },
+  'Number-Format-1.73.meta' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '1d24184c059ed7df5a4819484ee015a6',
+    'mtime' => '2009-09-26',
+    'sha256' => '5ffb629d1b3d08611f7352ff0c982b95394195343e48efef8e3b004b76d9ca06',
+    'size' => 524
+  },
+  'Number-Format-1.73.tar.gz' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '3a4188de6e84b04361def285b93dc240',
+    'md5-ungz' => 'f216f47eb8d7fcc5971d7bdc05bb1f5b',
+    'mtime' => '2009-09-26',
+    'sha256' => '84a2b722ef21ab92bd09ee8de9ecf9969cd95a0655815e8c9b0720669986e46c',
+    'sha256-ungz' => '2f662c63a7515e38c02ddb49b6ac46dc69a729cdc113c85fef5eaa744f751b70',
+    'size' => 22742
+  },
+  'Number-Format-1.75.meta' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '6b90c9be7c5de11ab8ca725fa66c780d',
+    'mtime' => '2015-06-25',
+    'sha256' => '875b97124d9b38c508c5dbca9f42dbdedc0de181796c6d4af93b880b4c0900a7',
+    'size' => 1170
+  },
+  'Number-Format-1.75.tar.gz' => {
+    'cpan_path' => 'W/WR/WRW',
+    'md5' => '2285c537dcf89a5bf556effaf706fd5f',
+    'md5-ungz' => 'bbf5bde7c5d9933a0ef316965bda29d9',
+    'mtime' => '2015-06-25',
+    'sha256' => '82d659cb16461764fd44d11a9ce9e6a4f5e8767dc1069eb03467c6e55de257f3',
+    'sha256-ungz' => 'afaa12407ec7ad5bb952fed7200037b5ae2a96b28f1f1927351bed6ce000786d',
+    'size' => 24526
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmt8WAAoJELahc5BjdgzKak8IAIM0dldZQ68TFCuUaq73j2ZF
+SCWH+WFCOMPuNk1BIvY7jf5FOueekiVnh7qKbGZyhvTCaVM+MZqwYDkX04exCBWZ
++IXnzR9wcvBo1VRDm/q3os8l3b9VygcC2kRXZHG5MVz6rgOZCAa2DXG+oVgZnLAz
+GVczSiIWyk4SsNu0aI8ZkitLv+hkRVqYmNk3w2J1Vcr0ptF3vV+lI6zow3YOVqUg
+r2JdqG1CDk4T3DDMAmGFSLMuIwFPVapm5gtexW9q6phbLMLD4LnNZVqMzEUlj6QX
+jHrqWO9rEoB561bBp0zcwF7Fk164ZgV+atSZYDJb7RE3EYh/RiRb3MCDpG3cW08=
+=p88H
+-----END PGP SIGNATURE-----

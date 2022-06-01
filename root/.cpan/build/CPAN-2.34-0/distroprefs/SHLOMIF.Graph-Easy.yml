@@ -1,0 +1,14 @@
+---
+comment: |
+
+  https://rt.cpan.org/Ticket/Display.html?id=58892
+
+match:
+  distribution: '^SHLOMIF/Graph-Easy-0.70.tar.gz'
+cpanconfig:
+  check_sigs: 0
+---
+match:
+  distribution: '^SHLOMIF/Graph-Easy-As_svg-0.27.tar.gz'
+cpanconfig:
+  check_sigs: 0

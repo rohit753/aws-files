@@ -1,0 +1,29 @@
+---
+abstract: unknown
+author:
+  - 'FUJI Goro'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0.62'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.36, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Test-LeakTrace
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Exporter: '5.57'
+resources:
+  bugtracker: https://github.com/gfx/p5-Test-LeakTrace/issues
+  homepage: https://metacpan.org/release/Test-LeakTrace
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/gfx/p5-Test-LeakTrace.git
+version: '0.17'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

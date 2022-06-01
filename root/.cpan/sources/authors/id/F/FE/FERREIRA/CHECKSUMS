@@ -1,0 +1,3155 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 01:11:57 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Acme-Note-0.8.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3d28a60bb339b3c55a5c70a0cc31faae',
+    'mtime' => '2016-01-05',
+    'sha256' => '72d2eebb66f413a139d5d9fa9bfdb098675a250d1409359d681f5bd869f710b1',
+    'size' => 1331
+  },
+  'Acme-Note-0.8.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6799d8f1fcc3c9d21dc304530ce332db',
+    'md5-ungz' => 'fb1eccc48e36ad72bc88a73f6ddcb635',
+    'mtime' => '2016-01-05',
+    'sha256' => 'f71230a65b1db4f8f07880b0c999a4cf813be42f788af58a312ad61a9a92faf1',
+    'sha256-ungz' => 'caec6e5b316d38dd18aaa1bf8cf738792c76b3a2f6e9e7db2f22dd61ed779403',
+    'size' => 3621
+  },
+  'Acme-Roman-0.0.2.12.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fda40458f6637699364d958c22111d95',
+    'mtime' => '2008-06-08',
+    'sha256' => '65a774366ca5d73b219ffd8259cd07896f177e158a991df3b79f31b0af6d6ea2',
+    'size' => 665
+  },
+  'Acme-Roman-0.0.2.12.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '299cead7d679803fd5babbeabf583558',
+    'md5-ungz' => 'a127b0a8c9120ac071cf1d4e7262ea0a',
+    'mtime' => '2008-06-08',
+    'sha256' => '8c68bcdca8a3ed6e9fe22a3c5f4a7a71470ac2612345a9a0b4500114c437deb3',
+    'sha256-ungz' => '18d32d01a38009723a23cc42bf5643a2efbc50542a4338e1b6ed41c6061e0326',
+    'size' => 5279
+  },
+  'Business-BR-Ids-0.0022.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '71dea3e7b111bb226d40e644c5eb3c00',
+    'mtime' => '2008-07-01',
+    'sha256' => 'a588ed57220a35ae330052288d9c58413bdb197a3e0be32c48f17f998bff5e0f',
+    'size' => 534
+  },
+  'Business-BR-Ids-0.0022.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6441a213048c881125c1a4db08eefb10',
+    'md5-ungz' => '7e40dc5d5527f8c626db8d3be9027464',
+    'mtime' => '2008-07-01',
+    'sha256' => '69250a30c1e5f7e6d2d68dd6711177f7e5a1ffd4c627af1ccc32f8f5b70b6eac',
+    'sha256-ungz' => '46ad64b9212475ea1a37ee049b2e6675928d3767d02a935d517c87f6feed2885',
+    'size' => 23654
+  },
+  'Carp-Always-0.13.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '727d135f7e7763305747dfb4abb986f8',
+    'mtime' => '2013-11-06',
+    'sha256' => '96e06ffa6b972e2ec2ea393527cc21421219f1cfa6fd7b32ab5a557b68e57710',
+    'size' => 1076
+  },
+  'Carp-Always-0.13.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fe99c5255bcb3de5cd1fbb1e671d63b0',
+    'md5-ungz' => '346bdc65d7943a070b235812a8be0253',
+    'mtime' => '2013-11-06',
+    'sha256' => '21c69f8d85ad81198d032a375ca8b87d9f7f101145598575636ef993a78b5944',
+    'sha256-ungz' => '8e1918a5c5cab641fa1171e1317679bbc60a0588f95d902e18e7c1c400ab9397',
+    'size' => 5462
+  },
+  'Carp-Always-0.13_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'aa4d14d6e1e8b723ce0e0aa2539692d8',
+    'md5-ungz' => '000530ba46cf4bc059e7804f04a1f0ec',
+    'mtime' => '2018-08-08',
+    'sha256' => 'd4cdf67bb75e80d421bb9f70aa7b2f7dbbcbd92de4248c61af63f32c4d2324b6',
+    'sha256-ungz' => '151d470622493fb0fa656bc0b1f188433bec9f877ab23be27d3bbdf03155d106',
+    'size' => 12953
+  },
+  'Carp-Always-0.13_02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4b6bc30bc6fa4b7b0ecad123cde1068d',
+    'md5-ungz' => '8d0a788e3e568879d8573a70e284d244',
+    'mtime' => '2018-08-08',
+    'sha256' => '495e6adb3b90464cd8146764885b83231248d9f17b30bcd7298cb1f07adb70c1',
+    'sha256-ungz' => '78901f3269bb14c16fd97e9c43ca76e96cfe290e3f920fdf564ff95be8409c20',
+    'size' => 13061
+  },
+  'Carp-Always-0.13_03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4d6e49bd5068e893a794d64759bb8174',
+    'md5-ungz' => 'a6440eba842d1edf85caa36dd1b8d4dd',
+    'mtime' => '2018-08-08',
+    'sha256' => 'cd33fc8a717ea554ffe0e4c58638a1115ae109b59a6d177ab87ec68f54dcc458',
+    'sha256-ungz' => 'ef57a30a5143d549fb007a84cfd4fa73e740a631df4bd8bf003f8825ffa5cc5d',
+    'size' => 12939
+  },
+  'Carp-Always-0.14.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ed42a57d722739f75a280cbdc4c0089c',
+    'mtime' => '2018-08-09',
+    'sha256' => 'a6fde083306db5aecf2003fd9f9b18210508dfd5e1874688332141111ebbd1a3',
+    'size' => 1569
+  },
+  'Carp-Always-0.14.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '379c27552d076f3c6e3303e86401ce6d',
+    'md5-ungz' => '7ce0bae8b0206c010a6f69f2aa0a898e',
+    'mtime' => '2018-08-09',
+    'sha256' => '67e13ca55c0a31dea058a586ed43281eaf0a6e18a7c97c4ee9881c4fa741e1c6',
+    'sha256-ungz' => '54d51c60b6addba270327f1a5087a04aa7f9c4fd7fc5e8c9f531515c5be5a8bb',
+    'size' => 12939
+  },
+  'Carp-Always-0.14_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '12828996ad4002fe7c09735e9ff73f54',
+    'md5-ungz' => '7660ad4d9cda881dc9a485f06e3c0921',
+    'mtime' => '2018-08-09',
+    'sha256' => '12791355c884214561e1915e07bc7b19a4b7202aabbab22b8e226e2872b65188',
+    'sha256-ungz' => 'ed72db3ed08747f926e0e1224358bd2dea343a63833e9d54aa2e8cb3be128898',
+    'size' => 13222
+  },
+  'Carp-Always-0.14_02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd358430a5dab1298033b7c8f4cfe65e8',
+    'md5-ungz' => 'd17cbe1a3a91445f2e6150adac0dd037',
+    'mtime' => '2018-08-09',
+    'sha256' => '7fa238df791a55d35d4ea0a7fbcfe2d7a77bc18be26944eddfe6764bd84bf9ac',
+    'sha256-ungz' => 'd9b2d315f4aa5c89792ca554d66d06747610a513fd5844e4023f6cf69885a4ab',
+    'size' => 13420
+  },
+  'Carp-Always-0.14_03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '66b4c0bc3e054c4447223b977a358f34',
+    'md5-ungz' => '886afbdc49a73fadf431aece5efa0433',
+    'mtime' => '2018-08-09',
+    'sha256' => '83e619c9e992aee984d3c8884773640408c31ba5897bea75661fab69331549e3',
+    'sha256-ungz' => '9c7ff2355dfde041fad6b0050c877c244cd6c77bd1326fe740d0bb249b21b990',
+    'size' => 13579
+  },
+  'Carp-Always-0.14_04.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '969a842ec09f41f7246dc4fde563d29f',
+    'md5-ungz' => 'd10ecfc2b9f19f8a9cbc134f89953997',
+    'mtime' => '2018-08-09',
+    'sha256' => 'bf76193321957234dc9ee2594d0634f9b9c75941d0dacb5d2c8a970652b6da9a',
+    'sha256-ungz' => '1b7f983afe2ffbed726d6391274ac18d6a142895a1e1feb4bb30520048344f5f',
+    'size' => 13701
+  },
+  'Carp-Always-0.14_05.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '749dd8c451ff3031b3394dcd28b1ff7a',
+    'md5-ungz' => '10d90a463e83cdb177dcd184594faf9e',
+    'mtime' => '2018-08-09',
+    'sha256' => 'da9bc3053c081575247efafeeda981972b77e6e86c6f78dd8353d80dfcaf1d56',
+    'sha256-ungz' => '66623f0bc6c702282c5898cf02cb2cbb05a7bf39894836b80cef9436ad8f8c03',
+    'size' => 13738
+  },
+  'Carp-Always-0.15.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9e72c470631a82be932d0eea2e118b94',
+    'mtime' => '2018-08-10',
+    'sha256' => '751623d34345fcf30122ed4b64cc457a4bae8c36ef1ce700e5a8a07487312925',
+    'size' => 1569
+  },
+  'Carp-Always-0.15.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6205ec6cbb25c559ca671655b5024069',
+    'md5-ungz' => 'd9ce7be14c6d9480141c16d3fa98353f',
+    'mtime' => '2018-08-10',
+    'sha256' => '56e082b51a88d702c1282d091f8e986057b3527b44014731ea1b29ff564ce3a8',
+    'sha256-ungz' => 'd7744d004c8ce3901f96745b5681fdbcf1ea87da4cff464e80b450c8a24f9cd3',
+    'size' => 13766
+  },
+  'Carp-Always-0.15_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a4fd0d28161477b1769d8ed2824487ac',
+    'md5-ungz' => '6a090dc637d8fd610fd94a4cfee59874',
+    'mtime' => '2018-08-10',
+    'sha256' => '4f3271f0fe3d4dbb54b52b63af112d6fc9d136907f4ccd56ab67e363d187d384',
+    'sha256-ungz' => '20024108705968886ba08adaee697368f522c189b59c29f5c4c468f4297ee800',
+    'size' => 13913
+  },
+  'Carp-Always-0.15_02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2339b0030abdf248fd16fb7179e5ec0d',
+    'md5-ungz' => 'f33fd12ffdc58c7f566ddeac7b60e1d9',
+    'mtime' => '2018-08-10',
+    'sha256' => 'e0ff7538d36f70fa151097934af561dae1d76d016ebb3f8e46196cd53028b978',
+    'sha256-ungz' => 'b00c53c1d2494f38ca3c8e4253f956b0f5d573d2d945b78674db8dd08599dc54',
+    'size' => 14131
+  },
+  'Carp-Always-0.16.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '79ea5d75c5d4b16ccadefe9bf8812c29',
+    'mtime' => '2018-08-10',
+    'sha256' => 'cd6b4c629db81e31c9858bd2c79ee6e86cce5ab228b4958ed0b772f51c2a4b20',
+    'size' => 1566
+  },
+  'Carp-Always-0.16.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f3e0fc9154add2ba643681f98a7b7a3c',
+    'md5-ungz' => '9d7527ed2ccc11cfbe057aebb4345867',
+    'mtime' => '2018-08-10',
+    'sha256' => '98aa11492171c016fb0827581ab1fa5ed01b1e99c6357489ddf3a827315866f1',
+    'sha256-ungz' => '16c5bd52cef08d451a4ef1b849f7ed57d99e72270ea86dfa78a11fd5361c5e3d',
+    'size' => 13386
+  },
+  'Class-Lego-0.004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4e87d79588e7d6069e10fc5b0bcbcb04',
+    'mtime' => '2008-06-01',
+    'sha256' => 'c0952a5fa5672e7884a8f44f305aef8bfb11ba2ddd0b06e1d26fa197f6715e88',
+    'size' => 615
+  },
+  'Class-Lego-0.004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e2d25b3eaedbad743bae5095c5797e4b',
+    'md5-ungz' => '512869384044ba44c93c358525b5d211',
+    'mtime' => '2008-06-01',
+    'sha256' => 'fd4385e1ac2f6b1a37114482b56b2f32767e6df29456ffdb566ece81008fb2b6',
+    'sha256-ungz' => '8385bee64d7dc7e9a09a1624e99a7add994567e0d8b6395bd5f8a6f8a22ecb4c',
+    'size' => 4791
+  },
+  'Class-Lego-Constructor-0.004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd13591b9a45e16a0b0aac6bd8816aab6',
+    'mtime' => '2008-02-19',
+    'sha256' => '021e2d98df979ecaf7dcd7bccd483737621dd688908db4a1e7610dfcb4795e52',
+    'size' => 561
+  },
+  'Class-Lego-Constructor-0.004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '921dde74b20fee90a6eaf33a6889c83a',
+    'md5-ungz' => '27292824e9a20d9b05483cd64e35adf8',
+    'mtime' => '2008-02-19',
+    'sha256' => '2be69bff085213cc3cf123e54ba858ea305273c595570829d91e5897b26fc9ff',
+    'sha256-ungz' => 'f921340e2ab85bd292479ac604bceda599ffee1a55aa9d210b51b2463690903a',
+    'size' => 4447
+  },
+  'Compress-unLZMA-0.02.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'dd78c40470d32e2768a9646c9326716f',
+    'mtime' => '2008-05-19',
+    'sha256' => '1b15443de1383e82a48b617edac9da42a08e90d5c3e255940add390a8726906c',
+    'size' => 418
+  },
+  'Compress-unLZMA-0.02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '44c8efcb63056364ab6d21a269184593',
+    'md5-ungz' => '9c87b0ac54844b114bee586a5079119a',
+    'mtime' => '2008-05-19',
+    'sha256' => '3a3455e3214a8592951eca8e54bd1e27ce2165e0551228263f13630d7ee3b08a',
+    'sha256-ungz' => 'd63c9e61a38e8883baa84bdd576fb7ebf4bd51ce275ea88f5738e73e62ac4cd6',
+    'size' => 36107
+  },
+  'Compress-unLZMA-0.03.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0e92c4f288eb5c3924e69a52f8046274',
+    'mtime' => '2009-04-19',
+    'sha256' => '280cc9c4afbb90450dcd593f3f2cf9e4545f436fa7ae9b6defb6933b9657d10a',
+    'size' => 548
+  },
+  'Compress-unLZMA-0.03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '651a8b340b2b27a71cdff22e2a8bc4be',
+    'md5-ungz' => 'f4b3894092b23ab688cd8feab3d103f3',
+    'mtime' => '2009-04-19',
+    'sha256' => 'c8ba805db4adbd827cb53e762cdd20b6944ef42b905d37cbc1a6cce592a58e28',
+    'sha256-ungz' => '7795cea65cff6261570f9b883e33c72d18fcc0a06b07446bc4184f71840aa736',
+    'size' => 70488
+  },
+  'Compress-unLZMA-0.04.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bd4376e275863898ac0fe5b540181188',
+    'mtime' => '2010-07-17',
+    'sha256' => '04e9701ccb2a3c940bf0e492d715ac486a093e393fe2f2891dd6f23a50803e13',
+    'size' => 548
+  },
+  'Compress-unLZMA-0.04.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '43de1df8c14bd23981348386f56ed954',
+    'md5-ungz' => 'c775fc9c504187971f0059dedd17e749',
+    'mtime' => '2010-07-17',
+    'sha256' => '0b3c28818b6cc3c6ca4601a50e8bdcc550511ee0e65f0eeb83c64598877ce969',
+    'sha256-ungz' => 'c1ead7c820850682b67713256c057ca176e0517aee9cbdeb7f7b3a8175563f84',
+    'size' => 70328
+  },
+  'Compress-unLZMA-0.05.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '24b39f24bd0151abbdb0485d44607980',
+    'mtime' => '2016-01-03',
+    'sha256' => '29e0ee7be3455e54a9f762c115e549f249f89e5a965d6191a49902525bc807a2',
+    'size' => 976
+  },
+  'Compress-unLZMA-0.05.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '46c3767335b74fd5f1eb254e16363d1c',
+    'md5-ungz' => 'dac0aa4d0279cba197a94255e8a1181f',
+    'mtime' => '2016-01-03',
+    'sha256' => '4de801a28d92d5e90947465ceb48d4e39fd6409385e9c230e4c04829d96517b8',
+    'sha256-ungz' => 'a923f94c3f98ab9b9044b235a6b7a6de21c0548d174e51742a852759172e03a1',
+    'size' => 71665
+  },
+  'Data-Bool-2.98014.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd769e1ad1a59ac2adcd7e463f02f7a62',
+    'mtime' => '2018-11-18',
+    'sha256' => '1532079c53a45176dc5627a1ee3e3c64d7fea565d45d9cdc4c5eb5a457432596',
+    'size' => 2076
+  },
+  'Data-Bool-2.98014.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0048ca950c542850a00739f4fd94277e',
+    'md5-ungz' => '3ea599013d6552687b8628268f46e5d9',
+    'mtime' => '2018-11-18',
+    'sha256' => '3c69d4b607d0eb214c0d834fa30dbf51c74e59edcd3b5e7fd3176e13720bf2ec',
+    'sha256-ungz' => '2350c2ec80b361d0eeeb2a4bd2bcadf8e8a111c27e6ad3a039301d080229d9cc',
+    'size' => 19238
+  },
+  'Data-Dumper-Again-0.0002.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '92443296a935493efa38f3e6e4c84d6c',
+    'mtime' => '2007-03-17',
+    'sha256' => '9f585ce6be95fa1cf41ac620eea9f977c6ec41751329c141ee06b801bebf82d4',
+    'size' => 650
+  },
+  'Data-Dumper-Again-0.0002.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9126ede176ca013504e30deb22251465',
+    'md5-ungz' => '7aef992bf30695407a23f3307992e7e1',
+    'mtime' => '2007-03-17',
+    'sha256' => 'e16a0fecb5e1d93226624e722fa31d62d223b917b8d9d1dc5a4c52ddc27ee0df',
+    'sha256-ungz' => '09af16823fa9266a6f467c06f83d401a40717ffc65624dad9f29065fa9180816',
+    'size' => 5460
+  },
+  'Data-Dumper-Again-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '26617046114e1ab715a85ec20192db03',
+    'mtime' => '2016-01-07',
+    'sha256' => '2a25520ea17a3bc6070c25de7b1e0e01e0f892f3c475218c4f8df352d048cc38',
+    'size' => 1390
+  },
+  'Data-Dumper-Again-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e6576b05a951e989daa17e37508fe724',
+    'md5-ungz' => 'e14f8f974e531c81425b424385d0eb91',
+    'mtime' => '2016-01-07',
+    'sha256' => 'db98043611bce7e174b6e224d4c404092c04bf4a66e44a1ad46f513cb4bb7190',
+    'sha256-ungz' => '4ccbbed45e13f14865ff6f5eefde90c10f02c16a7eec4702742f6681376a3ac0',
+    'size' => 5908
+  },
+  'Data-Template-0.0004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a7cbab9e2e837453156187feb0fbc23f',
+    'mtime' => '2006-09-25',
+    'sha256' => '60966968578562cd49ac6b087babe96637ed1043809ef3a00e5a3f44b4564854',
+    'size' => 452
+  },
+  'Data-Template-0.0004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0d12950bf3bf4f5321d5f8514dd494f0',
+    'md5-ungz' => '22a9fcff87581ea5380eebcf10b1d85f',
+    'mtime' => '2006-09-25',
+    'sha256' => 'd3c46015bc2cf6b3d9889bc24b1057641508d907e041c51372e8e9b2176aa35f',
+    'sha256-ungz' => 'ceee409d9752a24ad60743b2006f74aacd99f337eab63ba02fc09248cbc5496d',
+    'size' => 3617
+  },
+  'Data-Template-0.0005.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '52f5c120fd8252c1e7bf869e5d5f6808',
+    'mtime' => '2007-03-20',
+    'sha256' => 'ebf4d4357b38b53b4d0427e90262661560d10d0a3458cd6e09669db01d6d9516',
+    'size' => 518
+  },
+  'Data-Template-0.0005.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0b3ee863cc08ca0907a58877dadc2c90',
+    'md5-ungz' => '09e8273320684617b3168d8978e173a3',
+    'mtime' => '2007-03-20',
+    'sha256' => '9ef21c4b270bc5340d6a6c0cd374edcc2287c7afa8e71d6f3ada17be04aaf8f5',
+    'sha256-ungz' => '0952b22956a802e148b14345651283ec6fadcf8610de0a9a8412f347519b3089',
+    'size' => 3850
+  },
+  'Data-Template-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6168c6b6ba2f9fdb7d230f3e809dd3b9',
+    'mtime' => '2016-01-08',
+    'sha256' => '1300dc55b695c168a101aa9bb461208806458f77405ea1107a890808cf038e83',
+    'size' => 1175
+  },
+  'Data-Template-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '70c29af57f442fa61d9bc39f4a609610',
+    'md5-ungz' => '9abc323198095f2a8e1b83a475c10aea',
+    'mtime' => '2016-01-08',
+    'sha256' => '04945817f1070c96bd66d674a68168710ade0eeb82bb4dbb1f1d152e9185ab50',
+    'sha256-ungz' => '5cc13d254df0f28530762f0201c6d27f6bafb7df00cfe6840e1422c1a1664c18',
+    'size' => 12818
+  },
+  'Data-Template-0.02.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f3c0f4da79fe35f01f801e7271b4f603',
+    'mtime' => '2016-01-08',
+    'sha256' => 'a9515d2bdbf230b42fa39cfa250034b63c1d619d72bd1b0baef79fb34058b74a',
+    'size' => 1175
+  },
+  'Data-Template-0.02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '652b689f02b69b826cf8eeca3e58c598',
+    'md5-ungz' => '2ff4abda036c42d547ee2a7b892e3c4c',
+    'mtime' => '2016-01-08',
+    'sha256' => '8e541277f103014b7f5efcc23834572982ed47a3e6bc5ec6bbdb8a2e90adfc20',
+    'sha256-ungz' => '05bc6c0fb08e59dac4f8e5ff84430764d7f3ac5bd0e71f3e67787f75a355056c',
+    'size' => 4357
+  },
+  'Data-VString-0.000004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fb54576dc7daefab770a154b4dcc2e7c',
+    'mtime' => '2007-03-19',
+    'sha256' => 'c122168c87751adea824ed4d3ffea4b8685a98dacc19080d73b888c33353a732',
+    'size' => 542
+  },
+  'Data-VString-0.000004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f8ce284f6b7db0f153aba7083943d0cf',
+    'md5-ungz' => 'b8b0bfcb69fc172e3d159ab827faac0f',
+    'mtime' => '2007-03-19',
+    'sha256' => '526c456f153b09d6971dce0a21904d83c2a4807c04707a13ab391bf36de9a3e2',
+    'sha256-ungz' => '58426a146b8d41c5b81fccfee087da7b2f739e59033aff44762cc5e251970ff7',
+    'size' => 6354
+  },
+  'Data-VString-0.000_003.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '189734a2120a571bb29381ad0c8087dd',
+    'md5-ungz' => '33427a6841e97bfce440ba4c6941f0ae',
+    'mtime' => '2005-07-11',
+    'sha256' => '98299b27a4192e9b6ff0cdf8a77d22cc4a24c05b3ee9ab70f7ea56889b9f61be',
+    'sha256-ungz' => '20076591e99a952bb481c4fde0b9f37c477164f8f5e9797214a6d2e7d7cb04b0',
+    'size' => 6088
+  },
+  'DateTime-Cron-Simple-0.3.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a13a2a4ce9d53f0aa326eb95e5da2f17',
+    'md5-ungz' => '24b784ff0b6e1cb0e97f63af789366d1',
+    'mtime' => '2006-10-25',
+    'sha256' => '9c90c4a5652a809d7b92e532358ec119f17508ea4b3ec131cd35d8b1c51606f2',
+    'sha256-ungz' => 'a9a8149eac18305df2140759c25dbe96f327b35bf6b9dbd3b05f881bf04dcfba',
+    'size' => 3920
+  },
+  'Devel-Hide-0.0010.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ac0f285ba6374705ba4c2198669b1e6f',
+    'mtime' => '2018-06-15',
+    'sha256' => '5dd82eae7c8f8cd640d543b44c736d0f64ab43e5f650bb1cb08e1ca84d62454f',
+    'size' => 1458
+  },
+  'Devel-Hide-0.0010.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0f62b47eb7c73732b3f50470a4937dbd',
+    'md5-ungz' => '714f1043bef6e41a5f9f05499b29ac23',
+    'mtime' => '2018-06-15',
+    'sha256' => '756fefa60febf1d8dbc851426bfb084520db45f745d35c8e8623945d6dda5e82',
+    'sha256-ungz' => '1a28dd9d046c494dfc806bd3521cd46a53de8e143d1e51d6dc36e27ac008a01e',
+    'size' => 7225
+  },
+  'Devel-Hook-0.006.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6589fb9fd2f486071d042bd627fb0633',
+    'mtime' => '2015-02-28',
+    'sha256' => 'c278f9d904379ec95dd1330c05bb12b72ebd918dc643b3c8271a49777e84912c',
+    'size' => 1215
+  },
+  'Devel-Hook-0.006.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e5949a37ad13169e6a292a8bdba03b95',
+    'md5-ungz' => 'f4b88c051e1be166bb97ffd52eb9b91e',
+    'mtime' => '2015-02-28',
+    'sha256' => '415516848409493368cce0af6df803d1ac96edaf78082a830258578ef97d0703',
+    'sha256-ungz' => '4f2a5d22f06623f470f896f5197ca06073fbaf6b921b7e4c450df433224f80b4',
+    'size' => 8446
+  },
+  'Devel-Hook-0.011.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a8138279fcd373a7c024702d9a256529',
+    'mtime' => '2017-11-11',
+    'sha256' => 'd0379094c615f7f5bcb6c71ae0e9f00e62a744da003b471a51c7c8f67faba557',
+    'size' => 1281
+  },
+  'Devel-Hook-0.011.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '175fc1b424d2b2cc924813b8ea6cb415',
+    'md5-ungz' => 'dd9d77d8f3f3572bf8c8a209fb0a5e38',
+    'mtime' => '2017-11-11',
+    'sha256' => '3005d45e9da6b8c2a8e77efec1c588d1c69c5e0d7446245aa3cf15e7e2bfaba0',
+    'sha256-ungz' => '5ea867f912607d35a1d32fdc428b619718a0e84f236bff6e6c3ac5650f9ff1fd',
+    'size' => 8521
+  },
+  'Dist-Zilla-PluginBundle-Author-FERREIRA-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '591c0375b2ec346cd42eb5ed2bd73284',
+    'mtime' => '2018-01-27',
+    'sha256' => 'ff1402e31b3056ce48a2735904d15a4a80511b26b082c5372cb4414480b1d8d0',
+    'size' => 2586
+  },
+  'Dist-Zilla-PluginBundle-Author-FERREIRA-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a27986ec3223391afec1e7721ff5f1e0',
+    'md5-ungz' => '95b59ed92c265ba9650e19fec88d131e',
+    'mtime' => '2018-01-27',
+    'sha256' => '70c567f4008598a4bab6d544bac740dc7a005941140db8bedd4933b150c30c9a',
+    'sha256-ungz' => 'f969f0729ba897924b5dbc4e5245dd93d0cf1b73851a9b58effb6281d48d321c',
+    'size' => 12507
+  },
+  'Exporter-5.59.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0ae2ca983c662bcf6e47666fac976e3a',
+    'mtime' => '2006-09-06',
+    'sha256' => 'f75a8133d7330309b4a348d590bd7a821e3c4fda2bf71ac83421840373d5381c',
+    'size' => 436
+  },
+  'Exporter-5.59.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '14ad8ae2621dd98cbda98818fa3fdba0',
+    'md5-ungz' => 'a4b387f675c8cac17a9b4c4e419e1727',
+    'mtime' => '2006-09-07',
+    'sha256' => '8bca4f7d6274c74256d6f2d2f3babf7a7bbe044993c12d970783d4eee429c644',
+    'sha256-ungz' => '9ab3efd3282bd23bbd501754773f1d74020a6be99392341c6ff2f7afebc74c33',
+    'size' => 10483
+  },
+  'Exporter-5.60.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '38b2024f68014eef41e8aaea7e60f05b',
+    'mtime' => '2007-11-28',
+    'sha256' => '224a906cd4a1a724226877dc6a0e07b0311cbd03c02e515e472bcaf68c11fa00',
+    'size' => 356
+  },
+  'Exporter-5.60.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'af1efea54896ec8808d0aefd185a8204',
+    'md5-ungz' => 'bef88a1c37eb1a127e358f2f484a593d',
+    'mtime' => '2007-11-28',
+    'sha256' => '9fac21b7d8399449a1308c46a31c7b060320ff0b2298d2b20eefac37e3ae636d',
+    'sha256-ungz' => '4ea3cdb878ac7c23e6e4069c518e684038806540421f6471a6d4ea508ce0c45a',
+    'size' => 11074
+  },
+  'Exporter-5.60_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f4a0ce17be18e28b834b650b474570ed',
+    'md5-ungz' => 'ae5dce25546bcbf39a920aaac31e2cf5',
+    'mtime' => '2007-12-07',
+    'sha256' => 'a454f36a14905a0637223d1676ab48b3325a99b86ad8471ea9d9a7a6834fc0c3',
+    'sha256-ungz' => '0cd6c242d98802dff4f8112be9cfb75ea5811c63a186a71489ac0c94d3faf4b9',
+    'size' => 12659
+  },
+  'Exporter-5.61b.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3ef4b4f53e55cfa911fe9a237a87c4e2',
+    'mtime' => '2007-12-10',
+    'sha256' => '6b49fc1542cba352e11d2a86d5ecdf0061c2dddd5102470941994962f52165fe',
+    'size' => 379
+  },
+  'Exporter-5.61b.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6465d0de8184416e38f71ddd198fc9e2',
+    'md5-ungz' => '39a3f0ce32441900272aff308a6d2ee5',
+    'mtime' => '2007-12-10',
+    'sha256' => 'a4045c125bff6feeed8f253613397d8e2aebf1fd6ee79605e8de9928efdec222',
+    'sha256-ungz' => '045837c4cf5c55cb1f9215c26ca7e585234fb0bcbcbf7d8378a6cccae2f8ce9d',
+    'size' => 12682
+  },
+  'Exporter-5.62c.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '16a9f52fae7258ef1ccf883c4729caaf',
+    'mtime' => '2007-12-10',
+    'sha256' => '0d57d5f436525a51980910af7105642d0d691c750e760bf29a6bc931987ef355',
+    'size' => 379
+  },
+  'Exporter-5.62c.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '15c0e675938140ef91e57065c3db1f90',
+    'md5-ungz' => '0f30430529d9b5d331fdbc5c8b4bbb7b',
+    'mtime' => '2007-12-10',
+    'sha256' => '4b16a2dafc5ea845276bdd8ba9ccb028e16304d240b222f5f4daac8d4c6016af',
+    'sha256-ungz' => '3367541e56a6297b5584638caf05c1d7bd3d38e0f1da6486969a572c7c5891d3',
+    'size' => 12837
+  },
+  'Exporter-5.63.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'addbf03da0568936da7a13469bb5148b',
+    'mtime' => '2008-07-20',
+    'sha256' => '009ccad74fee920a41f65b50c0fd57c57096bfd7703fdc283ee04acb07369cef',
+    'size' => 379
+  },
+  'Exporter-5.63.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '45aa7c9b0142d6ad12c24cf122d608e0',
+    'md5-ungz' => 'bfd842df369fdd6461e41ec01afa9c30',
+    'mtime' => '2008-07-20',
+    'sha256' => '5e58ad6f60ac234d3c4e9077e7623356e463bec9a5d74e61bddddb86f2e3412e',
+    'sha256-ungz' => '06c60e4f1ebea623abd26e7cce3b46e53ad7a678767a82d527664faab4033946',
+    'size' => 13194
+  },
+  'Importer-Zim-0.10.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '72080dd603ddef089b39da2ba9247ed9',
+    'mtime' => '2018-06-14',
+    'sha256' => '79454996d970fe8eee16ee17bcb1b73aabb48ade3df7d91153da15080d8ebbfb',
+    'size' => 2282
+  },
+  'Importer-Zim-0.10.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '340e924871ec3a0c09bbb32309d27a82',
+    'md5-ungz' => '6e87b5856aa5aa805656ca1a45741071',
+    'mtime' => '2018-06-14',
+    'sha256' => '1e0b60bd3e8bd46939e9b5c7c0cfcd216d09f6308e80d1546c11f9e8883b2d49',
+    'sha256-ungz' => '632a827880094fe8819d82818edf8e94d5b1aee31937fd5f493b7b4dda9ff9cc',
+    'size' => 16950
+  },
+  'Importer-Zim-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'da055e759259da1d6b4fc8e95ab24f22',
+    'mtime' => '2017-09-29',
+    'sha256' => 'bce8636bf0aa5a31c4d0ff12f095ad1a1001e5094b157a622286d51f9223e24b',
+    'size' => 2096
+  },
+  'Importer-Zim-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0129dc4ea8feee25c48b7077388ed621',
+    'md5-ungz' => '7231636eb07b8474f06a704b7f0e1873',
+    'mtime' => '2017-09-29',
+    'sha256' => 'b6865bb859beacdba6af8234ef82ddcae396aec0939b2afa90e90596e795f682',
+    'sha256-ungz' => 'c3d1b2cf3847c2dbe4eafef5d5a052040fdc979d2d21f688fe5b3a4eeb0f18e5',
+    'size' => 16019
+  },
+  'Importer-Zim-0.7.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '69b45f54b1eb01da83d869a890a8208b',
+    'mtime' => '2017-11-02',
+    'sha256' => 'dd86806cf52dba2a8c683dd178c9ad89ca079dd529af9983cb2ec0ea57f4ac64',
+    'size' => 2194
+  },
+  'Importer-Zim-0.7.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '30c76b802af93f45dd38a28c3bbbf965',
+    'md5-ungz' => '71cd1bf26c939c065f49bb8f5a9a9fea',
+    'mtime' => '2017-11-02',
+    'sha256' => '0919583f7a4386ff1ce9872b6719df02b6dcf2248bcb1a1a0682d6056c564e4e',
+    'sha256-ungz' => 'a009ad36e2bb207fc5215e59f42387e17bc414fad12472be30a8cf53388fdb9f',
+    'size' => 16123
+  },
+  'Importer-Zim-0.8.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0bd290d3379021c23689a93217098d25',
+    'mtime' => '2017-11-09',
+    'sha256' => 'ef6e45cd4c6e26ec5dac1e77c7234594f340d8a73a6bcbe705c1735f57858cf9',
+    'size' => 2241
+  },
+  'Importer-Zim-0.8.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1d1571411add66aa16efcc04fb4c4027',
+    'md5-ungz' => '39676b2b3114673c961668c8bc0ccb00',
+    'mtime' => '2017-11-09',
+    'sha256' => 'b96b57b00c487c6304f90d4690d913c5c56de2748e8b7f9e5d1aa053764296b7',
+    'sha256-ungz' => '3bb413510baf148adeb91adce67ebc7b77999d5a4b4628be6b6eadfa746b8412',
+    'size' => 16465
+  },
+  'Importer-Zim-0.9.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5b52de5bdc92edcff263ae45c3b27b97',
+    'mtime' => '2017-12-29',
+    'sha256' => 'e8d4944417ce9dd54334d7837cd526cd1981e77320848ae606ad85f51ba8c751',
+    'size' => 2279
+  },
+  'Importer-Zim-0.9.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '81f29fdf141e09b349f628839645cc21',
+    'md5-ungz' => 'd3ccb5572fb4384d7699e4677a6a076f',
+    'mtime' => '2017-12-30',
+    'sha256' => '48dcd014ee3bfe87f9ff9508ea790015fb5d5a714dde5a612391c636f9d9f698',
+    'sha256-ungz' => 'f3c48302a7fa1cea1816fa61d09b880683ac558afbc60a698176da215c7efc31',
+    'size' => 16675
+  },
+  'Importer-Zim-0.9.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '941d47047d2a8c21104897a50fe23e8a',
+    'mtime' => '2018-01-27',
+    'sha256' => 'b7f0acd369eb7ea87529dc76aeee723780b631c853f8f5ef6f79e78e3fdc8bdc',
+    'size' => 2279
+  },
+  'Importer-Zim-0.9.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fee186b23228527f10a6c1a8ea178f2e',
+    'md5-ungz' => '12ce9aeff8b997c9a3ef10f4e5f2f1e6',
+    'mtime' => '2018-01-27',
+    'sha256' => '815043e94947856077c4ce520f1411808681fe85a095877740b04b8b0dd55048',
+    'sha256-ungz' => '97ab1e66a3a950b50b2f6113cd555db4ef4fd1a32eda4f34fb545463671a341d',
+    'size' => 16655
+  },
+  'Importer-Zim-0.9.2.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '37a11aae421f205113b2a5714d97c2b3',
+    'mtime' => '2018-05-18',
+    'sha256' => 'd83da10b0615c481fcdb684e67c249734a785c74c9c613efeb33a2c4aad79a3a',
+    'size' => 2279
+  },
+  'Importer-Zim-0.9.2.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '09d5c2b9ec6faf21b3381d61f14e1882',
+    'md5-ungz' => 'b27d5fad5e951032eb5c6aa67f4a8819',
+    'mtime' => '2018-05-18',
+    'sha256' => '4fee9ffef65eb84dd2bfdc59308aaea7de99bdcae3d85b126eaae8c67da6446a',
+    'sha256-ungz' => 'fa0d67e5a296a479ca5bcbdd77b4cc665e1234ccc585ae27b4cd9ddffcc7a6a4',
+    'size' => 16681
+  },
+  'Importer-Zim-Base-0.10.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '209322dd9591f30c14c9fec33f197153',
+    'mtime' => '2017-11-02',
+    'sha256' => '52c321cfb576c0bfd06c79c218700cf5c028467ccee6038d1e2cfa87c65dc54d',
+    'size' => 2216
+  },
+  'Importer-Zim-Base-0.10.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6a3fa40929709c4778d339b481cfa66e',
+    'md5-ungz' => '8627a8dc3282f05056d7e5c2c2173b61',
+    'mtime' => '2017-11-02',
+    'sha256' => '8a29fa5c057d0f06194d17f26c45442e475366546451e933b126d99ef5b7def0',
+    'sha256-ungz' => 'e87eb546de687e4a61c1e942ae09f77997dbf954abd57301f78d1f4013597160',
+    'size' => 16008
+  },
+  'Importer-Zim-Base-0.11.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2cd1b4002e65a2985868910058477081',
+    'mtime' => '2017-11-09',
+    'sha256' => 'aed481b3c3b33d85febfecce2cd081aba4497235a46387a6ca0370fb834abdbf',
+    'size' => 2216
+  },
+  'Importer-Zim-Base-0.11.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b4d026162b5454e2d1b7646db97e4a08',
+    'md5-ungz' => 'bb6b5cdfb8dc4095d837dcc572be5f2f',
+    'mtime' => '2017-11-09',
+    'sha256' => '884e4bf5a5126fdbadd9caeb34f11c8fb879ae98358435a33c33cabd4bba7a78',
+    'sha256-ungz' => '4a9f3cba0059b8c4f3c23e4427a937475c860feee2baf0c3606f15de9f8b0574',
+    'size' => 16141
+  },
+  'Importer-Zim-Base-0.12.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5577c44cf8b64204f3cadf4253393160',
+    'mtime' => '2017-11-09',
+    'sha256' => '8b6453ed727af55f39583ec1188265a46d35d2177c3926ebb7e2777dc2da2c10',
+    'size' => 2216
+  },
+  'Importer-Zim-Base-0.12.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2aa846abf186f236056eaf82a73d1d55',
+    'md5-ungz' => '636d67ee5af5d38baebb329241b55e61',
+    'mtime' => '2017-11-09',
+    'sha256' => 'f677120ae614861b7e507dfb437c40ecbaf1fdd37e75e621714bec85401f1ce6',
+    'sha256-ungz' => '445025b1052b1f81a3786a197bdb45cd14de3bb35570acf134da75bd7a562fa1',
+    'size' => 16334
+  },
+  'Importer-Zim-Base-0.12.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0bca48b53650cbc0c07bbe9fa1cd6891',
+    'mtime' => '2018-01-27',
+    'sha256' => '11252df6f73259f47194d29327bc4ff9a4a7e3426904a59ba1934e27d41c3593',
+    'size' => 2216
+  },
+  'Importer-Zim-Base-0.12.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9fbe2e24f1dcc33dc922427aaf58bfb0',
+    'md5-ungz' => '2e7f48db0154015d3b3d9ee149e21c58',
+    'mtime' => '2018-01-27',
+    'sha256' => '10d14f7f00ce47a580bb03937f8839b88ba503dfe5566f81701967c3e97bdb36',
+    'sha256-ungz' => '132430b6eaef5a6876555dfa4b9221775e298241d0b1588a338ac9dcd29c84da',
+    'size' => 16383
+  },
+  'Importer-Zim-Base-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '22c5e5472e700ea009d12d43cda14af5',
+    'mtime' => '2017-09-13',
+    'sha256' => '4c76d3b35627d1ed8cbfe029599a1778a65418245aeb6919e663bf68513e4e75',
+    'size' => 2040
+  },
+  'Importer-Zim-Base-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f0d67d554ea2dca51d2ffcb54a047f6b',
+    'md5-ungz' => '9740ec9811005ac0316bf2fa48120e94',
+    'mtime' => '2017-09-14',
+    'sha256' => '10ddd2f3d5e9b3ea7d4d07fe0201028f3276ae12cff9aceab862fe779b526af5',
+    'sha256-ungz' => '6bd6257f77a4ce9c8496a57aa707cac0e8707b325985fe443a9527facd21c0a1',
+    'size' => 13392
+  },
+  'Importer-Zim-Base-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '93f700cffc321ff4e2e4762e31d21c8b',
+    'mtime' => '2017-09-16',
+    'sha256' => '055a1242797590bd8191e00e83e15fd8cd1532d594838b49edf0c0d9f6ea886e',
+    'size' => 1969
+  },
+  'Importer-Zim-Base-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8e418bbf9ecad20005ce0ac83d934504',
+    'md5-ungz' => '415281f74c4c48c0aaa95719cdae6b20',
+    'mtime' => '2017-09-16',
+    'sha256' => '4c86ef87fe8739809ddf296d0faa4ce24876f809abf0d0ea3085ed5f35ede800',
+    'sha256-ungz' => 'f2d6bc659451164f5bab826abe7649deac2cc03bb2112eaf94e64eb6604007d2',
+    'size' => 13977
+  },
+  'Importer-Zim-Base-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'dc8f7a614b95d4ceeba444fbe1ef405b',
+    'mtime' => '2017-09-21',
+    'sha256' => '0bec0049b90a72ac6243dca8d87bcb68010831579174ed70ed45a4e43a34573f',
+    'size' => 1969
+  },
+  'Importer-Zim-Base-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fdcfd240eb89b8de09684fb43dba3cfc',
+    'md5-ungz' => '6bc521d3f49c14c6d6187d6c182d9fc3',
+    'mtime' => '2017-09-21',
+    'sha256' => 'aa3ebc8e6cfe7da4878f5c50dda3cc770227ba85b01d944bbf04dfdfbe534813',
+    'sha256-ungz' => '17b3d8acc5267fdd38c1e921dd987a65ea58c46671c2022c0884a577320a99dc',
+    'size' => 14034
+  },
+  'Importer-Zim-Base-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '99d4c1f19234619c71a8c783958a0787',
+    'mtime' => '2017-09-25',
+    'sha256' => '2fb8d442eb66390c44939e0acddb2dc31e7efe10890b1dcb64fadeb6e4530695',
+    'size' => 1972
+  },
+  'Importer-Zim-Base-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b75a8d2e8273c5381038bf6be42934cc',
+    'md5-ungz' => '1246efb8afcf13c576f6c97621a45786',
+    'mtime' => '2017-09-25',
+    'sha256' => 'b8c55d702750e307eec3ac0fce569eef12fed6a6b375734608fd2bc24cb182b1',
+    'sha256-ungz' => '28a7f25e7c56b6066631d4316bbb8a2cd98b7d32b1ad36e216f6fc0177edca91',
+    'size' => 14068
+  },
+  'Importer-Zim-Base-0.7.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '181322e8526de030536d06ac9415a9f6',
+    'mtime' => '2017-09-29',
+    'sha256' => '3ddb5c3e4a4d22758a8030ecec8d017a33fbbdf5ff4df9efbfaeb2913088305f',
+    'size' => 2089
+  },
+  'Importer-Zim-Base-0.7.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a1f9d76c031f448e06cf8916d26c6ed4',
+    'md5-ungz' => 'efca0a5ace56326272bd73e3efdb1bfd',
+    'mtime' => '2017-09-29',
+    'sha256' => 'b431dc2c30fa515b23cacba7000030209d8807a1e7521cbc5c1722c7bd79814e',
+    'sha256-ungz' => 'e40a51083aacc80af92190bd427ffece58544b6b2e7a8df14ab1b619b579897c',
+    'size' => 14881
+  },
+  'Importer-Zim-Base-0.8.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0a4b8d7c7449bbcdfe0d5892795f06eb',
+    'mtime' => '2017-09-29',
+    'sha256' => 'e770402a0b140a7d28e22d82138a8c2cd8775b41692d715c9b4e774155093695',
+    'size' => 2089
+  },
+  'Importer-Zim-Base-0.8.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '00254ce5060c429d07c5056a06377ce9',
+    'md5-ungz' => '28d91398f2b461aa14ceeee26b1605d3',
+    'mtime' => '2017-09-29',
+    'sha256' => '44b89d510117053fe5a6a1918d732172360d0749d490039a6964456976a052d9',
+    'sha256-ungz' => '1bf65a8a89f857c3e0898442454e4207dab9abae4f48c91b34d19a3893923e60',
+    'size' => 14941
+  },
+  'Importer-Zim-Base-0.9.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '41353f24c115dd4a71cead07e340bf5c',
+    'mtime' => '2017-10-08',
+    'sha256' => '2330fbc280399cbb2fefe584177d459543ad3db79413fccd388e90a0758bd0d7',
+    'size' => 2212
+  },
+  'Importer-Zim-Base-0.9.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1eb28f76ff34bf5986840b728dac09a3',
+    'md5-ungz' => 'f226a4a5b21932be16f89e5fc71c509c',
+    'mtime' => '2017-10-08',
+    'sha256' => '5ceddbc92b1705ce0d0d288ed32687a82f021162056ad3f5e8e681b6356e27a3',
+    'sha256-ungz' => 'a1c145df39fd1b8063cc841a9ae5e713e0dab4400f1792ad2037d0d9cfa529cf',
+    'size' => 15987
+  },
+  'Importer-Zim-EndOfScope-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '81880f18e89909f193c2d26bb72480ec',
+    'mtime' => '2017-09-26',
+    'sha256' => '0be15926493ef056677b5bbeb0c417995261b0e4953a9b934f35eacc19f09b9c',
+    'size' => 2108
+  },
+  'Importer-Zim-EndOfScope-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bcbd9926b21d3cabee7a3332f5ec79c2',
+    'md5-ungz' => '2447be5f096841228e7bbeecb2bf70a2',
+    'mtime' => '2017-09-26',
+    'sha256' => '2d8c45c632f505ef235fe394bd59a8d17e7acc3b4f40f45a9ec1f5078fa3fb09',
+    'sha256-ungz' => '3952506c6cff876a3b1c1b4d434db019d846528ac736dc2e2f418f24e055243f',
+    'size' => 13380
+  },
+  'Importer-Zim-EndOfScope-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e45b20bf714d827678ca8d11c03e6761',
+    'mtime' => '2017-09-29',
+    'sha256' => '8b7dd19509a2f43907bf21c055821ddc9c3a0a723c7fdcd575870016d8ea4726',
+    'size' => 2125
+  },
+  'Importer-Zim-EndOfScope-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ebc6de1070730515a6290e519f6483f1',
+    'md5-ungz' => 'dd8b608c1c4e4ec5ca0dcde265cbf052',
+    'mtime' => '2017-09-29',
+    'sha256' => '1322d26d9a3fae25a279d702daa2b2db0e2a6e15b0c154a5b2729505238ae593',
+    'sha256-ungz' => '266c0c93418143c6a703d07c5b0f706ed50c196967e4e9161709fdf30cd14bdb',
+    'size' => 13445
+  },
+  'Importer-Zim-EndOfScope-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c1290277e725efa58eab1185c8f3cd83',
+    'mtime' => '2017-11-09',
+    'sha256' => '2eb70d150a24cf1f6a09f703144cf36f77130925a740f81562834a602c5a9652',
+    'size' => 2125
+  },
+  'Importer-Zim-EndOfScope-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a363146c7eb40a47cf84da6a89047548',
+    'md5-ungz' => '94ce66ea83877124297ebb76ec9c7cd2',
+    'mtime' => '2017-11-09',
+    'sha256' => 'a7e8b0463f3b9beb562d9ac7f1656e5f60a6aa67bfd3a6367f141fa492fd88b5',
+    'sha256-ungz' => '0d15446a74658fd07aba3a53733cbabd50a33d89440048ea1bad97db34a12ee2',
+    'size' => 13574
+  },
+  'Importer-Zim-EndOfScope-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'cc86034ed0f2c990cc8121c5fe5d7456',
+    'mtime' => '2017-11-09',
+    'sha256' => '4649321a62a0dc124d5baacf11240e90b64f9edc0767d8d31676d8a685d7340d',
+    'size' => 2126
+  },
+  'Importer-Zim-EndOfScope-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b1f02121e94474ab81d5dd85596571f6',
+    'md5-ungz' => '8239729b51e098d64c4e288eaf1ae298',
+    'mtime' => '2017-11-09',
+    'sha256' => 'fa2c908cc8bb39c7411b6b90bcc282e539b1051ded358372feace9fe1072a453',
+    'sha256-ungz' => '376138adf14538ddbd8b908457e422d2493a2f44493ae64947663d51643b172c',
+    'size' => 13525
+  },
+  'Importer-Zim-EndOfScope-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e4953b4a585dcb728058359fa789fed2',
+    'mtime' => '2018-05-18',
+    'sha256' => '5387cec927d0f0b4733f881993bb3dd1e1963b69e8b69b991a7786bf57b0349e',
+    'size' => 2131
+  },
+  'Importer-Zim-EndOfScope-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd6aeb0837b4886b653ef54d54166fa16',
+    'md5-ungz' => '45d5f96341ecd41ecfc25c75793fc2d4',
+    'mtime' => '2018-05-18',
+    'sha256' => '944dae3b6ff4f150c7c2628c87ed15d56297aa4793bea6253c8b9daeceebb713',
+    'sha256-ungz' => '3f7b61ec9005cde786dc0192058c4337485669d3257cb501b6605e177d5c9f80',
+    'size' => 13553
+  },
+  'Importer-Zim-Lexical-0.10.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '937da2dd75bacadc8f08bbcda569fe3f',
+    'mtime' => '2017-11-09',
+    'sha256' => '244b172b372ef925b1d2d4acb89f05e49aaf4b0e76df9b4cfa48d3c1f84adef9',
+    'size' => 2013
+  },
+  'Importer-Zim-Lexical-0.10.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '08fe3c7c56557ea36fcf1bd76e9a8b91',
+    'md5-ungz' => 'daaf6c5300acfcf3462e611171044331',
+    'mtime' => '2017-11-09',
+    'sha256' => 'fe92de393fd7636389da16514cb155eeae199be65b9ad090fcb5521398c5f0eb',
+    'sha256-ungz' => '0321fc3a91683a484c34a99cd7672726ffa1ef2a6a87e4c70704380eed17f9fc',
+    'size' => 13144
+  },
+  'Importer-Zim-Lexical-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2b2dbc2de3ca3315a1848bdfdda5916c',
+    'mtime' => '2017-09-13',
+    'sha256' => 'f50a67c8b2d6b08582a8217037a249894e6b755c8ecdd40b1c4c28b2f1633cf5',
+    'size' => 2111
+  },
+  'Importer-Zim-Lexical-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e5e4fc75fb40a0fef67f03d2a735227c',
+    'md5-ungz' => '11d803fd0bf049571b17c37334276eaf',
+    'mtime' => '2017-09-14',
+    'sha256' => 'eafe5004eef8b09c6303f85c82a16111876cd0c105c40e3e5d6cd1fd6930aa81',
+    'sha256-ungz' => 'b1cfc8f348a18e7d921bc684b0e278fc5a19b3bb46b2c0ba4d9ca573e5ddfee4',
+    'size' => 12818
+  },
+  'Importer-Zim-Lexical-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e0fa689e0e53e1c08682a7d3b555e9b5',
+    'mtime' => '2017-09-16',
+    'sha256' => '898835c337ebc36d5dc4e9f0b02d370e1b119d91954b37fdb59357a302e81d37',
+    'size' => 2031
+  },
+  'Importer-Zim-Lexical-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f9c1a75d642dedd9149f179726d9e9f6',
+    'md5-ungz' => '4445d54b6f95386e8d2f26c07eea2bd7',
+    'mtime' => '2017-09-16',
+    'sha256' => '3f43e1a7a798d237710422990165c6b9b17071c52006c72ffdd9571a1d4bda3d',
+    'sha256-ungz' => '2ccf9700cb55cbb380e6bc084f6f8908db7895671d1312513b8369b4d92880c1',
+    'size' => 12975
+  },
+  'Importer-Zim-Lexical-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '00f10ae3640631603042b21acaef8d87',
+    'mtime' => '2017-09-22',
+    'sha256' => '50a361ac456af7fd7abe20b62985b1f52a5b649c9d23c0de56e343cc283ee28e',
+    'size' => 2031
+  },
+  'Importer-Zim-Lexical-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '02d2c85665e5853008443ab465d0b215',
+    'md5-ungz' => '73409152e56326e1d3be186828936e7c',
+    'mtime' => '2017-09-22',
+    'sha256' => 'ca21b1beb083d0ad8aa85a9c9fbdce5ebaa647b2542eb6a0023e0cd15fb99752',
+    'sha256-ungz' => 'c2afb08a33062308cd7086952cf370cdde9101b616ba9e01e1c7f79556ca7258',
+    'size' => 13024
+  },
+  'Importer-Zim-Lexical-0.7.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0be06681f4da70dc3030e206f8bd0dfd',
+    'mtime' => '2017-09-28',
+    'sha256' => 'cbf8097e2338fe108cfb45c3359f9cf3ebab9bcee99cf4d6902b210190f33c0c',
+    'size' => 2035
+  },
+  'Importer-Zim-Lexical-0.7.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '502749f273c35cc6179f7ef3ca51c1b7',
+    'md5-ungz' => '325d9b223958aa48f6ce5db49c642575',
+    'mtime' => '2017-09-28',
+    'sha256' => '13ceb4d2b39c67c303cbbc65d1163b4dbb736d34dd46d6f981dc6db393ed785a',
+    'sha256-ungz' => '87a4572627d2663ad8804b29d297b937414a8f7593712966602b0beebe6080bb',
+    'size' => 13112
+  },
+  'Importer-Zim-Lexical-0.8.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f88e2861e2dea85886d4f52e7bda856c',
+    'mtime' => '2017-09-29',
+    'sha256' => '9d5885828c76c07676adfa96c72c02f883251d48ec4622b1a9abb6be2626c26c',
+    'size' => 2057
+  },
+  'Importer-Zim-Lexical-0.8.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a608d49815e30fec59ae8651b8e98367',
+    'md5-ungz' => '6064481e9e4405332fe3e55a02d7cef6',
+    'mtime' => '2017-09-29',
+    'sha256' => '8e3e9367f738a020c10b217ae78ebc6b9bd907cb8d2bec6d735e4d780f753fc3',
+    'sha256-ungz' => '13c1042c7a2d14c18f42edcab97f32145e5fd87044f0b9058fd29572fbd87de9',
+    'size' => 13155
+  },
+  'Importer-Zim-Lexical-0.9.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e13732baa0a5e9f84cf01bc038732b1b',
+    'mtime' => '2017-11-09',
+    'sha256' => '104b08aaf7971f5cb9c9a8404b0ed971bd142708afee98512d2a06b2c6434772',
+    'size' => 2057
+  },
+  'Importer-Zim-Lexical-0.9.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ed260b4ee49cffa202a0d41131152a79',
+    'md5-ungz' => 'db2508262c539ac3307ad596739752ce',
+    'mtime' => '2017-11-09',
+    'sha256' => '09d9ee529f82717b3defc71c6ad429a2ba9177eec726284c3b8db256443c13f7',
+    'sha256-ungz' => 'b9f27cb19a174278762cc588116d98a4eb86a94b3a0d8e70658b49f462dc1c74',
+    'size' => 13204
+  },
+  'Importer-Zim-Unit-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd98bfe8b5183c81b2e88106df9e9f28a',
+    'mtime' => '2017-09-25',
+    'sha256' => 'c15e5f60e5ae552745266f9af0f7b9f4838b1d3519b6394d9f6c511a73c5313f',
+    'size' => 2047
+  },
+  'Importer-Zim-Unit-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd7eac3b77b3149c460d5470e46a1d92d',
+    'md5-ungz' => '195f90e383008edddf128b4d5cac524d',
+    'mtime' => '2017-09-26',
+    'sha256' => '8f4e06c1c3e8289651d2418c8aaf039d0975cbcd57aa636a733001779d384f5e',
+    'sha256-ungz' => '3c1cfc9448d5d7ffd45400520d626d60449432b49e2920750003cb2d25327c5e',
+    'size' => 13259
+  },
+  'Importer-Zim-Unit-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '68b386348c585bb11733f460d83c1f52',
+    'mtime' => '2017-09-29',
+    'sha256' => '68b5ed6192711f21dda5d556a7953f5cf4615530205f6576391b71b071d95725',
+    'size' => 2073
+  },
+  'Importer-Zim-Unit-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1a691c4a12aa229ddc57c747afbc25d8',
+    'md5-ungz' => 'a569a8358db126581c26cf23a54bb477',
+    'mtime' => '2017-09-29',
+    'sha256' => '82edff5cf4c46e24c12b789f605e7a4ff79581a7e15ccd4eef3c302c219a78a9',
+    'sha256-ungz' => 'b90a6ece4f2224699c3d5b20b2e612a52a406a228b1c1f1e7ef5c99ec728d3bd',
+    'size' => 13355
+  },
+  'Importer-Zim-Unit-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e5672014efea620b2d73f68adf345933',
+    'mtime' => '2017-11-09',
+    'sha256' => '856b43b916bc07852b3ceb186753f7f2d938500eb7d97b241a31306e251625d5',
+    'size' => 2073
+  },
+  'Importer-Zim-Unit-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1cc1632e27c4100a94dcbd7d2dde5e88',
+    'md5-ungz' => '4110f45cdac60d5aa50264599d3bba21',
+    'mtime' => '2017-11-09',
+    'sha256' => '46fe7914bb4dbdccc88e826187a0be367b10278b4a08a4fd501313fe7786a120',
+    'sha256-ungz' => 'ac8acfaeda29b8c083649684ee5998afb1abaddb3d036648b5fbe4e5eaac6e5c',
+    'size' => 13494
+  },
+  'Importer-Zim-Unit-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c4c89d111253e1e733c13707eae50a17',
+    'mtime' => '2017-11-09',
+    'sha256' => '890c9f22d0585bbaf7e35c7d2f3364e149a91eb486c6e46be3c9ebdf58408fa5',
+    'size' => 2074
+  },
+  'Importer-Zim-Unit-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd44c044df57a6dcd56b332e95c98ebad',
+    'md5-ungz' => '4b5b6a75f49cb94972f9de58e3b6efc5',
+    'mtime' => '2017-11-09',
+    'sha256' => '2c437a85af5534bf8a6ac280b9481ab70ca98ad7ae375ef806b8826924c8d9c1',
+    'sha256-ungz' => 'aa18e02776b5c4b3d87012cf80ce064dd5f4601de72cf72b926a77d34e7c1884',
+    'size' => 13444
+  },
+  'Importer-Zim-Unit-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd0a43f2fc4fc20b9eb8f181c97079144',
+    'mtime' => '2018-05-18',
+    'sha256' => '3b9ecad67c4ea90f02f09d6756265dc84f30b22a4467ba2c984a033d05222a59',
+    'size' => 2079
+  },
+  'Importer-Zim-Unit-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4bc01ea4ed841b9d9a895becc5ebaf74',
+    'md5-ungz' => '8e583f724d953de808c265eff9d1abe8',
+    'mtime' => '2018-05-18',
+    'sha256' => 'ce9e0c91a333479fd343499bb683101a8b3580b00e7f8048b6c3178622fef8fd',
+    'sha256-ungz' => 'df73a488beff4f699fdb5c01e4cbbcb97a6d6f8cab6512b3d34b96f9e17dc4a8',
+    'size' => 13482
+  },
+  'JSON-PP-Monkey-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e1f3dc1c95b47ef74d6f299c94587006',
+    'mtime' => '2017-08-14',
+    'sha256' => '967fcf8b73db7afcc6c812bb3ad190532fb592db8facc1ebab83d26e531ad074',
+    'size' => 2022
+  },
+  'JSON-PP-Monkey-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '43a1e78637d6295392850c6dea289d7f',
+    'md5-ungz' => '10328ad1f82f6c5f537341e02adf7c37',
+    'mtime' => '2017-08-14',
+    'sha256' => '6b40bb354b61e3362b1580e62ad286692136009cf9e779b86c19f7765384ac29',
+    'sha256-ungz' => '32cdf497366bb541f22fcbac6bbb5c2c31714b1ec8251df22d79c48e7a3f316b',
+    'size' => 15507
+  },
+  'Jojo-Base-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c3da9285a2108fa18912e7ba9b402d32',
+    'mtime' => '2017-11-11',
+    'sha256' => '2a26627a5193a74920f8fcdeb277517b86a103bcf3014def069ce1a928e47cb6',
+    'size' => 2139
+  },
+  'Jojo-Base-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6ddd628b1fb17055a91ae9cdb929115a',
+    'md5-ungz' => 'ba40bc8772ada213a1a7e5e153d494ab',
+    'mtime' => '2017-11-11',
+    'sha256' => 'b205410e36ced46b4576532e75863bec202c0b998ac44c00973c2b4b0ebd053e',
+    'sha256-ungz' => 'd7881eaae479ed2fcd118e2331e8267a8cc2d2efa624e4b198d77b03de2ebf9a',
+    'size' => 13943
+  },
+  'Jojo-Base-0.7.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ba07b50bbf3dc9f816c003f977260453',
+    'mtime' => '2018-08-21',
+    'sha256' => '19a52a4c85a8bac0905b805b5082228730bdffc8929a04adc8062808a74462b6',
+    'size' => 2203
+  },
+  'Jojo-Base-0.7.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6aa663b3be8cf1cb1efa50e06f7da30d',
+    'md5-ungz' => '9701ee897e8065a091f3b909f8b8fe2d',
+    'mtime' => '2018-08-21',
+    'sha256' => '807e1b71786f6a13fd6b1659fb9ca392168b684209455af8b4865596d2e7cae3',
+    'sha256-ungz' => 'd803add6e8c45b5ce3571f99f9d5910b1548d41eb699830b4e5d20cbb2758b2b',
+    'size' => 13873
+  },
+  'Jojo-Compat-0.1.0-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '04bdd8ff352dc0d0a1f5fcd4213944cf',
+    'md5-ungz' => 'e3293ab0525bd4f67d8ac5069ddf3082',
+    'mtime' => '2018-09-19',
+    'sha256' => 'fc458f38d83409e9b6320615b24531aebc3603874d1b948a9b5b7c38d005dba0',
+    'sha256-ungz' => '881195aaab08c8dac4efc1fc6973ae1965a60eab14f6402469f634ecf13522da',
+    'size' => 14425
+  },
+  'Jojo-Compat-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5f5fc6b276e5b1809ef7d82fef47c6ee',
+    'mtime' => '2019-02-09',
+    'sha256' => '00191d1e4c6c8dfc3397a7a61b345f2fa1497dbf34078c593bba6e31ecbfaab9',
+    'size' => 2468
+  },
+  'Jojo-Compat-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2f2575a68774c04c2d265e3e36ed1aff',
+    'md5-ungz' => 'd59754acde37819a3e246e583ca63837',
+    'mtime' => '2019-02-09',
+    'sha256' => 'bf84c67865790a5ffe9397d7a01e386df52624ab4a1b442a607d5524dc1d8219',
+    'sha256-ungz' => 'c396ad8d8cab7ef9d49b845a2531000e387a96784c88499ad06477ab4beaca33',
+    'size' => 14430
+  },
+  'Jojo-Role-0.1.0-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7ca396d1d980006414857de29f2d3cf7',
+    'md5-ungz' => '027e1d69a7044794a7c25e9e9a81caef',
+    'mtime' => '2017-11-07',
+    'sha256' => 'ad547416adef5ada9f2753866739f70825e3bee29fcca64c61854578aab88d91',
+    'sha256-ungz' => '419519080451bbf3ebbd2e7778d539ed9e578197aea3acc9b7664e120788f0c0',
+    'size' => 18054
+  },
+  'Jojo-Role-0.2.0-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd02c994ad69a79b932aeab49b83fdd88',
+    'md5-ungz' => '7011b7c5f7cc9d584a0b22bf6d13e9d3',
+    'mtime' => '2017-11-07',
+    'sha256' => 'aa0dd7c52fdd0c4cde33de6e1a15e55f3d3077146be86c53163ea9f1c0299398',
+    'sha256-ungz' => '4daa23aef75779c714752d921ffbe0f3bd40751375a7a4bb7a93457b64a3f43e',
+    'size' => 18175
+  },
+  'Jojo-Role-0.3.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '96a0c7aa7e6c3d17f6d541ddff2544c0',
+    'mtime' => '2017-11-07',
+    'sha256' => 'a7a15e4774b389899c7ac84c62d62d52306146f5250a9a237fd77e8ffbe0f890',
+    'size' => 1913
+  },
+  'Jojo-Role-0.3.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1d65f63ace972b2402b56b1bfff36485',
+    'md5-ungz' => '221b892c396ade8dd0833dd1c6d5afa3',
+    'mtime' => '2017-11-07',
+    'sha256' => '08520075b6afbc08d1362bb4820040e76ce24c964653b46cc03ba21b90b8bc8f',
+    'sha256-ungz' => '7d3d3bc738d7a2bf17ff226e6cd0a7d09b6eec27254334e7a539ca7a26e1f997',
+    'size' => 18600
+  },
+  'Jojo-Role-0.4.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'da88291dcb84e4912c24a4f3886e2bf6',
+    'mtime' => '2017-11-08',
+    'sha256' => 'fbc670145b172c2f2fdfe25af11736b40a0a08326d56ee2395304bbf8d5dfb71',
+    'size' => 1913
+  },
+  'Jojo-Role-0.4.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ca66e641afdec25ffde934de96459bbd',
+    'md5-ungz' => 'a3441431d5b3d0787e43dac78ee59f9b',
+    'mtime' => '2017-11-08',
+    'sha256' => '389d7ca12f5fd4e7f4d093b1a719d3b50d6a7420b80c401c3bea762cf5ae7614',
+    'sha256-ungz' => '6d88053dfb07581aefd1d4339fa5ce58212ff9727b9f17393e7101286b8d4ebc',
+    'size' => 19009
+  },
+  'Jojo-Role-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8cf18cbdef6492ce924df73a7fbf6168',
+    'mtime' => '2018-07-05',
+    'sha256' => '7d2813fb1ff3474b6df603f2bb7907d5fa82c08446de5bc50d17a21794e55932',
+    'size' => 1976
+  },
+  'Jojo-Role-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '74d22f918c52fdf0e718658bd19783f2',
+    'md5-ungz' => '624f694879940355a9ef93017474de43',
+    'mtime' => '2018-07-05',
+    'sha256' => '1cc0ebf96a2e2f648b836a3849e476451ebe8ce00fe20282be9182e298d59a53',
+    'sha256-ungz' => 'a6fa53d6f4dd804cb2d223ec51295f9fa0571cd421d43fc9b66579250dd56a0f',
+    'size' => 20012
+  },
+  'Jojo-Role-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'da2de27d8bd76a63e1a407d7bbcebfe1',
+    'mtime' => '2019-03-29',
+    'sha256' => 'cf670598038388d29a0913981d90ac9440c912465fd973908818f55f263257f5',
+    'size' => 2187
+  },
+  'Jojo-Role-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '98a3a7045b70826444b3800e45e80d16',
+    'md5-ungz' => 'cd123aad1171e019bad4a8aa6d2d5ca2',
+    'mtime' => '2019-03-29',
+    'sha256' => 'ad7ef429b2835ecf8c0f4600fd5330f1af677a173dcf8b4eb851b5548cbf8757',
+    'sha256-ungz' => 'da69d58e99575c3c969c47c1646c20803643657c344b1de7cde00ded22491fca',
+    'size' => 24005
+  },
+  'Kevin-Command-kevin-0.7.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '73706b54b2e9e9ac10d61971123c92f8',
+    'mtime' => '2018-04-20',
+    'sha256' => '36b3507d2700ebd50bfea021c8762c39b587a05f84584abf24154c6c80689de4',
+    'size' => 3334
+  },
+  'Kevin-Command-kevin-0.7.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8223a7e62878cfc46cea847d54c65214',
+    'md5-ungz' => 'b266f4e3ebe1b2e23ce7bff4d9740fb2',
+    'mtime' => '2018-04-20',
+    'sha256' => 'ef56d4b045480a59a90f8d7b94b4c029884a814df95b1b470112c207226f8552',
+    'sha256-ungz' => 'b5cbb8fac45e98bef5b315472f420d74266ed8e8e654f7a38d184b35a99808f3',
+    'size' => 22189
+  },
+  'Locale-Maketext-1.13.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '57ff6a88864a9032fe9d2f953fd1d4cb',
+    'mtime' => '2008-05-28',
+    'sha256' => '0dd49f925ee2305ce3707a9c19ed1b351ecb6a0758e1d028f6f0bc3876d19cc2',
+    'size' => 441
+  },
+  'Locale-Maketext-1.13.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '98f9c577e65f40cc2b328d8570e2ab27',
+    'md5-ungz' => '911e0e0157a1322e924e66ad472bdd63',
+    'mtime' => '2008-05-28',
+    'sha256' => 'df502ff86040af73250b98a8f2c8a7f7e8f449eea53188f6e811091734837963',
+    'sha256-ungz' => '27c6cbb0346666f76f90daa4d72690ce2062e5e840f54f18d6e5ae913902a62f',
+    'size' => 46713
+  },
+  'Locale-Maketext-1.13_80.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '43d0ee5fbd3a6c6303c44f4414eaf5c2',
+    'md5-ungz' => '7fb374e1acf32ed89aa8ac729d6c2d6f',
+    'mtime' => '2009-06-23',
+    'sha256' => '0ef287463055ac727ea17e09c450db1a0a7e47b61ac622296850064f5ca44090',
+    'sha256-ungz' => '9148f3941679dcd7c10e5a78b843ceaa66b60d1932cce789d92edbf85029e9fe',
+    'size' => 47037
+  },
+  'Locale-Maketext-1.13_81.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e6764361111f4ffe07a19421fe03744f',
+    'md5-ungz' => 'e60fc7e382f139a1d5c4d36d531a2044',
+    'mtime' => '2009-06-24',
+    'sha256' => 'a4ca6474be4cd09722b4694e14de929dd01cba87eba0cac50b5a0dbea1c08446',
+    'sha256-ungz' => '5ee54989527af1a42cb772a077cdb7ecaf48d401d51de4f27b8d48f77d7c9c45',
+    'size' => 47835
+  },
+  'Locale-Maketext-1.13_82.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b1377c5e7da592e7c96a43fd1728dedd',
+    'md5-ungz' => 'f85373de71f542d7f2a43be701176d56',
+    'mtime' => '2009-06-24',
+    'sha256' => 'c50f3f7938dd85fcf7cfc212cbb8095b989c7b04eecb9445c8e8042e4ed6a560',
+    'sha256-ungz' => '2c18ff1757bb9563ca9542b8943214420acf39bd32910b28d41162444f477783',
+    'size' => 48681
+  },
+  'Mango-BSON-Dump-0.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4ffbba66a61394195156df63628fc0c2',
+    'mtime' => '2016-09-25',
+    'sha256' => '73d98018ad5eaafd36ce10257620f4c046d12cad07feff5dff66f3dd6380d207',
+    'size' => 18399
+  },
+  'Mango-BSON-Dump-0.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9f11441383b4a10ffde796e9ef4a2ca8',
+    'md5-ungz' => 'fedb50413169a7b7e75021c9724e06ec',
+    'mtime' => '2016-09-25',
+    'sha256' => '946a5732deb35b34b8e072ab426be3edccdb02e3caa037de7382c5fe9876ec92',
+    'sha256-ungz' => '1fdda0d2b378642173754712fdfec8006ad77c62d70295fac7298d35c98d4f66',
+    'size' => 16985
+  },
+  'Mango-BSON-Dump-0.2.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '80b4a226adf75199ab50dfda4c592538',
+    'mtime' => '2016-09-26',
+    'sha256' => 'c0c422fca86a4b0158725a73c4d03bf90e7790bb0f1b96fa318dba07e2b56068',
+    'size' => 18433
+  },
+  'Mango-BSON-Dump-0.2.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '55c05d22989191d28b0bd476ae824230',
+    'md5-ungz' => 'c7ed821f2020b09a159858a448ad0bc4',
+    'mtime' => '2016-09-26',
+    'sha256' => '787f417d694a1e275f10f49612443f422eb1f0f6bf4fd8beb1539832a75062c2',
+    'sha256-ungz' => '326788c78b1bfa9d5593a7218dc6f7952cc247ca981d9ed0943cfa921ae8ef4a',
+    'size' => 17061
+  },
+  'Memoize-Attrs-0.00_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '91e2d33ea9a546b08b1334c418712596',
+    'md5-ungz' => '58b2199c01f72c2ee1beb47915a475d5',
+    'mtime' => '2007-04-30',
+    'sha256' => '15a4c9a02c5df2e30ee71e7c626ddcf509b2f8f392e97834bebd6a126c40ccb7',
+    'sha256-ungz' => '0d6832c89f8e9cf7cc5b3c57669c74d9b8d1c8520b97589ca09a8f74f43ba739',
+    'size' => 3577
+  },
+  'Memoize-Attrs-0.00_02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '26f1b21852b84c9230d6e8b7c75aee0e',
+    'md5-ungz' => '11bb8051132d6053bca1e4310e02ee63',
+    'mtime' => '2007-05-01',
+    'sha256' => 'a3fb305c95a0483e511bfb95f1a66060ccc3ea80156d377dbdd6abc5a1b558a2',
+    'sha256-ungz' => '2e502a336c57d6fb9d3a196710cbab8f681bc28900437f4a58c7fd7fb6ba1056',
+    'size' => 3792
+  },
+  'Memoize-Attrs-0.00_03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8aa60f3d32fd57e085d6702f86ba3461',
+    'md5-ungz' => 'f25c6aa2e35d22a3f2744b340be29530',
+    'mtime' => '2007-06-07',
+    'sha256' => 'fcf384a3fdf740b22c4771d7bf3bb441bd68f7d892e6c5ee28dfaf32649eb230',
+    'sha256-ungz' => '2f78237fd24c293fa0846e584a4eb1c1f2510ca832184eafcb0cce7a2abc58aa',
+    'size' => 3882
+  },
+  'Module-Spec-0.5.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '94422b0328ebd9e0e127854d5b2dfba0',
+    'mtime' => '2018-01-04',
+    'sha256' => '54f4e2672bd760d2eb68d5cb9ede6ff5bd9ed0fc1ca984507a92f56cd9209324',
+    'size' => 2159
+  },
+  'Module-Spec-0.5.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3a1c479cfb608780b5dbd9d292b926a8',
+    'md5-ungz' => '0919e1bd5f0d18194b12e58e94035f42',
+    'mtime' => '2018-01-05',
+    'sha256' => 'bc695cb4176deb14c0f0a9508546a699dd587f717310d24d8b882c54c609e9b4',
+    'sha256-ungz' => 'ab8525b4739d49f6bd43a79d825dc545f3ef786ae6a67adbd455f4befc6a44d0',
+    'size' => 15935
+  },
+  'Module-Spec-0.5.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '649719d41638c008e7671a2cb0f7387d',
+    'mtime' => '2018-01-05',
+    'sha256' => 'd905aeb9a0c3fbefe06927fda32ea1ade2519c7ef4f11e3e36afb59e46d6cae8',
+    'size' => 2159
+  },
+  'Module-Spec-0.5.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ea5e51d3c61bf3e16417b657af22cc9f',
+    'md5-ungz' => 'ac51c9979641678fd4b19e56a32498ed',
+    'mtime' => '2018-01-05',
+    'sha256' => '7dfc503a7544fdb884c868f16ad6ca10a6896360e9c8f359a76b398f7b691abe',
+    'sha256-ungz' => '69b7bbf11c21a491aead8579aadc68d1025434e78a93925beb227f015df324d7',
+    'size' => 16027
+  },
+  'Module-Spec-0.5.2.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4bf78de81e35f84859b12c15bf8e85f7',
+    'mtime' => '2018-01-11',
+    'sha256' => '7fdc81e9ac7f007ea104332f2d175a7ce5b4eeeea61d175110aea5a2ca8f6ce6',
+    'size' => 2156
+  },
+  'Module-Spec-0.5.2.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '56ff90b01d4e1c319c880da7b1b8e1d3',
+    'md5-ungz' => '56d3ef79bdd9b4276c88e21cfc1533f3',
+    'mtime' => '2018-01-11',
+    'sha256' => '70f58a8dc1cd23fcdf3a35e60cdb81dba8ba45a1dd70307ffc8ad1475e8049d3',
+    'sha256-ungz' => '73095833d43f84dbc4a6ebe369ae3a6a8f0a5677e3569bacdca1f1d389f20da6',
+    'size' => 16071
+  },
+  'Module-Spec-0.6.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c7eaf207ae0af3392ff7ae17bb45829d',
+    'mtime' => '2018-01-12',
+    'sha256' => 'bd00d121153cdb3247f08f47f117b4e847b344aae51cb3dab448e4f0731b9fe6',
+    'size' => 2184
+  },
+  'Module-Spec-0.6.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '48dc0d75afa3cd3cf2dbf1650333d1fb',
+    'md5-ungz' => '47d3786f6b153c1f3319cdc08dc8c225',
+    'mtime' => '2018-01-12',
+    'sha256' => '3733c2fe174ee92b8e6ab6dfc3fe5f43bd15c50289462f3d5d8fdb45cbb7b08f',
+    'sha256-ungz' => '76288ea38b3e2030421ecce5308425f9312a62eddb0893ad1e3888a3c1deb246',
+    'size' => 16249
+  },
+  'Module-Spec-0.7.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7bc92543561c8286bd3fbe23a093565b',
+    'mtime' => '2018-01-28',
+    'sha256' => '5b2c2353f0007d6ecdeeb132ece1df5a02294b695f489b1e6dcf79499caec753',
+    'size' => 2406
+  },
+  'Module-Spec-0.7.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd3733bb91b8b5614c2a6d2d2b60692b8',
+    'md5-ungz' => '5b4673f19bfafc7f4ddc40d4653bf4cf',
+    'mtime' => '2018-01-28',
+    'sha256' => 'b503d451d30e990c26e7b58ffbd5d9fdc9631f6555d542d57f61a43c38830ff6',
+    'sha256-ungz' => '43f00864fc4c6323585e4180ef3ec755f28d376a8be8083ebddc1780c9ddbeab',
+    'size' => 18478
+  },
+  'Module-Spec-0.8.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4af87170bca91687862f10b142cf1f20',
+    'mtime' => '2018-02-12',
+    'sha256' => '0c2f39bd21c299ebaa3fb5fe5f1d9bc3e5324dd129160f754a4c465d4363acc1',
+    'size' => 2406
+  },
+  'Module-Spec-0.8.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9168061faf987efa8e3d3e5ab892823b',
+    'md5-ungz' => '9bee2619d2112ac65eeb3a9119fd4fff',
+    'mtime' => '2018-02-12',
+    'sha256' => '62839ae589e4e557176933e1f270cf3dab8d24f81b85a8a9e556c1bf59a3217e',
+    'sha256-ungz' => '9623adc4e0788d276d5baca1a0da2a025b96fc66e96ba777303312204e1957b7',
+    'size' => 18509
+  },
+  'Module-Spec-0.9.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'cfddb95405b4832a85c74e39c093c4f9',
+    'mtime' => '2018-07-08',
+    'sha256' => 'b5e612387b35492aa8ee867fd87022c8d3f32f5d66098c4bdb2997f6beb61bc8',
+    'size' => 2406
+  },
+  'Module-Spec-0.9.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '168e7f5df6050477db23e01911a877bb',
+    'md5-ungz' => '4f130b947d19a7f616ca5219dc86cb4d',
+    'mtime' => '2018-07-08',
+    'sha256' => '2b6a95159471b2d1d738c676407fa67061a1ed6faa2478b8aff82e7befe9489e',
+    'sha256-ungz' => '91cff36ce352addcea8430d2a362fcb6d72b3f833ca43dfa1946a3522ac6a8ae',
+    'size' => 18805
+  },
+  'Module-Which-0.0204.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0b3e58ca1ea3f5113d85a274c2e4d258',
+    'mtime' => '2006-05-21',
+    'sha256' => 'd87050f525beadd4d5507e941d14052314bbaba148c3a7b0334e9230bbe1e253',
+    'size' => 771
+  },
+  'Module-Which-0.0204.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd2125d498cfe1d44ced767f2fac8c0ea',
+    'md5-ungz' => 'ac7b04a1459bec1c73cdcc049f0dc4c4',
+    'mtime' => '2006-05-21',
+    'sha256' => 'f7ebf8eb82e3fe6f4eaad15db3b62a567273fe85f1c3e6a593a0259e08196cbe',
+    'sha256-ungz' => '5e13fce730ac28336ef55408935c656b7265fe12baaa04450aabd149ab245340',
+    'size' => 15908
+  },
+  'Module-Which-0.0205.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bf08462fbe9e2edcc046b34e64f87cca',
+    'mtime' => '2006-05-21',
+    'sha256' => '613e83a9aa01a557366bd068cfed0a4f057fd4d8d8550fdddbe8ee3eb6a7b829',
+    'size' => 744
+  },
+  'Module-Which-0.0205.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c1877be04cf210b7d868a4e431595958',
+    'md5-ungz' => '089045f75344f1522e9738b1046afd5b',
+    'mtime' => '2006-05-21',
+    'sha256' => '994ef7cc1635c82e019497d9eb75c5b0fb3be2842845d83de965554870120d1e',
+    'sha256-ungz' => '57912fd4c0648f8c33bac851b1ef41ef385c1c6bf3d0c1845428898b8f11f199',
+    'size' => 16021
+  },
+  'Module-Which-0.0206.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '60844c2f9676d4b59377a37b5b2d906a',
+    'mtime' => '2007-11-20',
+    'sha256' => '4f1cb256beac0fd5d1f1bf12481781b5ccab18cb8db5c627394726d2391359f8',
+    'size' => 863
+  },
+  'Module-Which-0.0206.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '68069688e01a900d603edf5dc7f4668b',
+    'md5-ungz' => 'dd9e55347490a846db2cb90b6594ab07',
+    'mtime' => '2007-11-20',
+    'sha256' => '7d540289074c5066fc4b1ee0c9612d7b71491d5688f9324845cfe97ddc952ae1',
+    'sha256-ungz' => '4801485e5bc64325be7dc4d3b79f292ba1af3962d3783affaae518f7d2809754',
+    'size' => 16683
+  },
+  'Module-Which-0.0207.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4a490f34b921cef1fb1d647c51fc07ca',
+    'mtime' => '2008-03-05',
+    'sha256' => 'c60249f65d111433f439df0705082509dd2182d8b5819b82bd7d4fd048ff91aa',
+    'size' => 877
+  },
+  'Module-Which-0.0207.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '23b6b08224b4707ef0e790f2d733e052',
+    'md5-ungz' => 'a4ca09cd326a71574bf7f2540d005ec0',
+    'mtime' => '2008-03-05',
+    'sha256' => '8fa7211591ddfdd76c0afdf13aa2f7988e65148dbe0fd7a67ef052f54769f76f',
+    'sha256-ungz' => 'fc23da2146f39ad2655518f08c801c9687e98a4820c44f9aa533c335b8ecce9c',
+    'size' => 16869
+  },
+  'Mojo-IOLoop-LineReader-0.2.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9c83bf8f9dc25aef604ecc238bf3f513',
+    'mtime' => '2017-02-08',
+    'sha256' => '96ac30db3aefe35b45e594c70b37011f5df0111396958746a389ae26394df4e6',
+    'size' => 18657
+  },
+  'Mojo-IOLoop-LineReader-0.2.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c2a3775f1b3832275552f24d6b9d463e',
+    'md5-ungz' => 'ffa46de5fe7935e1eee807c7b77a8842',
+    'mtime' => '2017-02-08',
+    'sha256' => '9d63aefd9a546e28d26bf602f1a6dc21cd8f1f04ae984e5c647c45e1e50a3959',
+    'sha256-ungz' => '4c016135cead87cadd6b31bbbfcf1857b223cf54d7745bc580322f4d24ddc4d8',
+    'size' => 17038
+  },
+  'Mojo-IOLoop-LineReader-0.3.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6337463f74c9e6e0e1938f7e61abd342',
+    'mtime' => '2017-03-09',
+    'sha256' => 'ea25398ff317baa66c26969275fe1d3b48adaca8c046c766aef7473110c8d24f',
+    'size' => 18657
+  },
+  'Mojo-IOLoop-LineReader-0.3.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '711d4a54c1d5428a0205e025ad169034',
+    'md5-ungz' => '294f588a395c1f828a8c228f3fd16d46',
+    'mtime' => '2017-03-09',
+    'sha256' => 'b8f1d4f527d049946153589d7e48cf31ed2fa5b8ee3434b8c8aaee900c22a749',
+    'sha256-ungz' => '3c002612092d4e7dfb45f423a34df4ad67f860aaa06dcd50fc1f55028ad78b13',
+    'size' => 17330
+  },
+  'Number-Bytes-Human-0.04.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fec779ad251f9a05340f0d0cff48cd43',
+    'mtime' => '2005-10-05',
+    'sha256' => 'e3b012dc4517ef012ad0824d2589b2035478d4557954160c7fbb95142b7379bd',
+    'size' => 505
+  },
+  'Number-Bytes-Human-0.04.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0cc3aaced5fff1972a828d0947581922',
+    'md5-ungz' => 'c368aab5a881f9d816cf9a9e902adb55',
+    'mtime' => '2005-10-05',
+    'sha256' => '08101772761492e3c6fb24d507fa3e190e136e74f346c13fa1df3f963f6b1a02',
+    'sha256-ungz' => '41d57143d5165290e7132cff87024eb275e620f63fc50140fdf1815308e14fef',
+    'size' => 8121
+  },
+  'Number-Bytes-Human-0.05.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '62b9658a6e50d3bb84a3a25f06139daf',
+    'md5-ungz' => '49c4f399521753d7e71df2b9bd260690',
+    'mtime' => '2006-10-25',
+    'sha256' => 'a08e0e0c8f868df0d8a6cb2e7ccae1dc5611781522917aa2f252bb8138bb4f29',
+    'sha256-ungz' => 'c854993f548cd64504af734db010985a9d8c8eb7887471474168fc74889f065d',
+    'size' => 8123
+  },
+  'Number-Bytes-Human-0.06.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9c2b305cf2aac7a567fadd1196704ba8',
+    'md5-ungz' => 'ff8bfd8fb30e9cccc46b665503d57289',
+    'mtime' => '2006-10-26',
+    'sha256' => '5c205e26962e9843fa6cc3b7ac618f4000284dda0715374e9f843c7c1cfee48b',
+    'sha256-ungz' => '4477e9b842c77bb0e7c9e454093c04460346436e14d0ac6749af7ab3b03be775',
+    'size' => 8527
+  },
+  'Number-Bytes-Human-0.07.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '05dba8434d9f04d4871be7e1e955075a',
+    'mtime' => '2007-04-05',
+    'sha256' => 'af15e45168f36ab16798680e5337ada96cbbb895a974f75b7f1cdd3284e6979d',
+    'size' => 647
+  },
+  'Number-Bytes-Human-0.07.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8e5d230709bfc5e919f5f47ed3cb5bdb',
+    'md5-ungz' => '0006aefb5013f95edd3d92647d5d2b94',
+    'mtime' => '2007-04-05',
+    'sha256' => '9dbd7063da166ad3b10c392433de3b5ac6cebaf186378dd94ccf81733c7e0254',
+    'sha256-ungz' => 'c8ca44292cee931b3b67b4df67c8bdae9b7239dfd0e332afac34622712377682',
+    'size' => 9152
+  },
+  'Number-Bytes-Human-0.11.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ee5ed5e9c24a0e78205bef25767e7af1',
+    'mtime' => '2017-01-09',
+    'sha256' => 'cc433074690cc0e3910cc2ffac802db2e6cd2a1a91e4aaae73f4f5809cd5a78b',
+    'size' => 1389
+  },
+  'Number-Bytes-Human-0.11.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '43d2c86a55924aa71535a41de0311efd',
+    'md5-ungz' => 'e4945b3b1e3fa1dee3ed3ae170cabf41',
+    'mtime' => '2017-01-09',
+    'sha256' => '5fc79c49b0b40df780479c43696381343e2b6ad1fe52859f60bc65b66ebe6f2c',
+    'sha256-ungz' => '49135d60e7017bb497a1af9884a72874bf51ab6daee5495ade4d15dbfc396a9a',
+    'size' => 11571
+  },
+  'POD2-Base-0.03.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '70ce5a4c6bbb083de5b483d0c545cf21',
+    'mtime' => '2007-09-04',
+    'sha256' => 'b3d9c29b335e5c5e5ca00763b3a406dfd458285467745f98693ffdbf1e8c6b49',
+    'size' => 529
+  },
+  'POD2-Base-0.03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e831c316f4cdc4269c501b08b62631e3',
+    'md5-ungz' => 'e70f1bbcd3bec6fe018b5973b5dff663',
+    'mtime' => '2007-09-04',
+    'sha256' => '73c5460a1655a5ab0572071893a1cfece179a62b32136fcd9ba7d2296b77209c',
+    'sha256-ungz' => 'd0a1f2ba477f85b670ef9d4903767fb7ae2c5abec1909b3db3d68a1dc3dc4e7d',
+    'size' => 5074
+  },
+  'POD2-Base-0.0301.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2a4ee507c27c73b77466e2b08606c35e',
+    'mtime' => '2008-02-01',
+    'sha256' => '33b70243d3c638696aef490acd6eb91809ffd4348b6fb1337685b86aaadf5e17',
+    'size' => 628
+  },
+  'POD2-Base-0.0301.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ed200af072a92a3c4ab1a5f01ba0b788',
+    'md5-ungz' => '4cccef6d385d2df4d4c718d8b5ac1d94',
+    'mtime' => '2008-02-01',
+    'sha256' => '1b9c3daa3dfdfbb618b03cde21029184b6bccdf08ac959cab8f3e238ebdd19c6',
+    'sha256-ungz' => '6063179b58ca76eb78bfb62f445fec0bc6f737166c1e400153c94c078cc0aa22',
+    'size' => 5093
+  },
+  'POD2-Base-0.04.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e68196fb65585cce221698d23f86dfda',
+    'mtime' => '2008-02-23',
+    'sha256' => 'fd5f80915d9be4e23a553987676f2e395d39bd047e9521ad848a501c1ad4d356',
+    'size' => 703
+  },
+  'POD2-Base-0.04.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0e627c2a704fde9f52c6eed0ac28248b',
+    'md5-ungz' => '3c08562758a06682a349924396cb3d9d',
+    'mtime' => '2008-02-23',
+    'sha256' => '88abb0fc4e9f8b1460b9b8ca99e47b467c31fbd62508f45b7e5b3bb2e4c168d7',
+    'sha256-ungz' => '319d3b021a849aebb5b47a38d5a10133573c47ae5a05f0a0b46b4a4cb4a7383a',
+    'size' => 7335
+  },
+  'POD2-Base-0.041.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4ff5e6fd7f342feea63dddba1f0d72eb',
+    'mtime' => '2008-02-24',
+    'sha256' => '4d1840be89383505f628c3eda09180a89248b4a935b88a9d016d50934a8f195c',
+    'size' => 704
+  },
+  'POD2-Base-0.041.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bac8492c5ef238e0cc4df29cd9eafbad',
+    'md5-ungz' => '1f238fdef9193c0f3a195cba6547ceae',
+    'mtime' => '2008-02-24',
+    'sha256' => '34ee84b46c4a388ad3f6885375e001fb4564a17bf8bcad8bdd45781cb575da84',
+    'sha256-ungz' => 'c528a7696060840292eee267458942f17938e12e8a2fd0a58b77ae457384ddc6',
+    'size' => 9646
+  },
+  'POD2-Base-0.042.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e18fde2912b577642fb788df42382814',
+    'mtime' => '2008-02-25',
+    'sha256' => '22704703578eb1fabc4469d0843ca42132620fccf577efdc45010b2ff21410e0',
+    'size' => 704
+  },
+  'POD2-Base-0.042.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6c5d45903cb3ef1496bc0eca08cc07aa',
+    'md5-ungz' => 'a90aa839bab791aff3ef910e4f7d7e70',
+    'mtime' => '2008-02-25',
+    'sha256' => '28fc025cbc11e14d24456066a29a86bab1f58e260309f25031f8cdfe69630551',
+    'sha256-ungz' => 'a1fe506cfc2cf7aab0b2c5dfd4118c3c052bd66513d25ff5f23adc42965574c1',
+    'size' => 9828
+  },
+  'POD2-Base-0.043.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '34a98d17481e8fc67893e312fbf368cb',
+    'mtime' => '2008-02-26',
+    'sha256' => 'bfaa38ee113650a1bbc7eabfb1c4f92d6c9308860bbe3c309d937b119a5f8dbd',
+    'size' => 704
+  },
+  'POD2-Base-0.043.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'aa72bc2e4f487427f380e0ef9a10f3e8',
+    'md5-ungz' => '88d4e61c5b4fb1bc05073bf2b6d1cd5f',
+    'mtime' => '2008-02-26',
+    'sha256' => '071910a2233d11767c9576f1909b8686b4696acb6a7035d1513f9c15ccf0237e',
+    'sha256-ungz' => '3115b7b348c00588db45dd2edef6ac60542fc413f79e327b2400b78896f30db4',
+    'size' => 9897
+  },
+  'POD2-Base-0.044_1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8dd5125ba5026427cafdddaa7f5946a9',
+    'md5-ungz' => '8be4f7017668a49c49ac90379d43d9e0',
+    'mtime' => '2008-05-31',
+    'sha256' => '9c16537f9a08bf1215b287a634476caf885273e207ba0cd903d7089ea8ffd887',
+    'sha256-ungz' => 'acd03d50f0f58ac209658a5dc342f2feb0db7f6cdc3858fa9ef8bf7324105c54',
+    'size' => 10004
+  },
+  'PPIx-Literal-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '344bde4d04f94ceb23c1dae997c67ba3',
+    'mtime' => '2017-12-02',
+    'sha256' => '81080aba7e44e6e71d479ef40f42676ae51af93df45eec029c8a1c8d14d49120',
+    'size' => 1623
+  },
+  'PPIx-Literal-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7817332a8a6957cbbaeada7ac4f72210',
+    'md5-ungz' => 'b4dabf7e37b66e7ce9a4337a97ca5bb1',
+    'mtime' => '2017-12-02',
+    'sha256' => '787a4ec6cfb328844b75906509df8c55873a9c8fa98128905d15b2efb89ef215',
+    'sha256-ungz' => 'be62cc5c79358b4295e7a8aeb2318b9b7b8565197bb1f82ac6d12fcef9c0fb3f',
+    'size' => 13492
+  },
+  'Path-Classy-0.001_0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e464148c4bb4ab7ceae694b2a13a5873',
+    'md5-ungz' => 'ec54acf9f945bc3440cc999c91411645',
+    'mtime' => '2008-02-14',
+    'sha256' => '9805099523f54e46fa398ec0718b4360a85a3f167c61d46856ef11bfd231374f',
+    'sha256-ungz' => '582991045d29e600d051d13b667e5bf5e75a75e3cb3cfef389a2867b1a07b996',
+    'size' => 5309
+  },
+  'Path-Classy-0.002_0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7b5f08637753ef34d0fef3045d6b4e08',
+    'md5-ungz' => '905838f3b77be0d2813919aa714569aa',
+    'mtime' => '2008-02-26',
+    'sha256' => '5fb80c43bd681b2b6a755b08880729877e44f0927a787a53cdccd2efec1ef497',
+    'sha256-ungz' => '9543ff30480a94721f8bfc58da88f5d1bf5a176ee56990f73582e2fcf66344e5',
+    'size' => 5441
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '37f21733dc5ce5438c3e803b66a162e5',
+    'mtime' => '2017-11-30',
+    'sha256' => '6c5ab7b0dfb7ba84f0d407602cbf95d61082d04cae2d4513107315b6f57f9aa2',
+    'size' => 2053
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '20767e4fdeb0cbcb00641fd00bc5bfe0',
+    'md5-ungz' => '33fd143660fe71704619ddbd410a4a1c',
+    'mtime' => '2017-11-30',
+    'sha256' => 'fdd689acd5ee155078867534a91c3f80fb6e6408c4aa1350f0266f11520b813f',
+    'sha256-ungz' => '6a71f0cf9b82d7916e65af240f14d84a0de89dd997cbbe1a89fa7f6a72a250cb',
+    'size' => 12286
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0ba611f0a8ef2ab8b090bf1607b1c9d8',
+    'mtime' => '2017-11-30',
+    'sha256' => '1836c7c4be3c9cd00fe60be94ae0146498ea2b878c4b1fa2a244989fefe72e5b',
+    'size' => 2240
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '61456fadda66b0bd44a552170a3ca0d2',
+    'md5-ungz' => 'd4c787437eda5054cbc199af278003e2',
+    'mtime' => '2017-11-30',
+    'sha256' => 'b615e63e2590b915e532dbee3a66a6592f5373bf66e531d69675841385db772c',
+    'sha256-ungz' => 'ed064cbf7db5eb697876bfdf89130ff3a0b9989ad61a6dd6769627dec7a33c30',
+    'size' => 13082
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'aff710a52626b7090deba5be2435c117',
+    'mtime' => '2017-12-02',
+    'sha256' => '216fac20d55bda6e125fb1fdc546e58d2faad99b1c8dd3fa77d03416e376653e',
+    'size' => 2245
+  },
+  'Perl-PrereqScanner-Scanner-Mojo-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '45b95963f58e3dde9143570c6c7353bf',
+    'md5-ungz' => '9719d1e70284bcfd663ad69ac8c81394',
+    'mtime' => '2017-12-02',
+    'sha256' => 'ef05f99fb380b3b47cb5e3d7feca62f51830d6cc19c000042fe47b00feae7fb3',
+    'sha256-ungz' => '3a4cbfb9622e7a02dfc506ed796b59119cf935dbafb5b125f5689eeef0343fae',
+    'size' => 13102
+  },
+  'Perl-PrereqScanner-Scanner-Zim-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1aab4d961747b9dd76046f08ecbdae74',
+    'mtime' => '2017-12-01',
+    'sha256' => '03afc151bfd7faa936fc10dfb30b56ca52e5f2258de89c6daed954290cee774c',
+    'size' => 1596
+  },
+  'Perl-PrereqScanner-Scanner-Zim-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5842ec930119cc7fa6d9b3dca25714fb',
+    'md5-ungz' => '8d2043f756213e284308eebdd5a826f2',
+    'mtime' => '2017-12-01',
+    'sha256' => 'c0d1d07d80030f924e0ddfe7006c0a1807c6c1aeaa9772fd4aeb692919eff80f',
+    'sha256-ungz' => '26bcb16eda2f17d64ef0a1646d5e9c776dbf33cc8dcc544c8fcbe400777db45b',
+    'size' => 12539
+  },
+  'Perl-PrereqScanner-Scanner-Zim-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '88a3012697baf6bbd27036870523f62e',
+    'mtime' => '2017-12-02',
+    'sha256' => 'ef2095e68e65b1909c886f8a24aaf59ce220d6c7043485181e01510180c2852b',
+    'size' => 2095
+  },
+  'Perl-PrereqScanner-Scanner-Zim-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'cce836234dc6f4967880ac00b2a1bc92',
+    'md5-ungz' => '872e0be1e94f83eceddcc0e9311c0e2e',
+    'mtime' => '2017-12-02',
+    'sha256' => 'a69087776d448c632135fdd3500e56681f1a2ddd2215b0177c69629b64e6b1e6',
+    'sha256-ungz' => 'efccc2c7de90f0c216b69cf474ee7198cc58807be5cdc2613e8e250b8c4f134e',
+    'size' => 12740
+  },
+  'Regexp-Whitespace-0.001_0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '448ecd2c81f5932411d38246a1ca641f',
+    'md5-ungz' => 'bb0ff2f6eaae841d4ef9df49443fd859',
+    'mtime' => '2008-02-21',
+    'sha256' => '3646273fd158926055dfc75d117b2b534efc197b132af1ec3f2ce122aac7f3f9',
+    'sha256-ungz' => '12dccafeacab0075f42c40b080a2428e4c4419887cc3cc990dfe06ddec66d9cb',
+    'size' => 5793
+  },
+  'Regexp-Whitespace-0.001_1-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd4a56f634175746af355c1d2e4d76696',
+    'md5-ungz' => 'e96b3bd142b6b9c31d0af9b0a937d52e',
+    'mtime' => '2016-02-21',
+    'sha256' => 'fa0223bda65cdf9235beaa6e2e09c90e794d83014c5b1da03d9de6cd5713a5b2',
+    'sha256-ungz' => 'e3da1b0eee27a5b7813641b3099a95ae9e0310aea6dc4e079a0b68e143730728',
+    'size' => 12658
+  },
+  'Role-NotSoTiny-0.1.0-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7951901509dcdf27f64b6eee43ced85c',
+    'md5-ungz' => 'a6c6d9670bcec6b0cca3d41767495942',
+    'mtime' => '2018-04-18',
+    'sha256' => '50faf1f0925764504253e55cbbc7eeaf44cc3a273cbb231904b88cfbb615cff2',
+    'sha256-ungz' => 'c17c286226ff7d237d5efd41546dda77240cbe56ea8024b5342f8285ddfb641b',
+    'size' => 20095
+  },
+  'Shell-0.6.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '055a70b9005a98781fe0edb1d19463d6',
+    'mtime' => '2006-07-07',
+    'sha256' => '7bff6dd5083c24ef55e80da4fcf47fbc71176b3da3affeed00282420e971991d',
+    'size' => 413
+  },
+  'Shell-0.6.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c2e2488e3e19a3f2d72ddcef50795d11',
+    'md5-ungz' => '5a55f101aa81b48450046a74b6ce00b7',
+    'mtime' => '2006-07-07',
+    'sha256' => 'dc2b2ceacd8cc5cbcbb6cce253a45f9c5be33281f5277bd9269952f9c6009d8c',
+    'sha256-ungz' => '993382c3532a35bae8e8b5a07fe5f0339ceeecddac7d9577ff0c76c3b9f1ae73',
+    'size' => 5119
+  },
+  'Shell-0.7.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c43af73c9a2897264dc9a9d9b971423a',
+    'mtime' => '2006-07-07',
+    'sha256' => '6873fb5492334759e72351e3ba324ca02a3868521d9b6f177c549b28ad3f126d',
+    'size' => 413
+  },
+  'Shell-0.7.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '966612126b72605e2f427f8749ce32f7',
+    'md5-ungz' => '908d40605e5a1a6d0f33eed1601f9156',
+    'mtime' => '2006-07-07',
+    'sha256' => '9922d793313c9df028645968c48fd62435d68635a46a1462ba31f00d2a61d967',
+    'sha256-ungz' => '3e07774e15b50dc4183e95a89cafd61f754053f819ec0737fcf6bd91edd37f6d',
+    'size' => 5390
+  },
+  'Shell-0.71.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'db7ec6f49d3aa2935b31b3bfe9a2eaa4',
+    'mtime' => '2006-07-07',
+    'sha256' => '52d88f2c0cb5de98799fb75800beee1e571aaf66df73cbd5086c7d416262ebb6',
+    'size' => 414
+  },
+  'Shell-0.71.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7cc570912e41ee08d8a7f32f423b9a99',
+    'md5-ungz' => 'f06e5b3f61797d305af8e2ae069bf8b7',
+    'mtime' => '2006-07-07',
+    'sha256' => '7c2375b9033bab0a698aba88bd4014287f7126793573c8093832b2df8699232e',
+    'sha256-ungz' => '137e466a2a2a381e3e69d86cd3b4fe4898c6487c8d798a1cac827684d4de9eaf',
+    'size' => 5658
+  },
+  'Shell-0.72.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7294668500089a5e9ec3200d4f1d49d1',
+    'mtime' => '2007-02-02',
+    'sha256' => '7c83cda4d76dd78b8d26813ef89012c7800c895c1a2528bd095baf4670edf0e1',
+    'size' => 390
+  },
+  'Shell-0.72.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7a9cdda55e5c87e370bdb8c82c9133ba',
+    'md5-ungz' => 'e6525d89856779ccd2b1b1de9414a1ef',
+    'mtime' => '2007-02-02',
+    'sha256' => 'c1a54aef7f07adf2d3d3ff2a22cf276ff4d1c5b063dc160672878e29ac7de14c',
+    'sha256-ungz' => '6759ba646e7fbc53a9ae804d9ae71b988d9ba8ce8ea6aaf15e5cbae469526991',
+    'size' => 5653
+  },
+  'Shell-0.72_01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c963a04f00103aedb90bd527e3bfc202',
+    'md5-ungz' => '32703289f6432c4fba40df04385fede8',
+    'mtime' => '2009-09-30',
+    'sha256' => '823c044e668239be0ac96d0006f5fc9646b8a9a8adfd5f58f2dcd297e875106f',
+    'sha256-ungz' => 'd192ba6e91effba19f5f54ce9c5e3b8d37bdd012ecf13b0c6dde7d22ab9e67ad',
+    'size' => 5773
+  },
+  'Shell-0.73.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bcc0ffbf137e0813a2fb671b17472113',
+    'mtime' => '2016-01-03',
+    'sha256' => '870b5bdba2138af4c6978116d01af48574dcd305631638b18ff4fc9a16c951e2',
+    'size' => 974
+  },
+  'Shell-0.73.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '35ee2912920a6be47d981e33f0540767',
+    'md5-ungz' => 'ca36732ff480167b4a0e00019e5a0b24',
+    'mtime' => '2016-01-03',
+    'sha256' => 'f7dbebf65261ed0e5abd0f57052b64d665a1a830bab4c8bbc220f235bd39caf5',
+    'sha256-ungz' => '178c2329f164b6da4ff2972a3b48c86619bdfa26239b3afe53d3c30909d4ef61',
+    'size' => 6186
+  },
+  'Shell-Perl-0.0025.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '62a3c6c264a5dbb4fb91386b9e6035f3',
+    'mtime' => '2017-01-07',
+    'sha256' => '6d3f701159c55d3ce3712f300afe12603c9d0d633f0cbf4129c869eef42d7959',
+    'size' => 1478
+  },
+  'Shell-Perl-0.0025.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1b0f18c0a25f313c6a21746c21ee9af7',
+    'md5-ungz' => 'edc8ee63b634b48b9c548ce647f53b34',
+    'mtime' => '2017-01-07',
+    'sha256' => 'ee9ed7db184f941a00ba7f4f224c369cad49783811dce59beb7fb487e411bec3',
+    'sha256-ungz' => 'ea4afe31a43bc5f4a21a2c5142071c2fc44319ce42f4cd7bf67b4fb8b714eba8',
+    'size' => 14518
+  },
+  'Shell-Perl-0.0026.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c102b99f0aec6b5b53307ef654e820b5',
+    'mtime' => '2017-01-08',
+    'sha256' => '678779a09da777a9679052f58a1a79512737514e8c0bffe11fe0e1a957c44042',
+    'size' => 1478
+  },
+  'Shell-Perl-0.0026.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7fa1df8346557bf74a98a2fa5e0dc91f',
+    'md5-ungz' => '5ffbaf877dce326c34e5b6bc24648118',
+    'mtime' => '2017-01-08',
+    'sha256' => 'bed16843e28c66d70f6a9c497c2c165046f72e428acc4e15ab3000037a682cf0',
+    'sha256-ungz' => 'cbb13466dfcb3b23c559ca7724c07940fd8cad7417e7da8b0e3cbd46b35d6526',
+    'size' => 14608
+  },
+  'Shell-Perl-0.003.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0bb1c90b87ce6bd1b5d737a4477d7825',
+    'mtime' => '2017-02-20',
+    'sha256' => '6a02181f31ea78dcc651d1fafd1720d691bb6cf70e54e72775089e88339ca42a',
+    'size' => 1477
+  },
+  'Shell-Perl-0.003.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a51156123d4bc044b9b15beed5c2bcdf',
+    'md5-ungz' => 'f8ed9dedd11b5d37d23f9147b2915b22',
+    'mtime' => '2017-02-20',
+    'sha256' => 'eff9c908a95792f9d45fdec33529f92fed0e1b995cd2c7cffc942c32945ceaff',
+    'sha256-ungz' => 'eb517fc74ef993aeef220cb58a933b432efd94f4aef42c0873cb7b2ac4483468',
+    'size' => 14855
+  },
+  'Shell-Perl-0.004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6b6874faa44c3fdc0d7060e1c47340a2',
+    'mtime' => '2017-05-03',
+    'sha256' => '5c9c8f1af0f121783ad6f60f3766a366ca8016915026d48ab905a6c738f364f1',
+    'size' => 1477
+  },
+  'Shell-Perl-0.004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '722f08592cc84518872eb36c1e032478',
+    'md5-ungz' => '7f950ce6efb9a9ae3c9afe640f766a4a',
+    'mtime' => '2017-05-03',
+    'sha256' => '58f68e0cb945491ca60857911ac4c0045127eb288f880615777c32b577a4a0ec',
+    'sha256-ungz' => '2f632a87f79f98a039d24f2ccf297c2bc8adcbde6b4077f1e89901288983e51a',
+    'size' => 14908
+  },
+  'Sort-Half-Maker-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '77a73a9da5d95487df8a3131867306d9',
+    'mtime' => '2007-02-21',
+    'sha256' => 'f4a107d6507b019221b2607c5bdd8ebeb6ced1a5992789d2cd268711e1c29303',
+    'size' => 388
+  },
+  'Sort-Half-Maker-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '998ee91dd9c1bb5bc846ecfd1059e283',
+    'md5-ungz' => '6681f089dc250a8bcf1d7bc98b0397af',
+    'mtime' => '2007-02-21',
+    'sha256' => '1f44dad2287550f5714c3f3c895131750d044a67fc74abc34365fe2d00c3cff3',
+    'sha256-ungz' => 'f6ebac21c6cd88be0ecf799f8114183b9a08a1b6755d7e6f3cd51e986fc6bf41',
+    'size' => 2969
+  },
+  'Sort-Half-Maker-0.02.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b16061608a347188ffd33a2127298d5e',
+    'mtime' => '2007-02-23',
+    'sha256' => '515b8675c43d7e3b6d8eaffa260b561d0ac61773be58b73e49f916395fd3d62b',
+    'size' => 471
+  },
+  'Sort-Half-Maker-0.02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6657043c8e3a54291ce4976d0cf84ae2',
+    'md5-ungz' => 'b6c2fa5e6b7631da7a068371f003374b',
+    'mtime' => '2007-02-23',
+    'sha256' => '5c470efef62a6ee03a65e77dab5937545ca90fb1c32059786556099f4897846f',
+    'sha256-ungz' => 'c180467039afb87bd8ad2ce3865435a77151a37b390095b151c42c80cafa7480',
+    'size' => 3504
+  },
+  'Sort-Half-Maker-0.03.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0a5ac2fe988a49c261d9c2f890a4045b',
+    'mtime' => '2007-02-28',
+    'sha256' => '1b3b68ca6924aa77f341d874c0b18e15acba112df836fa89e0ddc0a7ababbcd1',
+    'size' => 471
+  },
+  'Sort-Half-Maker-0.03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'dad6f76544d2c56ba2d3d5ace94f40e4',
+    'md5-ungz' => '8999f13b3f5046c2496c28bbd5279742',
+    'mtime' => '2007-02-28',
+    'sha256' => 'fd185b8787cd9cf83dd2bb4c46113fbe152f9fc2a19936992827c32218165c59',
+    'sha256-ungz' => 'b70831bca64606c048d8874b566ba17ce14d257f940f3f89efa5e75aa7e86b49',
+    'size' => 3906
+  },
+  'Sort-Half-Maker-0.04.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4f4f19d8f4b06f1bb9351e60f75a3b0e',
+    'mtime' => '2016-01-06',
+    'sha256' => '986439d87c4fd4c09884f8c914d75bf6056a1435aa79cbd25edac7f18a1541c6',
+    'size' => 1040
+  },
+  'Sort-Half-Maker-0.04.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6e0d9f148d3e1d6e1621cdb9e9f639f1',
+    'md5-ungz' => 'c4b98e9ee88dd84a70889bf0f68be308',
+    'mtime' => '2016-01-06',
+    'sha256' => '5d31362ef0dd910d73dde98a0f8cfffbf1bd5a9d53fb30d5ab401ad6f49df901',
+    'sha256-ungz' => '64253d8efd0085370bf5a7373aa17957af050734a01d9819d3a5c1702ac0f0cb',
+    'size' => 4695
+  },
+  'Sub-Inject-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '367b12d4ae0776bb2128a94523c0443c',
+    'mtime' => '2017-09-13',
+    'sha256' => '8f664abed5dd86225d847c5cadb658b3276fff125936d41aeaa417b9dc833791',
+    'size' => 1965
+  },
+  'Sub-Inject-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bb7b81c1c30cdc9a2293774019073af8',
+    'md5-ungz' => '9431bc230b4e3fc3ab58234e888471d6',
+    'mtime' => '2017-09-14',
+    'sha256' => '870d491a36f167de7d43e6ef316fa3e7a25ed3242a5e31391e3aca1ef7d82678',
+    'sha256-ungz' => 'b412e4cb6794e2e37cf3eb86393cf1e1f6caebfb9a7d93863648271950128448',
+    'size' => 13768
+  },
+  'Sub-Inject-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ef62311e46d198377680db78c6c3f06f',
+    'mtime' => '2017-09-22',
+    'sha256' => 'a64c2148d29797a63045e56446493b09daaa310fd385be75601485843885aca7',
+    'size' => 1885
+  },
+  'Sub-Inject-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8d075b4d559021ae3cedd34ab711b803',
+    'md5-ungz' => 'e15262566510ef5883e285c03f8ed87e',
+    'mtime' => '2017-09-22',
+    'sha256' => '250e9e7f71bbb35453049a5f502ec5b3ca54786a74def47147ae9525756f74f1',
+    'sha256-ungz' => '6d03df306ee3bb29cace7142c926a751d8c3100369eee57cc08d8bcc6c5de5be',
+    'size' => 13797
+  },
+  'Sub-Replace-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '044c16bb3f7555961f538ff3929ab420',
+    'mtime' => '2017-09-23',
+    'sha256' => 'c8eb3de065c616eec170701d9469f76a1848b79dd86320f9a5eb5f5969896303',
+    'size' => 1918
+  },
+  'Sub-Replace-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e189c92093543dcb7add65aa134c199c',
+    'md5-ungz' => '677b74558d95bdc7a70e421b627c56cc',
+    'mtime' => '2017-09-23',
+    'sha256' => '2ed1c228ce8bdc1bfd264cebae73b961bfa466df9730513defa86d2e9335776d',
+    'sha256-ungz' => 'd3fbe3d6bf17bc77f62305c70b84b749d67b00877c7901ab7b97191119838058',
+    'size' => 12842
+  },
+  'Sub-Replace-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1fea9353a223e1c930c429e5f7c1dd4b',
+    'mtime' => '2018-05-18',
+    'sha256' => '0600049380abbee103e0df76ff89eb28c04258c8e2737c250e3521d2e808a8f9',
+    'size' => 1946
+  },
+  'Sub-Replace-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e99e025aefca9958b14a1abb7794a7a4',
+    'md5-ungz' => '38606b128de3407812a6357089fea5fc',
+    'mtime' => '2018-05-18',
+    'sha256' => 'cde81e686e1826f227a2bdc8b478d3b42999dabdfd526daff4182113d55160a6',
+    'sha256-ungz' => 'd2790cd8c909667aeb210e6c1bcc88316d69c48db33642478c01274a9b0498c1',
+    'size' => 13152
+  },
+  'Tao-DBI-0.0007.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd5faa471ad426a55be96ab202de8be12',
+    'mtime' => '2006-12-04',
+    'sha256' => 'a49c7a1faada6680416342d804bd485ff84fee7fe7d33ff3827231b87338856e',
+    'size' => 384
+  },
+  'Tao-DBI-0.0007.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'eb1697da081a04d79fad19d5957da15d',
+    'md5-ungz' => '4072874b0248b2d52dcf09d7d453f0b5',
+    'mtime' => '2006-12-04',
+    'sha256' => '0e562e7a87a418e49f31f68d90381b4c2ac5d8c3b843cfbebe705690754e4cf2',
+    'sha256-ungz' => '22563ff17ba94ab8e705a548a2d1e47bdcd2421d4ced76edddc9b764a2175fc4',
+    'size' => 7899
+  },
+  'Tao-DBI-0.0008.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd5faa471ad426a55be96ab202de8be12',
+    'mtime' => '2006-12-08',
+    'sha256' => 'a49c7a1faada6680416342d804bd485ff84fee7fe7d33ff3827231b87338856e',
+    'size' => 384
+  },
+  'Tao-DBI-0.0008.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1ad043cdef3f6c4333a880de98baafcd',
+    'md5-ungz' => '9a9dbed701bec2de0002d8f9fa998b1a',
+    'mtime' => '2007-02-10',
+    'sha256' => '8cdc5631fa5f575999e62c3b899d369d91cd574478104bfba1d65b225d256697',
+    'sha256-ungz' => '7b4f7b255c61a770103f108a96579c9691a7c4450fa50146fb8eac85d65bf72a',
+    'size' => 8179
+  },
+  'Tao-DBI-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e21bea66b33fc2991c945cb7f1a4ab53',
+    'mtime' => '2016-01-04',
+    'sha256' => 'f4e8a231fb39a5abbe76f20467e19c6bd52d16ef74887b9e6d617c0111801c90',
+    'size' => 1017
+  },
+  'Tao-DBI-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c8baa20ff8a4377cf61657dbf174c120',
+    'md5-ungz' => '10afcd35ec34ee807a23769c1be16d90',
+    'mtime' => '2016-01-04',
+    'sha256' => '210c5cc2de893621c9028bfdb20c0193d31823619de58a76ab7a7465e3584d64',
+    'sha256-ungz' => '47ff6bf014a98e8f56859bda404bad12405aa9764c02f9f5f92f769e7f651685',
+    'size' => 8610
+  },
+  'Tao-DBI-0.011.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8e1be5ba3289731bd53d71f5c20ad917',
+    'mtime' => '2016-01-06',
+    'sha256' => '66e3a57eb04da3083d388254e2f1ca214769a86cdeebbcf1456e52c15985c670',
+    'size' => 1017
+  },
+  'Tao-DBI-0.011.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'aaea5209ffee4470c01e374bf0a91567',
+    'md5-ungz' => 'ed1bbe82d443b3a1d89bd9f8b8f7776e',
+    'mtime' => '2016-01-06',
+    'sha256' => 'e6fc5e75d50cd7ab6954c6b4db665aa75b481145db385673b7797df4a4c8d1b9',
+    'sha256-ungz' => 'fe14a5f5aafbfeb2019c5b2ea6d1e313455fa696e8924c4fb2db2e2d5697de90',
+    'size' => 8888
+  },
+  'Tao-DBI-0.012.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '72187960509a2eaf775447f8e1f92bf2',
+    'mtime' => '2016-01-07',
+    'sha256' => '4a1af6ba527ce73a285123861085f014d9b526e8416d09a65f719f2b184b0ce7',
+    'size' => 1260
+  },
+  'Tao-DBI-0.012.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f0087f00a5bd87d9e1f2b630b8f2f035',
+    'md5-ungz' => '47e02c607435bfc7ed065f6337db03cc',
+    'mtime' => '2016-01-07',
+    'sha256' => '4efeffcbbf608732efbcf2597a7283a045a49ca0439f7d1f25e8ad5ca8a894cd',
+    'sha256-ungz' => 'dc70f74a12a054b1d43fa9e34991c5efc5eabeeb00179480f93a16aab0171269',
+    'size' => 9075
+  },
+  'Template-Process-0.0002.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '43b09b6ceb1c793ed105138f22d05c5b',
+    'mtime' => '2006-09-26',
+    'sha256' => 'e7089da07d99eab8784c4f0f3ee5c68dc9edb4c7bba060b9d449fdd4f77bd2d1',
+    'size' => 603
+  },
+  'Template-Process-0.0002.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e432fe8f9d79aac2a03a03f5cd0c7ad2',
+    'md5-ungz' => '1c4b1369390b672651bb0e27822f49a1',
+    'mtime' => '2006-09-26',
+    'sha256' => 'f90b790a83c8cfe03e853473dac4321866895e3693c781e467041a4b843c93b5',
+    'sha256-ungz' => '87e33936ec7904227102ccbe15612eed2e7b4f7e345d48e78d0b426c43cd5424',
+    'size' => 2900
+  },
+  'Template-Process-0.0003.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '89f16e6cdfd2b0b0ae85f3b54bd6ac24',
+    'mtime' => '2006-11-01',
+    'sha256' => '2bdf07e8728df874ed64ba7970b6a75930b85a56f26ac682b29bf8077a7c3331',
+    'size' => 598
+  },
+  'Template-Process-0.0003.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fca2c458856fc2398ed1ae84573915ee',
+    'md5-ungz' => '3e0d99f31cb9389784fbd7703cb07599',
+    'mtime' => '2006-11-01',
+    'sha256' => '30f9ccf27ec4596ca515a24f5801179b31eb2f073a0d0b7b44761bbe7ff8a9cc',
+    'sha256-ungz' => 'bb78b75bfde600d24bb22ab64c1e3f9bbb5f0e87c5420a62232b44e148c8fcc9',
+    'size' => 3032
+  },
+  'Template-Process-0.0004.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ed4a5dc8ead3440e1eb695f240ec6c01',
+    'mtime' => '2006-11-01',
+    'sha256' => '8eca2e0bb1e94b10ce9a6bef91c7ba1262df12ee74dc6121e9fbf130f7e8d279',
+    'size' => 598
+  },
+  'Template-Process-0.0004.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '233bb1875cb6b0f2e93ef5278028e9e1',
+    'md5-ungz' => '67b5d0c8b0f6acac3c78a547d8b2e4d3',
+    'mtime' => '2006-11-01',
+    'sha256' => '0b57d39ddfbb50f4ed6f98ac3adc4375e7fda0c473d81ee2bc551c5c5841a0fa',
+    'sha256-ungz' => '47e9de0c5f1d979990f4a6acdbae626e35f58f20f12acc720a2c7919cee53848',
+    'size' => 3119
+  },
+  'Template-Process-0.0005.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd0418581c15638ef239cc4d0061f040c',
+    'mtime' => '2007-03-21',
+    'sha256' => '2177a97d5943fac2429cabd5243e31eb3623511bc60a4ae46c786439bad4ea64',
+    'size' => 598
+  },
+  'Template-Process-0.0005.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8de235f4965d9cfc6310cf6a51c7d892',
+    'md5-ungz' => '65f080b14f9dc104b3ba380b080b009f',
+    'mtime' => '2007-03-21',
+    'sha256' => 'a03c409250494e013053412065f672f2ab891321dba2249ef5d0e097b77d4e00',
+    'sha256-ungz' => '9989373ee796ce633ce966babff589f192c39a7f38aaa78cc1adca7988ae3b0e',
+    'size' => 3294
+  },
+  'Template-Process-0.0006.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '69e482c787d63ad9f7ed50f7dec1fd9b',
+    'mtime' => '2007-03-26',
+    'sha256' => '79ce34698043033bdd43257f8c46232913e1367ea0e1996daae9246961f3b344',
+    'size' => 635
+  },
+  'Template-Process-0.0006.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ce630cb7cd716d48305eea1d70dd2dfa',
+    'md5-ungz' => 'e9843562b2e4896436d91cd24512e6c1',
+    'mtime' => '2007-03-26',
+    'sha256' => '6daf4a5dd60b482176fdadaa07605c8a5af12e1e795820a19f939ee5d20fb3b6',
+    'sha256-ungz' => 'c66227d1deed130fdd8ceccb84d2edfcef66abb6ea5619a337a39bb500f49164',
+    'size' => 4179
+  },
+  'Term-Size-0.207.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e2f8951984f237f99169c1c624d02bae',
+    'mtime' => '2008-08-16',
+    'sha256' => 'd00f691aeb33db1f51abb6daaf5d4226ddcfe6ff307f1b2babcdf8bcacb23497',
+    'size' => 411
+  },
+  'Term-Size-0.207.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '474438fff3f12fca88a23388cc5a7571',
+    'md5-ungz' => '3c8b2afb9bb00097aeb4260912ca1b7a',
+    'mtime' => '2008-08-16',
+    'sha256' => 'b04a14b5663b83a49e2516538b5e133409eb38f84ae157b6b200eda595fca21c',
+    'sha256-ungz' => '39a14b51dd7bae4efaee4bbd55c1660fc23f990b97e7c9c52297348bf6c2b662',
+    'size' => 4744
+  },
+  'Term-Size-0.208-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e5ebff4f9df3013403e25dc61401c4e2',
+    'md5-ungz' => '1e4a9d449e53428e68094a77c66a77a7',
+    'mtime' => '2018-08-21',
+    'sha256' => '025c6ed38ec1bbf7462c998055d30c50ff2c238cc7702abbb2f116d9bcb5431c',
+    'sha256-ungz' => '1a186f5c6ae06596120b6a2a52c62ba39b3d33cd2029b09bdd35cf0bcc646914',
+    'size' => 4821
+  },
+  'Term-Size-0.209.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b0de507cba1c842de237ea7dd0a1fb4b',
+    'mtime' => '2018-08-21',
+    'sha256' => '7bfe0c5424089f01319198be4d01b1c2d00fbd84d8d49d5923c11261ccc371dc',
+    'size' => 860
+  },
+  'Term-Size-0.209.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '161d3ea83325636d25860ed775b3f05a',
+    'md5-ungz' => 'f1143c168bc1b1ceef8d45d44731ee28',
+    'mtime' => '2018-08-21',
+    'sha256' => '8a0ae619fd2a004f91a28eee8523ce839ed50df1e8f7e524aa497eeff59e36a8',
+    'sha256-ungz' => '39c78e22df51d82c7445f4d00775e9adef95011ae9d162c6c13a8d0064710c6d',
+    'size' => 4945
+  },
+  'Term-Size-0.210-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3a32cc2f77dd325aa231e58130a157d3',
+    'md5-ungz' => '30b868d084e9b1e9e3a9e7cd45038206',
+    'mtime' => '2021-01-07',
+    'sha256' => '679b61b7c67e911abb5d7db2aedf14150cea510b771071a280a9985d057f4805',
+    'sha256-ungz' => '4c5c47c41c4798f014e1707dd7aeb35f1ea702234d0dc26475265260017ffdd9',
+    'size' => 5412
+  },
+  'Term-Size-0.211.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '47e4b9dfd25e141941c1b0800e3eb472',
+    'mtime' => '2021-01-14',
+    'sha256' => '0d806b0b829ad9d98058b6f966ebd3653fa493042eb36e704db291d353544af5',
+    'size' => 1562
+  },
+  'Term-Size-0.211.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '150b398d5be255883e59e12414c4a0cd',
+    'md5-ungz' => 'ae8e0bf2066b52b724dd434d63112f57',
+    'mtime' => '2021-01-14',
+    'sha256' => '5962b4bde52329774718296c92315e936da7f9c4451e92186cf072f27790b3fb',
+    'sha256-ungz' => 'cc76b8f8d1892984d7dacb264f5467d554b506b6c4d0d19b17f5bcb5c83a4d6f',
+    'size' => 5416
+  },
+  'Term-Size-Any-0.001.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fbfaa719c9973d508c056b314e796382',
+    'mtime' => '2008-01-28',
+    'sha256' => '020d88ce1ba59b40d7eb47c8810a45e904d415bf8e8d9183db276a93d0b0b3e4',
+    'size' => 556
+  },
+  'Term-Size-Any-0.001.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '58722dad73c6965d5c4b975e3ae47116',
+    'md5-ungz' => 'd8adacd7b527d3e8bd9a87edbb7fb0a4',
+    'mtime' => '2008-01-28',
+    'sha256' => 'e910f542ed8870666362a23eb96bd3cde21e740257efd763f74ba3acb9360124',
+    'sha256-ungz' => '750e0e8c83e2078ababe35867ea9c9641c14337709fb5de2935d77a053c44c40',
+    'size' => 3903
+  },
+  'Term-Size-Any-0.002.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd4b7f04e6612d2ad3085462a327f496b',
+    'mtime' => '2012-04-20',
+    'sha256' => '60fddeaf5347f405cf25b9128d24a058ea97de64b7636a8c27c85887508c2c76',
+    'size' => 646
+  },
+  'Term-Size-Any-0.002.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f9e3fde1e494c908369dc3ce7e9b19a1',
+    'md5-ungz' => '9fc358b101252e8ed39a6d8aa2935d74',
+    'mtime' => '2012-04-20',
+    'sha256' => '64fa5fdb1ae3a823134aaa95aec75354bc17bdd9ca12ba0a7ae34a7e51b3ded2',
+    'sha256-ungz' => '65b02f14f00684a79824c6bbbec9029b4fd6df50fa324af8d7e797d0997abe67',
+    'size' => 3980
+  },
+  'Term-Size-Perl-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e29bd869f7e98cd058c9f184d2023003',
+    'mtime' => '2006-05-29',
+    'sha256' => '3a60c121eafc18fbfd2240163e4d30ed7975773db0082c8a993f49f8837ee424',
+    'size' => 526
+  },
+  'Term-Size-Perl-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '81833cd8f1ebb9c147f176c1ee032244',
+    'md5-ungz' => 'd0c36af5d8c099b932c8076b551c47b1',
+    'mtime' => '2006-05-29',
+    'sha256' => '26f971565b896a76479281ec58b0ff797a510ddea81b3725deb5869f230bedc7',
+    'sha256-ungz' => 'cae70fed17c642fe9fc592dbc4cd6f8a02da101c7163b70e10e25e170c71d692',
+    'size' => 5075
+  },
+  'Term-Size-Perl-0.02.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0029d96f2502dc307c96cd7e4b1f05f0',
+    'mtime' => '2006-06-14',
+    'sha256' => '035dde557d6fb7980459974f68602a2e5285c33e9b223caf40a24de11459d44e',
+    'size' => 513
+  },
+  'Term-Size-Perl-0.02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e0bae7ca94ba3588c6f81cb7c1bd47fa',
+    'md5-ungz' => '270f381888c6a3bc643d2c9a85b50fe3',
+    'mtime' => '2006-06-14',
+    'sha256' => '0f4a4eeac79dfad7d5215a8dec265cde6c5cbfc1aae99a2cabfeb6065d6d3a82',
+    'sha256-ungz' => '1c87720b1bae0f55422bf3887423712f876684e163a1afe734f2f481d58a0067',
+    'size' => 5436
+  },
+  'Term-Size-Perl-0.0201.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1638ac9e8bcd2cadf2d5e3d3176f0893',
+    'mtime' => '2006-11-07',
+    'sha256' => '94a23edc6fdf23420db151c3c0b18f352ec866ed15abfad90f78d608a1c4372d',
+    'size' => 544
+  },
+  'Term-Size-Perl-0.0201.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0c07ceefa33c91c8568c4d7ffa670635',
+    'md5-ungz' => '67c22d876b0e2062eb4402acf2dd92b6',
+    'mtime' => '2006-11-07',
+    'sha256' => '9ec20d31cf15af4df549e8df336449f3c99e7fe546fa14e2421e547c7098585c',
+    'sha256-ungz' => '1c2bf8b47cea9e57e672107f6274f9cc0f4119c7429f96b7184991f4009493c1',
+    'size' => 5571
+  },
+  'Term-Size-Perl-0.029.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'b3e32bad66e8491e8fade708baee689d',
+    'mtime' => '2007-03-11',
+    'sha256' => '7b5d3c4da42d395168bde90a0dc92c97a5b40a4584f624a35b3b6f24f7c4c571',
+    'size' => 542
+  },
+  'Term-Size-Perl-0.029.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e647aed35b0c4973e949c311a8222dbf',
+    'md5-ungz' => '09ca092e6eddcda98369b43f4330636f',
+    'mtime' => '2007-03-11',
+    'sha256' => '8c1aaab73646ee1d233e827213ea3b5ab8afcf1d02a8f94be7aed306574875e7',
+    'sha256-ungz' => 'b09710dcd0359a01816484a2b501c9a13f8cee0568ef2bce101232b748a45e4a',
+    'size' => 6112
+  },
+  'Term-Size-Perl-0.030_0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7436cd2b2079a99c25cc5ba2ccd3e2ae',
+    'md5-ungz' => '091de8bc13f22ecae9c0760ae97e9bf7',
+    'mtime' => '2018-02-14',
+    'sha256' => '78b1533c7ef04eb73461032942e92d68b07a9d331617604262239f0441d356bd',
+    'sha256-ungz' => 'f971f49771ba4d0355378e9f41607a07daf19db37ca80f0829838ec7dbc66eff',
+    'size' => 12979
+  },
+  'Term-Size-Perl-0.031.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5dc3ead77ce91823db5b38d0e26c3288',
+    'mtime' => '2018-02-14',
+    'sha256' => '1531abf4621be8395fd001595b34e1e036909f68f6b9d6f842f2e53f1ba31d5d',
+    'size' => 1560
+  },
+  'Term-Size-Perl-0.031.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '50779c7af28dd5bfb02e541c6e0173ea',
+    'md5-ungz' => '6e4b711d957a1da0afc4d5b977afbce5',
+    'mtime' => '2018-02-14',
+    'sha256' => 'ae9a6746cb1b305ddc8f8d8ca46878552b9c1123628971e13a275183822f209e',
+    'sha256-ungz' => 'b8eb979d15b4b17f921a6ed75ce26b95cef884a057ec917ae659e389008c6e54',
+    'size' => 13137
+  },
+  'Term-Size-ReadKey-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ca602f65a7ae834aa060d9a4fa7766db',
+    'mtime' => '2006-06-14',
+    'sha256' => '6e0f5aeb87f90cd38c6fcb14ac94352141f5f93aabbe599e6ed19a3336480262',
+    'size' => 523
+  },
+  'Term-Size-ReadKey-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '58c5753f10a8efef516d513aba9d526d',
+    'md5-ungz' => '119a3b9d75a081af70b89986a77f1801',
+    'mtime' => '2006-06-14',
+    'sha256' => '05daf7973704147ef7bfbf78b57186390da36fddd481218ef328e8ee4630fddc',
+    'sha256-ungz' => '63f1f643500abbc29ac206a8d0ba99736ee78d16bc24b3c775a9877a7f27cfa5',
+    'size' => 2529
+  },
+  'Term-Size-ReadKey-0.02.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8e4be28c267299b569b3f6fe39be55ad',
+    'mtime' => '2008-02-27',
+    'sha256' => 'ad00d186b034de990e135a4a33df57fc069db1199a8057c94f2501243a19bfe6',
+    'size' => 582
+  },
+  'Term-Size-ReadKey-0.02.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f2f48920ddada9b17bd62a29ce952071',
+    'md5-ungz' => '1dedda91990119f61942cdfc6edba597',
+    'mtime' => '2008-02-27',
+    'sha256' => '18dfb8f8cb663f766ddcc4a91e638cf32aa5f61879ab3252e3a9b781b7a3a069',
+    'sha256-ungz' => '91e679a87614b2a1360b4f3362dc54c94eb2586a1018e4872a26c96f46588da9',
+    'size' => 3039
+  },
+  'Term-Size-ReadKey-0.03.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '560216b03401983e5e8b6750c6506b31',
+    'mtime' => '2008-02-28',
+    'sha256' => 'e64232f81cd1ac8e471bdbd51472c00c1649a4260aabec81dc790a8591c07273',
+    'size' => 617
+  },
+  'Term-Size-ReadKey-0.03.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '75c490867a3298187dcdb6339543c930',
+    'md5-ungz' => '3606dbc10166ad05e0040f738c8aa082',
+    'mtime' => '2008-02-28',
+    'sha256' => 'f536ac5d615ef531ecdd9ca8c8f26f346295b0fd59892bbbb89639ff3aa16226',
+    'sha256-ungz' => '57974531c65668edd18c390b03ea0a91a6a3ebc49218cafbedf98eaf839987d3',
+    'size' => 3137
+  },
+  'Term-Size-Win32-0.203.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '37bdad568d544a0d44010f5b83df74a7',
+    'mtime' => '2006-05-19',
+    'sha256' => '5b29f72d480ccd3f37232cc8ea87749d58c864894bd910816221b6f7a29af77e',
+    'size' => 532
+  },
+  'Term-Size-Win32-0.203.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5665e72dc38cbb77c506c8206674a957',
+    'md5-ungz' => '4e454d1573984a57aa55cf018b860bcd',
+    'mtime' => '2006-05-19',
+    'sha256' => 'ec1a44f809227204e8c2c0c03163d8e5ce1aae2adfc4922872c527cd26006b14',
+    'sha256-ungz' => '38b393f6aec8b028fe7d991fa77200f49bfc37844f67a482bf13437fb2a396c5',
+    'size' => 2825
+  },
+  'Term-Size-Win32-0.204.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1b6337ff2b791da8c85de86f827fc2fe',
+    'mtime' => '2006-05-20',
+    'sha256' => 'cebbac7baa3184d00d77cf2c4027fc8f471a4f6877d89d48dd51be607f5bf404',
+    'size' => 545
+  },
+  'Term-Size-Win32-0.204.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c7a8b4f682b3b4ef7fd670a98e9b8831',
+    'md5-ungz' => '45def59636e93f17aaf220161b75d4a4',
+    'mtime' => '2006-05-20',
+    'sha256' => '06cb3dd6dcb2b5d009067ed72d03057b4626ccf0770633c2ca16974d3e198816',
+    'sha256-ungz' => 'e3f4f5927c9805433aa92fc69a8ff326568c25f80ce855df8b3c82a7d8f08a45',
+    'size' => 3105
+  },
+  'Term-Size-Win32-0.205.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3b48346ed235202d04a7896020b5bc7d',
+    'mtime' => '2006-05-22',
+    'sha256' => '5d461be6e1e61532ef222a2396776c644b88098e8213563851cc17d27641632b',
+    'size' => 338
+  },
+  'Term-Size-Win32-0.205.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'a5a3b0b4f213bfc69312772d375fc26b',
+    'md5-ungz' => '2cff8f57978ae82626522199f28faaf6',
+    'mtime' => '2006-05-22',
+    'sha256' => 'f2b81400822f0b033411c0b9ff279fd31d0cb0d284fa590fe4b3ada5f7e1e63f',
+    'sha256-ungz' => '2daa7be3c7c93fbc4bfdaa01e6334323c1bfde937638a8f68f32c961c69511aa',
+    'size' => 3152
+  },
+  'Term-Size-Win32-0.206.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4fa87ef6277913479768cdd8401cca9d',
+    'md5-ungz' => 'd0f66b8cebef51a2b7028ed65b36cbc2',
+    'mtime' => '2006-09-13',
+    'sha256' => 'e6294ded9f8b73de2a8e9e425a32385543925c2d958623b7f339555fe4932415',
+    'sha256-ungz' => 'bdd64c0a6bacc361fb22b6dcd7da8f3f173a8d31a3633dadc6aab197ba7fdfae',
+    'size' => 3177
+  },
+  'Term-Size-Win32-0.207.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7cf0b64d6c63f95940cc321024ef50b1',
+    'mtime' => '2006-11-07',
+    'sha256' => 'a7458548eb12a2dc3c152392f631a650718df29931d12bef159eb1627842fcc2',
+    'size' => 522
+  },
+  'Term-Size-Win32-0.207.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '70606e4692fcac456edadda81e26abe0',
+    'md5-ungz' => 'd46773fc6c348625ac59b8a9166ece55',
+    'mtime' => '2006-11-07',
+    'sha256' => '81380bfd39fb7df9c2e159a0a916d6bf55060449d9d93f2970c21ad47f3b1978',
+    'sha256-ungz' => '36cdc85d9c6c06928dba6259964e15d6bb3d017d98ab50410b797004b2ddfa1b',
+    'size' => 3398
+  },
+  'Term-Size-Win32-0.208.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '821bce498670b4a20c6dcc003b0d0a2f',
+    'mtime' => '2008-08-16',
+    'sha256' => '2b695ab17962cdab97a79ebdc837657eed09119352d403e511d7e04b01385059',
+    'size' => 512
+  },
+  'Term-Size-Win32-0.208.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '12e6aa8991f0d1ef58bb19248f29385d',
+    'md5-ungz' => 'e8dbfaae68cf832e1b10b8ef990ba430',
+    'mtime' => '2008-08-16',
+    'sha256' => 'e9017d53c873269f9b67a91a3f9b88b914b3c26a69c3eda43d9824a41781ba0c',
+    'sha256-ungz' => '8fe56bcb154bec925387ebc64d0329a231a08b1ab3a18c2575b08af8ba8d8bc8',
+    'size' => 3461
+  },
+  'Term-Size-Win32-0.209.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6a7840caa907a76b390eaf6b9c24a798',
+    'mtime' => '2008-08-24',
+    'sha256' => '1ceb6079100cb39cb87c84c984155e37426a040a9b16cb16c6420d47840581b6',
+    'size' => 497
+  },
+  'Term-Size-Win32-0.209.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '2d80d02d18e8d5faf53c5531cce5860c',
+    'md5-ungz' => 'a6f996f55747f168820425dd4ace534e',
+    'mtime' => '2008-08-24',
+    'sha256' => '017087cf6fb0e84074f6a2af198f59b68487cc9d579f86ffe7a5fd89827db6cf',
+    'sha256-ungz' => 'abc5d6eece6ae65a02fa3b8b11f84f9cfc22bb02f0ae830459482d42cdecd9d5',
+    'size' => 3428
+  },
+  'Test-HasVersion-0.01.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '8208896ebc0da1def23ddfdb40a10a6e',
+    'mtime' => '2006-07-15',
+    'sha256' => '1e210e5db52bd9047584ad51755a374c6dc5d9582fbee241712b61a4fa66eb7b',
+    'size' => 535
+  },
+  'Test-HasVersion-0.01.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1cb32d4db86d5767b84c3c740aca967d',
+    'md5-ungz' => '2519f19447207f95af62a4e0f59184e2',
+    'mtime' => '2006-07-15',
+    'sha256' => '87a74763a9fcc4e9d52f9146730e83ea88720e269c50c5e3d307aaf8b405af98',
+    'sha256-ungz' => '1fe41bfb07425a0bd25d1dfbd9f8511d6b5ee3445b4a39b45db22154d5140fb8',
+    'size' => 5026
+  },
+  'Test-HasVersion-0.011.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '5458e99cac4d11748abbceddc1292542',
+    'md5-ungz' => '4d3341bb1ebf203506694714c069249a',
+    'mtime' => '2006-07-17',
+    'sha256' => '13b96bcc4bb433bc642070b61c1ba8e3891d022893edb31a14686288f60b250b',
+    'sha256-ungz' => '0e4ceaa48a68ab368a80bd842b7c0a3aff0fd0559aa4655db71f6d3db1cddb35',
+    'size' => 5204
+  },
+  'Test-HasVersion-0.012.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '466383fe99d624c3c5d4e0c5671a2a4b',
+    'mtime' => '2006-10-09',
+    'sha256' => '39f030472ecccdac59736bb7426d4a4d4487b86290f64628d8cefefb8962d483',
+    'size' => 646
+  },
+  'Test-HasVersion-0.012.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd9cb18aa27bbbb95b96a008248ebfb27',
+    'md5-ungz' => '24d4e33f9e5d24f32f7db68db4dcbfe7',
+    'mtime' => '2006-10-09',
+    'sha256' => '96b94fb97f39e3425b275bc94722ed796050d2dd8275b0ae22df27fcf93b0a4a',
+    'sha256-ungz' => '5ee419bb37ccf88b75dcd2025186a3913dad1ad032d1e612c92743a9f2ee55e2',
+    'size' => 5207
+  },
+  'Test-HasVersion-0.013.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3b9268ab212ec6ec464c01d72ebc7db9',
+    'mtime' => '2016-01-02',
+    'sha256' => '84704f46be3c398574e33bac5484bd06237d6905cbf8edafbae1ee13a4c8bb3b',
+    'size' => 1208
+  },
+  'Test-HasVersion-0.013.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd26e95f9a7e655102ad2c5ceee9da4ef',
+    'md5-ungz' => '46f2cd860e64284a20ef7ab0abc88b0e',
+    'mtime' => '2016-01-02',
+    'sha256' => '8ff81bbb27474a06ba769650a57b67798576ccbd70e2493966fce5de8a518512',
+    'sha256-ungz' => '63220e9597a34b748f7ac5d32f3d5477fd4396a5ca8eb83751533532e15f9c97',
+    'size' => 5619
+  },
+  'Test-HasVersion-0.014.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '86d4549f36ad5e1946d8a882abef9ad1',
+    'mtime' => '2016-01-03',
+    'sha256' => 'dcf980b8ecf2a7d9c735dd52c42335b59c91bb28a0d757760f66a0d550335710',
+    'size' => 1208
+  },
+  'Test-HasVersion-0.014.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '15682f35d3e204c86329042d87046142',
+    'md5-ungz' => '6ba0bb533c6774d63e97ebb92a1d39a8',
+    'mtime' => '2016-01-03',
+    'sha256' => '0555bb7ac67d839747056054669065e1305ff4b4e7283d9ac43b7a62cd007cbd',
+    'sha256-ungz' => '969eaaa554baef03d48c726ac3c7f70261eecbf3bc3d742593e2e2bf3fc9cd7a',
+    'size' => 12268
+  },
+  'Text-Yeti-Table-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f8975becc24d62d7c60ceab1388438af',
+    'mtime' => '2017-08-10',
+    'sha256' => 'b8b7ea8d8887be18a49c2471052d958396de8fdf8a6bd18ad76705ab0f548501',
+    'size' => 18767
+  },
+  'Text-Yeti-Table-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fdc77a221f203d1a33496d4a32c7348e',
+    'md5-ungz' => 'e52dc537ee84465077882c0c233c40ae',
+    'mtime' => '2017-08-10',
+    'sha256' => '8796a814268891e1324477953c588b78b764bbc716725f1d381a6ab0997c5f9d',
+    'sha256-ungz' => 'bd7fbc814db66385fe25347124fae184d9fb7484f28d14803533565fd1f7d93c',
+    'size' => 17461
+  },
+  'Text-Yeti-Table-0.1.9-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ce3c5e319301e7b86f4e4a2e35eaee60',
+    'md5-ungz' => '0dd9986ba618727d569fd01253a0b472',
+    'mtime' => '2018-01-13',
+    'sha256' => '2fc8114690566a3ba24b0dd2b48a5973308f542188c570d6eacfedd1031896b9',
+    'sha256-ungz' => 'aee5d126fda413d8e59c55efd0f3945c410f53bc177491c6d4e52e4ed702260d',
+    'size' => 15196
+  },
+  'Text-Yeti-Table-0.1.9.1-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'db8f57f0c827c90e2f29fb3d66fcef07',
+    'md5-ungz' => '7f24a74c724a6e049b25634bde63446d',
+    'mtime' => '2018-01-15',
+    'sha256' => '40c3ee6758956628f3183287728bf638a0f15bef6db4617da57a3907be5f4eef',
+    'sha256-ungz' => '830552639c42e68e08ffbc351125ad4f1ce2a64165a334fa6445f50f1f90640a',
+    'size' => 15251
+  },
+  'Text-Yeti-Table-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '78d2b2130a3d29e5c4b8c50d1887765e',
+    'mtime' => '2018-01-15',
+    'sha256' => '5e8e84e4323ee0a09d190f81278feeb1d5c7b982b20982d7fd38a3aa5af3bb78',
+    'size' => 2244
+  },
+  'Text-Yeti-Table-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'acdc4817fa26eea2020f6c4cf8e64aa0',
+    'md5-ungz' => '757abcc3bda76a4d56c82c6ab9d9d656',
+    'mtime' => '2018-01-15',
+    'sha256' => '893a0b2a93485548b87467157a8ae717fb35eb040dc4fe64f7765137a31f7a41',
+    'sha256-ungz' => 'd0a124ea4cd9c91036793d3da669cf56f2e608464c2b676a6ac1179532764568',
+    'size' => 15545
+  },
+  'Text-Yeti-Table-0.3.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e314a34075d3db0aaf998638c4828bdc',
+    'mtime' => '2018-01-15',
+    'sha256' => '0be9241afcde17d90f25c576b2e077e7ae42e209db854dda4a8de96a3cbb0db8',
+    'size' => 2244
+  },
+  'Text-Yeti-Table-0.3.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '4b058675f44b91641c5ef26f29abb592',
+    'md5-ungz' => '59d55831fd841ead81c356281e70099e',
+    'mtime' => '2018-01-15',
+    'sha256' => 'dacf2fa14d318e6f5843a734ee954fc40329c6a096dd42c9d149097e49307d76',
+    'sha256-ungz' => '099d92104e871e689d3c1b806daeb25ce2d76c404a76a1e1a8e142a132274393',
+    'size' => 15578
+  },
+  'Types-Bool-0.1.0-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1fbac152bd4377553c253174c5bbd0e3',
+    'md5-ungz' => '123fcc8a10cc82fa39990629b74d9dc0',
+    'mtime' => '2018-05-07',
+    'sha256' => '7133bb70f1231c03fa6e8aaa38e5829ec7df98203bfc32d091bdd5f21071f29a',
+    'sha256-ungz' => '88815d2269bde49a17959acef8cfb8cb934f5c83d6c24ee232c23d3077b348b2',
+    'size' => 14642
+  },
+  'Types-Bool-2.98001-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9310cb9b175bed32ca5be514a9168491',
+    'md5-ungz' => 'f3ce5430d02869ac69b0e28da4d8cf62',
+    'mtime' => '2018-05-07',
+    'sha256' => '0a0763d22b38b9d36b166b1b5ba26642ad6ca8b66b31a4cab539e3a338fc2aca',
+    'sha256-ungz' => '0fd0cfb9e132eb9b6f1e93c69ba052e0232806ea86afe15e811a7740511705b2',
+    'size' => 69616
+  },
+  'Types-Bool-2.98002-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fd3ca8ff261aee317860683db698de13',
+    'md5-ungz' => '8c335fbff4c0f667858aba9cb217e84b',
+    'mtime' => '2018-05-08',
+    'sha256' => '1336652fd1aaf7351f045c4c4c9cc90af1dcb7e197ac7ca969fb21669c4dc57c',
+    'sha256-ungz' => '3d859d48ca9168f69e3002aeaa7e04ff4386e77342f3a5b1da1c0b8a429bfac0',
+    'size' => 11512
+  },
+  'Types-Bool-2.98003-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '04dcd0d367f70c0349242809cffd41b6',
+    'md5-ungz' => 'e28a9ee433131375e30bfe1da43e8a78',
+    'mtime' => '2018-05-08',
+    'sha256' => '1931c9cccb57317538bcde74aa3205008cd057e04303e5938882fb21609af5eb',
+    'sha256-ungz' => '11f6107806faaf3164130f486dba1e18c1349a130da0e0cfbe24dd49be7f2b3e',
+    'size' => 11655
+  },
+  'Types-Bool-2.98004-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '65d0b4c9fbb0f849273147742a2bb305',
+    'md5-ungz' => 'daabd985acbe9d63ee8488f70fe0801e',
+    'mtime' => '2018-05-08',
+    'sha256' => 'fa94f48c2ada0528109e6a96b5b666f6e8916dd2e97ceb8f984dde30b0761204',
+    'sha256-ungz' => 'dbde128449ab70032f754cbd80a6504cdefc2bc3c4f6400afe5f6ab1b5ad9176',
+    'size' => 12781
+  },
+  'Types-Bool-2.98005-TRIAL.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7270277d952526ea5a94aeb5a205a4f7',
+    'md5-ungz' => '757ac86f7f778778c1f9805063783a4d',
+    'mtime' => '2018-05-09',
+    'sha256' => 'a6ef524d3d8627387034134de0d31e61cdc8ec51ce5befd0ac11d2203314b2d7',
+    'sha256-ungz' => '1bde99fead0cf9566474220efab0e81765e09eb756099bc9634ec636b6ecdc57',
+    'size' => 13441
+  },
+  'Types-Bool-2.98006.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '6648577cf5fd8bf92f7a536387c8adbe',
+    'mtime' => '2018-05-09',
+    'sha256' => '24cc2828d81e423d52686322f5f1ae35958b5d78233ebe6fae7cbc94c6ddaff0',
+    'size' => 1782
+  },
+  'Types-Bool-2.98006.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0bbdc8c5167837928e3e7b50fa9c9c2f',
+    'md5-ungz' => 'e8455186af99c54d2866258071df3763',
+    'mtime' => '2018-05-09',
+    'sha256' => 'dc5d2512d434ccd982fbd10d273e77ef496dfe5bdf4c107ef2735c7e6e5c8c22',
+    'sha256-ungz' => '0f087da4cf7cdf6bd6f4efcdf2fa982cdefd73aa59bbf295f318ea5d46fe31b2',
+    'size' => 16227
+  },
+  'Types-Bool-2.98007.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'cdc236819691f3577ec34b51f4b61ed7',
+    'mtime' => '2018-05-09',
+    'sha256' => '3c54db2d30b8eb09e51bc04096fddeaab68dccfd94a004cb61e8ed00089429e2',
+    'size' => 1887
+  },
+  'Types-Bool-2.98007.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'aa458af0197f37ec24a065692f70d5d3',
+    'md5-ungz' => '40cf65b55413d0e428557011dd5fc0ec',
+    'mtime' => '2018-05-09',
+    'sha256' => '8b1171376bb6f904f5d2ac17d5971581f39085297a07fc8b99867dcba91d7d3c',
+    'sha256-ungz' => '38fa93ee6cc6412b6c071bb908837a3471248f190947a083b75a45443cc41312',
+    'size' => 17796
+  },
+  'Types-Bool-2.98008.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'ec6b4a2b98df74b7b98a248f71a083a9',
+    'mtime' => '2018-05-09',
+    'sha256' => 'b0cf310a7fdbcfdb64b2516d96d431e7eedadc8382c343b21bfc61c3113ef674',
+    'size' => 1922
+  },
+  'Types-Bool-2.98008.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3d2cf94e7e42ec9747264656c2008c08',
+    'md5-ungz' => 'bc655a8e0cbf197b85209cae15fa731b',
+    'mtime' => '2018-05-09',
+    'sha256' => 'd0f3fe1cf83e842a483795eee6e55a197ce180ee86da832b0344c20688931b5a',
+    'sha256-ungz' => '3432ca3e46041dbf1345b89a2120853508cb9899b89301fa3e9ed4a5a9f678ac',
+    'size' => 18091
+  },
+  'Types-Bool-2.98009.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd8bc43ae34e9835b7562979b4867f8b7',
+    'mtime' => '2018-05-09',
+    'sha256' => '61b08ea9b43c0efc89086faed9c76e04540b6e807b9cbe2ab2f9a8c42c9829f9',
+    'size' => 1922
+  },
+  'Types-Bool-2.98009.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f7832773b97ce40be289237368f83662',
+    'md5-ungz' => '96747e1cc9dc860ae60cc4340ac36ba2',
+    'mtime' => '2018-05-09',
+    'sha256' => '62de263692c6c64e4f770bca7d1d759b2fb9e31a9ce8e6ab8564301e715d4918',
+    'sha256-ungz' => '0bd076b6d871659c9ae62f26ba4369b2256cf873c36d902fbcfa679d9a31ba54',
+    'size' => 18113
+  },
+  'Types-Bool-2.98010.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f600295b9f124f17fc028ee1c6127b77',
+    'mtime' => '2018-05-10',
+    'sha256' => '53c9f418d89c6be90731428e32efd32b1acf523e7812c5f81ad2cd2dbdac6ae3',
+    'size' => 1922
+  },
+  'Types-Bool-2.98010.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '3060d1b9c83f2484c10e2b8bd6b1db8c',
+    'md5-ungz' => '0ed0fcebbbbf741192d62ff64ee07b17',
+    'mtime' => '2018-05-10',
+    'sha256' => 'dee4a52d47a6225c589d900fe1fb43a7483edb6fe03bfc831a1034a393eefa6f',
+    'sha256-ungz' => 'b3b9985c91709b39735f4a51530eff771302bbdb9f93f46a693d5bb036564a33',
+    'size' => 18501
+  },
+  'Types-Bool-2.98011.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '0df8b03be30b67b5d7683a4006c7f8b7',
+    'mtime' => '2018-05-15',
+    'sha256' => 'cbd1aad4a191882a1f05c559ef182589bc6d4c8edafc8658732cc23fa45ef57a',
+    'size' => 1922
+  },
+  'Types-Bool-2.98011.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f89d2d2d267f28f0a0332533d289faf2',
+    'md5-ungz' => '87cff7a86a48b44d6a51ce0de30e44b2',
+    'mtime' => '2018-05-15',
+    'sha256' => 'd9925cc2578a2c15dd1a79c45592f410c646a971aa7b1690eef4a87364b0d51d',
+    'sha256-ungz' => '6f58c5d0413c0e77871c49b337725f0c42ee1e686a528d918ddb51d5b393c877',
+    'size' => 18918
+  },
+  'Types-Bool-2.98012.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '9fc845e5e83f627bde1be54604540893',
+    'mtime' => '2018-08-19',
+    'sha256' => '2fb707b5b7ff23d0f001334aa95b0ae7015d3f28b7e569dd653905725f55349d',
+    'size' => 2085
+  },
+  'Types-Bool-2.98012.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'e4fb3fbe9c3135a43e60854ffcc0ab90',
+    'md5-ungz' => '2f8e4ce74ade29e07ebe12388387b019',
+    'mtime' => '2018-08-19',
+    'sha256' => '1ed64f42437b70dd72fd00c8fc00c31cbb5015d6538b2762ac589428ebb70a24',
+    'sha256-ungz' => 'b223092229164c4a6b15cc73c8a728145afa941d02dcbbba0d54edb29be963ca',
+    'size' => 19302
+  },
+  'WebService-Pinterest-0.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '1acafb99b45e17775580477c1e270b2a',
+    'mtime' => '2016-04-28',
+    'sha256' => 'cabfb56556006a3aeaf19e82e9da1c184286d97ade3f9639cb6109f07b6e66b4',
+    'size' => 1298
+  },
+  'WebService-Pinterest-0.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '60effb2e20ff2df7a5e4f1d2bc621f3a',
+    'md5-ungz' => 'c2281f85a8a28731c694cf93365979a3',
+    'mtime' => '2016-04-28',
+    'sha256' => 'c2bd7598a642e1965b89e9dc473dca026a3ef0a1528b7923e16a3a4cd2792152',
+    'sha256-ungz' => 'ea3819d074c1f2ddaa16e80bb1de21068eee3accba654ed26e112819baa96e9b',
+    'size' => 20249
+  },
+  'YAML-Hobo-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'c3a0cea4be2b83686e2a021f53255b2b',
+    'mtime' => '2017-11-02',
+    'sha256' => 'cdb01bff476569341349933193608ace0e2550368b15b6a18efd442cd4664958',
+    'size' => 1829
+  },
+  'YAML-Hobo-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bc6d387c5e0ab38ad8ee3ec6e0bbb78c',
+    'md5-ungz' => 'cb99540c81a14089681d295c087ceb7c',
+    'mtime' => '2017-11-02',
+    'sha256' => '8285529eb06be276474c09622175fe42bf5b46428952e7107fcee995da29b963',
+    'sha256-ungz' => 'c02318d1d4d6aeb8b8330ecce647d37f17506aca549a0fcdfcb6b4377c535437',
+    'size' => 13301
+  },
+  'YAML-Hobo-0.2.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'd63b06e4d464bbc3be5d394bee0bccd7',
+    'mtime' => '2018-04-25',
+    'sha256' => '85cddfabf8b36083905e8e5fc1383bac7eecf150d4f53465d9d7c0a1179c04c8',
+    'size' => 1829
+  },
+  'YAML-Hobo-0.2.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'bd79d7ef83a3162afb1eae5781be8bda',
+    'md5-ungz' => 'b08b17ea448a0055d6714c7296b427bd',
+    'mtime' => '2018-04-25',
+    'sha256' => '55874594ed2dda71a5c41c23be3bb39767227be74894877da7a671386adcd6b6',
+    'sha256-ungz' => '0551f81761c2ac4ffb54bad436507f0fb5f33cd0dd5dcb2138226ddd8bb13fe6',
+    'size' => 13867
+  },
+  'YellowBot-API-0.97.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'fc90428e1f25f7623488dca4155c7a60',
+    'mtime' => '2014-01-31',
+    'sha256' => 'b4fcd9cad11a72011ea369b42aa9a97764dbbe1bbae13b0519fee61919cff1e3',
+    'size' => 750
+  },
+  'YellowBot-API-0.97.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '604e1984adc047380a74fe28353302a3',
+    'md5-ungz' => '2f05e5012262af6fae30f6245b147978',
+    'mtime' => '2014-01-31',
+    'sha256' => '3fbe142b687260657534b9bda7f653ea7d36cb3af3ef2e416ec94f74d3ec7950',
+    'sha256-ungz' => '8080ff0578ca5b863a9a81352611e8e9c1fc130cfd7b8983b1f0302927a17ccb',
+    'size' => 15106
+  },
+  'patches' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'isdir' => 1
+  },
+  'version-Normal-0.1.0.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '27500677c186e1d6bfc0e0d8f376a83f',
+    'mtime' => '2018-01-12',
+    'sha256' => '927ce7905d74d837e2cd708059c01352c464885e6d0c3bff6395d8021974500b',
+    'size' => 1909
+  },
+  'version-Normal-0.1.0.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'f5a91144bcceb3849fda263b0b28fad1',
+    'md5-ungz' => 'c219436ec35b076e28152d490b61c5ac',
+    'mtime' => '2018-01-12',
+    'sha256' => 'cbec15c6d09be8679df036c26bc983400ec03abacd6dc0cb85812a506312aae8',
+    'sha256-ungz' => 'fbf15138b3eed092c6b6f597fd5ac0b59efba60541811759bda53d5c8b726fb3',
+    'size' => 13177
+  },
+  'version-Normal-0.1.1.meta' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => '7885534209cf88be323f7ecbb702fd4b',
+    'mtime' => '2018-01-12',
+    'sha256' => 'dd7f079fa1579306ee19ddace1f8da39f754067fba59673821e67fdcb493272c',
+    'size' => 1909
+  },
+  'version-Normal-0.1.1.tar.gz' => {
+    'cpan_path' => 'F/FE/FERREIRA',
+    'md5' => 'db3a5384a276a03da442c2073d2a3500',
+    'md5-ungz' => '6aab8ec109d1ccf16b8f8a32795ddce5',
+    'mtime' => '2018-01-12',
+    'sha256' => 'e73fd22c14369aacdf327e2585af9f3fc90e58617f951280fc36cd6da68b2df6',
+    'sha256-ungz' => '87316384756229cd495eb49f0fb99892966bf50779d38ce67be6718582246fdc',
+    'size' => 13251
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmu5dAAoJELahc5BjdgzKHiYH/i07FygmnOv0BuSzoV8pRRfP
++D7npTEvZVCyvfQeNd68pUtqxZTGWrBL8UsOhKR1t+G5zvoNkh2L8UAhzGcphlCD
++2T7WV8BY4O8OrKsedfx1+F2hBrk8ypDGnEZKqLoafjG7wLjfFCq1bKQNvNOL8nY
+8DgN5YidUlvVsxcrKzaST6+kVYLaUJAflcZXJGTXEYpVGdXX7un48bwg4hoyIXD9
+rqY4L9fLZaHwpdhT63a35TBXNGbyFg4P4c9ATFz7cBf/8khnv2DHjsR5gkxXoMZ8
+8fzVczHINp1gDaSxblVMkBSoNszMVwIuE1Y7shhOfDghhAMhOdPqqQfxCrqJ29k=
+=n5Re
+-----END PGP SIGNATURE-----

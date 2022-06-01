@@ -1,0 +1,85 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 21 20:06:11 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Net-SMTP-TLS-0.10.meta' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '35becdf814707496352728ebd361d26b',
+    'mtime' => '2005-12-29',
+    'sha256' => '91b188b7b9e40b787f5fd62a4d61774c48cacf6b409c24c4a9cbbf44dd493698',
+    'size' => 530
+  },
+  'Net-SMTP-TLS-0.10.tar.gz' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '724031cb4a94428ed3dd68fb01efc682',
+    'md5-ungz' => 'e023e144e45f59475707617075928972',
+    'mtime' => '2005-12-29',
+    'sha256' => '784c69172c69cf39ad19281ed6f6b811c484bcd8bf86c48642e70a46ffac5580',
+    'sha256-ungz' => '8420bfc9dc4dbf1c3f5c463dd16465c37eb86beab32924fdc697d1741c55fa55',
+    'size' => 5180
+  },
+  'Net-SMTP-TLS-0.11.meta' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '8551ca722a7e6775ff272cbceadbfd1b',
+    'mtime' => '2006-01-05',
+    'sha256' => 'e9d7a44368c3c2679d6d6cabe95447132630b9b89042fcf03ba8a27644539431',
+    'size' => 477
+  },
+  'Net-SMTP-TLS-0.11.tar.gz' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '23ddc40569d795061082184055f70b95',
+    'md5-ungz' => '0fa6c9dfc6f8a7ab3564b6825a4cdc80',
+    'mtime' => '2006-01-05',
+    'sha256' => '194d45563a4b7efd34364d8df8ed7ee450f055ab2e9f1efe4da2f7a174ea0d37',
+    'sha256-ungz' => '5db1dfd7ca3a5a5f5a31b780c87c84bc7a5ebf5fbf762664e5b231d56d1401f8',
+    'size' => 5214
+  },
+  'Net-SMTP-TLS-0.12.meta' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '118afc9d6f9e46184e8974fb2b05d6c4',
+    'mtime' => '2006-01-17',
+    'sha256' => '1f140c36551c4ba5e87a34ca3c095ea4ef52d16f433e350f80b39060b490596f',
+    'size' => 477
+  },
+  'Net-SMTP-TLS-0.12.tar.gz' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => 'a845eba3670e56a197ecd37f571d153a',
+    'md5-ungz' => '86bfa05e66dfc73d95c18e73205f04b4',
+    'mtime' => '2006-01-17',
+    'sha256' => 'efe772667ac37702b96b6db5297cc827427a3b3a3819b7a4315b08b9d444e4a5',
+    'sha256-ungz' => '8e5ce25c3c57d1fabbf99ce745ebd3564f6dd51458052fbb429f2c86c2f36765',
+    'size' => 5994
+  },
+  'Project-Gantt-1.02.tar.gz' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '7733460f3f753a13efb0fbe13d9bf44b',
+    'md5-ungz' => 'fc5047cb7903c97ad1383188f396207b',
+    'mtime' => '2005-01-31',
+    'sha256' => '400217a6af83ef208b5acb88da0be5cfcd6b086f7d42a1e41150649bca7b1b36',
+    'sha256-ungz' => '90e1f8affdf9c64ad513a4e5609140f70508c3293f9299c8a73188765af16dd1',
+    'size' => 17064
+  },
+  'Project-Gantt-1.03.tar.gz' => {
+    'cpan_path' => 'A/AW/AWESTHOLM',
+    'md5' => '579f20794fde59aece0b45b91cfc29f9',
+    'md5-ungz' => '3e8d46b97fb17f781aa5325260c9e696',
+    'mtime' => '2005-03-18',
+    'sha256' => '049728f2ad327d0ccd38d5957f99900b1f6a31ee0d299453bde567333431e464',
+    'sha256-ungz' => 'a957fea3299914b4d0fa373412b745b19d70de8ddd4cbfae5b114d80226bc287',
+    'size' => 59163
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmqazAAoJELahc5BjdgzKxQcH/0QGPzzjxCAzVnUgi35q3kwY
+vMP4YK932B3uaTBRO1FwbhYxFJ9dOVkH6AewyQLpmQEsMuoWFZM/GTN0BMdQXeoV
+bUE2Aq1zBP50BCYwizY2jsgl+cOLv2dZFz2vVLQ8YTqG7ZslZJQumw+hO6/UcqLk
+9Vz9eU1xlGGvCW2A095eADDFiGGr6NjSv/PUAwZp6wvnSVCZVkuLy6otHgVzFXMq
+kYx7uC930kOf8GdDfcRoVXqwowDCZe55m57HNJHjpMxHPmxIPOxkBxmgKs7IGkh2
+TqFxkrW9KwBqm26sjl3ATXVNmJLP2dxOyPJzp+tjdxKiXAvfGdtkO23Vsxpzv20=
+=auuS
+-----END PGP SIGNATURE-----

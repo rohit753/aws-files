@@ -1,0 +1,4 @@
+Checking for cc ...x86_64-linux-gnu-gcc
+Checking whether pureperl is required ...no
+Checking for cc ...(cached) x86_64-linux-gnu-gcc
+Checking whether perlapi is accessible ...yes

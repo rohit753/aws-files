@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.java.example</groupId>
+  <artifactId>java-example</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220509072051</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+
+version: '2'
+
+services:
+  db:
+    image: mongo
+    ports:
+      - 8088:8080
+  tomcatlatest:
+    image: tomcat
+    ports:
+      - 8087:8080      

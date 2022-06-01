@@ -1,0 +1,22 @@
+=head2 Fri May 20 04:37:58 2022: C<Module> L<Local::Works::Fine|Local::Works::Fine>
+
+=over 4
+
+=item *
+
+C<installed into: /root/.cpan/build/CPAN-2.34-0/cpan-home/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.10_01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,70 @@
+Loading internal logger. Log::Log4perl recommended for better logging
+Reading '/root/.cpan/build/CPAN-2.34-0/cpan-home/Metadata'
+Warning: Found only 11 objects in /root/.cpan/build/CPAN-2.34-0/cpan-home/Metadata
+CPAN: LWP::UserAgent loaded ok (v6.43)
+CPAN: URI::URL loaded ok (v5.04)
+Reading '/root/.cpan/build/CPAN-2.34-0/t/97-cpan1-test-mirror/authors/01mailrc.txt.gz'
+CPAN: Compress::Zlib loaded ok (v2.084)
+............................................................................DONE
+Reading '/root/.cpan/build/CPAN-2.34-0/t/97-cpan1-test-mirror/modules/02packages.details.txt'
+  Database was generated on Tue, 27 Jan 2009 19:26:52 GMT
+Warning: This index file is 4860 days old.
+  Please check the host you chose as your CPAN mirror for staleness.
+  I'll continue but problems seem likely to happen.
+............................................................................DONE
+Reading '/root/.cpan/build/CPAN-2.34-0/t/97-cpan1-test-mirror/modules/03modlist.data.gz'
+DONE
+Writing /root/.cpan/build/CPAN-2.34-0/cpan-home/Metadata
+Running install for module 'Local::Works::Fine'
+CPAN: Digest::SHA loaded ok (v6.02)
+Checksum for /root/.cpan/build/CPAN-2.34-0/t/97-cpan1-test-mirror/authors/id/B/BU/BUSTER/Local-Works-Fine.tgz ok
+CPAN: Archive::Tar loaded ok (v2.32)
+Local-Works-Fine/
+Local-Works-Fine/.gitignore
+Local-Works-Fine/.releaserc
+Local-Works-Fine/lib/
+Local-Works-Fine/Makefile.PL
+Local-Works-Fine/MANIFEST
+Local-Works-Fine/MANIFEST.SKIP
+Local-Works-Fine/t/
+Local-Works-Fine/t/load.t
+Local-Works-Fine/lib/Fine.pm
+'YAML' not installed, will not store persistent state
+CPAN: CPAN::Meta::Requirements loaded ok (v2.140)
+CPAN: CPAN::Meta loaded ok (v2.150010)
+Configuring B/BU/BUSTER/Local-Works-Fine.tgz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Local::Works::Fine
+Writing MYMETA.yml and MYMETA.json
+  BUSTER/Local-Works-Fine.tgz
+  /usr/bin/perl Makefile.PL INSTALL_BASE=/root/.cpan/build/CPAN-2.34-0/cpan-home -- OK
+Running make for B/BU/BUSTER/Local-Works-Fine.tgz
+CPAN: Module::CoreList loaded ok (v5.20190522)
+make[1]: Entering directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+cp lib/Fine.pm blib/lib/Local/Works/Fine.pm
+Manifying 1 pod document
+make[1]: Leaving directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+  BUSTER/Local-Works-Fine.tgz
+  make -- OK
+Running make test for BUSTER/Local-Works-Fine.tgz
+make[1]: Entering directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/load.t .. ok
+All tests successful.
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.05 cusr  0.00 csys =  0.07 CPU)
+Result: PASS
+make[1]: Leaving directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+  BUSTER/Local-Works-Fine.tgz
+  make test -- OK
+Running make install for BUSTER/Local-Works-Fine.tgz
+Prepending /root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0/blib/arch /root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0/blib/lib to PERL5LIB for 'install'
+make[1]: Entering directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+Manifying 1 pod document
+Installing /root/.cpan/build/CPAN-2.34-0/cpan-home/lib/perl5/Local/Works/Fine.pm
+Installing /root/.cpan/build/CPAN-2.34-0/cpan-home/man/man3/Local::Works::Fine.3
+Appending installation info to /root/.cpan/build/CPAN-2.34-0/cpan-home/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+make[1]: Leaving directory '/root/.cpan/build/CPAN-2.34-0/cpan-home/build/Local-Works-Fine-0'
+  BUSTER/Local-Works-Fine.tgz
+  make install  -- OK

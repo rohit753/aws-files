@@ -1,0 +1,675 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon May  2 06:13:50 2022 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'AWS-S3-0.18.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '7b06169fcc391ff31cafefb6643c8e79',
+    'mtime' => '2019-03-01',
+    'sha256' => 'd4adafc1e788d696a6a2c8f8018271f43758a78e68fd3c7df876e1915c79dbaf',
+    'size' => 1869
+  },
+  'AWS-S3-0.18.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '6911d8994395b3ff2685a57bf4d6f06c',
+    'md5-ungz' => '1eefd1f16c2f9df020c17d45e214655d',
+    'mtime' => '2019-03-01',
+    'sha256' => 'aa399d68fd26ae146ca56f0cf55421491be32b4d2ef1e85881c491c9de225aec',
+    'sha256-ungz' => '189ed40b037de6077c5a697d4d5921f1c44524721c650e13c87272386f1a662c',
+    'size' => 26681
+  },
+  'Acme-Glue-2019.11.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '89c7d9470b0027355bdddf0d9d7794f2',
+    'mtime' => '2019-11-01',
+    'sha256' => '8fb7c6a69e20a01f2926d42b94132eb6aea2d510af02876592190fe4c6c53743',
+    'size' => 1331
+  },
+  'Acme-Glue-2019.11.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'ff2e67c978c46b5a7f9b49a11f75a2ee',
+    'md5-ungz' => '83bd18e8df2884f85b4aabebbc97fe26',
+    'mtime' => '2019-11-01',
+    'sha256' => '7c119377f247d55e4758a3283fbee3b9684239a87f7be31eb2ddf8429e3cee1e',
+    'sha256-ungz' => 'c8e440bb1c0204b477d26665d143d02753430c774ceb6daa462a6d3f42bd15e2',
+    'size' => 3597
+  },
+  'Acme-Glue-2021.08.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '3961cace5cd6518866ffdcca56238e00',
+    'mtime' => '2021-08-05',
+    'sha256' => 'aef9fa1a4fa779bd859d907ccf17d6ae469b168c6ebfb74b02f126fbe4203b56',
+    'size' => 1331
+  },
+  'Acme-Glue-2021.08.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '63c66b22443acac62c67470ecdb20834',
+    'md5-ungz' => 'dc5803e013dbe801f4a46f53055da5e4',
+    'mtime' => '2021-08-05',
+    'sha256' => '6887b54ee20ccb058d7792942f5237a831101ed3ce689e635c94a61e11f75173',
+    'sha256-ungz' => 'd23c7d7bd9bcdeebd859f050be6b39d4a286b28c3c20a883c14a9e5e49a8f761',
+    'size' => 3948
+  },
+  'Acme-Glue-2022.04.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '4526ae89a29374b3a83c1b09251e8e06',
+    'mtime' => '2022-04-04',
+    'sha256' => 'c1b8b31a425974835fdcbeaad606afb9645a0ff41f3bb0a860192873e361a6e0',
+    'size' => 1331
+  },
+  'Acme-Glue-2022.04.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '274eb5325dd3ab5232bfda1f5cf88502',
+    'md5-ungz' => 'c98e63357a00b91bed04c770b7cadf50',
+    'mtime' => '2022-04-04',
+    'sha256' => '3194add81ad4a65644cfb9eda356dfc9d43ee48ef1744effdc540c12839ec180',
+    'sha256-ungz' => '106e7266672d8a03085dae374008e94aa5059b80c03746944acc727a8db12445',
+    'size' => 4397
+  },
+  'Acme-Ognon-1990.8.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '995e198cc6def118b466af02e688b349',
+    'mtime' => '2016-03-27',
+    'sha256' => '87b0212e98d8ca27763983eb5ac09a94fb4e35c199bd6c56fe810a44c93594e3',
+    'size' => 1188
+  },
+  'Acme-Ognon-1990.8.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '5c71e532270bfa9185841b443e0c6e76',
+    'md5-ungz' => '9465c76b0e655828471e831389616397',
+    'mtime' => '2016-03-27',
+    'sha256' => 'c0c34c060290b880a5d6b275926ca32620c4274d1cf5893a97557027e751162c',
+    'sha256-ungz' => '60a282cf833c1eaa94e81b17004189e5ff258cd30e5e3e52d550ab34a35fa7aa',
+    'size' => 2788
+  },
+  'Business-Fixflo-0.41.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'f5a370326a5286d6f186a61f8c470e6b',
+    'mtime' => '2021-02-22',
+    'sha256' => '70b940235dec6b57128336ce20ad84756e935af6125a94a201da7c3ec6ea0ad1',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.41.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '2d09ffccfaf65380f736eda8b42bf872',
+    'md5-ungz' => '55340d8a5def92a96a2a702115fefde8',
+    'mtime' => '2021-02-22',
+    'sha256' => 'bd90f50e46fe39fd22c273bee6374807a141904f44e8a7f7c099db65707d322f',
+    'sha256-ungz' => '5bcc0bc2c906135a0e5659883e7743519091831614e60fe0cf63e059833f0fc3',
+    'size' => 28685
+  },
+  'Business-Fixflo-0.42.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '7335d6fe7e122a5a5c2c7128c3251b9d',
+    'mtime' => '2021-05-25',
+    'sha256' => '726d907cb6b7a5ea0de9be80941210538999135f9d86f2adcd416a67764ccd42',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.42.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '23bcd622e99c0a56030fc0ffee5ed438',
+    'md5-ungz' => 'dac7aeb87f358d8f6e99ea4f89c30d8a',
+    'mtime' => '2021-05-25',
+    'sha256' => '2bbd2df8bf9abeb8b5af8d8f781cd2d197466d24c871e88fc0399bcac32aef06',
+    'sha256-ungz' => 'aaee0f4d4c328e5ee54c87351375d58c36e4c3ca14b36229975b9cbd8aca952d',
+    'size' => 28894
+  },
+  'Business-Fixflo-0.43.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'c4ae2dc932ea977d35d74597611c9da2',
+    'mtime' => '2021-07-01',
+    'sha256' => '8a031b71a95c9058e30e64f52ffd5eddb5a1f11aa7930f48f016508a6e184a34',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.43.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '5f22799adfc4ac2faa1567e25cd6afbb',
+    'md5-ungz' => '5eb98ba546895ec822b2e14a3f89f319',
+    'mtime' => '2021-07-01',
+    'sha256' => '078fe1a68ccbfa59923c63a475c8fe67e0c888fc2b8fb9c9613f826a5c049aa6',
+    'sha256-ungz' => '1cfcf03d321150f917b9499bb323bf1c5adc95784994ce4cbb16627c2c92f2f4',
+    'size' => 29056
+  },
+  'Business-Fixflo-0.44.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'fcf94238dd8ceb65957a99e6189dd7cc',
+    'mtime' => '2021-07-23',
+    'sha256' => 'ed08c6aefd2307437d7e383b127aadb76b7c15dbafb8c5104c58cc226de07569',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.44.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'ec7fed5f0cdd7156ea158988fcd3de53',
+    'md5-ungz' => '1070a5ab61ec4f16cdf7587febf534d8',
+    'mtime' => '2021-07-23',
+    'sha256' => '9c9b64258b316752f87d43c664d827bc3854d234dd7c3adb1df740c155c4af49',
+    'sha256-ungz' => '240c136849544b51bb75d5ce2c34abe17c193975a07fcaeef28f4f51d00008b9',
+    'size' => 29121
+  },
+  'Business-Fixflo-0.45.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'b82f87df81eae0678675097ebfcd8568',
+    'mtime' => '2021-10-05',
+    'sha256' => 'fc81d3a0e3de110ed4f668254647d329148220ba7e52662300121c0bcc47d3da',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.45.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '07d5a014b7c74ccbb2a1e218185cff66',
+    'md5-ungz' => '9f25865703782eac5da27219aa796bb2',
+    'mtime' => '2021-10-05',
+    'sha256' => '6ac9e45181c0b8b384b2157ebb4d8f34e4aae9859f7ebfad35e85ff7a0e99a0e',
+    'sha256-ungz' => '08de68e360ad2e2b546fe2fd4f9842d9e68983378b302d371fedd4ce30c2037c',
+    'size' => 29177
+  },
+  'Business-Fixflo-0.46.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'c7da64d9e3f952c2f6ae45156605fe41',
+    'mtime' => '2021-11-22',
+    'sha256' => 'd64131e5bd5a3938c01193963bb00f45c0372f77ef348a6ce6b6d416152aba7b',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.46.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'e840b59cb247009ecb49d13dcaeb7a68',
+    'md5-ungz' => '110a20a563d617846cf59f0945c8dc10',
+    'mtime' => '2021-11-22',
+    'sha256' => '07ac343cfe57fc76be463002e1d11d6ed2996a55d189f3182e70185e66c33458',
+    'sha256-ungz' => '405373c088789ba3e536cd4a8be8322255032d2e382e06e37039ac56eb7bc48a',
+    'size' => 29373
+  },
+  'Business-Fixflo-0.47.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'fbcdf24558235da162e725d297a77c26',
+    'mtime' => '2022-01-10',
+    'sha256' => '2870983ff0e58f23687c77b1b23ee8c376fc730149ac2d7f3c7ba2ff5335a316',
+    'size' => 1795
+  },
+  'Business-Fixflo-0.47.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '427fcd2269ffdce3b6ca93cfc1135925',
+    'md5-ungz' => '3fe5d443d4745b3d4d258cf676a8d1c7',
+    'mtime' => '2022-01-10',
+    'sha256' => 'fae1667ec7fc689eab4b65264d8431cdd5102152c3bea1c9fa8936612219426d',
+    'sha256-ungz' => '60cd4a61ca1345c563237ab19a1f8e5375d872926530432c5ccea7c64397e42e',
+    'size' => 29335
+  },
+  'Business-GoCardless-0.35.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'b44e58cbcb01686a1194aba64c0d4f49',
+    'mtime' => '2020-01-08',
+    'sha256' => 'cf9167d25ee576eb21db6eaf85f3a635bf052395e426d5405918e920462480ed',
+    'size' => 1793
+  },
+  'Business-GoCardless-0.35.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '134ed2588c7593041f6e17d811a51650',
+    'md5-ungz' => '6b2a261286ff22903c789635010f61b2',
+    'mtime' => '2020-01-08',
+    'sha256' => '17d487427970d44625b2c4692a4baff586332ccbae0d1686531964bc7f6e7b1a',
+    'sha256-ungz' => '89c68610178bba57f6fea13742ba7533f6be9bb69534d5afc9e2ccfdcf6ac1ce',
+    'size' => 38161
+  },
+  'Business-Monzo-0.12.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '5d8ae85c2fe0822fd95cb09565ba14a9',
+    'mtime' => '2018-03-01',
+    'sha256' => 'de65cefc8f66e7658e00341e8aed51ce325299772b346838c7d9be2a7fb144a3',
+    'size' => 2028
+  },
+  'Business-Monzo-0.12.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'ab35de3b71090f4bc2259df95c12eb2d',
+    'md5-ungz' => 'e90e044e9f213fcd3c638bc8d423a8f2',
+    'mtime' => '2018-03-01',
+    'sha256' => '9c8def17bd018a2efde549a371234aa0cdaa4612f5a0e2c970878a044c0e9e31',
+    'sha256-ungz' => '00f52d6c3de14c6b95975674abcce8b9f1e98721a43ae453d0b68715f3255c4a',
+    'size' => 25911
+  },
+  'CGI-4.52.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '5fc58138b7252c92f520569c408abec5',
+    'mtime' => '2021-05-04',
+    'sha256' => 'e2c5afa2039be77db9b5f4e955c71341b4b5ff3cab0edf78be29b4c5ab2afb5d',
+    'size' => 2078
+  },
+  'CGI-4.52.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'd7adc90a42513ede7400309d7985f7e5',
+    'md5-ungz' => '19e5155ffcec1d8c1903e1e2f33da62c',
+    'mtime' => '2021-05-04',
+    'sha256' => 'c8e3aa8d590dfff1b8a7fb09a960416df7405eeb3656166df448cb9276bfb9af',
+    'sha256-ungz' => '8ec569ed74f38ce930d416dd9c8377ba13ee455453bd446c7f671f3c646bc3aa',
+    'size' => 205310
+  },
+  'CGI-4.53.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'aad82b4c24243014080523490356291d',
+    'mtime' => '2021-06-03',
+    'sha256' => 'f15682f67fd1b6ca727e53091b8126665804d421441bd277c0e227244cb5bb29',
+    'size' => 2078
+  },
+  'CGI-4.53.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'a0fe86a038de743ac45a0933daa2804f',
+    'md5-ungz' => 'f47d0c67330a5372eb83a5a059928480',
+    'mtime' => '2021-06-03',
+    'sha256' => 'c67e732f3c96bcb505405fd944f131fe5c57b46e5d02885c00714c452bf14e60',
+    'sha256-ungz' => '4aa82cf26514fb3f132908f4088657530c72c37c6690a15b89b128a1a97e5eb5',
+    'size' => 205366
+  },
+  'CGI-4.54.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'a44a3dc730c18b5810db2d4cac523661',
+    'mtime' => '2022-02-03',
+    'sha256' => '6e3b2d61f64f0808323bc49b0d3227e35699cb8d514b9cbc91fbcc2635da6a72',
+    'size' => 2078
+  },
+  'CGI-4.54.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'd12ddcd7d3db6410e9316ed9b9b5c80f',
+    'md5-ungz' => '5e89b94b791293505ff9055bd7e37ba2',
+    'mtime' => '2022-02-03',
+    'sha256' => '9608a044ae2e87cefae8e69b113e3828552ddaba0d596a02f9954c6ac17fa294',
+    'sha256-ungz' => '08948810334f8878af3e733c9d4ace1163d14e58392417c2651e1a98aa27d6f3',
+    'size' => 205757
+  },
+  'CGI-Alternatives-0.18.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'bb5930b6aa04efdb1a4c0aecae8a284d',
+    'mtime' => '2018-11-21',
+    'sha256' => 'ca852c33309b4082e46e9b32c479bb34534952caf632c65179e39507cc73c95c',
+    'size' => 1379
+  },
+  'CGI-Alternatives-0.18.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '7e52dab394008a3c920ad2a14e17b997',
+    'md5-ungz' => '8a0bbab38a5f4d5739852188d55dfb4b',
+    'mtime' => '2018-11-21',
+    'sha256' => '4ac1e811c902b7898ac197e18149330b0bb717a20b35f4d38a5dbba01d86d55a',
+    'sha256-ungz' => '2a27f7a131dea66f6d8f1f479c91b8c6a9dfe004c04818a9612916297bc85d4b',
+    'size' => 11297
+  },
+  'CGI-Alternatives-0.19.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'cfea0af4f67d60cf82be0373bd1b153c',
+    'mtime' => '2021-12-02',
+    'sha256' => '3e6c4cdbfd1ecca077724cbd2de9ae03f43d790b0d0b64a3d5cfb609972e6b69',
+    'size' => 1376
+  },
+  'CGI-Alternatives-0.19.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '98b539c8f3214797987977576c277b17',
+    'md5-ungz' => '34a293dd71a7c808ccbd1c05900c3b43',
+    'mtime' => '2021-12-02',
+    'sha256' => '950f569de115ac52831812481a7854bf2c0d8a29f122d9c3d3c071b58c895a2d',
+    'sha256-ungz' => '7dab78bb394dafe78d024b7ae15eb81a97a6c4cb587af6c8b7ed606df089e461',
+    'size' => 11428
+  },
+  'CGI-Fast-2.15.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '3c64571287f9db7bf6119dceb8804e56',
+    'mtime' => '2019-04-01',
+    'sha256' => '1f39aa1ad5bebcfb386bc5bcc8e7a79cc4a235c5a32cbe98fe23e6176e44aeb7',
+    'size' => 1357
+  },
+  'CGI-Fast-2.15.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'f9dac0982ccce4a9b89433b378b1573d',
+    'md5-ungz' => '64a8557207bf0ec47e717911b28f302e',
+    'mtime' => '2019-04-01',
+    'sha256' => 'e5342df3dc593edfb724c7afe850b1a0ee753f4d733f5193e037b04633dfeece',
+    'sha256-ungz' => '90bbad3c75abee24ea4af1e91493cac1323ad6bfdf8e35031d74b5ea55ec4a3e',
+    'size' => 9277
+  },
+  'CGI-Fast-2.16.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '70e4670c0ba93d9bb29a60450bc6e746',
+    'mtime' => '2021-09-01',
+    'sha256' => '9653417cd188ba830ce471db721660042daf08122d18b5e4a692bfc34ab02d21',
+    'size' => 1354
+  },
+  'CGI-Fast-2.16.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'c43a64d1f60bc72727c63d6c78cce951',
+    'md5-ungz' => 'a36ebd0368a0d2ead2a2f3fc6710ad62',
+    'mtime' => '2021-09-01',
+    'sha256' => '0223d7f91b80037b9dff5f37360640b71f5dc8dbd989a0593d5d22f3f73cb3d4',
+    'sha256-ungz' => 'f3a36555fcad85848d8966b14512117e02e9b4067fdc0363e7f1eb904b06b5ca',
+    'size' => 9310
+  },
+  'CSS-Packer-2.08.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '66ffcb25f9f7ee59461e99e8c4ae0302',
+    'mtime' => '2021-03-02',
+    'sha256' => 'edefeea80ec90f48840206f4fa57c791584e57fcb22bcc3c96ccb6f9da42b0e6',
+    'size' => 1311
+  },
+  'CSS-Packer-2.08.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'eebc207db288950226c6c33b4c05e0cb',
+    'md5-ungz' => '78bc29845baefe0ed7ed20363a4e8bf5',
+    'mtime' => '2021-03-02',
+    'sha256' => 'b25cf4ff54e650c1195abe4eeccaac700dd220da827edb14e946a74e8dc412ef',
+    'sha256-ungz' => '1bfc8ac0e9a3f6eab5a3882a00319f14e04f22b525932f080c044ae7c9d1471e',
+    'size' => 9491
+  },
+  'Geo-IP2Location-Lite-0.13.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'e1558a4e4cd2dea3b7259a0126ba0d4f',
+    'mtime' => '2020-07-02',
+    'sha256' => 'dc85e231baefccb3684da774a40702afffdc916c49b6717f0dffe1db672d894b',
+    'size' => 1463
+  },
+  'Geo-IP2Location-Lite-0.13.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'd802d2fe08ae129df0d7d5b49845e252',
+    'md5-ungz' => '7971cbf5c85232f85628d32d84a8ab86',
+    'mtime' => '2020-07-02',
+    'sha256' => 'bdb5c3f0c8d0076c55d87397c12654e3b6992b270d1ded14d8f9a020e30ec3ed',
+    'sha256-ungz' => '3b38b084e16e11ba958b05e3e3377c3b929b4a96f45097330850d01e2d9a5712',
+    'size' => 82577
+  },
+  'HTML-GoogleMaps-V3-0.16.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '1edcef88a6b27c3a675e0bf473700572',
+    'mtime' => '2020-12-07',
+    'sha256' => 'b41f5d45383f4190af044cc8808247ebc2bc43c02176e581d2a06d3e0b92fa9e',
+    'size' => 1549
+  },
+  'HTML-GoogleMaps-V3-0.16.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '640a88039bf5746665c0367dc2eb57f6',
+    'md5-ungz' => '140fe37e27bd48700edd8ce5063b9986',
+    'mtime' => '2020-12-07',
+    'sha256' => '3938c2bc3ccf69987dfaca77d3d144d01d24e9ed9599ec958f1852a741f578c4',
+    'sha256-ungz' => '8487e3fe557aac12b79975622f3b0b05c196eeab40e23d8cae1b439b623f8258',
+    'size' => 9390
+  },
+  'HTML-Packer-2.10.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '82fc7b708b43f20823799078cce74e83',
+    'mtime' => '2020-01-13',
+    'sha256' => '51359f61cb43c1664ed6199fb5d73bb9a974f01cc978838d00d7659412dadd77',
+    'size' => 1387
+  },
+  'HTML-Packer-2.10.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'c62979d934815bc1101df077ba0b12c1',
+    'md5-ungz' => '3edd54eb92a3fd55ecea7bffe0e6e5a4',
+    'mtime' => '2020-01-13',
+    'sha256' => '70a4e559cf038993425ba77df2810f904c1b19a7769891d894ac69a819f4ced9',
+    'sha256-ungz' => 'c39b9e66ecaecad68963410a60272dc7c12bf9c9e1a4ca0156636195707588d3',
+    'size' => 13728
+  },
+  'Image-Magick-Safer-0.07.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '081fdcc95f7cbe542a1533068c6cd526',
+    'mtime' => '2016-08-04',
+    'sha256' => '28300d12ea49ef91fa6da290d52972883d858dfa01fca5f682ed192b56a4606a',
+    'size' => 1247
+  },
+  'Image-Magick-Safer-0.07.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'd94aef52847497bb5eae4ad6694c8219',
+    'md5-ungz' => '8f374a026de62f9e5607b37f9b94c4d9',
+    'mtime' => '2016-08-04',
+    'sha256' => '6311373baf462bf88227210ac3e053e597322a33d052bd3f3e98e8188d8ed063',
+    'sha256-ungz' => 'bcf450f5e9ed93078b37dce3e604cf3bb63915c9805eced3a9e8d5ada02453b3',
+    'size' => 16518
+  },
+  'JSON-Schema-ToJSON-0.19.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'c83050131c6e50f76b7639c80fa50b98',
+    'mtime' => '2021-04-06',
+    'sha256' => '3678c2ef06dcd05623819718dba12204551bd292738d2ed2506e0b31643d57a7',
+    'size' => 1755
+  },
+  'JSON-Schema-ToJSON-0.19.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '93563516551e271b1f0887bd571bced0',
+    'md5-ungz' => 'a5701d2a20b6a109264aa55719438c51',
+    'mtime' => '2021-04-06',
+    'sha256' => '966166679b3392ad93ea51275ed85bac8605ca67ca04fc1dbe7061de951ff443',
+    'sha256-ungz' => '76f76f6b35338afbb52c5f99c1bb4b2e3e9a932eed70a630041a036c7cb956e1',
+    'size' => 16697
+  },
+  'JSON-Schema-ToJSON-0.20.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '5c4c8563de569b597ab2e458f1ef34cf',
+    'mtime' => '2022-03-18',
+    'sha256' => '935561c6fd75b23dc5fdea4715a81599dcd15cb85cf8f87d4b689cdb0f613276',
+    'size' => 1755
+  },
+  'JSON-Schema-ToJSON-0.20.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '9880d3d8b24f4dabd9426ded47a56d7b',
+    'md5-ungz' => 'cd24f909c84770172290aeebea2ea9a1',
+    'mtime' => '2022-03-18',
+    'sha256' => '64fa8c09c65ca64b1cd462ee6ad57fd7f10c4b604f72fb70e1eb47de16c1ac73',
+    'sha256-ungz' => '54086d1f86940775667682e65cb1515221b9679ef0c402608031622eff4bc7de',
+    'size' => 16821
+  },
+  'JavaScript-Packer-2.06.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '1757e6ae8c3fa9e4115935103c7b5a46',
+    'mtime' => '2020-04-03',
+    'sha256' => 'a545606828aebb699e4c17693e77864f88ad918105ee54d9a9cca3d414eb8f07',
+    'size' => 1313
+  },
+  'JavaScript-Packer-2.06.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '7199122a9338c857644c7776d57a8c3e',
+    'md5-ungz' => '48b32f4258e8a0793c2481f28cf99eff',
+    'mtime' => '2020-04-03',
+    'sha256' => 'ed4a4e09c8d8e2d932319911575e3c7a1ecabad3501ac5eeaa29642c9ab38041',
+    'sha256-ungz' => '967424ea300a32e88b49ded2178ad097e91ce9323d83b5ea0d5eab46a1d9f2fd',
+    'size' => 68560
+  },
+  'JavaScript-Packer-2.07.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '4eeffe3253e00ec866b88379c65a4e6e',
+    'mtime' => '2021-11-01',
+    'sha256' => '74bf89246ca68d0c3e0af124426a90c498a922198609ce4b5e4e6bb12156977c',
+    'size' => 1313
+  },
+  'JavaScript-Packer-2.07.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'db5d9c36e37c49606980c5315c2c5454',
+    'md5-ungz' => 'a7a95f051cd41c30e3b3bf2475ef8b15',
+    'mtime' => '2021-11-01',
+    'sha256' => '388746ead6b69971dffb07ebe18b1153e8aaa36e1beaa8bbfbf37cb1dabf13e3',
+    'sha256-ungz' => 'a417faaba6e8fb1c80591f3c459cf4a4e0b4a48c3955058b675d515c56d7be41',
+    'size' => 68936
+  },
+  'JavaScript-Packer-2.08.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'a0c3ed5cf94fe86cddc5b44daf38ea0d',
+    'mtime' => '2021-11-24',
+    'sha256' => 'a5d4c9dc884aed055cbdfcb8175e22d265f20f27655b1324b5930760f0ac0999',
+    'size' => 1313
+  },
+  'JavaScript-Packer-2.08.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '84f7d18e19a51172cdfe874eb8f46d99',
+    'md5-ungz' => 'a43834889753cd87e49b43f5900ecfc0',
+    'mtime' => '2021-11-24',
+    'sha256' => 'd50600d49c069dfae2f9a0d0e82b44b29abd12c27ecaa04b78c30b1121934120',
+    'sha256-ungz' => '62ccaaa794a580d8f48631ac00d382651dc082e5fd3ac3af8ba3f5862069c994',
+    'size' => 281476
+  },
+  'Mojolicious-Plugin-NYTProf-0.23.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '50bd10bc1793418269574532c51c9c8e',
+    'mtime' => '2020-08-10',
+    'sha256' => '4604e8262a77f15ea160ccbabe007840e2503db43cb77aa98d02fe8d9465a1dc',
+    'size' => 1674
+  },
+  'Mojolicious-Plugin-NYTProf-0.23.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '63ff150ee662c8282dda5fe36cd72c1a',
+    'md5-ungz' => 'a5f47d77103ebb15c2412b027d6afa43',
+    'mtime' => '2020-08-10',
+    'sha256' => 'a582142fc54e2e85394d1c388feca70bbc52ec8fbc49e9b541bb8c00f409a683',
+    'sha256-ungz' => 'da901d23cebf0c9170e418ccbb347d5c5f8cf1a4517ed0a9fc3b662107bdfa6c',
+    'size' => 10662
+  },
+  'Mojolicious-Plugin-OAuth2-Server-0.47.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '9ab45a007007b1810d888524e0404fba',
+    'mtime' => '2020-07-20',
+    'sha256' => '0d4ac7378ad8d15e3880be53d9cc3a5f3c91ba04327e32c7fd1a5913bcabcd67',
+    'size' => 1737
+  },
+  'Mojolicious-Plugin-OAuth2-Server-0.47.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '930e07278eca703c5903c0d1d59a95a3',
+    'md5-ungz' => '7e2ad883de66cfde7eb5c399f2c5bbac',
+    'mtime' => '2020-07-20',
+    'sha256' => '16bc67cd1bc3759f8b267948838047c8f6f64db290de7c7dd44692ce3f2a9f95',
+    'sha256-ungz' => '75cf868a5dd9212e1be72ff7852a5ad3beb9df028a0e6ed7d98339d5f8edf667',
+    'size' => 16823
+  },
+  'Mojolicious-Plugin-OAuth2-Server-0.48.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '82828a6dfe3c37db77f03098e849027b',
+    'mtime' => '2021-06-15',
+    'sha256' => 'b16f987f0cdbd0bb02135485970ce89f403d123fc6fb3234ec4b8dc0c6e4aedc',
+    'size' => 1737
+  },
+  'Mojolicious-Plugin-OAuth2-Server-0.48.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'd329f6b3e6ced5202dd4375a166f3ad7',
+    'md5-ungz' => 'f6d8ea4e5e04e45bd7b263e420511d00',
+    'mtime' => '2021-06-15',
+    'sha256' => 'c419ca4a5a13496b42a8efbdeeeb19e43cf6fd38f5bc93f3cdec9adcee177d05',
+    'sha256-ungz' => '2be84dd692957c1a13fb9d9824f6ee5ca50ee5b1d57fdce86d8f50c0d6a80f87',
+    'size' => 19261
+  },
+  'Net-AMQP-RabbitMQ-PP-0.10.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'e32449ce7e89d5e4ebc44907aa8a064b',
+    'mtime' => '2019-12-18',
+    'sha256' => '9da63454872edcbe7bcce65f9af481883b54eef88437af47b03802eda35d7784',
+    'size' => 1944
+  },
+  'Net-AMQP-RabbitMQ-PP-0.10.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '8e843f08414c794997c0a606feb3b187',
+    'md5-ungz' => '8dcb410429d1af4a5ef14779fabc9865',
+    'mtime' => '2019-12-18',
+    'sha256' => '3488123220669249894a98d33e74b833de3d2fe57c96882ebeae3c7ad64550d7',
+    'sha256-ungz' => '029f6fdf9f37665ca23082e91023fd6d9c0a20e20f390cd60edb11695e7dec95',
+    'size' => 48634
+  },
+  'Net-OAuth2-AuthorizationServer-0.28.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '0e40673bc93d598aeac407df157da7ed',
+    'mtime' => '2020-11-02',
+    'sha256' => 'e332991f369d92c7ef232290c379fb3c9f5ecba527739b357204b940e1ef5931',
+    'size' => 1682
+  },
+  'Net-OAuth2-AuthorizationServer-0.28.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '500a542e0ed124f1e19859873f5801a0',
+    'md5-ungz' => '373266eba13e1bac073ea86e7c8064f8',
+    'mtime' => '2020-11-02',
+    'sha256' => '959adcae22db26b6ee59086cbbb1b6c76d1d2ace1f6ba4bbcc8c9a3ba6027ddf',
+    'sha256-ungz' => '0c3981b97aaf1d5c1cdb63bbb028a0f7d15d4cafb59c22a7e0ce36b3dce32087',
+    'size' => 33989
+  },
+  'Regexp-RegGrp-2.01.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '10809682dc2ffca793a89b3e1cee1132',
+    'mtime' => '2017-04-18',
+    'sha256' => '7da703d8f2b8b2b678fef9277631e4e30aa72ff6e8232eab77f56b68bc21c347',
+    'size' => 1252
+  },
+  'Regexp-RegGrp-2.01.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '95aac0fb5c099ee8dcd81b2f42221918',
+    'md5-ungz' => 'e7c6cf702f3f4ac781663043a9d2e17d',
+    'mtime' => '2017-04-18',
+    'sha256' => '02118337e7f09fa76cb585c79030e439f017ca791b0a662f8d34008603b7168d',
+    'sha256-ungz' => 'd2e96ab83d8d645106cab37ac62c77383b9a9c57abd1c59cb6497dce478beba1',
+    'size' => 10011
+  },
+  'String-CRC32-2.100.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '812d0d64bd97c39a6839055cbbade529',
+    'mtime' => '2021-02-04',
+    'sha256' => '7668f596ef9b0b7b54909f7a91571d9172a0c24b9609e4867b19a89975fbab4c',
+    'size' => 1161
+  },
+  'String-CRC32-2.100.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '6beac23584eaa452bf01364c60819f44',
+    'md5-ungz' => '35466403b3c283c66164f41cadaa331e',
+    'mtime' => '2021-02-04',
+    'sha256' => '9706093b2d068b6715d35b4c58f51558e37960083202129fbb00a57e19a74713',
+    'sha256-ungz' => '596fac424fa1a99723925f79febc3c55845baafa88a0adb690455fa82f2229ad',
+    'size' => 7995
+  },
+  'Swagger2-Markdown-9.99.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '7b8791dce8325f1cd0485453a0b7672f',
+    'mtime' => '2017-09-07',
+    'sha256' => '953de3d76b11ae15db34b73d268e52c55d30757303b0683d0c17067735a187e0',
+    'size' => 1743
+  },
+  'Swagger2-Markdown-9.99.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '945476a4705bd885499bc1c5ab956ca3',
+    'md5-ungz' => 'a495acdd7c958bd3f20cac4b8b5a7b04',
+    'mtime' => '2017-09-07',
+    'sha256' => 'edd5525865a8824e68e67b5097622a3a7aaafe68e9e1dfbbbbee7b3f4498decd',
+    'sha256-ungz' => 'b3f04e850bdc0c8e8243419124f59a12182c2907df4af37b1c5f4802e4bb30c9',
+    'size' => 20453
+  },
+  'Test-LeakTrace-0.17.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => '68db9a8ffc6e2d36ff821922bb667f46',
+    'mtime' => '2021-01-05',
+    'sha256' => 'a3b2602f81d6f5d937eab474c19e009f449d59f0a3f4c9a797ca32d35e33e362',
+    'size' => 1425
+  },
+  'Test-LeakTrace-0.17.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'afdb2cc6be0807cb635fb601a004d522',
+    'md5-ungz' => '663a54eddecef93f46d468e4fcba106c',
+    'mtime' => '2021-01-05',
+    'sha256' => '777d64d2938f5ea586300eef97ef03eacb43d4c1853c9c3b1091eb3311467970',
+    'sha256-ungz' => 'b7bc686f78988075153272dc2b12a0a7868492c9d6683b5fe90be1e4c10cac4e',
+    'size' => 34126
+  },
+  'Toadfarm-0.84.meta' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'ad2f0a3980dd4a1603723902a238045c',
+    'mtime' => '2022-05-02',
+    'sha256' => 'd107b9be0d52b25a7aaa4fbd0fa92777dbf5910bd3307957997745e63a8f6842',
+    'size' => 1466
+  },
+  'Toadfarm-0.84.tar.gz' => {
+    'cpan_path' => 'L/LE/LEEJO',
+    'md5' => 'e494d30d397c1a59a9d10f71b84a7677',
+    'md5-ungz' => 'd6524c2c1401d048314eae1e9a0ce356',
+    'mtime' => '2022-05-02',
+    'sha256' => '96a102ff56bcdf6c8aa9e3c729ebd3bac761e966520f0ac5490abd980bf69cb8',
+    'sha256-ungz' => 'bec27508de1995bab1704f861350ff138354d82ba38573096d4693a627d9cc9c',
+    'size' => 26808
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJib3aeAAoJELahc5BjdgzK0GsH/2F5yhGQqx4odMxbfVVWGAz4
+wSY1KzLYmJbBFzg37ixxcJedKAON0NEWUkluuo9/OH1vazB9QhAuU16UvLbhJkrg
+8030l6/c6u4Ks264h39ovEi7Dok5NC8tTtTJMaOn+XEPmyUF7rRJHiX+lH13cZyQ
+0d2V93KkfnQwyXahI6N8sPVEBVBz6wSaA2sl4G3z4u0J5Gc43Cc0m72lV1TeESVC
+CWXeCgAaCYRGbBcgoQfur28Q7QPb8klyEwwaE4cMnwjyXhXI9Af6Cwnu5Un6OXxT
+HjF6DFXoZiJRWn3osNB6UVHSES0XDELWRRY7o1LsRKFAORA1+Dz/YMoJoquRSa4=
+=wiCW
+-----END PGP SIGNATURE-----

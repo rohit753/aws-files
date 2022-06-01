@@ -1,0 +1,23 @@
+---
+
+- hosts: webservers
+  tasks:
+     - name: Install apache2 package
+       apt: name=apache2 update_cache=yes state=latest
+
+     - name: Enable Mod Rewrite
+       apache2_module: name=rewrite state=present
+
+     - name: Deleting HTML Directory
+       file:
+        path: /var/www/html/
+        state: absent
+
+     - name: Download Code from Git Repository
+       git:
+        repo: 'https://github.com/mdn/beginner-html-site-styled.git'
+        dest: /var/www/html/
+        version: gh-pages
+
+     - name: Restart Service
+       service: name=apache2 state=restarted

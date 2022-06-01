@@ -1,0 +1,12 @@
+---
+match:
+  distribution: "^CLKAO/IO-Digest-"
+pl: 
+  args: ["--defaultdeps"]
+  env:
+    PERL_AUTOINSTALL: --skip    
+make:
+  env:
+    PERL_AUTOINSTALL: --skip    
+cpanconfig:
+  check_sigs: 0

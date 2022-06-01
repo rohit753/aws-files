@@ -1,0 +1,99 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 01:27:30 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Net-LibIDN-0.12.meta' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '57140ec6f1cf9609082c550b071093a8',
+    'mtime' => '2009-02-26',
+    'sha256' => '8914e4c7601a78af61046407296665fcbc84fa90b7a2fd6d712064785741d306',
+    'size' => 299
+  },
+  'Net-LibIDN-0.12.tar.gz' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => 'c3e4de2065009d67bcb1df0afb473e12',
+    'md5-ungz' => '71094c9ad6c79205edb271e1997040ef',
+    'mtime' => '2009-02-26',
+    'sha256' => '2f8acc9442b3866ec7dc63cd449fc693ae3e930d5d3e5e9430fbb6f393bdbb17',
+    'sha256-ungz' => '8d7274f81bdcbdaf17e5265d9db3e01c30f9f1b2652b57aa8c0a4cb68cc2e03e',
+    'size' => 14262
+  },
+  'Net-LibIDN2-0.02.meta' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '24a444bcb8e7d1191a2da0666c8a30ba',
+    'mtime' => '2013-01-05',
+    'sha256' => 'fcbeee502ea4f757b67ae36dd14573529eba0150781e2533c8fa92f1d7c7a71a',
+    'size' => 1340
+  },
+  'Net-LibIDN2-0.02.tar.gz' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '7367b70d0fa561df2dd86c592c8cb6ec',
+    'md5-ungz' => '58af2769de1cbaf6aeb7487c419b7de1',
+    'mtime' => '2013-01-05',
+    'sha256' => '84989fdd9b87f5ab59ea0051a0309c433453a4bd2623960b3ca37b5cd2b77615',
+    'sha256-ungz' => '32db94bd83d4f757426f5f86eae0c4ead998a351af9a98afabccbe524d78d8f0',
+    'size' => 6734
+  },
+  'Net-LibIDN2-0.03.meta' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '3c78d55b09813324de479716d594fce1',
+    'mtime' => '2013-01-25',
+    'sha256' => '30d5eecdd9584ae5ee713d830da781a3fc5a7f64df6d30f06dcf2670f81d9330',
+    'size' => 1340
+  },
+  'Net-LibIDN2-0.03.tar.gz' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '1ca4faad6e6f0d0e675f58ea662ba12c',
+    'md5-ungz' => 'bc3b70b11ed23e0dd147dcd7169b6647',
+    'mtime' => '2013-01-25',
+    'sha256' => '4cb670b7bea8b5e1dad138f7b1113e6701d42e6df358eb9abea8f4c03288b94e',
+    'sha256-ungz' => 'a850c4a177dcc495ed772fe5f96c74e7daeda54591090e15475a028ac69f7f4c',
+    'size' => 20827
+  },
+  'Net-LibIDN2-1.00.meta' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '442098b017541dfd80cadfd5906e819b',
+    'mtime' => '2017-09-26',
+    'sha256' => '0da3c4016f20775d56bc7c6d9257818223d97d48f5cd6ec8a71606e7ca81727b',
+    'size' => 1344
+  },
+  'Net-LibIDN2-1.00.tar.gz' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => 'e63c385df85bf63f13e966e986a5be71',
+    'md5-ungz' => '87548b9b0ffda0cd8a24653d676f0a28',
+    'mtime' => '2017-09-26',
+    'sha256' => 'f85f3aa96f87ccf5e1600379991fb0e10bea50ac1e1ccd95dfab24aa851b5a19',
+    'sha256-ungz' => '1c8cfeae3d21b6dae4d84bde02d7e88c3f5960d0b49cf7685542c93583ab2316',
+    'size' => 23603
+  },
+  'Net-LibIDN2-1.01.meta' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => 'bb3cd441269c1cedbaa18b46d563866e',
+    'mtime' => '2019-11-11',
+    'sha256' => '352036ba1a4053eaa017176697a13ffe1138cfdf8eb7b1ad17c087853ddf2e24',
+    'size' => 1344
+  },
+  'Net-LibIDN2-1.01.tar.gz' => {
+    'cpan_path' => 'T/TH/THOR',
+    'md5' => '75f313bdc9e720fbca39c51a4f79993a',
+    'md5-ungz' => '9c97890d6858ae8d107e2495f262ea95',
+    'mtime' => '2019-11-11',
+    'sha256' => 'f271b00a5947184a1c55a35512b14e177b6c17eafd499f69bc7e99367f85db7f',
+    'sha256-ungz' => '53f249149dae636172be2f48f2567550a87af4ad55540e26eecce786dfdf58f4',
+    'size' => 24496
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmvICAAoJELahc5BjdgzKS1UIAKpL2IUmntPEhLbFenyFi2JG
+GwNYjOlZuYzkDPPVC0igkePiD0m/MRbHnx25g+y38ktCG7wcQV1aQlxz9bYWgb5S
+FiuqbBBB2do80fOxxHw+XaQTLXTGggYdu2yVR+veUWJTVFMewivTeLWQYhyfV3Cd
+Nwp3Y2jLJk95cOb5cat2AXicuTY4BC+ixmkINKXd+OZo7osM6YDkiN1GQsRf6A6D
+AFOZ5nzMJX3OMrBY9EimsyKitPAThWyOXH6UieA040rbNQFxDR2AZmfbBoZQZCcL
+ViM4RC2FbiKBKMhjppnc0rVerDZ86Iktsu0yQJz2IXZclI+YdFcbUbNxJwyXI+g=
+=TvPE
+-----END PGP SIGNATURE-----
